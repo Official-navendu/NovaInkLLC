@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Manrope', sans-serif;
+  --font-display: 'Manrope', sans-serif;
+  --color-primary: #3897F0;
+  --color-primary-hover: #2563EB;
+  --color-primary-dark: #130E26;
+}
+
+*,
+*::before,
+*::after {
+  font-family: 'Manrope', sans-serif !important;
+}
+
+@layer base {
+  html,
+  body,
+  #root,
+  button,
+  input,
+  select,
+  textarea,
+  h1, h2, h3, h4, h5, h6,
+  p, span, a, div, li, label, strong, b {
+    font-family: 'Manrope', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #94A3B8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3897F0;
+}
+
+/* Custom animations & Swiper overrides */
+.swiper-pagination-bullet {
+  background: #CBD5E1 !important;
+  opacity: 0.7 !important;
+  transition: all 0.3s ease !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #3897F0 !important;
+  opacity: 1 !important;
+  width: 24px !important;
+  border-radius: 6px !important;
+}
+
+.swiper-button-disabled {
+  opacity: 0.35 !important;
+  cursor: not-allowed !important;
+}
