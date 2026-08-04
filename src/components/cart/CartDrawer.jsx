@@ -21,10 +21,10 @@ export function CartDrawer() {
   if (!isCartOpen) return null
 
   return (
-    <div className="fixed inset-0 z-50 overflow-hidden">
+    <div className="fixed inset-0 z-50 overflow-hidden font-['Manrope',sans-serif]">
       {/* Backdrop */}
       <div
-        className="fixed inset-0 bg-[#172136] backdrop-blur-xs transition-opacity animate-in fade-in duration-200"
+        className="fixed inset-0 bg-slate-900/60 backdrop-blur-xs transition-opacity animate-in fade-in duration-200"
         onClick={() => setIsCartOpen(false)}
       />
 
@@ -41,7 +41,7 @@ export function CartDrawer() {
             </div>
             <button
               onClick={() => setIsCartOpen(false)}
-              className="p-1.5 text-slate-400 hover:text-slate-700 hover:bg-slate-200/60 rounded-full transition-colors"
+              className="p-1.5 text-slate-400 hover:text-slate-700 hover:bg-slate-200/60 rounded-full transition-colors cursor-pointer"
               aria-label="Close cart"
             >
               <X className="w-5 h-5" />
@@ -77,7 +77,7 @@ export function CartDrawer() {
                       <div className="flex items-center border border-slate-200 rounded-lg bg-white overflow-hidden">
                         <button
                           onClick={() => updateQuantity(item.id, -1)}
-                          className="px-2 py-1 text-slate-600 hover:bg-slate-100 transition-colors"
+                          className="px-2 py-1 text-slate-600 hover:bg-slate-100 transition-colors cursor-pointer"
                           aria-label="Decrease quantity"
                         >
                           <Minus className="w-3 h-3" />
@@ -87,7 +87,7 @@ export function CartDrawer() {
                         </span>
                         <button
                           onClick={() => updateQuantity(item.id, 1)}
-                          className="px-2 py-1 text-slate-600 hover:bg-slate-100 transition-colors"
+                          className="px-2 py-1 text-slate-600 hover:bg-slate-100 transition-colors cursor-pointer"
                           aria-label="Increase quantity"
                         >
                           <Plus className="w-3 h-3" />
@@ -99,7 +99,7 @@ export function CartDrawer() {
                   {/* Remove Button */}
                   <button
                     onClick={() => removeFromCart(item.id)}
-                    className="p-1.5 text-slate-400 hover:text-red-600 transition-colors self-start"
+                    className="p-1.5 text-slate-400 hover:text-red-600 transition-colors self-start cursor-pointer"
                     aria-label="Remove item"
                   >
                     <Trash2 className="w-4 h-4" />
@@ -139,19 +139,16 @@ export function CartDrawer() {
               </div>
 
               <div className="flex gap-2">
-                <Button
-                  variant="primary"
-                  size="md"
-                  className="w-full uppercase font-extrabold tracking-wider py-3 flex items-center justify-center gap-2"
-                  onClick={() => {
-                    alert('Order Placed Successfully! (Frontend Demo Checkout)')
-                    clearCart()
-                    setIsCartOpen(false)
-                  }}
-                >
-                  <span>Proceed to Checkout</span>
-                  <ArrowRight className="w-4 h-4" />
-                </Button>
+                <Link to="/checkout" onClick={() => setIsCartOpen(false)} className="w-full">
+                  <Button
+                    variant="primary"
+                    size="md"
+                    className="w-full uppercase font-extrabold tracking-wider py-3 flex items-center justify-center gap-2"
+                  >
+                    <span>Proceed to Checkout</span>
+                    <ArrowRight className="w-4 h-4" />
+                  </Button>
+                </Link>
               </div>
             </div>
           )}

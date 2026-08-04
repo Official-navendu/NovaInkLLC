@@ -32,10 +32,10 @@ export function AccountDropdown() {
   if (!isAccountOpen) return null
 
   const menuItems = [
-    { icon: LogIn, label: 'Login', href: '/about' },
-    { icon: UserPlus, label: 'Register', href: '/about' },
-    { icon: User, label: 'My Profile', href: '/about' },
-    { icon: Package, label: 'My Orders', href: '/support' },
+    { icon: LogIn, label: 'Login', href: '/login' },
+    { icon: UserPlus, label: 'Register', href: '/register' },
+    { icon: User, label: 'My Profile', href: '/login' },
+    { icon: Package, label: 'My Orders', href: '/my-orders' },
     { icon: Heart, label: 'Wishlist', href: '/shop' }
   ]
 
@@ -72,10 +72,10 @@ export function AccountDropdown() {
       <div className="pt-1 border-t border-slate-100">
         <button
           onClick={() => {
-            alert('Logged Out (Frontend Demo)')
+            alert('Signed Out (Frontend Demo)')
             setIsAccountOpen(false)
           }}
-          className="w-full flex items-center gap-2.5 px-4 py-2.5 text-xs font-semibold text-red-600 hover:bg-red-50/60 transition-colors text-left"
+          className="w-full flex items-center gap-2.5 px-4 py-2.5 text-xs font-semibold text-red-600 hover:bg-red-50/60 transition-colors text-left cursor-pointer"
         >
           <LogOut className="w-4 h-4" />
           <span>Logout</span>

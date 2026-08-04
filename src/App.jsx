@@ -11,6 +11,11 @@ import { SupportPage } from './pages/SupportPage'
 import { ContactUs } from './pages/ContactUs'
 import { SearchResults } from './pages/SearchResults'
 import { ProductDetails } from './pages/ProductDetails'
+import { Login } from './pages/Login'
+import { Register } from './pages/Register'
+import { Checkout } from './pages/Checkout'
+import { OrderSuccess } from './pages/OrderSuccess'
+import { MyOrders } from './pages/MyOrders'
 
 export default function App() {
   return (
@@ -27,6 +32,11 @@ export default function App() {
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/search" element={<SearchResults />} />
           <Route path="/product/:id" element={<ProductDetails />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/order-success" element={<OrderSuccess />} />
+          <Route path="/my-orders" element={<MyOrders />} />
           {/* Fallback route */}
           <Route path="*" element={<Home />} />
         </Routes>
