@@ -4,6 +4,7 @@ import { CartProvider } from './context/CartContext'
 import { Home } from './pages/Home'
 import { Shop } from './pages/Shop'
 import { CategoriesPage } from './pages/CategoriesPage'
+import { CategoryDetail } from './pages/CategoryDetail'
 import { Solutions } from './pages/Solutions'
 import { AboutUs } from './pages/AboutUs'
 import { SupportPage } from './pages/SupportPage'
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/categories" element={<CategoriesPage />} />
+          <Route path="/categories/:categoryId" element={<CategoryDetail />} />
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/support" element={<SupportPage />} />

@@ -10,13 +10,13 @@ export function Button({
   iconPosition = 'left',
   ...props
 }) {
-  const baseStyles = 'inline-flex items-center justify-center font-semibold rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#3897F0] focus:ring-offset-2 active:scale-[0.98] cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed select-none'
+  const baseStyles = 'inline-flex items-center justify-center font-semibold rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#0096D6] focus:ring-offset-2 active:scale-[0.98] cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed select-none'
 
   const variants = {
-    primary: 'bg-[#3897F0] hover:bg-[#2563EB] text-white shadow-md shadow-[#3897F0]/20 border border-transparent',
-    outline: 'border-2 border-[#3897F0] text-[#3897F0] hover:bg-[#3897F0] hover:text-white bg-transparent shadow-sm',
-    white: 'bg-white text-[#3897F0] hover:bg-slate-50 shadow-md border border-slate-100',
-    dark: 'bg-[#130E26] text-white hover:bg-[#1C1635] shadow-md border border-[#261E45]',
+    primary: 'bg-[#0096D6] hover:bg-[#0077B5] text-white shadow-md shadow-[#0096D6]/20 border border-transparent',
+    outline: 'border-2 border-[#0096D6] text-[#0096D6] hover:bg-[#0096D6] hover:text-white bg-transparent shadow-sm',
+    white: 'bg-white text-[#0096D6] hover:bg-slate-50 shadow-md border border-slate-100',
+    dark: 'bg-[#0B132B] text-white hover:bg-[#172136] shadow-md border border-[#2A3855]',
     ghost: 'text-slate-700 hover:bg-slate-100 hover:text-slate-900 bg-transparent'
   }
 

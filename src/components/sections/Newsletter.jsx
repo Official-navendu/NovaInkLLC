@@ -21,7 +21,7 @@ export function Newsletter() {
           
           {/* Column 1: Icon & Header */}
           <div className="flex items-center gap-3.5">
-            <div className="w-10 h-10 rounded-xl bg-blue-50/80 border border-blue-100 flex items-center justify-center text-[#3897F0] shrink-0">
+            <div className="w-10 h-10 rounded-xl bg-blue-50/80 border border-blue-100 flex items-center justify-center text-[#0096D6] shrink-0">
               <Mail className="w-5 h-5" />
             </div>
             <div>
@@ -48,7 +48,7 @@ export function Newsletter() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter your email address..."
-                className="w-full bg-slate-50 border border-slate-200/80 rounded-xl px-3.5 py-2.5 text-xs text-slate-800 placeholder-slate-400 focus:outline-none focus:border-[#3897F0] font-medium"
+                className="w-full bg-slate-50 border border-slate-200/80 rounded-xl px-3.5 py-2.5 text-xs text-slate-800 placeholder-slate-400 focus:outline-none focus:border-[#0096D6] font-medium"
               />
             )}
           </div>
@@ -68,11 +68,11 @@ export function Newsletter() {
           {/* Column 4: Trust Information */}
           <div className="pt-3 sm:pt-0 sm:pl-5 lg:pl-6 flex flex-col gap-1 text-[11px] text-slate-500 font-medium">
             <div className="flex items-center gap-1.5">
-              <ShieldCheck className="w-3.5 h-3.5 text-[#3897F0] shrink-0" />
+              <ShieldCheck className="w-3.5 h-3.5 text-[#0096D6] shrink-0" />
               <span>100% Spam Free</span>
             </div>
             <div className="flex items-center gap-1.5">
-              <Lock className="w-3.5 h-3.5 text-[#3897F0] shrink-0" />
+              <Lock className="w-3.5 h-3.5 text-[#0096D6] shrink-0" />
               <span>Privacy Guaranteed</span>
             </div>
           </div>

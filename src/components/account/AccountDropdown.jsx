@@ -57,7 +57,7 @@ export function AccountDropdown() {
               key={item.label}
               to={item.href}
               onClick={() => setIsAccountOpen(false)}
-              className="flex items-center justify-between px-4 py-2.5 text-xs font-semibold text-slate-700 hover:text-[#3897F0] hover:bg-blue-50/50 transition-colors"
+              className="flex items-center justify-between px-4 py-2.5 text-xs font-semibold text-slate-700 hover:text-[#0096D6] hover:bg-blue-50/50 transition-colors"
             >
               <div className="flex items-center gap-2.5">
                 <Icon className="w-4 h-4 text-slate-400" />

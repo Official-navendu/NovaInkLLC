@@ -31,7 +31,7 @@ export function ProductCard({ product }) {
             loading="lazy"
           />
         </div>
-        <h3 className="font-bold text-slate-900 text-sm md:text-base leading-snug line-clamp-1 group-hover:text-[#3897F0] transition-colors">
+        <h3 className="font-bold text-slate-900 text-sm md:text-base leading-snug line-clamp-1 group-hover:text-[#0096D6] transition-colors">
           {name}
         </h3>
         <p className="text-xs text-slate-500 mt-1 mb-3 line-clamp-1 font-normal">

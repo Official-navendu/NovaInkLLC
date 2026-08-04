@@ -12,7 +12,7 @@ export function FAQSection() {
         <div className="lg:col-span-8 space-y-6">
           <div>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight uppercase mb-6">
-              FREQUENTLY ASKED <span className="text-[#3897F0]">QUESTIONS</span>
+              FREQUENTLY ASKED <span className="text-[#0096D6]">QUESTIONS</span>
             </h2>
           </div>
 

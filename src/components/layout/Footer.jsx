@@ -35,7 +35,7 @@ export function Footer() {
   ]
 
   return (
-    <footer className="bg-[#0D0B1D] text-slate-400 pt-16 sm:pt-20 pb-6 border-t border-[#261E45] relative z-10">
+    <footer className="bg-[#080D1A] text-slate-400 pt-16 sm:pt-20 pb-6 border-t border-[#2A3855] relative z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-10">
           
@@ -54,16 +54,16 @@ export function Footer() {
               Your trusted partner for printers, supplies, and accessories.
             </p>
             <div className="flex items-center gap-2.5">
-              <a href="#" aria-label="Facebook" className="w-7 h-7 rounded-full bg-[#1C1635] border border-[#261E45] hover:bg-[#3897F0] text-slate-300 hover:text-white flex items-center justify-center transition-colors">
+              <a href="#" aria-label="Facebook" className="w-7 h-7 rounded-full bg-[#172136] border border-[#2A3855] hover:bg-[#0096D6] text-slate-300 hover:text-white flex items-center justify-center transition-colors">
                 <Facebook className="w-3.5 h-3.5" />
               </a>
-              <a href="#" aria-label="Instagram" className="w-7 h-7 rounded-full bg-[#1C1635] border border-[#261E45] hover:bg-[#3897F0] text-slate-300 hover:text-white flex items-center justify-center transition-colors">
+              <a href="#" aria-label="Instagram" className="w-7 h-7 rounded-full bg-[#172136] border border-[#2A3855] hover:bg-[#0096D6] text-slate-300 hover:text-white flex items-center justify-center transition-colors">
                 <Instagram className="w-3.5 h-3.5" />
               </a>
-              <a href="#" aria-label="Twitter" className="w-7 h-7 rounded-full bg-[#1C1635] border border-[#261E45] hover:bg-[#3897F0] text-slate-300 hover:text-white flex items-center justify-center transition-colors">
+              <a href="#" aria-label="Twitter" className="w-7 h-7 rounded-full bg-[#172136] border border-[#2A3855] hover:bg-[#0096D6] text-slate-300 hover:text-white flex items-center justify-center transition-colors">
                 <Twitter className="w-3.5 h-3.5" />
               </a>
-              <a href="#" aria-label="LinkedIn" className="w-7 h-7 rounded-full bg-[#1C1635] border border-[#261E45] hover:bg-[#3897F0] text-slate-300 hover:text-white flex items-center justify-center transition-colors">
+              <a href="#" aria-label="LinkedIn" className="w-7 h-7 rounded-full bg-[#172136] border border-[#2A3855] hover:bg-[#0096D6] text-slate-300 hover:text-white flex items-center justify-center transition-colors">
                 <Linkedin className="w-3.5 h-3.5" />
               </a>
             </div>
@@ -83,7 +83,7 @@ export function Footer() {
             <ul className={cn('space-y-2 text-[11px]', openSection === 'SHOP' ? 'block' : 'hidden md:block')}>
               {shopLinks.map((link) => (
                 <li key={link.name}>
-                  <Link to={link.href} className="hover:text-[#3897F0] transition-colors">
+                  <Link to={link.href} className="hover:text-[#0096D6] transition-colors">
                     {link.name}
                   </Link>
                 </li>
@@ -105,7 +105,7 @@ export function Footer() {
             <ul className={cn('space-y-2 text-[11px]', openSection === 'COMPANY' ? 'block' : 'hidden md:block')}>
               {companyLinks.map((link) => (
                 <li key={link.name}>
-                  <Link to={link.href} className="hover:text-[#3897F0] transition-colors">
+                  <Link to={link.href} className="hover:text-[#0096D6] transition-colors">
                     {link.name}
                   </Link>
                 </li>
@@ -127,7 +127,7 @@ export function Footer() {
             <ul className={cn('space-y-2 text-[11px]', openSection === 'SUPPORT' ? 'block' : 'hidden md:block')}>
               {supportLinks.map((link) => (
                 <li key={link.name}>
-                  <Link to={link.href} className="hover:text-[#3897F0] transition-colors">
+                  <Link to={link.href} className="hover:text-[#0096D6] transition-colors">
                     {link.name}
                   </Link>
                 </li>
@@ -142,19 +142,19 @@ export function Footer() {
             </h4>
             <ul className="space-y-2.5 text-[11px]">
               <li className="flex items-start gap-2">
-                <Mail className="w-3.5 h-3.5 text-[#3897F0] shrink-0 mt-0.5" />
-                <a href="mailto:info@novainkllc.com" className="hover:text-[#3897F0] transition-colors">
+                <Mail className="w-3.5 h-3.5 text-[#0096D6] shrink-0 mt-0.5" />
+                <a href="mailto:info@novainkllc.com" className="hover:text-[#0096D6] transition-colors">
                   info@novainkllc.com
                 </a>
               </li>
               <li className="flex items-start gap-2">
-                <Phone className="w-3.5 h-3.5 text-[#3897F0] shrink-0 mt-0.5" />
-                <a href="tel:1234567890" className="hover:text-[#3897F0] transition-colors">
+                <Phone className="w-3.5 h-3.5 text-[#0096D6] shrink-0 mt-0.5" />
+                <a href="tel:1234567890" className="hover:text-[#0096D6] transition-colors">
                   (123) 456-7890
                 </a>
               </li>
               <li className="flex items-start gap-2">
-                <MapPin className="w-3.5 h-3.5 text-[#3897F0] shrink-0 mt-0.5" />
+                <MapPin className="w-3.5 h-3.5 text-[#0096D6] shrink-0 mt-0.5" />
                 <span className="leading-relaxed">
                   123 Printing Way, Suite 100, Austin, TX 78701
                 </span>
@@ -165,16 +165,16 @@ export function Footer() {
         </div>
 
         {/* Copyright & Payment Badges */}
-        <div className="pt-6 border-t border-[#261E45] flex flex-col md:flex-row items-center justify-between gap-4 text-[11px]">
+        <div className="pt-6 border-t border-[#2A3855] flex flex-col md:flex-row items-center justify-between gap-4 text-[11px]">
           <p className="text-slate-500 font-medium">
             © 2025 Nova Ink LLC. All Rights Reserved.
           </p>
           <div className="flex items-center gap-2">
-            <span className="px-2 py-1 bg-[#1C1635] border border-[#261E45] rounded font-bold text-[9px] text-white">VISA</span>
-            <span className="px-2 py-1 bg-[#1C1635] border border-[#261E45] rounded font-bold text-[9px] text-white">Mastercard</span>
-            <span className="px-2 py-1 bg-[#1C1635] border border-[#261E45] rounded font-bold text-[9px] text-white">AMEX</span>
-            <span className="px-2 py-1 bg-[#1C1635] border border-[#261E45] rounded font-bold text-[9px] text-white">PayPal</span>
-            <span className="px-2 py-1 bg-[#1C1635] border border-[#261E45] rounded font-bold text-[9px] text-white">Apple Pay</span>
+            <span className="px-2 py-1 bg-[#172136] border border-[#2A3855] rounded font-bold text-[9px] text-white">VISA</span>
+            <span className="px-2 py-1 bg-[#172136] border border-[#2A3855] rounded font-bold text-[9px] text-white">Mastercard</span>
+            <span className="px-2 py-1 bg-[#172136] border border-[#2A3855] rounded font-bold text-[9px] text-white">AMEX</span>
+            <span className="px-2 py-1 bg-[#172136] border border-[#2A3855] rounded font-bold text-[9px] text-white">PayPal</span>
+            <span className="px-2 py-1 bg-[#172136] border border-[#2A3855] rounded font-bold text-[9px] text-white">Apple Pay</span>
           </div>
         </div>
       </div>

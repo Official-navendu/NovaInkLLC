@@ -55,8 +55,8 @@ export function Navbar() {
                   to={link.href}
                   className={({ isActive }) =>
                     cn(
-                      'text-sm font-semibold transition-colors duration-200 hover:text-[#3897F0]',
-                      isActive ? 'text-[#3897F0] font-bold border-b-2 border-[#3897F0] pb-0.5' : 'text-slate-700'
+                      'text-sm font-semibold transition-colors duration-200 hover:text-[#0096D6]',
+                      isActive ? 'text-[#0096D6] font-bold border-b-2 border-[#0096D6] pb-0.5' : 'text-slate-700'
                     )
                   }
                 >
@@ -70,25 +70,25 @@ export function Navbar() {
               <button
                 onClick={() => setIsSearchOpen(true)}
                 aria-label="Search"
-                className="p-2 text-slate-700 hover:text-[#3897F0] hover:bg-slate-100 rounded-full transition-colors cursor-pointer"
+                className="p-2 text-slate-700 hover:text-[#0096D6] hover:bg-slate-100 rounded-full transition-colors cursor-pointer"
               >
                 <Search className="w-5 h-5" />
               </button>
               <button
                 onClick={() => setIsAccountOpen(prev => !prev)}
                 aria-label="Account"
-                className="p-2 text-slate-700 hover:text-[#3897F0] hover:bg-slate-100 rounded-full transition-colors cursor-pointer"
+                className="p-2 text-slate-700 hover:text-[#0096D6] hover:bg-slate-100 rounded-full transition-colors cursor-pointer"
               >
                 <User className="w-5 h-5" />
               </button>
               <button
                 onClick={() => setIsCartOpen(true)}
                 aria-label="Cart"
-                className="p-2 text-slate-700 hover:text-[#3897F0] hover:bg-slate-100 rounded-full transition-colors relative cursor-pointer"
+                className="p-2 text-slate-700 hover:text-[#0096D6] hover:bg-slate-100 rounded-full transition-colors relative cursor-pointer"
               >
                 <ShoppingCart className="w-5 h-5" />
                 {totalItems > 0 && (
-                  <span className="absolute top-1 right-1 w-4 h-4 bg-[#3897F0] text-white text-[10px] font-bold rounded-full flex items-center justify-center animate-in zoom-in-50">
+                  <span className="absolute top-1 right-1 w-4 h-4 bg-[#0096D6] text-white text-[10px] font-bold rounded-full flex items-center justify-center animate-in zoom-in-50">
                     {totalItems}
                   </span>
                 )}
@@ -109,14 +109,14 @@ export function Navbar() {
               >
                 <ShoppingCart className="w-5 h-5" />
                 {totalItems > 0 && (
-                  <span className="absolute top-0 right-0 w-4 h-4 bg-[#3897F0] text-white text-[10px] font-bold rounded-full flex items-center justify-center">
+                  <span className="absolute top-0 right-0 w-4 h-4 bg-[#0096D6] text-white text-[10px] font-bold rounded-full flex items-center justify-center">
                     {totalItems}
                   </span>
                 )}
               </button>
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                className="p-2 text-slate-700 hover:text-[#3897F0] focus:outline-none"
+                className="p-2 text-slate-700 hover:text-[#0096D6] focus:outline-none"
                 aria-label="Toggle menu"
               >
                 {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -141,7 +141,7 @@ export function Navbar() {
                     cn(
                       'text-base font-semibold py-2 px-3 rounded-lg transition-colors',
                       isActive
-                        ? 'text-[#3897F0] bg-blue-50/50 font-bold'
+                        ? 'text-[#0096D6] bg-blue-50/50 font-bold'
                         : 'text-slate-700 hover:bg-slate-50'
                     )
                   }
@@ -154,7 +154,7 @@ export function Navbar() {
                   onClick={() => { setMobileMenuOpen(false); setIsSearchOpen(true); }}
                   className="flex items-center gap-2 text-sm font-semibold text-slate-700 py-2 px-3 hover:bg-slate-50 rounded-lg"
                 >
-                  <Search className="w-4 h-4 text-[#3897F0]" /> Search Products
+                  <Search className="w-4 h-4 text-[#0096D6]" /> Search Products
                 </button>
                 <Link to="/contact" onClick={() => setMobileMenuOpen(false)}>
                   <Button variant="primary" size="md" className="w-full font-bold">

@@ -60,7 +60,7 @@ export function SearchModal() {
     <div className="fixed inset-0 z-50 overflow-y-auto pt-20 px-4 sm:px-6">
       {/* Backdrop */}
       <div
-        className="fixed inset-0 bg-[#1C1635] backdrop-blur-xs transition-opacity animate-in fade-in duration-200"
+        className="fixed inset-0 bg-[#172136] backdrop-blur-xs transition-opacity animate-in fade-in duration-200"
         onClick={() => setIsSearchOpen(false)}
       />
 
@@ -69,7 +69,7 @@ export function SearchModal() {
         
         {/* Search Input Bar */}
         <form onSubmit={handleSearchSubmit} className="relative border-b border-slate-100 p-4 flex items-center gap-3">
-          <Search className="w-5 h-5 text-[#3897F0] shrink-0" />
+          <Search className="w-5 h-5 text-[#0096D6] shrink-0" />
           <input
             ref={inputRef}
             type="text"
@@ -117,7 +117,7 @@ export function SearchModal() {
                         className="w-12 h-12 object-contain bg-slate-50 rounded-lg p-1 border border-slate-200/60"
                       />
                       <div>
-                        <h4 className="font-bold text-slate-900 text-xs group-hover:text-[#3897F0] transition-colors">
+                        <h4 className="font-bold text-slate-900 text-xs group-hover:text-[#0096D6] transition-colors">
                           {product.name}
                         </h4>
                         <p className="text-[11px] text-slate-500 font-normal">
@@ -129,7 +129,7 @@ export function SearchModal() {
                       <span className="font-extrabold text-slate-900 text-xs">
                         ${product.price.toFixed(2)}
                       </span>
-                      <CornerDownLeft className="w-4 h-4 text-slate-400 group-hover:text-[#3897F0] transition-colors" />
+                      <CornerDownLeft className="w-4 h-4 text-slate-400 group-hover:text-[#0096D6] transition-colors" />
                     </div>
                   </div>
                 ))}
@@ -151,7 +151,7 @@ export function SearchModal() {
           <div className="p-3 bg-slate-50 border-t border-slate-100 text-center">
             <button
               onClick={handleSearchSubmit}
-              className="text-xs font-bold text-[#3897F0] hover:underline inline-flex items-center gap-1 cursor-pointer"
+              className="text-xs font-bold text-[#0096D6] hover:underline inline-flex items-center gap-1 cursor-pointer"
             >
               <span>View all results for "{debouncedQuery}"</span>
               <ArrowRight className="w-3.5 h-3.5" />

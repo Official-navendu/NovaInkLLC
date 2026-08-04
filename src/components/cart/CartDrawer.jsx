@@ -24,7 +24,7 @@ export function CartDrawer() {
     <div className="fixed inset-0 z-50 overflow-hidden">
       {/* Backdrop */}
       <div
-        className="fixed inset-0 bg-[#1C1635] backdrop-blur-xs transition-opacity animate-in fade-in duration-200"
+        className="fixed inset-0 bg-[#172136] backdrop-blur-xs transition-opacity animate-in fade-in duration-200"
         onClick={() => setIsCartOpen(false)}
       />
 
@@ -34,7 +34,7 @@ export function CartDrawer() {
           {/* Drawer Header */}
           <div className="p-5 border-b border-slate-100 flex items-center justify-between bg-slate-50/50">
             <div className="flex items-center gap-2">
-              <ShoppingBag className="w-5 h-5 text-[#3897F0]" />
+              <ShoppingBag className="w-5 h-5 text-[#0096D6]" />
               <h3 className="font-extrabold text-slate-900 text-base uppercase tracking-wide">
                 Your Shopping Cart ({cartItems.length})
               </h3>
@@ -108,7 +108,7 @@ export function CartDrawer() {
               ))
             ) : (
               <div className="h-full flex flex-col items-center justify-center text-center py-12">
-                <div className="w-16 h-16 rounded-full bg-blue-50 flex items-center justify-center text-[#3897F0] mb-4">
+                <div className="w-16 h-16 rounded-full bg-blue-50 flex items-center justify-center text-[#0096D6] mb-4">
                   <ShoppingBag className="w-8 h-8" />
                 </div>
                 <h4 className="font-extrabold text-slate-900 text-base mb-1">Your cart is empty</h4>
@@ -134,7 +134,7 @@ export function CartDrawer() {
                 </div>
                 <div className="flex justify-between text-slate-900 text-sm font-extrabold pt-2 border-t border-slate-100">
                   <span>Subtotal:</span>
-                  <span className="text-[#3897F0] text-base">${subtotal.toFixed(2)}</span>
+                  <span className="text-[#0096D6] text-base">${subtotal.toFixed(2)}</span>
                 </div>
               </div>
 

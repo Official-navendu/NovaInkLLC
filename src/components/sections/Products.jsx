@@ -1,11 +1,8 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { productTabs, productsData } from '../../data/products'
 import { ProductCard } from '../ui/ProductCard'
-import { ChevronLeft, ChevronRight } from 'lucide-react'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Autoplay } from 'swiper/modules'
-import 'swiper/css'
-import 'swiper/css/navigation'
+import { ChevronRight } from 'lucide-react'
 import { cn } from '../../utils/cn'
 
 export function Products() {
@@ -15,22 +12,25 @@ export function Products() {
     ? productsData
     : productsData.filter(p => p.category === activeTab || activeTab === 'all')
 
+  // Display 15 products in 3 rows × 5 columns on desktop
+  const displayedProducts = filteredProducts.slice(0, 15)
+
   return (
-    <section id="shop" className="py-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="shop" className="py-8 lg:py-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       {/* Header */}
       <div className="flex items-center justify-between gap-4 mb-4">
         <div>
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-slate-900 tracking-tight uppercase">
-            SHOP BESTSELLING <span className="text-[#3897F0]">PRINTERS</span>
+            SHOP BESTSELLING <span className="text-[#0096D6]">PRINTERS</span>
           </h2>
         </div>
-        <a
-          href="#shop"
-          className="inline-flex items-center text-[11px] font-extrabold text-slate-700 hover:text-[#3897F0] uppercase tracking-wider transition-colors gap-1"
+        <Link
+          to="/shop"
+          className="inline-flex items-center text-[11px] font-extrabold text-slate-700 hover:text-[#0096D6] uppercase tracking-wider transition-colors gap-1"
         >
           <span>View All Products</span>
           <ChevronRight className="w-3.5 h-3.5" />
-        </a>
+        </Link>
       </div>
 
       {/* Filter Tabs */}
@@ -42,7 +42,7 @@ export function Products() {
             className={cn(
               'px-3.5 py-1.5 rounded-full text-xs font-bold whitespace-nowrap transition-all duration-200 cursor-pointer select-none',
               activeTab === tab.id
-                ? 'bg-[#3897F0] text-white shadow-sm'
+                ? 'bg-[#0096D6] text-white shadow-sm'
                 : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'
             )}
           >
@@ -51,46 +51,11 @@ export function Products() {
         ))}
       </div>
 
-      {/* Slider Carousel with Left/Right Arrows */}
-      <div className="relative group/slider">
-        <button
-          id="products-prev"
-          aria-label="Previous products"
-          className="absolute -left-3 top-1/2 -translate-y-1/2 z-20 w-9 h-9 rounded-full bg-white border border-slate-200 shadow-md text-slate-700 flex items-center justify-center hover:bg-[#3897F0] hover:text-white hover:border-[#3897F0] transition-all cursor-pointer disabled:opacity-0"
-        >
-          <ChevronLeft className="w-4 h-4" />
-        </button>
-
-        <button
-          id="products-next"
-          aria-label="Next products"
-          className="absolute -right-3 top-1/2 -translate-y-1/2 z-20 w-9 h-9 rounded-full bg-white border border-slate-200 shadow-md text-slate-700 flex items-center justify-center hover:bg-[#3897F0] hover:text-white hover:border-[#3897F0] transition-all cursor-pointer disabled:opacity-0"
-        >
-          <ChevronRight className="w-4 h-4" />
-        </button>
-
-        <Swiper
-          modules={[Navigation, Autoplay]}
-          navigation={{
-            prevEl: '#products-prev',
-            nextEl: '#products-next'
-          }}
-          spaceBetween={16}
-          slidesPerView={1.2}
-          breakpoints={{
-            480: { slidesPerView: 2, spaceBetween: 14 },
-            768: { slidesPerView: 3, spaceBetween: 16 },
-            1024: { slidesPerView: 4, spaceBetween: 16 },
-            1280: { slidesPerView: 5, spaceBetween: 16 }
-          }}
-          className="py-1"
-        >
-          {filteredProducts.map((product) => (
-            <SwiperSlide key={product.id} className="h-auto">
-              <ProductCard product={product} />
-            </SwiperSlide>
-          ))}
-        </Swiper>
+      {/* Static Product Grid: 5 cols (xl), 4 cols (lg), 3 cols (md), 2 cols (sm), 1 col (base) */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 sm:gap-5 lg:gap-6">
+        {displayedProducts.map((product) => (
+          <ProductCard key={product.id} product={product} />
+        ))}
       </div>
     </section>
   )

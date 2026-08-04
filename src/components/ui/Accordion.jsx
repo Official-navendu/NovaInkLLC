@@ -28,11 +28,11 @@ export function Accordion({ items, defaultOpen = 0 }) {
               className="w-full px-5 py-4 text-left flex items-center justify-between font-semibold text-slate-900 text-sm md:text-base gap-4 cursor-pointer focus:outline-none"
               aria-expanded={isOpen}
             >
-              <span className={cn(isOpen && 'text-[#3897F0]')}>{item.question}</span>
+              <span className={cn(isOpen && 'text-[#0096D6]')}>{item.question}</span>
               <ChevronDown
                 className={cn(
                   'w-5 h-5 text-slate-400 shrink-0 transition-transform duration-300',
-                  isOpen && 'transform rotate-180 text-[#3897F0]'
+                  isOpen && 'transform rotate-180 text-[#0096D6]'
                 )}
               />
             </button>

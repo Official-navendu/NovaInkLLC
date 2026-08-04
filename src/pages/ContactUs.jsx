@@ -17,18 +17,18 @@ export function ContactUs() {
   }
 
   return (
-    <div className="min-h-screen bg-[#F8FAFC] text-slate-800 flex flex-col font-['Manrope',sans-serif] selection:bg-[#3897F0] selection:text-white">
+    <div className="min-h-screen bg-[#F8FAFC] text-slate-800 flex flex-col font-['Manrope',sans-serif] selection:bg-[#0096D6] selection:text-white">
       <Navbar />
 
       <main className="flex-grow pt-24 pb-16">
         {/* Unified Subpage Hero Banner */}
-        <div className="bg-gradient-to-r from-[#130E26] via-[#1C1635] to-[#130E26] border-b border-[#261E45] text-white py-14 px-4 sm:px-6 lg:px-8 mb-12 shadow-lg text-center">
+        <div className="bg-gradient-to-r from-[#0B132B] via-[#172136] to-[#0B132B] border-b border-[#2A3855] text-white py-14 px-4 sm:px-6 lg:px-8 mb-12 shadow-lg text-center">
           <div className="max-w-7xl mx-auto">
-            <span className="text-xs font-extrabold uppercase tracking-widest text-[#3897F0] bg-[#3897F0]/10 border border-[#3897F0]/20 px-3.5 py-1.5 rounded-full inline-block mb-3">
+            <span className="text-xs font-extrabold uppercase tracking-widest text-[#0096D6] bg-[#0096D6]/10 border border-[#0096D6]/20 px-3.5 py-1.5 rounded-full inline-block mb-3">
               GET IN TOUCH
             </span>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black uppercase tracking-tight text-white mb-3">
-              CONTACT OUR <span className="text-[#3897F0]">SPECIALISTS</span>
+              CONTACT OUR <span className="text-[#0096D6]">SPECIALISTS</span>
             </h1>
             <p className="text-xs sm:text-sm text-slate-300 font-medium max-w-xl mx-auto">
               Have questions about printer models, bulk supplies, or order status? Send us a message and our team will get back to you promptly.
@@ -47,7 +47,7 @@ export function ContactUs() {
                 </h3>
 
                 <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-xl bg-blue-50 text-[#3897F0] flex items-center justify-center shrink-0">
+                  <div className="w-10 h-10 rounded-xl bg-blue-50 text-[#0096D6] flex items-center justify-center shrink-0">
                     <Mail className="w-5 h-5" />
                   </div>
                   <div>
@@ -58,7 +58,7 @@ export function ContactUs() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-xl bg-blue-50 text-[#3897F0] flex items-center justify-center shrink-0">
+                  <div className="w-10 h-10 rounded-xl bg-blue-50 text-[#0096D6] flex items-center justify-center shrink-0">
                     <Phone className="w-5 h-5" />
                   </div>
                   <div>
@@ -69,7 +69,7 @@ export function ContactUs() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-xl bg-blue-50 text-[#3897F0] flex items-center justify-center shrink-0">
+                  <div className="w-10 h-10 rounded-xl bg-blue-50 text-[#0096D6] flex items-center justify-center shrink-0">
                     <MapPin className="w-5 h-5" />
                   </div>
                   <div>
@@ -80,7 +80,7 @@ export function ContactUs() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-xl bg-blue-50 text-[#3897F0] flex items-center justify-center shrink-0">
+                  <div className="w-10 h-10 rounded-xl bg-blue-50 text-[#0096D6] flex items-center justify-center shrink-0">
                     <Clock className="w-5 h-5" />
                   </div>
                   <div>
@@ -118,7 +118,7 @@ export function ContactUs() {
                           value={formData.name}
                           onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                           placeholder="John Doe"
-                          className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-2.5 text-xs text-slate-800 placeholder-slate-400 focus:outline-none focus:border-[#3897F0]"
+                          className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-2.5 text-xs text-slate-800 placeholder-slate-400 focus:outline-none focus:border-[#0096D6]"
                         />
                       </div>
                       <div>
@@ -129,7 +129,7 @@ export function ContactUs() {
                           value={formData.email}
                           onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                           placeholder="john@example.com"
-                          className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-2.5 text-xs text-slate-800 placeholder-slate-400 focus:outline-none focus:border-[#3897F0]"
+                          className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-2.5 text-xs text-slate-800 placeholder-slate-400 focus:outline-none focus:border-[#0096D6]"
                         />
                       </div>
                     </div>
@@ -141,7 +141,7 @@ export function ContactUs() {
                         value={formData.subject}
                         onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
                         placeholder="Inquiry regarding printer model or quote..."
-                        className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-2.5 text-xs text-slate-800 placeholder-slate-400 focus:outline-none focus:border-[#3897F0]"
+                        className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-2.5 text-xs text-slate-800 placeholder-slate-400 focus:outline-none focus:border-[#0096D6]"
                       />
                     </div>
 
@@ -153,7 +153,7 @@ export function ContactUs() {
                         value={formData.message}
                         onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                         placeholder="Type your message or inquiry here..."
-                        className="w-full bg-slate-50 border border-slate-200 rounded-xl p-4 text-xs text-slate-800 placeholder-slate-400 focus:outline-none focus:border-[#3897F0]"
+                        className="w-full bg-slate-50 border border-slate-200 rounded-xl p-4 text-xs text-slate-800 placeholder-slate-400 focus:outline-none focus:border-[#0096D6]"
                       />
                     </div>
 
