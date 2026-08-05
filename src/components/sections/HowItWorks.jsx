@@ -13,6 +13,9 @@ export function HowItWorks() {
   return (
     <section className="py-12 lg:py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="text-center mb-12 sm:mb-8">
+        <span className="text-xs font-extrabold text-[#0096D6] uppercase tracking-widest bg-blue-50 border border-blue-100 px-3.5 py-1.5 rounded-full inline-block mb-3">
+          SIMPLE SHOPPING PROCESS
+        </span>
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight uppercase">
           HOW IT <span className="text-[#0096D6]">WORKS</span>
         </h2>

@@ -6,26 +6,26 @@ export function WhyChoose() {
     {
       id: 1,
       icon: Printer,
-      title: 'AUTHENTIC HP GUARANTEE',
-      description: 'Sourced directly from verified distributors with full 2-Year factory coverage.'
+      title: 'Trusted Quality Products',
+      description: 'Every printer, accessory, and printing supply in our collection is carefully selected to meet high standards for performance, reliability, and everyday use.'
     },
     {
       id: 2,
       icon: Tag,
-      title: 'COMPETITIVE TRANSPARENT RATES',
-      description: 'Direct-to-consumer pricing with instant multi-pack savings and no hidden fees.'
+      title: 'Competitive Everyday Pricing',
+      description: 'Get great value on printers and printing essentials with transparent pricing, regular deals, and no unnecessary markups.'
     },
     {
       id: 3,
       icon: Truck,
-      title: 'RAPID NATIONWIDE DISPATCH',
-      description: 'Orders processed within 24 business hours with insured door-to-door tracking.'
+      title: 'Fast & Reliable Shipping',
+      description: 'We process orders quickly and ship across the United States so you can receive your products with confidence and minimal downtime.'
     },
     {
       id: 4,
       icon: Headphones,
-      title: 'EXPERT TECHNICAL ASSISTANCE',
-      description: 'Certified specialists available to guide hardware selection, setups, and driver installations.'
+      title: 'Dedicated Customer Support',
+      description: 'Need help choosing a printer or tracking an order? Our knowledgeable support team is here to assist before and after your purchase.'
     }
   ]
 
@@ -38,9 +38,12 @@ export function WhyChoose() {
           <span className="text-xs font-extrabold text-[#0096D6] uppercase tracking-widest bg-blue-50 border border-blue-100 px-3.5 py-1.5 rounded-full inline-block mb-3">
             THE NOVA INK ADVANTAGE
           </span>
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black uppercase tracking-tight text-slate-900">
-            WHY CHOOSE <span className="text-[#0096D6]">NOVA INK LLC?</span>
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black uppercase tracking-tight text-slate-900 mb-3">
+            Why Choose <span className="text-[#0096D6]">Nova Ink LLC?</span>
           </h2>
+          <p className="text-xs sm:text-sm text-slate-600 font-medium leading-relaxed">
+            Whether you're shopping for a home printer, office equipment, or essential printing supplies, we're committed to delivering dependable products, competitive pricing, and a seamless shopping experience from start to finish.
+          </p>
         </div>
 
         {/* 4 Bordered Lightweight Feature Cards */}

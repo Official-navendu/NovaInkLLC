@@ -7,23 +7,23 @@ export function CompanySection() {
   const cards = [
     {
       icon: Award,
-      title: '100% Genuine Supplies',
-      description: 'Factory-sealed HP products backed by full manufacturer warranties.'
+      title: 'Quality You Can Trust',
+      description: 'Every product we offer is carefully sourced to deliver reliable performance, consistent results, and long-lasting value.'
     },
     {
       icon: Tag,
-      title: 'Competitive Rates',
-      description: 'Direct retail pricing with instant bulk savings on ink & toner bundles.'
+      title: 'Competitive Pricing',
+      description: 'Enjoy fair pricing on printers, ink, toner, paper, and accessories without compromising on quality or service.'
     },
     {
       icon: Compass,
-      title: 'Specialized Guidance',
-      description: 'Expert hardware recommendations tailored to your monthly page volume.'
+      title: 'Expert Product Guidance',
+      description: 'Not sure which printer fits your needs? Our team is here to help you choose the right solution for your home, office, or business.'
     },
     {
       icon: UserCheck,
-      title: 'Dedicated Service',
-      description: 'Responsive customer support assisting with setups, orders, and warranties.'
+      title: 'Dedicated Customer Support',
+      description: "From product questions to post-purchase assistance, we're committed to providing responsive support whenever you need it."
     }
   ]
 
@@ -38,21 +38,21 @@ export function CompanySection() {
           {/* Left Side Info */}
           <div className="lg:col-span-5 space-y-5">
             <span className="text-xs font-extrabold text-[#0096D6] uppercase tracking-widest bg-blue-50 border border-blue-100 px-3.5 py-1.5 rounded-full inline-block">
-              AUTHORIZED HP SUPPLIER
+              CUSTOMER-FIRST APPROACH
             </span>
 
             <h2 className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight uppercase leading-tight">
-              INDEPENDENT PRINTING <span className="text-[#0096D6]">SPECIALISTS</span>
+              Your Trusted Partner for <span className="text-[#0096D6]">Reliable Printing Solutions</span>
             </h2>
 
             <p className="text-xs sm:text-sm text-slate-600 font-medium leading-relaxed">
-              Nova Ink LLC delivers genuine HP printing systems, high-yield toners, and ink cartridges to homes, offices, and enterprise networks nationwide. We combine competitive pricing with specialized hardware expertise to make printer purchasing effortless.
+              Upgrading your setup or just grabbing some extra ink? We’ve got you covered. At Nova Ink LLC, we make it easy to find reliable printers and supplies without the stress. We hand-pick everything we carry, from home office gear to business essentials, so you can focus on your work knowing you’re using quality products that won’t let you down.
             </p>
 
             <div className="pt-2">
-              <Link to="/about">
+              <Link to="/shop">
                 <Button variant="primary" size="md" className="uppercase font-extrabold text-xs tracking-wider px-6 py-3 shadow-md shadow-[#0096D6]/20">
-                  Discover Our Story
+                  Shop Now!
                 </Button>
               </Link>
             </div>

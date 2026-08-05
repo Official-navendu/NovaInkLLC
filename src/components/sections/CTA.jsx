@@ -16,29 +16,29 @@ export function CTA() {
           {/* Left Content */}
           <div className="lg:col-span-7 space-y-5">
             <span className="text-xs font-extrabold text-[#0096D6] uppercase tracking-widest bg-blue-50 border border-blue-100 px-3.5 py-1.5 rounded-full inline-block font-['Manrope',sans-serif]">
-              EXPERT PRINTING GUIDANCE
+              Printing Made Easy
             </span>
 
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black uppercase tracking-tight text-slate-900 leading-tight">
-              FIND THE PERFECT PRINTER <br />
-              <span className="text-[#0096D6]">FOR YOUR WORKSPACE</span>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-slate-900 leading-tight">
+              Not Sure Which Printer <br />
+              <span className="text-[#0096D6]">Is Right for You?</span>
             </h2>
 
             <p className="text-sm sm:text-base text-slate-600 font-medium max-w-xl leading-relaxed">
-              Unsure which HP printer model or ink setup fits your workload? Our specialists provide personalized recommendations, volume cost calculations, and genuine product guidance.
+              Our team is here to help you compare models, understand key features, and choose the ideal printer for your home or business. Shop with confidence knowing you'll receive dependable products, competitive pricing, and dedicated support every step of the way.
             </p>
 
             {/* CTAs with verified high-contrast button states */}
             <div className="flex flex-wrap items-center gap-4 pt-2">
               <Link to="/shop">
                 <button className="bg-[#0096D6] text-white hover:bg-[#0077B5] font-extrabold text-xs uppercase tracking-wider px-8 py-3.5 rounded-xl shadow-md shadow-[#0096D6]/20 transition-all duration-200 cursor-pointer inline-flex items-center gap-2 active:scale-[0.98]">
-                  <span>SHOP HP BESTSELLERS</span>
+                  <span>Shop Now</span>
                   <ArrowRight className="w-4 h-4" />
                 </button>
               </Link>
               <Link to="/contact">
                 <button className="bg-white border-2 border-[#0096D6] text-[#0096D6] hover:bg-[#0096D6] hover:text-white font-extrabold text-xs uppercase tracking-wider px-7 py-3.5 rounded-xl shadow-xs transition-colors duration-200 cursor-pointer active:scale-[0.98]">
-                  SPEAK WITH A SPECIALIST
+                  Contact Our Team
                 </button>
               </Link>
             </div>
@@ -54,15 +54,15 @@ export function CTA() {
                   <MessageSquare className="w-4 h-4" />
                 </div>
                 <div>
-                  <p className="text-[10px] font-extrabold uppercase text-[#0096D6] leading-none">100% GENUINE HP</p>
-                  <p className="text-xs font-bold text-slate-900 leading-tight">Factory Certified Hardware</p>
+                  <p className="text-[10px] font-extrabold uppercase text-[#0096D6] leading-none">EXPERT ADVICE</p>
+                  <p className="text-xs font-bold text-slate-900 leading-tight">Personalized Solutions</p>
                 </div>
               </div>
 
               {/* Printer Cutout Image with Subtle Rounded Corners */}
               <img
                 src="/images/cta_printer.webp"
-                alt="HP Printer Solutions"
+                alt="Printer Solutions"
                 className="w-full h-auto object-contain rounded-2xl relative z-10 drop-shadow-md"
               />
             </div>

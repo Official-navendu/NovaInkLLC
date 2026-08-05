@@ -2,25 +2,25 @@ export const howItWorksData = [
   {
     step: '1',
     icon: 'Search',
-    title: '1. EXPLORE HP CATALOG',
-    description: 'Filter by model, function, or supplies to select the ideal printing hardware for your workload.'
+    title: '1. Explore Our Collection',
+    description: 'Browse printers, ink, toner, paper, and accessories to find products that match your home, office, or business needs.'
   },
   {
     step: '2',
     icon: 'ShoppingCart',
-    title: '2. COMPARE SPECIFICATIONS',
-    description: 'Review print speeds, paper capacity, ink yields, and network connectivity features before buying.'
+    title: '2. Compare & Choose',
+    description: 'Review product features, specifications, and compatibility to confidently select the right printing solution.'
   },
   {
     step: '3',
     icon: 'PackageCheck',
-    title: '3. SECURE CHECKOUT',
-    description: 'Complete your order with encrypted checkout, instant email receipt, and bulk volume discounts.'
+    title: '3. Secure Checkout',
+    description: 'Complete your purchase with a safe, encrypted checkout and receive instant order confirmation.'
   },
   {
     step: '4',
     icon: 'Printer',
-    title: '4. RAPID DISPATCH',
-    description: 'Receive your insured shipment with doorstep tracking and lifetime hardware setup support.'
+    title: '4. Fast U.S. Delivery',
+    description: "We'll process your order quickly and deliver it straight to your doorstep with reliable shipping and tracking."
   }
 ]
