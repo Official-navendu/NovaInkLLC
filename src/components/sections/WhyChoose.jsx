@@ -36,13 +36,13 @@ export function WhyChoose() {
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-12">
           <span className="text-xs font-extrabold text-[#0096D6] uppercase tracking-widest bg-blue-50 border border-blue-100 px-3.5 py-1.5 rounded-full inline-block mb-3">
-            THE NOVA INK ADVANTAGE
+            WHAT SETS US APART
           </span>
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black uppercase tracking-tight text-slate-900 mb-3">
-            Why Choose <span className="text-[#0096D6]">Nova Ink LLC?</span>
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight text-slate-900 mb-3">
+            Everything You Need. <span className="text-[#0096D6]">Nothing You Don't.</span>
           </h2>
           <p className="text-xs sm:text-sm text-slate-600 font-medium leading-relaxed">
-            Whether you're shopping for a home printer, office equipment, or essential printing supplies, we're committed to delivering dependable products, competitive pricing, and a seamless shopping experience from start to finish.
+            We're here to make buying printers and printing supplies simple. From trusted products and fair pricing to fast shipping and helpful support, every part of the experience is built with our customers in mind.
           </p>
         </div>
 
