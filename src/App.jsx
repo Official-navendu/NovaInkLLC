@@ -31,7 +31,7 @@ export default function App() {
           <Route path="/support" element={<SupportPage />} />
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/search" element={<SearchResults />} />
-          <Route path="/product/:id" element={<ProductDetails />} />
+          <Route path="/product/:slug" element={<ProductDetails />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/checkout" element={<Checkout />} />

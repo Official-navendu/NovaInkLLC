@@ -51,9 +51,9 @@ export function SearchModal() {
     }
   }
 
-  const handleSelectProduct = (productId) => {
+  const handleSelectProduct = (product) => {
     setIsSearchOpen(false)
-    navigate(`/product/${productId}`)
+    navigate(`/product/${product.slug || product.id}`)
   }
 
   return (
@@ -107,7 +107,7 @@ export function SearchModal() {
                 {searchResults.map((product) => (
                   <div
                     key={product.id}
-                    onClick={() => handleSelectProduct(product.id)}
+                    onClick={() => handleSelectProduct(product)}
                     className="flex items-center justify-between p-3 rounded-xl hover:bg-blue-50/50 border border-transparent hover:border-blue-100 transition-colors cursor-pointer group"
                   >
                     <div className="flex items-center gap-3">

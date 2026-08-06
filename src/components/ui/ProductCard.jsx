@@ -4,12 +4,12 @@ import { useCart } from '../../context/CartContext'
 import { useNavigate } from 'react-router-dom'
 
 export function ProductCard({ product }) {
-  const { name, subtitle, price, originalPrice, image, id } = product
+  const { name, subtitle, price, originalPrice, image, id, slug } = product
   const { addToCart } = useCart()
   const navigate = useNavigate()
 
   const handleCardClick = () => {
-    navigate(`/product/${id}`)
+    navigate(`/product/${slug || id}`)
   }
 
   const handleAddToCart = (e) => {

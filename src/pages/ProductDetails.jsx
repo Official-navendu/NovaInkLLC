@@ -10,7 +10,7 @@ import { Star, Truck, ShieldCheck, RotateCcw, Plus, Minus, ArrowLeft, ShoppingCa
 import { Button } from '../components/ui/Button'
 
 export function ProductDetails() {
-  const { id } = useParams()
+  const { slug } = useParams()
   const navigate = useNavigate()
   const { addToCart } = useCart()
 
@@ -19,7 +19,15 @@ export function ProductDetails() {
   const [isFading, setIsFading] = useState(false)
   const [activeTab, setActiveTab] = useState('description')
 
-  const product = productsData.find(p => p.id === parseInt(id, 10)) || productsData[0]
+  // Find product by SEO slug or backward compatible numeric ID
+  const product = productsData.find(p => p.slug === slug || String(p.id) === slug) || productsData[0]
+
+  // Backward compatibility redirect if accessed via numeric ID (e.g. /product/1 -> /product/hp-envy-6055e-all-in-one-printer)
+  useEffect(() => {
+    if (product && slug && !isNaN(Number(slug))) {
+      navigate(`/product/${product.slug}`, { replace: true })
+    }
+  }, [product, slug, navigate])
 
   // Reset selected image and quantity on product change
   useEffect(() => {
@@ -27,7 +35,7 @@ export function ProductDetails() {
     setQuantity(1)
     setActiveTab('description')
     window.scrollTo({ top: 0, behavior: 'smooth' })
-  }, [id])
+  }, [slug])
 
   // Construct gallery images (supports product.images or fallback 5-image set)
   const galleryImages = (product.images && product.images.length > 0)
@@ -98,7 +106,7 @@ export function ProductDetails() {
   ]
 
   return (
-    <div className="min-h-screen bg-[#F8FAFC] text-slate-800 flex flex-col font-['Manrope',sans-serif] selection:bg-[#0096D6] selection:text-white">
+    <div className="min-h-screen bg-[#F8FAFC] text-slate-800 flex flex-col font-[#Manrope',sans-serif] selection:bg-[#0096D6] selection:text-white">
       <Navbar />
 
       <main className="flex-grow pt-28 pb-16">

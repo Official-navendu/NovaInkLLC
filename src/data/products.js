@@ -63,7 +63,8 @@ export const productsData = [
       "Home Printers",
       "6055e",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-envy-6055e-all-in-one-printer"
   },
   {
     "id": 2,
@@ -102,7 +103,8 @@ export const productsData = [
       "Home Printers",
       "2755e",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-deskjet-2755e-wireless-color-all-in-one"
   },
   {
     "id": 3,
@@ -141,7 +143,8 @@ export const productsData = [
       "Home Printers",
       "7955e",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-envy-inspire-7955e-wireless-photo-printer"
   },
   {
     "id": 4,
@@ -180,7 +183,8 @@ export const productsData = [
       "Home Printers",
       "5101",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-smart-tank-5101-wireless-all-in-one"
   },
   {
     "id": 5,
@@ -219,7 +223,8 @@ export const productsData = [
       "Home Printers",
       "6455e",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-envy-6455e-wireless-color-all-in-one"
   },
   {
     "id": 6,
@@ -258,7 +263,8 @@ export const productsData = [
       "Home Printers",
       "3755",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-deskjet-3755-compact-wireless-all-in-one"
   },
   {
     "id": 7,
@@ -297,7 +303,8 @@ export const productsData = [
       "Home Printers",
       "7001",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-smart-tank-7001-wireless-all-in-one"
   },
   {
     "id": 8,
@@ -336,7 +343,8 @@ export const productsData = [
       "Home Printers",
       "7255e",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-envy-inspire-7255e-photo-printer"
   },
   {
     "id": 9,
@@ -375,7 +383,8 @@ export const productsData = [
       "Home Printers",
       "4155e",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-deskjet-4155e-all-in-one-printer"
   },
   {
     "id": 10,
@@ -414,7 +423,8 @@ export const productsData = [
       "Home Printers",
       "7301",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-smart-tank-7301-wireless-all-in-one"
   },
   {
     "id": 11,
@@ -453,7 +463,8 @@ export const productsData = [
       "Home Printers",
       "7855",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-envy-photo-7855-wireless-all-in-one"
   },
   {
     "id": 12,
@@ -492,7 +503,8 @@ export const productsData = [
       "Home Printers",
       "4122",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-deskjet-plus-4122-wireless-all-in-one"
   },
   {
     "id": 13,
@@ -531,7 +543,8 @@ export const productsData = [
       "Home Printers",
       "Tango",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-tango-smart-wireless-home-printer"
   },
   {
     "id": 14,
@@ -570,7 +583,8 @@ export const productsData = [
       "Home Printers",
       "Sprocket",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-sprocket-select-portable-photo-printer"
   },
   {
     "id": 15,
@@ -609,7 +623,8 @@ export const productsData = [
       "Home Printers",
       "6075",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-envy-6075-all-in-one-wireless-printer"
   },
   {
     "id": 16,
@@ -648,7 +663,8 @@ export const productsData = [
       "Home Printers",
       "2722e",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-deskjet-2722e-wireless-color-printer"
   },
   {
     "id": 17,
@@ -687,7 +703,8 @@ export const productsData = [
       "Office Printers",
       "M404dn",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-laserjet-pro-m404dn-monochrome-laser"
   },
   {
     "id": 18,
@@ -726,7 +743,8 @@ export const productsData = [
       "Office Printers",
       "9015e",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-officejet-pro-9015e-wireless-all-in-one"
   },
   {
     "id": 19,
@@ -765,7 +783,8 @@ export const productsData = [
       "Office Printers",
       "M283fdw",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-color-laserjet-pro-m283fdw-wireless-mfp"
   },
   {
     "id": 20,
@@ -804,7 +823,8 @@ export const productsData = [
       "Office Printers",
       "2604dw",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-laserjet-tank-mfp-2604dw-wireless-printer"
   },
   {
     "id": 21,
@@ -843,7 +863,8 @@ export const productsData = [
       "Office Printers",
       "8025e",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-officejet-pro-8025e-all-in-one-printer"
   },
   {
     "id": 22,
@@ -882,7 +903,8 @@ export const productsData = [
       "Office Printers",
       "M428fdw",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-laserjet-pro-mfp-m428fdw-laser-printer"
   },
   {
     "id": 23,
@@ -921,7 +943,8 @@ export const productsData = [
       "Office Printers",
       "M455dn",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-color-laserjet-enterprise-m455dn"
   },
   {
     "id": 24,
@@ -960,7 +983,8 @@ export const productsData = [
       "Office Printers",
       "9025e",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-officejet-pro-9025e-all-in-one-printer"
   },
   {
     "id": 25,
@@ -999,7 +1023,8 @@ export const productsData = [
       "Office Printers",
       "M501dn",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-laserjet-pro-m501dn-high-speed-laser"
   },
   {
     "id": 26,
@@ -1038,7 +1063,8 @@ export const productsData = [
       "Office Printers",
       "M454dw",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-color-laserjet-pro-m454dw-wireless-laser"
   },
   {
     "id": 27,
@@ -1077,7 +1103,8 @@ export const productsData = [
       "Office Printers",
       "8035e",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-officejet-pro-8035e-all-in-one-printer"
   },
   {
     "id": 28,
@@ -1116,7 +1143,8 @@ export const productsData = [
       "Office Printers",
       "M507x",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-laserjet-enterprise-m507x-business-laser"
   },
   {
     "id": 29,
@@ -1155,7 +1183,8 @@ export const productsData = [
       "Office Printers",
       "X585f",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-officejet-enterprise-color-mfp-x585f"
   },
   {
     "id": 30,
@@ -1194,7 +1223,8 @@ export const productsData = [
       "Office Printers",
       "M182n",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-color-laserjet-pro-mfp-m182n"
   },
   {
     "id": 31,
@@ -1233,7 +1263,8 @@ export const productsData = [
       "Office Printers",
       "M203dw",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-laserjet-pro-m203dw-wireless-laser-printer"
   },
   {
     "id": 32,
@@ -1272,7 +1303,8 @@ export const productsData = [
       "Office Printers",
       "9010",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-officejet-pro-9010-all-in-one-printer"
   },
   {
     "id": 33,
@@ -1311,7 +1343,8 @@ export const productsData = [
       "Ink & Toner",
       "3YM57AN",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-67xl-high-yield-original-black-ink-cartridge"
   },
   {
     "id": 34,
@@ -1350,7 +1383,8 @@ export const productsData = [
       "Ink & Toner",
       "3YP34AN",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-910xl-cyanmagentayellow-3-pack-ink-set"
   },
   {
     "id": 35,
@@ -1389,7 +1423,8 @@ export const productsData = [
       "Ink & Toner",
       "CF258A",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-58a-black-original-laserjet-toner-cartridge"
   },
   {
     "id": 36,
@@ -1428,7 +1463,8 @@ export const productsData = [
       "Ink & Toner",
       "W2110A",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-206a-black-original-laserjet-toner-cartridge"
   },
   {
     "id": 37,
@@ -1467,7 +1503,8 @@ export const productsData = [
       "Ink & Toner",
       "F6U19AN",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-952xl-high-yield-black-original-ink-cartridge"
   },
   {
     "id": 38,
@@ -1506,7 +1543,8 @@ export const productsData = [
       "Ink & Toner",
       "N9J92AN",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-64xl-high-yield-black-original-ink-cartridge"
   },
   {
     "id": 39,
@@ -1545,7 +1583,8 @@ export const productsData = [
       "Ink & Toner",
       "206A-3PK",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-206a-cyanmagentayellow-3-pack-toner-set"
   },
   {
     "id": 40,
@@ -1584,7 +1623,8 @@ export const productsData = [
       "Ink & Toner",
       "W2020A",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-414a-black-original-laserjet-toner-cartridge"
   },
   {
     "id": 41,
@@ -1623,7 +1663,8 @@ export const productsData = [
       "Ink & Toner",
       "F6U64AN",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-63xl-high-yield-black-original-ink-cartridge"
   },
   {
     "id": 42,
@@ -1662,7 +1703,8 @@ export const productsData = [
       "Ink & Toner",
       "T6M14AN",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-902xl-high-yield-black-original-ink-cartridge"
   },
   {
     "id": 43,
@@ -1701,7 +1743,8 @@ export const productsData = [
       "Ink & Toner",
       "W2310A",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-215a-black-original-laserjet-toner-cartridge"
   },
   {
     "id": 44,
@@ -1740,7 +1783,8 @@ export const productsData = [
       "Ink & Toner",
       "3JA03AN",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-962xl-high-yield-black-original-ink-cartridge"
   },
   {
     "id": 45,
@@ -1779,7 +1823,8 @@ export const productsData = [
       "Ink & Toner",
       "CE410A",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-305a-black-original-laserjet-toner-cartridge"
   },
   {
     "id": 46,
@@ -1818,7 +1863,8 @@ export const productsData = [
       "Ink & Toner",
       "CH563WN",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-61xl-high-yield-black-original-ink-cartridge"
   },
   {
     "id": 47,
@@ -1857,7 +1903,8 @@ export const productsData = [
       "Ink & Toner",
       "W1340A",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-134a-black-original-laserjet-toner-cartridge"
   },
   {
     "id": 48,
@@ -1896,7 +1943,8 @@ export const productsData = [
       "Ink & Toner",
       "CN045AN",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-950xl-high-yield-black-ink-cartridge"
   },
   {
     "id": 49,
@@ -1935,7 +1983,8 @@ export const productsData = [
       "Printer Accessories",
       "USB-10FT",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-high-speed-usb-20-printer-cable-10-feet"
   },
   {
     "id": 50,
@@ -1974,7 +2023,8 @@ export const productsData = [
       "Printer Accessories",
       "D9P29A",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-auto-duplex-250-sheet-paper-feeder-tray"
   },
   {
     "id": 51,
@@ -2013,7 +2063,8 @@ export const productsData = [
       "Printer Accessories",
       "F2A72A",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-laserjet-550-sheet-feeder-tray"
   },
   {
     "id": 52,
@@ -2052,7 +2103,8 @@ export const productsData = [
       "Printer Accessories",
       "J8031A",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-jetdirect-2900nw-print-server-adapter"
   },
   {
     "id": 53,
@@ -2091,7 +2143,8 @@ export const productsData = [
       "Printer Accessories",
       "RM2-2577",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-laserjet-110v-fuser-maintenance-kit"
   },
   {
     "id": 54,
@@ -2130,7 +2183,8 @@ export const productsData = [
       "Printer Accessories",
       "USB3-15FT",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-high-speed-usb-30-printer-cable-15-feet"
   },
   {
     "id": 55,
@@ -2169,7 +2223,8 @@ export const productsData = [
       "Printer Accessories",
       "W8X25A",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-wireless-direct-print-usb-dongle"
   },
   {
     "id": 56,
@@ -2208,7 +2263,8 @@ export const productsData = [
       "Printer Accessories",
       "L2725-67901",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-laserjet-pickup-feed-roller-kit"
   },
   {
     "id": 57,
@@ -2247,7 +2303,8 @@ export const productsData = [
       "Printer Accessories",
       "0957-2385",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-deskjet-power-adapter-ac-cord"
   },
   {
     "id": 58,
@@ -2286,7 +2343,8 @@ export const productsData = [
       "Printer Accessories",
       "F2A73A",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-laserjet-cabinet-stand-with-locking-wheels"
   },
   {
     "id": 59,
@@ -2325,7 +2383,8 @@ export const productsData = [
       "Printer Accessories",
       "COVER-XL",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-heavy-duty-printer-dust-cover-enclosure"
   },
   {
     "id": 60,
@@ -2364,7 +2423,8 @@ export const productsData = [
       "Printer Accessories",
       "J7961G",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-gigabit-ethernet-101001000t-eio-card"
   },
   {
     "id": 61,
@@ -2403,7 +2463,8 @@ export const productsData = [
       "Printer Accessories",
       "BT-500",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-mobile-bluetooth-50-printer-adapter"
   },
   {
     "id": 62,
@@ -2442,7 +2503,8 @@ export const productsData = [
       "Printer Accessories",
       "CB524A",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-envelope-feeder-tray-attachment"
   },
   {
     "id": 63,
@@ -2481,7 +2543,8 @@ export const productsData = [
       "Printer Accessories",
       "B5L28A",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-laserjet-3-bin-stapler-stacker-output-unit"
   },
   {
     "id": 64,
@@ -2520,7 +2583,8 @@ export const productsData = [
       "Printer Accessories",
       "USBC-6FT",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-usb-c-to-usb-b-printer-adapter-cable-6-feet"
   },
   {
     "id": 65,
@@ -2559,7 +2623,8 @@ export const productsData = [
       "Paper & Media",
       "CR668A",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-premium-plus-glossy-photo-paper-85x11-50-sheets"
   },
   {
     "id": 66,
@@ -2598,7 +2663,8 @@ export const productsData = [
       "Paper & Media",
       "112000",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-multipurpose-20-lb-copy-paper-500-sheets"
   },
   {
     "id": 67,
@@ -2637,7 +2703,8 @@ export const productsData = [
       "Paper & Media",
       "Q8723A",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-everyday-photo-paper-glossy-4x6-100-sheets"
   },
   {
     "id": 68,
@@ -2676,7 +2743,8 @@ export const productsData = [
       "Paper & Media",
       "112400",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-premium-choice-laser-paper-32-lb-500-sheets"
   },
   {
     "id": 69,
@@ -2715,7 +2783,8 @@ export const productsData = [
       "Paper & Media",
       "Q6545A",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-professional-matte-brochure-paper-100-sheets"
   },
   {
     "id": 70,
@@ -2754,7 +2823,8 @@ export const productsData = [
       "Paper & Media",
       "HG208A",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-glossy-photo-cards-5x7-60-sheets"
   },
   {
     "id": 71,
@@ -2793,7 +2863,8 @@ export const productsData = [
       "Paper & Media",
       "207000",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-100-recycled-20-lb-copy-paper-500-sheets"
   },
   {
     "id": 72,
@@ -2832,7 +2903,8 @@ export const productsData = [
       "Paper & Media",
       "Q8027A",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-premium-plus-soft-gloss-photo-paper-85x11"
   },
   {
     "id": 73,
@@ -2871,7 +2943,8 @@ export const productsData = [
       "Paper & Media",
       "HP2825",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-heavyweight-project-paper-28-lb-250-sheets"
   },
   {
     "id": 74,
@@ -2910,7 +2983,8 @@ export const productsData = [
       "Paper & Media",
       "Q2525A",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-glossy-tri-fold-brochure-paper-100-sheets"
   },
   {
     "id": 75,
@@ -2949,7 +3023,8 @@ export const productsData = [
       "Paper & Media",
       "Q8674A",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-canvas-media-roll-24x50ft-wide-format"
   },
   {
     "id": 76,
@@ -2988,7 +3063,8 @@ export const productsData = [
       "Paper & Media",
       "C6831A",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-iron-on-heat-transfer-paper-for-light-fabrics-12-sheets"
   },
   {
     "id": 77,
@@ -3027,7 +3103,8 @@ export const productsData = [
       "Paper & Media",
       "Q1406A",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-presentation-paper-matte-24-lb-150-sheets"
   },
   {
     "id": 78,
@@ -3066,7 +3143,8 @@ export const productsData = [
       "Paper & Media",
       "CARD-110",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-heavy-duty-cover-cardstock-110-lb-100-sheets"
   },
   {
     "id": 79,
@@ -3105,7 +3183,8 @@ export const productsData = [
       "Paper & Media",
       "CR667A",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-premium-glossy-photo-paper-4x6-250-sheets-bulk"
   },
   {
     "id": 80,
@@ -3144,6 +3223,7 @@ export const productsData = [
       "Paper & Media",
       "HP2450",
       "Official HP"
-    ]
+    ],
+    "slug": "hp-bright-white-inkjet-paper-24-lb-500-sheets"
   }
 ];
