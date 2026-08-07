@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Mail, Phone, MapPin, Facebook, Linkedin, ChevronDown } from 'lucide-react'
+import { Mail, MapPin, Facebook, Linkedin, ChevronDown } from 'lucide-react'
 import { cn } from '../../utils/cn'
 
 export function Footer() {
@@ -39,7 +39,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-10">
           
-          {/* Logo & Intro - Significantly increased logo dimensions for maximum visibility */}
+          {/* Logo & Intro */}
           <div className="lg:col-span-1">
             <Link to="/" className="inline-block mb-4">
               <img
@@ -144,21 +144,15 @@ export function Footer() {
             <h4 className="font-extrabold text-white text-xs uppercase tracking-wider mb-3">
               CONTACT US
             </h4>
-            <ul className="space-y-2.5 text-[11px]">
-              <li className="flex items-start gap-2">
-                <Mail className="w-3.5 h-3.5 text-[#0096D6] shrink-0 mt-0.5" />
+            <ul className="space-y-3 text-[11px]">
+              <li className="flex items-start gap-2.5">
+                <Mail className="w-4 h-4 text-[#0096D6] shrink-0 mt-0.5" />
                 <a href="mailto:info@novainkllc.com" className="hover:text-[#0096D6] transition-colors">
                   info@novainkllc.com
                 </a>
               </li>
-              <li className="flex items-start gap-2">
-                <Phone className="w-3.5 h-3.5 text-[#0096D6] shrink-0 mt-0.5" />
-                <a href="tel:1234567890" className="hover:text-[#0096D6] transition-colors">
-                  (123) 456-7890
-                </a>
-              </li>
-              <li className="flex items-start gap-2">
-                <MapPin className="w-3.5 h-3.5 text-[#0096D6] shrink-0 mt-0.5" />
+              <li className="flex items-start gap-2.5">
+                <MapPin className="w-4 h-4 text-[#0096D6] shrink-0 mt-0.5" />
                 <span className="leading-relaxed">
                   8787 Shenandoah Park Dr, Apt 826, Shenandoah, TX
                 </span>
@@ -177,7 +171,7 @@ export function Footer() {
             <span className="px-2 py-1 bg-[#172136] border border-[#2A3855] rounded font-bold text-[9px] text-white">VISA</span>
             <span className="px-2 py-1 bg-[#172136] border border-[#2A3855] rounded font-bold text-[9px] text-white">Mastercard</span>
             <span className="px-2 py-1 bg-[#172136] border border-[#2A3855] rounded font-bold text-[9px] text-white">AMEX</span>
-            <span className="px-2 py-1 bg-[#172136] border border-[#2A3855] rounded font-bold text-[9px] text-[#ffffff]">PayPal</span>
+            <span className="px-2 py-1 bg-[#172136] border border-[#2A3855] rounded font-bold text-[9px] text-white">PayPal</span>
             <span className="px-2 py-1 bg-[#172136] border border-[#2A3855] rounded font-bold text-[9px] text-white">Apple Pay</span>
           </div>
         </div>

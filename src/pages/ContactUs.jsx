@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Navbar } from '../components/layout/Navbar'
 import { Newsletter } from '../components/sections/Newsletter'
 import { Footer } from '../components/layout/Footer'
-import { Mail, Phone, MapPin, Clock, Send, Printer, PackageCheck, RotateCcw, Building2 } from 'lucide-react'
+import { Mail, MapPin, Clock, Send, Printer, PackageCheck, RotateCcw, Building2 } from 'lucide-react'
 import { Button } from '../components/ui/Button'
 
 export function ContactUs() {
@@ -77,17 +77,6 @@ export function ContactUs() {
                     <h4 className="text-xs font-extrabold text-slate-900 uppercase">Email Us</h4>
                     <p className="text-xs text-slate-600 font-medium mt-0.5">info@novainkllc.com</p>
                     <p className="text-xs text-slate-600 font-medium">sales@novainkllc.com</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-xl bg-blue-50 text-[#0096D6] flex items-center justify-center shrink-0">
-                    <Phone className="w-5 h-5" />
-                  </div>
-                  <div>
-                    <h4 className="text-xs font-extrabold text-slate-900 uppercase">Call Support</h4>
-                    <p className="text-xs text-slate-600 font-medium mt-0.5">(123) 456-7890</p>
-                    <p className="text-[11px] text-slate-400">Toll-Free Nationwide</p>
                   </div>
                 </div>
 
