@@ -35,8 +35,14 @@ export function SupportPage() {
 
       <main className="flex-grow pt-24 pb-16">
         {/* Unified Subpage Hero Banner */}
-        <div className="bg-gradient-to-r from-[#0B132B] via-[#172136] to-[#0B132B] border-b border-[#2A3855] text-white py-14 px-4 sm:px-6 lg:px-8 mb-12 shadow-lg text-center">
-          <div className="max-w-7xl mx-auto">
+        <div
+          className="relative bg-cover bg-center sm:bg-fixed border-b border-[#2A3855] text-white py-14 px-4 sm:px-6 lg:px-8 mb-12 shadow-lg text-center overflow-hidden"
+          style={{ backgroundImage: `url('/images/hero/hero-support.jpg')` }}
+        >
+          {/* Overlay Gradient to maintain exact brand theme & 100% text legibility */}
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0B132B]/90 via-[#172136]/85 to-[#0B132B]/90 backdrop-blur-xs pointer-events-none" />
+
+          <div className="max-w-7xl mx-auto relative z-10">
             <span className="text-xs font-extrabold uppercase tracking-widest text-[#0096D6] bg-[#0096D6]/10 border border-[#0096D6]/20 px-3.5 py-1.5 rounded-full inline-block mb-3">
               HELP & SUPPORT
             </span>

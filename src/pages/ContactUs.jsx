@@ -45,8 +45,14 @@ export function ContactUs() {
 
       <main className="flex-grow pt-24 pb-16">
         {/* Unified Subpage Hero Banner */}
-        <div className="bg-gradient-to-r from-[#0B132B] via-[#172136] to-[#0B132B] border-b border-[#2A3855] text-white py-14 px-4 sm:px-6 lg:px-8 mb-12 shadow-lg text-center">
-          <div className="max-w-7xl mx-auto">
+        <div
+          className="relative bg-cover bg-center sm:bg-fixed border-b border-[#2A3855] text-white py-14 px-4 sm:px-6 lg:px-8 mb-12 shadow-lg text-center overflow-hidden"
+          style={{ backgroundImage: `url('/images/hero/hero-contact.jpg')` }}
+        >
+          {/* Overlay Gradient to maintain exact brand theme & 100% text legibility */}
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0B132B]/90 via-[#172136]/85 to-[#0B132B]/90 backdrop-blur-xs pointer-events-none" />
+
+          <div className="max-w-7xl mx-auto relative z-10">
             <span className="text-xs font-extrabold uppercase tracking-widest text-[#0096D6] bg-[#0096D6]/10 border border-[#0096D6]/20 px-3.5 py-1.5 rounded-full inline-block mb-3">
               GET IN TOUCH
             </span>
@@ -180,49 +186,43 @@ export function ContactUs() {
           </div>
         </div>
 
-        {/* NEW SECTION: What Can We Help You With? */}
+        {/* What Can We Help You With Section (Cleaned: Outer Container Card Removed) */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
-          <div className="bg-white border border-slate-200/80 rounded-3xl p-8 sm:p-12 lg:p-14 text-slate-900 shadow-xl relative overflow-hidden">
-            {/* Ambient Background Accent */}
-            <div className="absolute -top-24 -right-24 w-96 h-96 bg-[#0096D6]/5 rounded-full blur-3xl pointer-events-none" />
+          <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-12">
+            <span className="text-xs font-extrabold text-[#0096D6] uppercase tracking-widest bg-blue-50 border border-blue-100 px-3.5 py-1.5 rounded-full inline-block mb-3">
+              CUSTOMER ASSISTANCE
+            </span>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black uppercase tracking-tight text-slate-900 mb-3">
+              What Can We <span className="text-[#0096D6]">Help You With?</span>
+            </h2>
+            <p className="text-xs sm:text-sm text-slate-600 font-medium leading-relaxed">
+              Whether you're shopping for a printer, tracking an order, or looking for business solutions, our team is here to help.
+            </p>
+          </div>
 
-            <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-12 relative z-10">
-              <span className="text-xs font-extrabold text-[#0096D6] uppercase tracking-widest bg-blue-50 border border-blue-100 px-3.5 py-1.5 rounded-full inline-block mb-3">
-                CUSTOMER ASSISTANCE
-              </span>
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black uppercase tracking-tight text-slate-900 mb-3">
-                What Can We <span className="text-[#0096D6]">Help You With?</span>
-              </h2>
-              <p className="text-xs sm:text-sm text-slate-600 font-medium leading-relaxed">
-                Whether you're shopping for a printer, tracking an order, or looking for business solutions, our team is here to help.
-              </p>
-            </div>
-
-            {/* 4 Card Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 relative z-10">
-              {helpCards.map((card, idx) => {
-                const Icon = card.icon
-                return (
-                  <div
-                    key={idx}
-                    className="bg-slate-50 border border-slate-200/90 hover:border-[#0096D6] rounded-2xl p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg shadow-xs group flex flex-col justify-between cursor-default"
-                  >
-                    <div>
-                      <div className="w-12 h-12 rounded-xl bg-blue-50 border border-blue-100 text-[#0096D6] flex items-center justify-center mb-5 group-hover:bg-[#0096D6] group-hover:text-white transition-colors duration-300 shrink-0">
-                        <Icon className="w-6 h-6 stroke-[2]" />
-                      </div>
-                      <h3 className="text-sm font-extrabold text-slate-900 mb-2 uppercase tracking-wide group-hover:text-[#0096D6] transition-colors">
-                        {card.title}
-                      </h3>
-                      <p className="text-xs text-slate-600 font-medium leading-relaxed">
-                        {card.desc}
-                      </p>
+          {/* 4 Card Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {helpCards.map((card, idx) => {
+              const Icon = card.icon
+              return (
+                <div
+                  key={idx}
+                  className="bg-white border border-slate-200/90 hover:border-[#0096D6] rounded-2xl p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg shadow-xs group flex flex-col justify-between cursor-default"
+                >
+                  <div>
+                    <div className="w-12 h-12 rounded-xl bg-blue-50 border border-blue-100 text-[#0096D6] flex items-center justify-center mb-5 group-hover:bg-[#0096D6] group-hover:text-white transition-colors duration-300 shrink-0">
+                      <Icon className="w-6 h-6 stroke-[2]" />
                     </div>
+                    <h3 className="text-sm font-extrabold text-slate-900 mb-2 uppercase tracking-wide group-hover:text-[#0096D6] transition-colors">
+                      {card.title}
+                    </h3>
+                    <p className="text-xs text-slate-600 font-medium leading-relaxed">
+                      {card.desc}
+                    </p>
                   </div>
-                )
-              })}
-            </div>
-
+                </div>
+              )
+            })}
           </div>
         </div>
 

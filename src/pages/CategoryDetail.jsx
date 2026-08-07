@@ -1,9 +1,10 @@
-import React, { useState, useMemo } from 'react'
+import React, { useState, useMemo, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { Navbar } from '../components/layout/Navbar'
 import { Newsletter } from '../components/sections/Newsletter'
 import { Footer } from '../components/layout/Footer'
 import { ProductCard } from '../components/ui/ProductCard'
+import { Pagination } from '../components/ui/Pagination'
 import { productsData } from '../data/products'
 import { categoriesData } from '../data/categories'
 import { Search, Filter, ArrowLeft } from 'lucide-react'
@@ -12,15 +13,19 @@ export function CategoryDetail() {
   const { categoryId } = useParams()
   const [searchQuery, setSearchQuery] = useState('')
   const [sortBy, setSortBy] = useState('featured')
+  const [currentPage, setCurrentPage] = useState(1)
 
-  // Find category metadata or default to first
+  const itemsPerPage = 12
+
+  // Find category metadata or default to matching slug/id
   const category = categoriesData.find(
     (c) => c.id === categoryId || c.slug === categoryId
   ) || categoriesData[0]
 
+  const targetId = category?.id || categoryId
+
   // Filter products for this specific category
-  const categoryProducts = useMemo(() => {
-    const targetId = category.id || categoryId
+  const filteredProducts = useMemo(() => {
     return productsData
       .filter((product) => {
         const matchesCategory = product.category === targetId
@@ -35,15 +40,33 @@ export function CategoryDetail() {
         if (sortBy === 'price-high') return b.price - a.price
         return 0
       })
-  }, [categoryId, category.id, searchQuery, sortBy])
+  }, [targetId, searchQuery, sortBy])
+
+  // Reset to page 1 whenever search, category, or sorting changes
+  useEffect(() => {
+    setCurrentPage(1)
+  }, [categoryId, searchQuery, sortBy])
+
+  // Calculate Pagination
+  const totalPages = Math.ceil(filteredProducts.length / itemsPerPage)
+  const paginatedProducts = useMemo(() => {
+    const start = (currentPage - 1) * itemsPerPage
+    return filteredProducts.slice(start, start + itemsPerPage)
+  }, [filteredProducts, currentPage, itemsPerPage])
 
   return (
     <div className="min-h-screen bg-[#F8FAFC] text-slate-800 flex flex-col font-['Manrope',sans-serif] selection:bg-[#0096D6] selection:text-white">
       <Navbar />
 
-      <main className="flex-grow pt-24">
+      <main className="flex-grow pt-24 pb-16">
         {/* Unified Subpage Hero Banner */}
-        <div className="bg-gradient-to-r from-[#0B132B] via-[#172136] to-[#0B132B] border-b border-[#2A3855] text-white py-14 px-4 sm:px-6 lg:px-8 mb-10 shadow-lg text-center relative overflow-hidden">
+        <div
+          className="relative bg-cover bg-center sm:bg-fixed border-b border-[#2A3855] text-white py-14 px-4 sm:px-6 lg:px-8 mb-10 shadow-lg text-center overflow-hidden"
+          style={{ backgroundImage: `url('/images/hero/hero-categories.jpg')` }}
+        >
+          {/* Overlay Gradient to maintain exact brand theme & 100% text legibility */}
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0B132B]/90 via-[#172136]/85 to-[#0B132B]/90 backdrop-blur-xs pointer-events-none" />
+
           <div className="max-w-7xl mx-auto relative z-10">
             <span className="text-xs font-extrabold uppercase tracking-widest text-[#0096D6] bg-[#0096D6]/10 border border-[#0096D6]/20 px-3.5 py-1.5 rounded-full inline-block mb-3">
               OFFICIAL HP CATEGORY
@@ -52,7 +75,7 @@ export function CategoryDetail() {
               {category.title}
             </h1>
             <p className="text-xs sm:text-sm text-slate-300 font-medium max-w-xl mx-auto">
-              {category.description} • Showing {categoryProducts.length} Premium HP Products
+              {category.description} • {filteredProducts.length} Products Found
             </p>
           </div>
         </div>
@@ -70,7 +93,7 @@ export function CategoryDetail() {
           </div>
 
           {/* Search & Sort Controls Bar */}
-          <div className="bg-white rounded-2xl p-4 sm:p-6 border border-slate-200/80 shadow-xs mb-8 flex flex-col sm:flex-row gap-4 items-center justify-between">
+          <div className="bg-white rounded-2xl p-4 sm:p-6 border border-slate-200/80 shadow-xs mb-6 flex flex-col sm:flex-row gap-4 items-center justify-between">
             
             {/* Category Product Search */}
             <div className="relative w-full sm:w-80">
@@ -90,7 +113,7 @@ export function CategoryDetail() {
               <select
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value)}
-                className="bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-xs font-bold text-slate-700 focus:outline-none focus:border-[#0096D6]"
+                className="bg-[#F8FAFC] border border-slate-200 rounded-xl px-3 py-2 text-xs font-bold text-slate-700 focus:outline-none focus:border-[#0096D6]"
               >
                 <option value="featured">Sort: Featured</option>
                 <option value="price-low">Price: Low to High</option>
@@ -100,13 +123,34 @@ export function CategoryDetail() {
 
           </div>
 
-          {/* Product Grid (16+ HP Products per Category) */}
-          {categoryProducts.length > 0 ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-              {categoryProducts.map((product) => (
-                <ProductCard key={product.id} product={product} />
-              ))}
-            </div>
+          {/* Product Count & Range Info */}
+          <div className="mb-6 flex items-center justify-between text-xs font-bold text-slate-500">
+            <span>
+              Showing {filteredProducts.length > 0 ? (currentPage - 1) * itemsPerPage + 1 : 0}–{Math.min(currentPage * itemsPerPage, filteredProducts.length)} of {filteredProducts.length} Products Found
+            </span>
+            {totalPages > 1 && (
+              <span>
+                Page {currentPage} of {totalPages}
+              </span>
+            )}
+          </div>
+
+          {/* Product Grid */}
+          {paginatedProducts.length > 0 ? (
+            <>
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-8">
+                {paginatedProducts.map((product) => (
+                  <ProductCard key={product.id} product={product} />
+                ))}
+              </div>
+
+              {/* Pagination Controls if > 12 items */}
+              <Pagination
+                currentPage={currentPage}
+                totalPages={totalPages}
+                onPageChange={setCurrentPage}
+              />
+            </>
           ) : (
             <div className="text-center py-16 bg-white rounded-2xl border border-slate-200 shadow-sm">
               <p className="text-slate-500 font-bold text-sm">

@@ -19,19 +19,18 @@ export function Footer() {
   ]
 
   const companyLinks = [
-    { name: 'About Us', href: '/about' },
-    { name: 'Contact Us', href: '/contact' },
-    { name: 'Shipping Policy', href: '/support' },
-    { name: 'Return Policy', href: '/support' },
-    { name: 'Privacy Policy', href: '/about' }
+    { name: 'About Us', href: '/about-us' },
+    { name: 'Solutions', href: '/solutions' },
+    { name: 'Categories', href: '/categories' },
+    { name: 'Support', href: '/support' },
+    { name: 'Contact Us', href: '/contact-us' }
   ]
 
   const supportLinks = [
-    { name: 'FAQs', href: '/support' },
-    { name: 'Warranty', href: '/support' },
-    { name: 'My Account', href: '/about' },
-    { name: 'Order Tracking', href: '/support' },
-    { name: 'Help Center', href: '/support' }
+    { name: 'Privacy Policy', href: '/privacy-policy' },
+    { name: 'Terms & Conditions', href: '/terms-and-conditions' },
+    { name: 'Return Policy', href: '/return-policy' },
+    { name: "Buyer's Guide", href: '/buyers-guide' }
   ]
 
   return (
@@ -45,7 +44,7 @@ export function Footer() {
               <img
                 src="/images/footer-logo.png"
                 alt="Nova Ink LLC"
-                className="w-52 sm:w-60 md:w-64 lg:w-72 h-auto max-w-full object-contain"
+                className="w-44 sm:w-52 md:w-56 lg:w-[230px] h-auto max-w-full object-contain"
               />
             </Link>
             <p className="text-[11px] text-slate-400 leading-relaxed mb-5 font-medium">

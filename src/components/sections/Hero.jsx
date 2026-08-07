@@ -148,10 +148,10 @@ export function Hero() {
                     <button
                       key={img.id}
                       onClick={() => triggerImageChange(idx)}
-                      className={`relative w-16 h-16 sm:w-20 sm:h-20 lg:w-20 lg:h-20 rounded-2xl p-1.5 transition-all duration-300 cursor-pointer flex items-center justify-center shrink-0 ${
+                      className={`appearance-none bg-white relative w-16 h-16 sm:w-20 sm:h-20 lg:w-[84px] lg:h-[84px] rounded-[16px] overflow-hidden p-2 transition-all duration-300 cursor-pointer flex items-center justify-center shrink-0 border focus:outline-none focus-visible:ring-2 focus-visible:ring-[#0096D6] ${
                         isActive
-                          ? 'bg-white border-2 border-[#0096D6] shadow-md shadow-[#0096D6]/20 ring-2 ring-[#0096D6]/20 scale-105'
-                          : 'bg-white/80 border border-slate-200/90 hover:border-[#0096D6]/60 hover:bg-white opacity-80 hover:opacity-100'
+                          ? 'border-2 border-[#0096D6] shadow-[0_12px_30px_rgba(0,150,214,0.15)]'
+                          : 'border-slate-200 hover:-translate-y-0.75 hover:shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:border-[#0096D6]'
                       }`}
                       title={img.title}
                       aria-label={`Select ${img.title}`}
@@ -159,9 +159,7 @@ export function Hero() {
                       <img
                         src={img.src}
                         alt={img.alt}
-                        width="80"
-                        height="80"
-                        className="w-full h-full object-contain rounded-xl"
+                        className="w-full h-full object-contain mix-blend-multiply"
                         loading="lazy"
                       />
                     </button>
