@@ -64,7 +64,17 @@ export const productsData = [
       "6055e",
       "Official HP"
     ],
-    "slug": "hp-envy-6055e-all-in-one-printer"
+    "slug": "hp-envy-6055e-all-in-one-printer",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 2,
@@ -104,7 +114,17 @@ export const productsData = [
       "2755e",
       "Official HP"
     ],
-    "slug": "hp-deskjet-2755e-wireless-color-all-in-one"
+    "slug": "hp-deskjet-2755e-wireless-color-all-in-one",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 3,
@@ -144,7 +164,17 @@ export const productsData = [
       "7955e",
       "Official HP"
     ],
-    "slug": "hp-envy-inspire-7955e-wireless-photo-printer"
+    "slug": "hp-envy-inspire-7955e-wireless-photo-printer",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 4,
@@ -184,7 +214,17 @@ export const productsData = [
       "5101",
       "Official HP"
     ],
-    "slug": "hp-smart-tank-5101-wireless-all-in-one"
+    "slug": "hp-smart-tank-5101-wireless-all-in-one",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 5,
@@ -224,7 +264,17 @@ export const productsData = [
       "6455e",
       "Official HP"
     ],
-    "slug": "hp-envy-6455e-wireless-color-all-in-one"
+    "slug": "hp-envy-6455e-wireless-color-all-in-one",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 6,
@@ -264,7 +314,17 @@ export const productsData = [
       "3755",
       "Official HP"
     ],
-    "slug": "hp-deskjet-3755-compact-wireless-all-in-one"
+    "slug": "hp-deskjet-3755-compact-wireless-all-in-one",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 7,
@@ -304,7 +364,17 @@ export const productsData = [
       "7001",
       "Official HP"
     ],
-    "slug": "hp-smart-tank-7001-wireless-all-in-one"
+    "slug": "hp-smart-tank-7001-wireless-all-in-one",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 8,
@@ -344,7 +414,17 @@ export const productsData = [
       "7255e",
       "Official HP"
     ],
-    "slug": "hp-envy-inspire-7255e-photo-printer"
+    "slug": "hp-envy-inspire-7255e-photo-printer",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 9,
@@ -384,7 +464,17 @@ export const productsData = [
       "4155e",
       "Official HP"
     ],
-    "slug": "hp-deskjet-4155e-all-in-one-printer"
+    "slug": "hp-deskjet-4155e-all-in-one-printer",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 10,
@@ -424,7 +514,17 @@ export const productsData = [
       "7301",
       "Official HP"
     ],
-    "slug": "hp-smart-tank-7301-wireless-all-in-one"
+    "slug": "hp-smart-tank-7301-wireless-all-in-one",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 11,
@@ -464,7 +564,17 @@ export const productsData = [
       "7855",
       "Official HP"
     ],
-    "slug": "hp-envy-photo-7855-wireless-all-in-one"
+    "slug": "hp-envy-photo-7855-wireless-all-in-one",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 12,
@@ -504,7 +614,17 @@ export const productsData = [
       "4122",
       "Official HP"
     ],
-    "slug": "hp-deskjet-plus-4122-wireless-all-in-one"
+    "slug": "hp-deskjet-plus-4122-wireless-all-in-one",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 13,
@@ -544,7 +664,17 @@ export const productsData = [
       "Tango",
       "Official HP"
     ],
-    "slug": "hp-tango-smart-wireless-home-printer"
+    "slug": "hp-tango-smart-wireless-home-printer",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 14,
@@ -584,7 +714,17 @@ export const productsData = [
       "Sprocket",
       "Official HP"
     ],
-    "slug": "hp-sprocket-select-portable-photo-printer"
+    "slug": "hp-sprocket-select-portable-photo-printer",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 15,
@@ -624,7 +764,17 @@ export const productsData = [
       "6075",
       "Official HP"
     ],
-    "slug": "hp-envy-6075-all-in-one-wireless-printer"
+    "slug": "hp-envy-6075-all-in-one-wireless-printer",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 16,
@@ -664,7 +814,17 @@ export const productsData = [
       "2722e",
       "Official HP"
     ],
-    "slug": "hp-deskjet-2722e-wireless-color-printer"
+    "slug": "hp-deskjet-2722e-wireless-color-printer",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 17,
@@ -704,7 +864,17 @@ export const productsData = [
       "M404dn",
       "Official HP"
     ],
-    "slug": "hp-laserjet-pro-m404dn-monochrome-laser"
+    "slug": "hp-laserjet-pro-m404dn-monochrome-laser",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 18,
@@ -744,7 +914,17 @@ export const productsData = [
       "9015e",
       "Official HP"
     ],
-    "slug": "hp-officejet-pro-9015e-wireless-all-in-one"
+    "slug": "hp-officejet-pro-9015e-wireless-all-in-one",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 19,
@@ -784,7 +964,17 @@ export const productsData = [
       "M283fdw",
       "Official HP"
     ],
-    "slug": "hp-color-laserjet-pro-m283fdw-wireless-mfp"
+    "slug": "hp-color-laserjet-pro-m283fdw-wireless-mfp",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 20,
@@ -824,7 +1014,17 @@ export const productsData = [
       "2604dw",
       "Official HP"
     ],
-    "slug": "hp-laserjet-tank-mfp-2604dw-wireless-printer"
+    "slug": "hp-laserjet-tank-mfp-2604dw-wireless-printer",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 21,
@@ -864,7 +1064,17 @@ export const productsData = [
       "8025e",
       "Official HP"
     ],
-    "slug": "hp-officejet-pro-8025e-all-in-one-printer"
+    "slug": "hp-officejet-pro-8025e-all-in-one-printer",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 22,
@@ -904,7 +1114,17 @@ export const productsData = [
       "M428fdw",
       "Official HP"
     ],
-    "slug": "hp-laserjet-pro-mfp-m428fdw-laser-printer"
+    "slug": "hp-laserjet-pro-mfp-m428fdw-laser-printer",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 23,
@@ -944,7 +1164,17 @@ export const productsData = [
       "M455dn",
       "Official HP"
     ],
-    "slug": "hp-color-laserjet-enterprise-m455dn"
+    "slug": "hp-color-laserjet-enterprise-m455dn",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 24,
@@ -984,7 +1214,17 @@ export const productsData = [
       "9025e",
       "Official HP"
     ],
-    "slug": "hp-officejet-pro-9025e-all-in-one-printer"
+    "slug": "hp-officejet-pro-9025e-all-in-one-printer",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 25,
@@ -1024,7 +1264,17 @@ export const productsData = [
       "M501dn",
       "Official HP"
     ],
-    "slug": "hp-laserjet-pro-m501dn-high-speed-laser"
+    "slug": "hp-laserjet-pro-m501dn-high-speed-laser",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 26,
@@ -1064,7 +1314,17 @@ export const productsData = [
       "M454dw",
       "Official HP"
     ],
-    "slug": "hp-color-laserjet-pro-m454dw-wireless-laser"
+    "slug": "hp-color-laserjet-pro-m454dw-wireless-laser",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 27,
@@ -1104,7 +1364,17 @@ export const productsData = [
       "8035e",
       "Official HP"
     ],
-    "slug": "hp-officejet-pro-8035e-all-in-one-printer"
+    "slug": "hp-officejet-pro-8035e-all-in-one-printer",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 28,
@@ -1144,7 +1414,17 @@ export const productsData = [
       "M507x",
       "Official HP"
     ],
-    "slug": "hp-laserjet-enterprise-m507x-business-laser"
+    "slug": "hp-laserjet-enterprise-m507x-business-laser",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 29,
@@ -1184,7 +1464,17 @@ export const productsData = [
       "X585f",
       "Official HP"
     ],
-    "slug": "hp-officejet-enterprise-color-mfp-x585f"
+    "slug": "hp-officejet-enterprise-color-mfp-x585f",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 30,
@@ -1224,7 +1514,17 @@ export const productsData = [
       "M182n",
       "Official HP"
     ],
-    "slug": "hp-color-laserjet-pro-mfp-m182n"
+    "slug": "hp-color-laserjet-pro-mfp-m182n",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 31,
@@ -1264,7 +1564,17 @@ export const productsData = [
       "M203dw",
       "Official HP"
     ],
-    "slug": "hp-laserjet-pro-m203dw-wireless-laser-printer"
+    "slug": "hp-laserjet-pro-m203dw-wireless-laser-printer",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 32,
@@ -1304,7 +1614,17 @@ export const productsData = [
       "9010",
       "Official HP"
     ],
-    "slug": "hp-officejet-pro-9010-all-in-one-printer"
+    "slug": "hp-officejet-pro-9010-all-in-one-printer",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 33,
@@ -1344,7 +1664,17 @@ export const productsData = [
       "3YM57AN",
       "Official HP"
     ],
-    "slug": "hp-67xl-high-yield-original-black-ink-cartridge"
+    "slug": "hp-67xl-high-yield-original-black-ink-cartridge",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 34,
@@ -1384,7 +1714,17 @@ export const productsData = [
       "3YP34AN",
       "Official HP"
     ],
-    "slug": "hp-910xl-cyanmagentayellow-3-pack-ink-set"
+    "slug": "hp-910xl-cyanmagentayellow-3-pack-ink-set",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 35,
@@ -1424,7 +1764,17 @@ export const productsData = [
       "CF258A",
       "Official HP"
     ],
-    "slug": "hp-58a-black-original-laserjet-toner-cartridge"
+    "slug": "hp-58a-black-original-laserjet-toner-cartridge",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 36,
@@ -1464,7 +1814,17 @@ export const productsData = [
       "W2110A",
       "Official HP"
     ],
-    "slug": "hp-206a-black-original-laserjet-toner-cartridge"
+    "slug": "hp-206a-black-original-laserjet-toner-cartridge",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 37,
@@ -1504,7 +1864,17 @@ export const productsData = [
       "F6U19AN",
       "Official HP"
     ],
-    "slug": "hp-952xl-high-yield-black-original-ink-cartridge"
+    "slug": "hp-952xl-high-yield-black-original-ink-cartridge",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 38,
@@ -1544,7 +1914,17 @@ export const productsData = [
       "N9J92AN",
       "Official HP"
     ],
-    "slug": "hp-64xl-high-yield-black-original-ink-cartridge"
+    "slug": "hp-64xl-high-yield-black-original-ink-cartridge",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 39,
@@ -1584,7 +1964,17 @@ export const productsData = [
       "206A-3PK",
       "Official HP"
     ],
-    "slug": "hp-206a-cyanmagentayellow-3-pack-toner-set"
+    "slug": "hp-206a-cyanmagentayellow-3-pack-toner-set",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 40,
@@ -1624,7 +2014,17 @@ export const productsData = [
       "W2020A",
       "Official HP"
     ],
-    "slug": "hp-414a-black-original-laserjet-toner-cartridge"
+    "slug": "hp-414a-black-original-laserjet-toner-cartridge",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 41,
@@ -1664,7 +2064,17 @@ export const productsData = [
       "F6U64AN",
       "Official HP"
     ],
-    "slug": "hp-63xl-high-yield-black-original-ink-cartridge"
+    "slug": "hp-63xl-high-yield-black-original-ink-cartridge",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 42,
@@ -1704,7 +2114,17 @@ export const productsData = [
       "T6M14AN",
       "Official HP"
     ],
-    "slug": "hp-902xl-high-yield-black-original-ink-cartridge"
+    "slug": "hp-902xl-high-yield-black-original-ink-cartridge",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 43,
@@ -1744,7 +2164,17 @@ export const productsData = [
       "W2310A",
       "Official HP"
     ],
-    "slug": "hp-215a-black-original-laserjet-toner-cartridge"
+    "slug": "hp-215a-black-original-laserjet-toner-cartridge",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 44,
@@ -1784,7 +2214,17 @@ export const productsData = [
       "3JA03AN",
       "Official HP"
     ],
-    "slug": "hp-962xl-high-yield-black-original-ink-cartridge"
+    "slug": "hp-962xl-high-yield-black-original-ink-cartridge",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 45,
@@ -1824,7 +2264,17 @@ export const productsData = [
       "CE410A",
       "Official HP"
     ],
-    "slug": "hp-305a-black-original-laserjet-toner-cartridge"
+    "slug": "hp-305a-black-original-laserjet-toner-cartridge",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 46,
@@ -1864,7 +2314,17 @@ export const productsData = [
       "CH563WN",
       "Official HP"
     ],
-    "slug": "hp-61xl-high-yield-black-original-ink-cartridge"
+    "slug": "hp-61xl-high-yield-black-original-ink-cartridge",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 47,
@@ -1904,7 +2364,17 @@ export const productsData = [
       "W1340A",
       "Official HP"
     ],
-    "slug": "hp-134a-black-original-laserjet-toner-cartridge"
+    "slug": "hp-134a-black-original-laserjet-toner-cartridge",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 48,
@@ -1944,7 +2414,17 @@ export const productsData = [
       "CN045AN",
       "Official HP"
     ],
-    "slug": "hp-950xl-high-yield-black-ink-cartridge"
+    "slug": "hp-950xl-high-yield-black-ink-cartridge",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 49,
@@ -1984,7 +2464,17 @@ export const productsData = [
       "USB-10FT",
       "Official HP"
     ],
-    "slug": "hp-high-speed-usb-20-printer-cable-10-feet"
+    "slug": "hp-high-speed-usb-20-printer-cable-10-feet",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 50,
@@ -2024,7 +2514,17 @@ export const productsData = [
       "D9P29A",
       "Official HP"
     ],
-    "slug": "hp-auto-duplex-250-sheet-paper-feeder-tray"
+    "slug": "hp-auto-duplex-250-sheet-paper-feeder-tray",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 51,
@@ -2064,7 +2564,17 @@ export const productsData = [
       "F2A72A",
       "Official HP"
     ],
-    "slug": "hp-laserjet-550-sheet-feeder-tray"
+    "slug": "hp-laserjet-550-sheet-feeder-tray",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 52,
@@ -2104,7 +2614,17 @@ export const productsData = [
       "J8031A",
       "Official HP"
     ],
-    "slug": "hp-jetdirect-2900nw-print-server-adapter"
+    "slug": "hp-jetdirect-2900nw-print-server-adapter",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 53,
@@ -2144,7 +2664,17 @@ export const productsData = [
       "RM2-2577",
       "Official HP"
     ],
-    "slug": "hp-laserjet-110v-fuser-maintenance-kit"
+    "slug": "hp-laserjet-110v-fuser-maintenance-kit",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 54,
@@ -2184,7 +2714,17 @@ export const productsData = [
       "USB3-15FT",
       "Official HP"
     ],
-    "slug": "hp-high-speed-usb-30-printer-cable-15-feet"
+    "slug": "hp-high-speed-usb-30-printer-cable-15-feet",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 55,
@@ -2224,7 +2764,17 @@ export const productsData = [
       "W8X25A",
       "Official HP"
     ],
-    "slug": "hp-wireless-direct-print-usb-dongle"
+    "slug": "hp-wireless-direct-print-usb-dongle",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 56,
@@ -2264,7 +2814,17 @@ export const productsData = [
       "L2725-67901",
       "Official HP"
     ],
-    "slug": "hp-laserjet-pickup-feed-roller-kit"
+    "slug": "hp-laserjet-pickup-feed-roller-kit",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 57,
@@ -2304,7 +2864,17 @@ export const productsData = [
       "0957-2385",
       "Official HP"
     ],
-    "slug": "hp-deskjet-power-adapter-ac-cord"
+    "slug": "hp-deskjet-power-adapter-ac-cord",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 58,
@@ -2344,7 +2914,17 @@ export const productsData = [
       "F2A73A",
       "Official HP"
     ],
-    "slug": "hp-laserjet-cabinet-stand-with-locking-wheels"
+    "slug": "hp-laserjet-cabinet-stand-with-locking-wheels",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 59,
@@ -2384,7 +2964,17 @@ export const productsData = [
       "COVER-XL",
       "Official HP"
     ],
-    "slug": "hp-heavy-duty-printer-dust-cover-enclosure"
+    "slug": "hp-heavy-duty-printer-dust-cover-enclosure",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 60,
@@ -2424,7 +3014,17 @@ export const productsData = [
       "J7961G",
       "Official HP"
     ],
-    "slug": "hp-gigabit-ethernet-101001000t-eio-card"
+    "slug": "hp-gigabit-ethernet-101001000t-eio-card",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 61,
@@ -2464,7 +3064,17 @@ export const productsData = [
       "BT-500",
       "Official HP"
     ],
-    "slug": "hp-mobile-bluetooth-50-printer-adapter"
+    "slug": "hp-mobile-bluetooth-50-printer-adapter",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 62,
@@ -2504,7 +3114,17 @@ export const productsData = [
       "CB524A",
       "Official HP"
     ],
-    "slug": "hp-envelope-feeder-tray-attachment"
+    "slug": "hp-envelope-feeder-tray-attachment",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 63,
@@ -2544,7 +3164,17 @@ export const productsData = [
       "B5L28A",
       "Official HP"
     ],
-    "slug": "hp-laserjet-3-bin-stapler-stacker-output-unit"
+    "slug": "hp-laserjet-3-bin-stapler-stacker-output-unit",
+    "images": [
+      "/images/products/prod_hp_laserjet.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 64,
@@ -2584,7 +3214,17 @@ export const productsData = [
       "USBC-6FT",
       "Official HP"
     ],
-    "slug": "hp-usb-c-to-usb-b-printer-adapter-cable-6-feet"
+    "slug": "hp-usb-c-to-usb-b-printer-adapter-cable-6-feet",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 65,
@@ -2624,7 +3264,17 @@ export const productsData = [
       "CR668A",
       "Official HP"
     ],
-    "slug": "hp-premium-plus-glossy-photo-paper-85x11-50-sheets"
+    "slug": "hp-premium-plus-glossy-photo-paper-85x11-50-sheets",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 66,
@@ -2664,7 +3314,17 @@ export const productsData = [
       "112000",
       "Official HP"
     ],
-    "slug": "hp-multipurpose-20-lb-copy-paper-500-sheets"
+    "slug": "hp-multipurpose-20-lb-copy-paper-500-sheets",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 67,
@@ -2704,7 +3364,17 @@ export const productsData = [
       "Q8723A",
       "Official HP"
     ],
-    "slug": "hp-everyday-photo-paper-glossy-4x6-100-sheets"
+    "slug": "hp-everyday-photo-paper-glossy-4x6-100-sheets",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 68,
@@ -2744,7 +3414,17 @@ export const productsData = [
       "112400",
       "Official HP"
     ],
-    "slug": "hp-premium-choice-laser-paper-32-lb-500-sheets"
+    "slug": "hp-premium-choice-laser-paper-32-lb-500-sheets",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 69,
@@ -2784,7 +3464,17 @@ export const productsData = [
       "Q6545A",
       "Official HP"
     ],
-    "slug": "hp-professional-matte-brochure-paper-100-sheets"
+    "slug": "hp-professional-matte-brochure-paper-100-sheets",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 70,
@@ -2824,7 +3514,17 @@ export const productsData = [
       "HG208A",
       "Official HP"
     ],
-    "slug": "hp-glossy-photo-cards-5x7-60-sheets"
+    "slug": "hp-glossy-photo-cards-5x7-60-sheets",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 71,
@@ -2864,7 +3564,17 @@ export const productsData = [
       "207000",
       "Official HP"
     ],
-    "slug": "hp-100-recycled-20-lb-copy-paper-500-sheets"
+    "slug": "hp-100-recycled-20-lb-copy-paper-500-sheets",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 72,
@@ -2904,7 +3614,17 @@ export const productsData = [
       "Q8027A",
       "Official HP"
     ],
-    "slug": "hp-premium-plus-soft-gloss-photo-paper-85x11"
+    "slug": "hp-premium-plus-soft-gloss-photo-paper-85x11",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 73,
@@ -2944,7 +3664,17 @@ export const productsData = [
       "HP2825",
       "Official HP"
     ],
-    "slug": "hp-heavyweight-project-paper-28-lb-250-sheets"
+    "slug": "hp-heavyweight-project-paper-28-lb-250-sheets",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 74,
@@ -2984,7 +3714,17 @@ export const productsData = [
       "Q2525A",
       "Official HP"
     ],
-    "slug": "hp-glossy-tri-fold-brochure-paper-100-sheets"
+    "slug": "hp-glossy-tri-fold-brochure-paper-100-sheets",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 75,
@@ -3024,7 +3764,17 @@ export const productsData = [
       "Q8674A",
       "Official HP"
     ],
-    "slug": "hp-canvas-media-roll-24x50ft-wide-format"
+    "slug": "hp-canvas-media-roll-24x50ft-wide-format",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 76,
@@ -3064,7 +3814,17 @@ export const productsData = [
       "C6831A",
       "Official HP"
     ],
-    "slug": "hp-iron-on-heat-transfer-paper-for-light-fabrics-12-sheets"
+    "slug": "hp-iron-on-heat-transfer-paper-for-light-fabrics-12-sheets",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 77,
@@ -3104,7 +3864,17 @@ export const productsData = [
       "Q1406A",
       "Official HP"
     ],
-    "slug": "hp-presentation-paper-matte-24-lb-150-sheets"
+    "slug": "hp-presentation-paper-matte-24-lb-150-sheets",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 78,
@@ -3144,7 +3914,17 @@ export const productsData = [
       "CARD-110",
       "Official HP"
     ],
-    "slug": "hp-heavy-duty-cover-cardstock-110-lb-100-sheets"
+    "slug": "hp-heavy-duty-cover-cardstock-110-lb-100-sheets",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 79,
@@ -3184,7 +3964,17 @@ export const productsData = [
       "CR667A",
       "Official HP"
     ],
-    "slug": "hp-premium-glossy-photo-paper-4x6-250-sheets-bulk"
+    "slug": "hp-premium-glossy-photo-paper-4x6-250-sheets-bulk",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   },
   {
     "id": 80,
@@ -3224,6 +4014,16 @@ export const productsData = [
       "HP2450",
       "Official HP"
     ],
-    "slug": "hp-bright-white-inkjet-paper-24-lb-500-sheets"
+    "slug": "hp-bright-white-inkjet-paper-24-lb-500-sheets",
+    "images": [
+      "/images/products/prod_hp_envy.webp",
+      "/images/hero/hero-1.webp",
+      "/images/hero/hero-2.webp",
+      "/images/hero/hero-3.webp",
+      "/images/hero/hero-4.webp"
+    ],
+    "compatibility": "Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App",
+    "warranty": "2-Year Official HP Manufacturer Warranty",
+    "shippingInfo": "Dispatched within 24 business hours with door-to-door insured tracking"
   }
 ];

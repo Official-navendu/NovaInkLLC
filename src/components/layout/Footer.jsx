@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Mail, Phone, MapPin, Facebook, Instagram, Twitter, Linkedin, ChevronDown } from 'lucide-react'
+import { Mail, Phone, MapPin, Facebook, Linkedin, ChevronDown } from 'lucide-react'
 import { cn } from '../../utils/cn'
 
 export function Footer() {
@@ -39,32 +39,36 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-10">
           
-          {/* Logo & Intro */}
+          {/* Logo & Intro - Significantly increased logo dimensions for maximum visibility */}
           <div className="lg:col-span-1">
-            <Link to="/" className="inline-block mb-3">
-              <div className="bg-white px-3.5 py-2 rounded-xl border border-slate-700/50 shadow-md inline-block">
-                <img
-                  src="/images/logo.png"
-                  alt="Nova Ink LLC"
-                  className="h-9 sm:h-10 w-auto object-contain"
-                />
-              </div>
+            <Link to="/" className="inline-block mb-4">
+              <img
+                src="/images/footer-logo.png"
+                alt="Nova Ink LLC"
+                className="w-52 sm:w-60 md:w-64 lg:w-72 h-auto max-w-full object-contain"
+              />
             </Link>
             <p className="text-[11px] text-slate-400 leading-relaxed mb-5 font-medium">
               Your trusted partner for printers, supplies, and accessories.
             </p>
             <div className="flex items-center gap-2.5">
-              <a href="#" aria-label="Facebook" className="w-7 h-7 rounded-full bg-[#172136] border border-[#2A3855] hover:bg-[#0096D6] text-slate-300 hover:text-white flex items-center justify-center transition-colors">
-                <Facebook className="w-3.5 h-3.5" />
+              <a 
+                href="https://www.facebook.com/novainkllc/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                aria-label="Facebook" 
+                className="w-8 h-8 rounded-full bg-[#172136] border border-[#2A3855] hover:bg-[#0096D6] text-slate-300 hover:text-white flex items-center justify-center transition-colors"
+              >
+                <Facebook className="w-4 h-4" />
               </a>
-              <a href="#" aria-label="Instagram" className="w-7 h-7 rounded-full bg-[#172136] border border-[#2A3855] hover:bg-[#0096D6] text-slate-300 hover:text-white flex items-center justify-center transition-colors">
-                <Instagram className="w-3.5 h-3.5" />
-              </a>
-              <a href="#" aria-label="Twitter" className="w-7 h-7 rounded-full bg-[#172136] border border-[#2A3855] hover:bg-[#0096D6] text-slate-300 hover:text-white flex items-center justify-center transition-colors">
-                <Twitter className="w-3.5 h-3.5" />
-              </a>
-              <a href="#" aria-label="LinkedIn" className="w-7 h-7 rounded-full bg-[#172136] border border-[#2A3855] hover:bg-[#0096D6] text-slate-300 hover:text-white flex items-center justify-center transition-colors">
-                <Linkedin className="w-3.5 h-3.5" />
+              <a 
+                href="https://www.linkedin.com/company/nova-ink-llc/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                aria-label="LinkedIn" 
+                className="w-8 h-8 rounded-full bg-[#172136] border border-[#2A3855] hover:bg-[#0096D6] text-slate-300 hover:text-white flex items-center justify-center transition-colors"
+              >
+                <Linkedin className="w-4 h-4" />
               </a>
             </div>
           </div>
@@ -156,7 +160,7 @@ export function Footer() {
               <li className="flex items-start gap-2">
                 <MapPin className="w-3.5 h-3.5 text-[#0096D6] shrink-0 mt-0.5" />
                 <span className="leading-relaxed">
-                  123 Printing Way, Suite 100, Austin, TX 78701
+                  8787 Shenandoah Park Dr, Apt 826, Shenandoah, TX
                 </span>
               </li>
             </ul>
@@ -173,7 +177,7 @@ export function Footer() {
             <span className="px-2 py-1 bg-[#172136] border border-[#2A3855] rounded font-bold text-[9px] text-white">VISA</span>
             <span className="px-2 py-1 bg-[#172136] border border-[#2A3855] rounded font-bold text-[9px] text-white">Mastercard</span>
             <span className="px-2 py-1 bg-[#172136] border border-[#2A3855] rounded font-bold text-[9px] text-white">AMEX</span>
-            <span className="px-2 py-1 bg-[#172136] border border-[#2A3855] rounded font-bold text-[9px] text-white">PayPal</span>
+            <span className="px-2 py-1 bg-[#172136] border border-[#2A3855] rounded font-bold text-[9px] text-[#ffffff]">PayPal</span>
             <span className="px-2 py-1 bg-[#172136] border border-[#2A3855] rounded font-bold text-[9px] text-white">Apple Pay</span>
           </div>
         </div>

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Navbar } from '../components/layout/Navbar'
 import { Newsletter } from '../components/sections/Newsletter'
 import { Footer } from '../components/layout/Footer'
-import { Mail, Phone, MapPin, Clock, Send } from 'lucide-react'
+import { Mail, Phone, MapPin, Clock, Send, Printer, PackageCheck, RotateCcw, Building2 } from 'lucide-react'
 import { Button } from '../components/ui/Button'
 
 export function ContactUs() {
@@ -15,6 +15,29 @@ export function ContactUs() {
       setSubmitted(true)
     }
   }
+
+  const helpCards = [
+    {
+      icon: Printer,
+      title: 'Product Recommendations',
+      desc: "Need help choosing the right printer? We'll point you in the right direction."
+    },
+    {
+      icon: PackageCheck,
+      title: 'Order Questions',
+      desc: "Need an update on your order or shipping? We're happy to help."
+    },
+    {
+      icon: RotateCcw,
+      title: 'Returns & Exchanges',
+      desc: "Questions about returns? We'll explain the process and next steps."
+    },
+    {
+      icon: Building2,
+      title: 'Business Orders',
+      desc: 'Looking to purchase in bulk? Contact us for business inquiries and volume pricing.'
+    }
+  ]
 
   return (
     <div className="min-h-screen bg-[#F8FAFC] text-slate-800 flex flex-col font-['Manrope',sans-serif] selection:bg-[#0096D6] selection:text-white">
@@ -74,8 +97,8 @@ export function ContactUs() {
                   </div>
                   <div>
                     <h4 className="text-xs font-extrabold text-slate-900 uppercase">Corporate HQ</h4>
-                    <p className="text-xs text-slate-600 font-medium mt-0.5">123 Printing Way, Suite 100</p>
-                    <p className="text-xs text-slate-600 font-medium">Austin, TX 78701</p>
+                    <p className="text-xs text-slate-600 font-medium mt-0.5">8787 Shenandoah Park Dr, Apt 826</p>
+                    <p className="text-xs text-slate-600 font-medium">Shenandoah, TX</p>
                   </div>
                 </div>
 
@@ -167,6 +190,53 @@ export function ContactUs() {
 
           </div>
         </div>
+
+        {/* NEW SECTION: What Can We Help You With? */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
+          <div className="bg-white border border-slate-200/80 rounded-3xl p-8 sm:p-12 lg:p-14 text-slate-900 shadow-xl relative overflow-hidden">
+            {/* Ambient Background Accent */}
+            <div className="absolute -top-24 -right-24 w-96 h-96 bg-[#0096D6]/5 rounded-full blur-3xl pointer-events-none" />
+
+            <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-12 relative z-10">
+              <span className="text-xs font-extrabold text-[#0096D6] uppercase tracking-widest bg-blue-50 border border-blue-100 px-3.5 py-1.5 rounded-full inline-block mb-3">
+                CUSTOMER ASSISTANCE
+              </span>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black uppercase tracking-tight text-slate-900 mb-3">
+                What Can We <span className="text-[#0096D6]">Help You With?</span>
+              </h2>
+              <p className="text-xs sm:text-sm text-slate-600 font-medium leading-relaxed">
+                Whether you're shopping for a printer, tracking an order, or looking for business solutions, our team is here to help.
+              </p>
+            </div>
+
+            {/* 4 Card Grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 relative z-10">
+              {helpCards.map((card, idx) => {
+                const Icon = card.icon
+                return (
+                  <div
+                    key={idx}
+                    className="bg-slate-50 border border-slate-200/90 hover:border-[#0096D6] rounded-2xl p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg shadow-xs group flex flex-col justify-between cursor-default"
+                  >
+                    <div>
+                      <div className="w-12 h-12 rounded-xl bg-blue-50 border border-blue-100 text-[#0096D6] flex items-center justify-center mb-5 group-hover:bg-[#0096D6] group-hover:text-white transition-colors duration-300 shrink-0">
+                        <Icon className="w-6 h-6 stroke-[2]" />
+                      </div>
+                      <h3 className="text-sm font-extrabold text-slate-900 mb-2 uppercase tracking-wide group-hover:text-[#0096D6] transition-colors">
+                        {card.title}
+                      </h3>
+                      <p className="text-xs text-slate-600 font-medium leading-relaxed">
+                        {card.desc}
+                      </p>
+                    </div>
+                  </div>
+                )
+              })}
+            </div>
+
+          </div>
+        </div>
+
       </main>
 
       <Newsletter />

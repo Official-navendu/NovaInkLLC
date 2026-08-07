@@ -32,18 +32,18 @@ export function Navbar() {
           'fixed top-0 left-0 right-0 z-40 transition-all duration-300',
           isScrolled
             ? 'bg-white/95 backdrop-blur-md shadow-md py-2 border-b border-slate-100'
-            : 'bg-white py-3 border-b border-slate-100/80'
+            : 'bg-white py-2.5 border-b border-slate-100/80'
         )}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="flex items-center justify-between">
             
-            {/* Logo Left - Reduced width by 10-15% for balanced proportion */}
-            <Link to="/" className="flex items-center group py-0.5">
+            {/* Header Logo Left - Increased size by 20% for optimal visibility & balance */}
+            <Link to="/" className="flex items-center group py-0.5 shrink-0">
               <img
-                src="/images/logo.png"
+                src="/images/header-logo.png"
                 alt="Nova Ink LLC"
-                className="h-8 sm:h-10 md:h-11 w-auto max-w-[170px] sm:max-w-[200px] md:max-w-[220px] object-contain transition-transform duration-200 group-hover:scale-105"
+                className="h-11 sm:h-13 md:h-14 lg:h-15 w-auto max-w-[210px] sm:max-w-[240px] md:max-w-[270px] lg:max-w-[290px] object-contain transition-transform duration-200 group-hover:scale-105"
               />
             </Link>
 

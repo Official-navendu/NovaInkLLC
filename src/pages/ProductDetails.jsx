@@ -37,7 +37,7 @@ export function ProductDetails() {
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }, [slug])
 
-  // Construct gallery images (supports product.images or fallback 5-image set)
+  // Construct gallery images (supports product.images array or fallback 5-image set)
   const galleryImages = (product.images && product.images.length > 0)
     ? product.images
     : [
@@ -70,6 +70,7 @@ export function ProductDetails() {
   const specsTable = [
     { label: 'Brand', value: product.brand || 'HP' },
     { label: 'Model Number', value: product.modelNumber || 'HP Series' },
+    { label: 'SKU / Part Number', value: product.sku || `HP-${product.id}` },
     { label: 'Category', value: product.categoryName || 'Printers & Supplies' },
     { label: 'Print Technology', value: product.specs?.technology || 'HP Thermal Inkjet / Precision Laser' },
     { label: 'Functions', value: product.specs?.functions || 'Print, Scan, Copy, Wireless' },
@@ -78,27 +79,22 @@ export function ProductDetails() {
     { label: 'Paper Sizes Supported', value: product.specs?.paperSupport || 'Letter, Legal, Executive, Statement, 4x6 in' },
     { label: 'Monthly Duty Cycle', value: 'Up to 20,000 pages' },
     { label: 'Display Panel', value: '2.7" Color Touchscreen Graphic Display' },
-    { label: 'Warranty', value: '2-Year Official HP Manufacturer Warranty' },
-    { label: 'Dimensions', value: '17.02 x 14.21 x 7.56 in' },
-    { label: 'Weight', value: '11.55 lbs' }
+    { label: 'Warranty', value: product.warranty || '2-Year Official HP Manufacturer Warranty' },
+    { label: 'Shipping & Delivery', value: product.shippingInfo || 'Dispatched within 24 business hours with door-to-door tracking' }
   ]
 
   // Key Features
   const defaultFeatures = [
-    'High-speed document and photo printing',
-    'Seamless wireless Wi-Fi and Bluetooth connectivity',
-    'Mobile printing support via HP Smart App & Apple AirPrint',
-    'Energy-efficient operation with automatic sleep modes',
-    'Automatic two-sided (duplex) printing capability',
-    'Compact space-saving ergonomic design',
-    'Easy setup with intuitive touch control interface',
-    'High-yield authentic HP cartridge compatibility'
+    'Automatic wireless setup with self-healing connection',
+    'Official HP precision engineering for long-lasting quality',
+    'Energy Star certified power efficient operation',
+    'Includes 2-Year official manufacturer warranty coverage'
   ]
   const featureList = (product.features && product.features.length > 0) ? product.features : defaultFeatures
 
   // What's Included
   const whatsIncluded = [
-    'HP Printer Unit Hardware',
+    'HP Hardware Unit',
     'Official Power Cord & Adapter',
     'Full/Starter HP Ink or Toner Cartridge',
     'Setup & User Reference Manual',
@@ -106,7 +102,7 @@ export function ProductDetails() {
   ]
 
   return (
-    <div className="min-h-screen bg-[#F8FAFC] text-slate-800 flex flex-col font-[#Manrope',sans-serif] selection:bg-[#0096D6] selection:text-white">
+    <div className="min-h-screen bg-[#F8FAFC] text-slate-800 flex flex-col font-['Manrope',sans-serif] selection:bg-[#0096D6] selection:text-white">
       <Navbar />
 
       <main className="flex-grow pt-28 pb-16">
@@ -376,15 +372,19 @@ export function ProductDetails() {
                     </div>
                   </div>
 
-                  {/* Additional Information */}
-                  <div className="pt-6 border-t border-slate-100 grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
+                  {/* Additional Information (Compatibility, Warranty, Shipping) */}
+                  <div className="pt-6 border-t border-slate-100 grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs">
                     <div className="bg-slate-50 p-4 rounded-xl border border-slate-200/80">
-                      <span className="text-slate-400 font-bold uppercase text-[10px] block mb-1">Compatible Supplies</span>
-                      <span className="font-extrabold text-slate-800">Genuine HP High-Yield Ink & Toner Cartridges</span>
+                      <span className="text-slate-400 font-bold uppercase text-[10px] block mb-1">System Compatibility</span>
+                      <span className="font-extrabold text-slate-800">{product.compatibility || 'Compatible with Windows 11/10, macOS 12+, iOS, Android, & HP Smart App'}</span>
                     </div>
                     <div className="bg-slate-50 p-4 rounded-xl border border-slate-200/80">
-                      <span className="text-slate-400 font-bold uppercase text-[10px] block mb-1">Warranty & Support</span>
-                      <span className="font-extrabold text-slate-800">2-Year Official HP Manufacturer Warranty</span>
+                      <span className="text-slate-400 font-bold uppercase text-[10px] block mb-1">Warranty Coverage</span>
+                      <span className="font-extrabold text-slate-800">{product.warranty || '2-Year Official HP Manufacturer Warranty'}</span>
+                    </div>
+                    <div className="bg-slate-50 p-4 rounded-xl border border-slate-200/80">
+                      <span className="text-slate-400 font-bold uppercase text-[10px] block mb-1">Shipping & Dispatch</span>
+                      <span className="font-extrabold text-slate-800">{product.shippingInfo || 'Dispatched within 24 business hours with door-to-door tracking'}</span>
                     </div>
                   </div>
                 </div>
@@ -426,7 +426,7 @@ export function ProductDetails() {
                       <Truck className="w-5 h-5 text-[#0096D6]" /> Fast U.S. Nationwide Shipping
                     </h3>
                     <p className="text-xs text-slate-600">
-                      Orders placed before 3:00 PM EST are processed within 24 business hours. Enjoy insured door-to-door delivery with real-time tracking updates sent directly to your email.
+                      {product.shippingInfo || 'Orders placed before 3:00 PM EST are processed within 24 business hours. Enjoy insured door-to-door delivery with real-time tracking updates sent directly to your email.'}
                     </p>
                   </div>
 
@@ -453,7 +453,7 @@ export function ProductDetails() {
                           <Star key={i} className="w-4 h-4 fill-current" />
                         ))}
                       </div>
-                      <div className="text-xs text-slate-500 font-bold">Based on 240 Verified Customer Reviews</div>
+                      <div className="text-xs text-slate-500 font-bold">Based on {product.reviewCount || 240} Verified Customer Reviews</div>
                     </div>
                   </div>
 
