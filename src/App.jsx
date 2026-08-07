@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { CartProvider } from './context/CartContext'
+import { ScrollToTop } from './components/common/ScrollToTop'
 import { Home } from './pages/Home'
 import { Shop } from './pages/Shop'
 import { CategoriesPage } from './pages/CategoriesPage'
@@ -21,6 +22,7 @@ export default function App() {
   return (
     <CartProvider>
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
