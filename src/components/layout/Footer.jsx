@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Mail, MapPin, Facebook, Linkedin, ChevronDown } from 'lucide-react'
+import { Mail, MapPin, Facebook, Linkedin, ChevronDown, ShieldCheck } from 'lucide-react'
 import { cn } from '../../utils/cn'
 
 export function Footer() {
@@ -143,7 +143,7 @@ export function Footer() {
             <h4 className="font-extrabold text-white text-xs uppercase tracking-wider mb-3">
               CONTACT US
             </h4>
-            <ul className="space-y-3 text-[11px]">
+            <ul className="space-y-3 text-[11px] mb-4">
               <li className="flex items-start gap-2.5">
                 <Mail className="w-4 h-4 text-[#0096D6] shrink-0 mt-0.5" />
                 <a href="mailto:info@novainkllc.com" className="hover:text-[#0096D6] transition-colors">
@@ -157,6 +157,23 @@ export function Footer() {
                 </span>
               </li>
             </ul>
+
+            {/* Google Safe Browsing Badge Image */}
+            <div className="mt-3.5">
+              <a
+                href="https://transparencyreport.google.com/safe-browsing/search?url=https:%2F%2Fnovainkllc.com%2F&hl=en"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block transition-transform duration-300 ease-in-out hover:scale-[1.02] transform-gpu"
+                title="Verify Google Safe Browsing Security Status"
+              >
+                <img
+                  src="/images/google-safe-browsing.png"
+                  alt="Google Safe Browsing Verified"
+                  className="w-[130px] h-auto object-contain block rounded-[10px]"
+                />
+              </a>
+            </div>
           </div>
 
         </div>
