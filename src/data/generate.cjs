@@ -16,18 +16,31 @@ const hpImageLaserJet = '/images/products/prod_hp_laserjet.webp';
 // Custom User Descriptions Dictionary
 const customDescriptions = {
   'hp-smart-tank-7602-all-in-one': {
+    name: 'HP Smart Tank 7602 All-in-One',
+    metaTitle: 'HP Smart Tank 7602 All-in-One Printer | Nova Ink LLC',
+    metaDescription: 'Buy the HP Smart Tank 7602 All-in-One Printer at Nova Ink LLC. Cartridge-free high-volume printing with included ink for up to 8,000 color or 6,000 black pages.',
+    subtitle: 'Cartridge-Free Smart Tank All-in-One Printer with Auto Document Feeder & Touchscreen',
+    shortDescription: 'The HP Smart Tank 7602 All-in-One is built for high-volume printing with refillable ink tanks, 35-page ADF, touchscreen, and included ink for up to 8,000 color or 6,000 black pages.',
+    overview: `The HP Smart Tank 7602 All-in-One is a great choice for home offices and small businesses that need reliable, everyday printing without the constant expense of replacing ink cartridges. With its refillable ink tank system, this printer is built for high-volume printing while helping keep long-term printing costs low.
+
+Designed with convenience in mind, it combines printing, scanning, copying, and faxing in one compact device, making it a practical addition to any workspace.`,
     longDescription: `The HP Smart Tank 7602 All-in-One is a great choice for home offices and small businesses that need reliable, everyday printing without the constant expense of replacing ink cartridges. With its refillable ink tank system, this printer is built for high-volume printing while helping keep long-term printing costs low.
 
 Designed with convenience in mind, it combines printing, scanning, copying, and faxing in one compact device, making it a practical addition to any workspace.
 
-Built for Busy Workdays:
-When your day involves printing reports, invoices, forms, or presentations, the HP Smart Tank 7602 helps you stay productive. It delivers print speeds of up to 15 pages per minute in black and 9 pages per minute in color, helping you finish everyday tasks more efficiently. The 35-page automatic document feeder makes scanning and copying multi-page documents much easier, while the intuitive touchscreen keeps frequently used functions within easy reach. With dual-band Wi-Fi, you can print from your computer, smartphone, or tablet without relying on cables, giving you more flexibility wherever you work.
+Built for Busy Workdays
+When your day involves printing reports, invoices, forms, or presentations, the HP Smart Tank 7602 helps you stay productive. It delivers print speeds of up to 15 pages per minute in black and 9 pages per minute in color, helping you finish everyday tasks more efficiently.
+The 35-page automatic document feeder makes scanning and copying multi-page documents much easier, while the intuitive touchscreen keeps frequently used functions within easy reach.
+With dual-band Wi-Fi, you can print from your computer, smartphone, or tablet without relying on cables, giving you more flexibility wherever you work.
 
-More Printing, Less Refilling:
-One of the biggest advantages of the Smart Tank 7602 is its high-capacity ink system. The printer includes enough Original HP ink to produce up to 8,000 color pages or 6,000 black pages, reducing the need for frequent refills. The spill-resistant refill bottles are designed to make adding ink clean and straightforward, helping you get back to printing with minimal interruption. For homes and businesses that print regularly, this can mean fewer trips to purchase ink and lower printing costs over time.
+More Printing, Less Refilling
+One of the biggest advantages of the Smart Tank 7602 is its high-capacity ink system. The printer includes enough Original HP ink to produce up to 8,000 color pages or 6,000 black pages, reducing the need for frequent refills.
+The spill-resistant refill bottles are designed to make adding ink clean and straightforward, helping you get back to printing with minimal interruption.
+For homes and businesses that print regularly, this can mean fewer trips to purchase ink and lower printing costs over time.
 
-A More Thoughtful Design:
-The HP Smart Tank 7602 is designed with everyday use and sustainability in mind. Its refillable ink system helps reduce plastic waste compared to traditional cartridges, and the printer itself incorporates recycled materials in its construction. Pair it with responsibly sourced paper, and you'll have a printing setup that's more mindful of its environmental impact without compromising on quality or performance.`,
+A More Thoughtful Design
+The HP Smart Tank 7602 is designed with everyday use and sustainability in mind. Its refillable ink system helps reduce plastic waste compared to traditional cartridges, and the printer itself incorporates recycled materials in its construction.
+Pair it with responsibly sourced paper, and you'll have a printing setup that's more mindful of its environmental impact without compromising on quality or performance.`,
     features: [
       'Print, Scan, Copy & Fax',
       'Up to 15 ppm Black / 9 ppm Color',
@@ -37,44 +50,113 @@ The HP Smart Tank 7602 is designed with everyday use and sustainability in mind.
       'Wireless Printing & Mobile Connectivity',
       'Easy-to-Use Touchscreen Interface',
       'Spill-Resistant Ink Refill System'
-    ]
+    ],
+    whatsIncluded: [
+      'HP Smart Tank 7602 All-in-One Printer',
+      'Original HP Black Ink Bottle (~6,000 pages yield)',
+      'Original HP Cyan Ink Bottle (~8,000 pages yield)',
+      'Original HP Magenta Ink Bottle (~8,000 pages yield)',
+      'Original HP Yellow Ink Bottle (~8,000 pages yield)',
+      'Power Cord & Setup Guide'
+    ],
+    whyChooseThisPrinter: `High-volume cartridge-free printing with included Original HP ink for up to 8,000 color or 6,000 black pages. Features spill-resistant ink bottles, 35-page ADF, dual-band Wi-Fi, intuitive touchscreen, and sustainable construction made with recycled plastics.`,
+    additionalInfo: `Compatible with Windows 11/10, macOS 12+, iOS, Android, and HP Smart App. Backed by 2-Year Official HP Manufacturer Warranty and nationwide fast shipping.`,
+    specs: {
+      technology: 'HP Thermal Inkjet (Refillable Tank System)',
+      speed: 'Up to 15 ppm Black / 9 ppm Color',
+      functions: 'Print, Scan, Copy, Fax',
+      adf: '35-Page Automatic Document Feeder',
+      connectivity: 'Dual-Band Wi-Fi 802.11b/g/n, Bluetooth LE, Hi-Speed USB 2.0',
+      paperSupport: 'Letter, Legal, Executive, Envelopes, 4x6 in',
+      yield: 'Up to 8,000 color or 6,000 black pages included',
+      warranty: '2-Year Official HP Manufacturer Warranty'
+    }
   },
   'hp-deskjet-4255e-all-in-one-printer': {
-    longDescription: `The HP DeskJet 4255e All-in-One is a practical choice for everyday printing at home. Whether you're printing school assignments, shopping lists, recipes, shipping labels, or important documents, this compact printer is designed to handle daily tasks without taking up much space. With printing, scanning, and copying in one device, it's a convenient option for families, students, and anyone looking for an affordable all-in-one printer.
+    name: 'HP DeskJet 4255e All-in-One Printer',
+    metaTitle: 'HP DeskJet 4255e All-in-One Printer | Nova Ink LLC',
+    metaDescription: 'Buy the HP DeskJet 4255e All-in-One Printer at Nova Ink LLC. Compact wireless home printer with 35-page ADF, easy mobile printing, and Instant Ink readiness.',
+    subtitle: 'Wireless Color All-in-One Inkjet Printer with 35-Page Auto Document Feeder',
+    shortDescription: 'The HP DeskJet 4255e All-in-One Printer is a practical, compact choice for everyday home printing, featuring 35-page ADF, wireless connectivity, and Instant Ink support.',
+    overview: `The HP DeskJet 4255e All-in-One is a practical choice for everyday printing at home. Whether you're printing school assignments, shopping lists, recipes, shipping labels, or important documents, this compact printer is designed to handle daily tasks without taking up much space.
 
-Made for Everyday Home Printing:
-The HP DeskJet 4255e keeps everyday printing simple. Its compact design fits comfortably on a desk, shelf, or small workspace, making it a great addition to apartments, dorm rooms, or home offices. The built-in 35-page Automatic Document Feeder makes it easier to scan or copy multi-page documents, saving time when handling forms, assignments, or paperwork. You can also print wirelessly from your laptop, smartphone, or tablet, making it easy to send documents from wherever you are in your home.
+With printing, scanning, and copying in one device, it's a convenient option for families, students, and anyone looking for an affordable all-in-one printer.`,
+    longDescription: `The HP DeskJet 4255e All-in-One is a practical choice for everyday printing at home. Whether you're printing school assignments, shopping lists, recipes, shipping labels, or important documents, this compact printer is designed to handle daily tasks without taking up much space.
 
-Easy to Use from Day One:
-Getting started is straightforward with the HP DeskJet 4255e. Once connected to your Wi-Fi network, you can print, scan, and copy with just a few taps using your preferred device. Its intuitive controls and simple setup make it a good fit for users who want reliable printing without a complicated learning curve.
+With printing, scanning, and copying in one device, it's a convenient option for families, students, and anyone looking for an affordable all-in-one printer.
 
-Ink Options That Fit Your Routine:
-The HP DeskJet 4255e works with Original HP ink cartridges and is compatible with HP's Instant Ink subscription service for customers who prefer automatic ink delivery. The printer uses HP's Dynamic Security technology, which is designed to work with cartridges that contain genuine HP electronic circuitry.
+Made for Everyday Home Printing
+The HP DeskJet 4255e keeps everyday printing simple. Its compact design fits comfortably on a desk, shelf, or small workspace, making it a great addition to apartments, dorm rooms, or home offices.
+The built-in 35-page Automatic Document Feeder makes it easier to scan or copy multi-page documents, saving time when handling forms, assignments, or paperwork.
+You can also print wirelessly from your laptop, smartphone, or tablet, making it easy to send documents from wherever you are in your home.
 
-Designed with Sustainability in Mind:
+Easy to Use from Day One
+Getting started is straightforward with the HP DeskJet 4255e. Once connected to your Wi-Fi network, you can print, scan, and copy with just a few taps using your preferred device.
+Its intuitive controls and simple setup make it a good fit for users who want reliable printing without a complicated learning curve.
+
+Ink Options That Fit Your Routine
+The HP DeskJet 4255e works with Original HP ink cartridges and is compatible with HP's Instant Ink subscription service for customers who prefer automatic ink delivery.
+The printer uses HP's Dynamic Security technology, which is designed to work with cartridges that contain genuine HP electronic circuitry. Periodic firmware updates may affect the use of certain third-party cartridges, so it's worth reviewing HP's compatibility information before purchasing replacement ink.
+
+Designed with Sustainability in Mind
 The HP DeskJet 4255e is made using recycled plastic as part of HP's ongoing efforts to reduce environmental impact. Pairing it with responsibly sourced paper and participating in HP's cartridge recycling program are simple ways to reduce waste while continuing to print what matters most.`,
     features: [
       'Print, Scan & Copy',
       'Compact Design for Home Use',
       '35-Page Automatic Document Feeder',
-      'Wireless Printing & Mobile Connectivity',
+      'Wireless Printing',
+      'Mobile Printing Compatibility',
       'Easy Setup & Everyday Operation',
       'Compatible with HP Instant Ink',
-      'Made with Recycled Materials',
-      'Dependable Option for Home Users & Students'
-    ]
+      'Made with Recycled Materials'
+    ],
+    whatsIncluded: [
+      'HP DeskJet 4255e All-in-One Printer',
+      'HP 67 Setup Black Cartridge',
+      'HP 67 Setup Tri-Color Cartridge',
+      'Power Cord & Regulatory Flyer',
+      'Setup Guide & Reference Manual'
+    ],
+    whyChooseThisPrinter: `If you're looking for a printer that's easy to use, doesn't take up much space, and handles everyday printing without unnecessary complexity, the HP DeskJet 4255e is a dependable option. It's well suited for home users who want a straightforward all-in-one printer for day-to-day tasks, whether that's printing homework, family documents, or occasional color pages.`,
+    additionalInfo: `Compatible with Windows 11/10, macOS 12+, iOS, Android, and the HP Smart App. Backed by 1-Year Official HP Manufacturer Warranty and fast nationwide shipping.`,
+    specs: {
+      technology: 'HP Thermal Inkjet',
+      speed: 'Up to 8.5 ppm Black / 5.5 ppm Color',
+      functions: 'Print, Scan, Copy',
+      adf: '35-Page Automatic Document Feeder',
+      connectivity: 'Wi-Fi 802.11b/g/n, Bluetooth 4.2, Hi-Speed USB 2.0',
+      paperSupport: 'Letter, Legal, Envelopes, 4x6 in',
+      yield: 'Standard & High-Yield HP 67 Cartridges Supported',
+      warranty: '1-Year Official HP Manufacturer Warranty'
+    }
   },
   'hp-smart-tank-7301-all-in-one-printer': {
-    longDescription: `The HP Smart Tank 7301 All-in-One is a great fit for families, home offices, and anyone who prints regularly. With its refillable ink tank system, this printer is built to handle everything from school projects and everyday documents to colorful presentations and creative projects—all while keeping ink costs low over time. Combining printing, scanning, and copying in one compact device, it's designed to make everyday tasks easier without adding extra clutter to your workspace.
+    name: 'HP Smart Tank 7301 All-in-One Printer',
+    metaTitle: 'HP Smart Tank 7301 All-in-One Printer | Nova Ink LLC',
+    metaDescription: 'Buy the HP Smart Tank 7301 All-in-One Printer at Nova Ink LLC. Refillable color tank printer with 35-page ADF and 8,000 color or 6,000 black pages included.',
+    subtitle: 'High-Capacity Wireless Color Tank Printer with Ethernet & Auto 2-Sided Printing',
+    shortDescription: 'The HP Smart Tank 7301 All-in-One Printer features high-yield refillable ink tanks (8,000 color / 6,000 black pages included), 35-page ADF, auto 2-sided printing, and Wi-Fi.',
+    overview: `The HP Smart Tank 7301 All-in-One is a great fit for families, home offices, and anyone who prints regularly. With its refillable ink tank system, this printer is built to handle everything from school projects and everyday documents to colorful presentations and creative projects—all while keeping ink costs low over time.
 
-Built for Everyday Life:
-Whether you're printing homework in the evening, working from home during the day, or organizing household paperwork, the HP Smart Tank 7301 is ready for daily use. It delivers print speeds of up to 15 pages per minute in black and 9 pages per minute in color, helping you finish routine printing tasks without unnecessary delays. The 35-page Automatic Document Feeder makes it easier to scan or copy multi-page documents, while the easy-to-use control panel keeps common functions within quick reach. With built-in Wi-Fi, you can print from laptops, smartphones, and tablets without dealing with extra cables.
+Combining printing, scanning, and copying in one compact device, it's designed to make everyday tasks easier without adding extra clutter to your workspace.`,
+    longDescription: `The HP Smart Tank 7301 All-in-One is a great fit for families, home offices, and anyone who prints regularly. With its refillable ink tank system, this printer is built to handle everything from school projects and everyday documents to colorful presentations and creative projects—all while keeping ink costs low over time.
 
-More Pages Between Refills:
-One of the biggest advantages of the Smart Tank 7301 is its high-capacity ink tank system. The printer comes with enough Original HP ink to print up to 8,000 color pages or 6,000 black pages, making it a smart option for households that print often. The refill process is clean and straightforward, thanks to HP's spill-resistant ink bottles, so adding more ink is quick and hassle-free.
+Combining printing, scanning, and copying in one compact device, it's designed to make everyday tasks easier without adding extra clutter to your workspace.
 
-Designed with Sustainability in Mind:
-The HP Smart Tank 7301 is made using recycled materials as part of HP's ongoing effort to reduce environmental impact. Its refillable ink system also helps cut down on single-use plastic compared to traditional ink cartridges.`,
+Built for Everyday Life
+Whether you're printing homework in the evening, working from home during the day, or organizing household paperwork, the HP Smart Tank 7301 is ready for daily use.
+It delivers print speeds of up to 15 pages per minute in black and 9 pages per minute in color, helping you finish routine printing tasks without unnecessary delays.
+The 35-page Automatic Document Feeder makes it easier to scan or copy multi-page documents, while the easy-to-use control panel keeps common functions within quick reach.
+With built-in Wi-Fi, you can print from laptops, smartphones, and tablets without dealing with extra cables.
+
+More Pages Between Refills
+One of the biggest advantages of the Smart Tank 7301 is its high-capacity ink tank system. The printer comes with enough Original HP ink to print up to 8,000 color pages or 6,000 black pages, making it a smart option for households that print often.
+The refill process is clean and straightforward, thanks to HP's spill-resistant ink bottles, so adding more ink is quick and hassle-free.
+If you're looking to reduce the frequency of cartridge replacements, this printer offers a practical long-term solution.
+
+Designed with Sustainability in Mind
+The HP Smart Tank 7301 is made using recycled materials as part of HP's ongoing effort to reduce environmental impact. Its refillable ink system also helps cut down on single-use plastic compared to traditional ink cartridges.
+For those looking to make more environmentally conscious choices, pairing the printer with responsibly sourced paper can be another simple step toward reducing waste.`,
     features: [
       'Print, Scan & Copy',
       'High-Capacity Refillable Ink Tank',
@@ -84,19 +166,53 @@ The HP Smart Tank 7301 is made using recycled materials as part of HP's ongoing 
       'Up to 8,000 Color or 6,000 Black Pages Included',
       'Spill-Resistant Ink Refill Bottles',
       'Compact Design for Home & Family Use'
-    ]
+    ],
+    whatsIncluded: [
+      'HP Smart Tank 7301 All-in-One Printer',
+      'Original HP Black Ink Bottle (~6,000 pages yield)',
+      'Original HP Cyan Ink Bottle (~8,000 pages yield)',
+      'Original HP Magenta Ink Bottle (~8,000 pages yield)',
+      'Original HP Yellow Ink Bottle (~8,000 pages yield)',
+      'Power Cord & Setup Guide'
+    ],
+    whyChooseThisPrinter: `The HP Smart Tank 7301 is a solid choice for anyone who prints frequently and wants to spend less time thinking about ink. It combines reliable performance, low running costs, and everyday convenience in a printer that's well suited for busy households, students, remote workers, and home offices. Whether you're printing a few pages or tackling larger projects, it's built to keep up with your routine without making printing feel like a chore.`,
+    additionalInfo: `Compatible with Windows 11/10, macOS 12+, iOS, Android, and the HP Smart App. Backed by 2-Year Official HP Manufacturer Warranty and nationwide fast shipping.`,
+    specs: {
+      technology: 'HP Thermal Inkjet (Refillable Tank System)',
+      speed: 'Up to 15 ppm Black / 9 ppm Color',
+      functions: 'Print, Scan, Copy',
+      adf: '35-Page Automatic Document Feeder',
+      connectivity: 'Dual-Band Wi-Fi 802.11b/g/n, Ethernet, Bluetooth LE, USB 2.0',
+      paperSupport: 'Letter, Legal, Executive, Envelopes, 4x6 in',
+      yield: 'Up to 8,000 color or 6,000 black pages included',
+      warranty: '2-Year Official HP Manufacturer Warranty'
+    }
   },
   'hp-envy-photo-7975-all-in-one-printer': {
-    longDescription: `The HP Envy Photo 7975 All-in-One is designed for people who want more than just everyday printing. Whether you're preserving family memories, creating greeting cards, printing school projects, or handling daily paperwork, this printer delivers vibrant color and impressive detail in one versatile device. With printing, scanning, and copying capabilities, it's an excellent choice for families, creative users, and home offices that want quality without sacrificing convenience.
+    name: 'HP Envy Photo 7975 All-in-One Printer',
+    metaTitle: 'HP Envy Photo 7975 All-in-One Printer | Nova Ink LLC',
+    metaDescription: 'Buy the HP Envy Photo 7975 All-in-One Printer at Nova Ink LLC. Premium wireless photo printer featuring a dedicated photo tray and True-to-Screen color output.',
+    subtitle: 'True-to-Life Color Photo Printer with Dedicated Photo Paper Tray',
+    shortDescription: 'The HP Envy Photo 7975 All-in-One Printer offers borderless photo printing, True-to-Screen technology, dedicated photo tray, auto 2-sided photo printing, and touchscreen.',
+    overview: `The HP Envy Photo 7975 All-in-One is designed for people who want more than just everyday printing. Whether you're preserving family memories, creating greeting cards, printing school projects, or handling daily paperwork, this printer delivers vibrant color and impressive detail in one versatile device.
 
-From Everyday Documents to Favorite Memories:
-Some days you're printing tax forms or homework, and other days you're printing vacation photos or birthday invitations. The HP Envy Photo 7975 is built to handle both with ease. HP's True-to-Screen technology helps produce prints that closely match the colors you see on your display, making photos look natural and vibrant. If you enjoy creating personalized cards or keepsakes, automatic two-sided photo printing adds a thoughtful finishing touch without the extra effort. A dedicated photo tray lets you switch between photo paper and standard paper without constantly changing media.
+With printing, scanning, and copying capabilities, it's an excellent choice for families, creative users, and home offices that want quality without sacrificing convenience.`,
+    longDescription: `The HP Envy Photo 7975 All-in-One is designed for people who want more than just everyday printing. Whether you're preserving family memories, creating greeting cards, printing school projects, or handling daily paperwork, this printer delivers vibrant color and impressive detail in one versatile device.
 
-Simple, Everyday Convenience:
+With printing, scanning, and copying capabilities, it's an excellent choice for families, creative users, and home offices that want quality without sacrificing convenience.
+
+From Everyday Documents to Favorite Memories
+Some days you're printing tax forms or homework, and other days you're printing vacation photos or birthday invitations. The HP Envy Photo 7975 is built to handle both with ease.
+HP's True-to-Screen technology helps produce prints that closely match the colors you see on your display, making photos look natural and vibrant. If you enjoy creating personalized cards or keepsakes, automatic two-sided photo printing adds a thoughtful finishing touch without the extra effort.
+A dedicated photo tray lets you switch between photo paper and standard paper without constantly changing media, making it easy to move from documents to photos whenever inspiration strikes.
+
+Simple, Everyday Convenience
 The HP Envy Photo 7975 is designed to make printing feel effortless. Its large color touchscreen keeps common functions easy to access, while wireless connectivity allows you to print from your laptop, smartphone, or tablet around the house.
+Whether you're printing a single page or several family photos, getting started is quick and straightforward.
 
-Smarter Printing, Less Waste:
-Thoughtful features help you get more from every print job. Built-in tools help reduce unnecessary pages and make better use of your ink, so you can spend less time reprinting documents and more time enjoying the finished result.`,
+Smarter Printing, Less Waste
+Thoughtful features help you get more from every print job. Built-in tools help reduce unnecessary pages and make better use of your ink, so you can spend less time reprinting documents and more time enjoying the finished result.
+It's a practical choice for households that print regularly and want dependable performance without unnecessary waste.`,
     features: [
       'Print, Scan & Copy',
       'High-Quality Borderless Photo Printing',
@@ -105,23 +221,57 @@ Thoughtful features help you get more from every print job. Built-in tools help 
       'Dedicated Photo Paper Tray',
       'Large Color Touchscreen',
       'Wireless & Mobile Printing',
-      'Easy Setup for Home & Creative Use'
-    ]
+      'Easy Setup for Home Use'
+    ],
+    whatsIncluded: [
+      'HP Envy Photo 7975 All-in-One Printer',
+      'HP 64 Setup Black Ink Cartridge',
+      'HP 64 Setup Tri-Color Ink Cartridge',
+      'Power Cord & Setup Documentation',
+      'Photo Media Sample Pack'
+    ],
+    whyChooseThisPrinter: `If your printer needs to handle both everyday documents and special moments, the HP Envy Photo 7975 is a well-rounded choice. It combines excellent photo quality with the convenience of an all-in-one printer, making it a great fit for families, hobbyists, students, and anyone who enjoys bringing digital memories to life on paper. Whether it's a document for work or a photo for the family album, this printer helps you create prints you'll be proud to share.`,
+    additionalInfo: `Compatible with Windows 11/10, macOS 12+, iOS, Android, and the HP Smart App. Backed by 1-Year Official HP Manufacturer Warranty and fast nationwide shipping.`,
+    specs: {
+      technology: 'HP Thermal Inkjet',
+      speed: 'Up to 15 ppm Black / 10 ppm Color',
+      functions: 'Print, Scan, Copy, Web',
+      photoTray: 'Dedicated 4x6 in & 5x7 in Photo Paper Tray',
+      connectivity: 'Dual-Band Wi-Fi 802.11b/g/n, Bluetooth LE, SD Card Slot, USB 2.0',
+      paperSupport: 'Letter, Legal, Executive, Envelopes, 4x6, 5x7, 8x10 in',
+      display: '2.7-inch Color Capacitive Touchscreen',
+      warranty: '1-Year Official HP Manufacturer Warranty'
+    }
   },
   'hp-envy-6155e-all-in-one-printer': {
-    longDescription: `The HP Envy 6155e All-in-One is a versatile printer made for everyday life. Whether you're printing work documents, school assignments, family photos, or creative projects, it brings together reliable performance and vibrant color in one compact device. With printing, scanning, and copying capabilities, it's a great choice for homes that need one printer to handle a little bit of everything.
+    name: 'HP Envy 6155e All-in-One Printer',
+    metaTitle: 'HP Envy 6155e All-in-One Printer | Nova Ink LLC',
+    metaDescription: 'Buy the HP Envy 6155e All-in-One Printer at Nova Ink LLC. Versatile home printer with auto 2-sided printing, color touchscreen, and wireless printing.',
+    subtitle: 'Smart Wireless Color All-in-One Printer for Everyday Home Documents & Homework',
+    shortDescription: 'The HP Envy 6155e All-in-One Printer offers borderless photo printing, automatic two-sided printing, color touchscreen interface, and wireless connectivity.',
+    overview: `The HP Envy 6155e All-in-One is a versatile printer made for everyday life. Whether you're printing work documents, school assignments, family photos, or creative projects, it brings together reliable performance and vibrant color in one compact device.
 
-Everyday Printing Made Easy:
-From important paperwork to memorable photos, the HP Envy 6155e is designed to keep up with your daily routine. It produces sharp text, rich colors, and borderless photo prints that look great whether they're framed, shared, or added to a scrapbook. Automatic two-sided printing helps reduce paper usage, while automatic two-sided photo printing makes it easy to create personalized cards and keepsakes without the extra effort.
+With printing, scanning, and copying capabilities, it's a great choice for homes that need one printer to handle a little bit of everything.`,
+    longDescription: `The HP Envy 6155e All-in-One is a versatile printer made for everyday life. Whether you're printing work documents, school assignments, family photos, or creative projects, it brings together reliable performance and vibrant color in one compact device.
 
-Convenient from Start to Finish:
+With printing, scanning, and copying capabilities, it's a great choice for homes that need one printer to handle a little bit of everything.
+
+Everyday Printing Made Easy
+From important paperwork to memorable photos, the HP Envy 6155e is designed to keep up with your daily routine. It produces sharp text, rich colors, and borderless photo prints that look great whether they're framed, shared, or added to a scrapbook.
+Automatic two-sided printing helps reduce paper usage, while automatic two-sided photo printing makes it easy to create personalized cards and keepsakes without the extra effort.
+Whether you're printing one page or several, the results are clear, colorful, and consistent.
+
+Convenient from Start to Finish
 The HP Envy 6155e is built with simplicity in mind. Its intuitive color touchscreen makes everyday tasks easy to navigate, and wireless connectivity lets you print from your laptop, smartphone, or tablet without being tied to a cable.
+You can quickly switch between printing, scanning, and copying, making it a practical choice for busy households where different tasks come up throughout the day.
 
-Ink & Compatibility:
-The HP Envy 6155e uses Original HP ink cartridges and is compatible with HP+ features for customers who choose to activate them during setup. Dynamic Security technology ensures reliable operation with genuine HP cartridges.
+Ink & Compatibility
+The HP Envy 6155e uses Original HP ink cartridges and is compatible with HP+ features for customers who choose to activate them during setup.
+Like many HP printers, it includes Dynamic Security technology designed to work with cartridges that contain genuine HP electronic circuitry. Firmware updates may affect the use of certain third-party cartridges, so it's a good idea to check compatibility when purchasing replacement ink.
 
-Designed to Fit Your Space:
-With its clean, modern design, the HP Envy 6155e fits naturally into home offices, study areas, or shared family spaces without taking up unnecessary room. The printer is made using recycled plastic as part of HP's effort to reduce environmental impact.`,
+Designed to Fit Your Space
+With its clean, modern design, the HP Envy 6155e fits naturally into home offices, study areas, or shared family spaces without taking up unnecessary room.
+The printer is also made using recycled plastic as part of HP's effort to reduce environmental impact, offering a more thoughtful approach to everyday printing.`,
     features: [
       'Print, Scan & Copy',
       'Borderless Photo Printing',
@@ -131,7 +281,26 @@ With its clean, modern design, the HP Envy 6155e fits naturally into home office
       'Intuitive Color Touchscreen',
       'Compact Design for Home Use',
       'Made with Recycled Materials'
-    ]
+    ],
+    whatsIncluded: [
+      'HP Envy 6155e All-in-One Printer',
+      'HP 67 Setup Black Cartridge',
+      'HP 67 Setup Tri-Color Cartridge',
+      'Power Cord & Regulatory Flyer',
+      'Setup Guide & Reference Manual'
+    ],
+    whyChooseThisPrinter: `The HP Envy 6155e is a great option for families, students, and home office users who want one printer that can handle everyday documents as easily as colorful photos. It's simple to use, compact enough for smaller spaces, and versatile enough to keep up with everything from homework and paperwork to creative projects and treasured memories.`,
+    additionalInfo: `Compatible with Windows 11/10, macOS 12+, iOS, Android, and the HP Smart App. Backed by 1-Year Official HP Manufacturer Warranty and fast nationwide shipping.`,
+    specs: {
+      technology: 'HP Thermal Inkjet',
+      speed: 'Up to 10 ppm Black / 7 ppm Color',
+      functions: 'Print, Scan, Copy',
+      duplex: 'Automatic Two-Sided Printing',
+      connectivity: 'Wi-Fi 802.11b/g/n, Bluetooth LE, USB 2.0',
+      display: 'Intuitive Color Touchscreen',
+      paperSupport: 'Letter, Executive, Envelopes, 4x6, 5x7 in',
+      warranty: '1-Year Official HP Manufacturer Warranty'
+    }
   }
 };
 
@@ -275,11 +444,11 @@ function addCategoryItems(items, catId, catName) {
     allProducts.push({
       id: globalId++,
       slug: slug,
-      name: item.name,
+      name: custom?.name || item.name,
       modelNumber: item.model,
       sku: 'HP-' + catId.toUpperCase().replace('-', '_') + '-' + globalId,
       brand: 'HP',
-      subtitle: item.sub,
+      subtitle: custom?.subtitle || item.sub,
       price: item.price,
       originalPrice: item.orig,
       discountBadge: item.badge,
@@ -292,10 +461,16 @@ function addCategoryItems(items, catId, catName) {
       images: allImages,
       inStock: true,
       availability: 'In Stock & Ready to Ship',
-      shortDescription: item.sub + ' Engineered for reliability and high performance.',
+      shortDescription: custom?.shortDescription || (item.sub + ' Engineered for reliability and high performance.'),
+      overview: custom?.overview,
       longDescription: longDesc,
       features: featureList,
-      specs: {
+      whatsIncluded: custom?.whatsIncluded,
+      whyChooseThisPrinter: custom?.whyChooseThisPrinter,
+      additionalInfo: custom?.additionalInfo,
+      metaTitle: custom?.metaTitle,
+      metaDescription: custom?.metaDescription,
+      specs: custom?.specs || {
         technology: catId.includes('laser') ? 'Laser' : (catId.includes('ink') ? 'HP Thermal Inkjet' : 'Precision Hardware'),
         speed: catId.includes('laser') ? 'Up to 38 ppm' : 'Up to 15 ppm black, 10 ppm color',
         connectivity: 'Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0',

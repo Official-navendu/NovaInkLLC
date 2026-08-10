@@ -22,6 +22,20 @@ export function ProductDetails() {
   // Find product by SEO slug or backward compatible numeric ID
   const product = productsData.find(p => p.slug === slug || String(p.id) === slug) || productsData[0]
 
+  // Dynamic SEO Title & Meta Description
+  useEffect(() => {
+    if (product) {
+      document.title = product.metaTitle || `${product.name} | Nova Ink LLC`
+      let metaDesc = document.querySelector('meta[name="description"]')
+      if (!metaDesc) {
+        metaDesc = document.createElement('meta')
+        metaDesc.name = 'description'
+        document.head.appendChild(metaDesc)
+      }
+      metaDesc.setAttribute('content', product.metaDescription || product.shortDescription || '')
+    }
+  }, [product])
+
   // Backward compatibility redirect if accessed via numeric ID
   useEffect(() => {
     if (product && slug && !isNaN(Number(slug))) {
@@ -98,13 +112,14 @@ export function ProductDetails() {
   const featureList = (product.features && product.features.length > 0) ? product.features : defaultFeatures
 
   // What's Included
-  const whatsIncluded = [
+  const defaultWhatsIncluded = [
     'HP Hardware Unit',
     'Official Power Cord & Adapter',
     'Full/Starter HP Ink or Toner Cartridge',
     'Setup & User Reference Manual',
     'USB Interface Cable'
   ]
+  const whatsIncluded = (product.whatsIncluded && product.whatsIncluded.length > 0) ? product.whatsIncluded : defaultWhatsIncluded
 
   return (
     <div className="min-h-screen bg-[#F8FAFC] text-slate-800 flex flex-col font-['Manrope',sans-serif] selection:bg-[#0096D6] selection:text-white">
@@ -119,87 +134,77 @@ export function ProductDetails() {
               onClick={() => navigate(-1)}
               className="inline-flex items-center gap-1.5 text-slate-600 hover:text-[#0096D6] cursor-pointer"
             >
-              <ArrowLeft className="w-4 h-4" /> Back
+              <ArrowLeft className="w-3.5 h-3.5" /> Back
             </button>
             <span>/</span>
             <Link to="/shop" className="hover:text-[#0096D6]">Shop</Link>
             <span>/</span>
-            <Link to={`/category/${product.category}`} className="hover:text-[#0096D6]">{product.categoryName || 'Category'}</Link>
+            <Link to={`/category/${product.category}`} className="hover:text-[#0096D6] capitalize">{product.categoryName || product.category}</Link>
             <span>/</span>
             <span className="text-slate-900 line-clamp-1">{product.name}</span>
           </div>
 
-          {/* Main Product Section (Cleaned: Outer Card Container Removed) */}
-          <div className="mb-14">
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+          {/* Main Top Section */}
+          <div className="mb-12">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
               
-              {/* Product Image Gallery (Left Column) */}
+              {/* Left Side: Product Gallery */}
               <div className="lg:col-span-6 space-y-4">
-                
-                {/* Main Featured Image Box */}
-                <div className="bg-white rounded-2xl p-6 sm:p-8 flex items-center justify-center border border-slate-200/80 min-h-[360px] sm:min-h-[420px] relative overflow-hidden group shadow-xs">
+                <div className="relative aspect-square w-full bg-white rounded-2xl overflow-hidden border border-slate-200/80 shadow-xs flex items-center justify-center p-6">
                   {product.discountBadge && (
-                    <span className="absolute top-4 left-4 bg-[#0096D6] text-white text-[11px] font-extrabold uppercase px-3 py-1 rounded-full shadow-xs z-10">
+                    <span className="absolute top-4 left-4 z-10 text-[10px] font-extrabold uppercase tracking-wider bg-[#0096D6] text-white px-3 py-1 rounded-full shadow-xs">
                       {product.discountBadge}
                     </span>
                   )}
+
                   <img
-                    src={galleryImages[selectedImageIndex]}
+                    src={galleryImages[selectedImageIndex] || product.image}
                     alt={product.name}
-                    className={`max-h-72 sm:max-h-88 object-contain mix-blend-multiply drop-shadow-md transition-all duration-300 ${
-                      isFading ? 'opacity-20 scale-[0.98]' : 'opacity-100 scale-100'
+                    className={`max-h-full max-w-full object-contain transition-opacity duration-200 ${
+                      isFading ? 'opacity-0' : 'opacity-100'
                     }`}
                   />
                 </div>
 
-                {/* 4–6 Thumbnail Images Row */}
-                <div className="flex items-center gap-3 overflow-x-auto pb-1 scrollbar-none">
-                  {galleryImages.map((imgSrc, idx) => {
-                    const isActive = selectedImageIndex === idx
-                    return (
+                {/* Thumbnails */}
+                {galleryImages.length > 1 && (
+                  <div className="flex items-center gap-3 overflow-x-auto pb-2 scrollbar-none">
+                    {galleryImages.map((img, idx) => (
                       <button
                         key={idx}
                         onClick={() => handleImageChange(idx)}
-                        className={`appearance-none bg-white relative w-[70px] h-[70px] sm:w-[90px] sm:h-[90px] rounded-[12px] overflow-hidden p-2 transition-all duration-300 cursor-pointer flex items-center justify-center shrink-0 border focus:outline-none focus-visible:ring-2 focus-visible:ring-[#0096D6] ${
-                          isActive
+                        className={`relative w-[70px] h-[70px] sm:w-[90px] sm:h-[90px] rounded-[12px] bg-white border overflow-hidden shrink-0 transition-all duration-200 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[#0096D6] ${
+                          selectedImageIndex === idx
                             ? 'border-2 border-[#0096D6]'
-                            : 'border-slate-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_rgba(0,0,0,0.08)] hover:border-[#0096D6]/60'
+                            : 'border-slate-200 hover:border-slate-300'
                         }`}
-                        title={`View image ${idx + 1}`}
-                        aria-label={`View image ${idx + 1}`}
                       >
                         <img
-                          src={imgSrc}
+                          src={img}
                           alt={`${product.name} view ${idx + 1}`}
-                          className="w-full h-full object-contain mix-blend-multiply"
+                          className="w-full h-full object-contain p-1.5"
                         />
                       </button>
-                    )
-                  })}
-                </div>
-
+                    ))}
+                  </div>
+                )}
               </div>
 
-              {/* Product Summary Info (Right Column - Short Description Removed) */}
+              {/* Right Side: Product Details Summary */}
               <div className="lg:col-span-6 space-y-5">
+                
                 <div>
                   <div className="flex items-center gap-2 mb-2">
-                    <span className="text-xs font-extrabold text-[#0096D6] uppercase tracking-wider bg-blue-50 px-3 py-1 rounded-full border border-blue-100">
-                      {product.brand || 'HP'} • {product.categoryName || 'Printer'}
+                    <span className="text-[11px] font-extrabold uppercase tracking-widest text-[#0096D6] bg-blue-50 border border-blue-100 px-2.5 py-0.5 rounded-full">
+                      {product.brand || 'HP'}
                     </span>
-                    {product.sku && (
-                      <span className="text-[11px] font-mono text-slate-400">
-                        SKU: {product.sku}
-                      </span>
-                    )}
+                    <span className="text-xs text-slate-400 font-semibold">
+                      SKU: {product.sku}
+                    </span>
                   </div>
-                  
-                  <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+                  <h1 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight leading-tight">
                     {product.name}
                   </h1>
-                  <p className="text-xs sm:text-sm text-slate-500 font-medium mt-1">
-                    {product.subtitle}
-                  </p>
                 </div>
 
                 {/* Rating & Stock Status */}
@@ -309,7 +314,7 @@ export function ProductDetails() {
             </div>
           </div>
 
-          {/* Product Details Section (Cleaned: Outer Card Container Removed) */}
+          {/* Product Details Section */}
           <div className="mb-14">
             
             {/* Tab Navigation Header */}
@@ -339,19 +344,20 @@ export function ProductDetails() {
               })}
             </div>
 
-            {/* Tab Body Content (Sits directly on default page background) */}
+            {/* Tab Body Content */}
             <div>
               
               {/* TAB 1: DESCRIPTION */}
               {activeTab === 'description' && (
                 <div className="space-y-8">
+                  {/* Product Overview */}
                   <div>
                     <h3 className="text-lg font-black text-slate-900 uppercase tracking-tight mb-3">
                       PRODUCT OVERVIEW
                     </h3>
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-medium">
-                      {product.longDescription || `${product.name} is engineered for exceptional reliability, sharp print output, and seamless connectivity. Designed for home offices, academic workflows, and enterprise environments, this high-performance printing solution handles heavy monthly workloads with crystal-clear text and vibrant color reproduction.`}
-                    </p>
+                    <div className="text-xs sm:text-sm text-slate-600 leading-relaxed font-medium whitespace-pre-line space-y-3">
+                      {product.longDescription || product.overview || `${product.name} is engineered for exceptional reliability, sharp print output, and seamless connectivity.`}
+                    </div>
                   </div>
 
                   {/* Key Features Bullet List */}
@@ -372,7 +378,7 @@ export function ProductDetails() {
                   {/* What's Included */}
                   <div>
                     <h3 className="text-sm font-extrabold text-slate-900 uppercase tracking-wide mb-4">
-                      WHAT'S IN THE BOX
+                      WHAT'S INCLUDED
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                       {whatsIncluded.map((item, idx) => (
@@ -384,19 +390,36 @@ export function ProductDetails() {
                     </div>
                   </div>
 
+                  {/* Why Choose This Printer? */}
+                  {(product.whyChooseThisPrinter || product.benefits) && (
+                    <div>
+                      <h3 className="text-sm font-extrabold text-slate-900 uppercase tracking-wide mb-3">
+                        WHY CHOOSE THIS PRINTER?
+                      </h3>
+                      <div className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs text-xs sm:text-sm text-slate-600 leading-relaxed font-medium">
+                        {product.whyChooseThisPrinter || product.benefits}
+                      </div>
+                    </div>
+                  )}
+
                   {/* Additional Information */}
-                  <div className="pt-6 border-t border-slate-200/80 grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs">
-                    <div className="bg-white p-4 rounded-xl border border-slate-200/80 shadow-xs">
-                      <span className="text-slate-400 font-bold uppercase text-[10px] block mb-1">System Compatibility</span>
-                      <span className="font-extrabold text-slate-800">{product.compatibility || 'Compatible with Windows 11/10, macOS 12+, iOS, Android, & HP Smart App'}</span>
-                    </div>
-                    <div className="bg-white p-4 rounded-xl border border-slate-200/80 shadow-xs">
-                      <span className="text-slate-400 font-bold uppercase text-[10px] block mb-1">Warranty Coverage</span>
-                      <span className="font-extrabold text-slate-800">{product.warranty || '2-Year Official HP Manufacturer Warranty'}</span>
-                    </div>
-                    <div className="bg-white p-4 rounded-xl border border-slate-200/80 shadow-xs">
-                      <span className="text-slate-400 font-bold uppercase text-[10px] block mb-1">Shipping & Dispatch</span>
-                      <span className="font-extrabold text-slate-800">{product.shippingInfo || 'Dispatched within 24 business hours with door-to-door tracking'}</span>
+                  <div>
+                    <h3 className="text-sm font-extrabold text-slate-900 uppercase tracking-wide mb-4">
+                      ADDITIONAL INFORMATION
+                    </h3>
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs">
+                      <div className="bg-white p-4 rounded-xl border border-slate-200/80 shadow-xs">
+                        <span className="text-slate-400 font-bold uppercase text-[10px] block mb-1">System Compatibility</span>
+                        <span className="font-extrabold text-slate-800">{product.compatibility || 'Compatible with Windows 11/10, macOS 12+, iOS, Android, & HP Smart App'}</span>
+                      </div>
+                      <div className="bg-white p-4 rounded-xl border border-slate-200/80 shadow-xs">
+                        <span className="text-slate-400 font-bold uppercase text-[10px] block mb-1">Warranty Coverage</span>
+                        <span className="font-extrabold text-slate-800">{product.specs?.warranty || product.warranty || '2-Year Official HP Manufacturer Warranty'}</span>
+                      </div>
+                      <div className="bg-white p-4 rounded-xl border border-slate-200/80 shadow-xs">
+                        <span className="text-slate-400 font-bold uppercase text-[10px] block mb-1">Shipping & Dispatch</span>
+                        <span className="font-extrabold text-slate-800">{product.shippingInfo || 'Dispatched within 24 business hours with door-to-door tracking'}</span>
+                      </div>
                     </div>
                   </div>
                 </div>

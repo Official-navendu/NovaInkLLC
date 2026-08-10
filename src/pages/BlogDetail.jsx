@@ -46,6 +46,14 @@ export function BlogDetail() {
         document.head.appendChild(ogDesc)
       }
       ogDesc.setAttribute('content', blog.metaDescription || blog.excerpt)
+
+      let ogImage = document.querySelector('meta[property="og:image"]')
+      if (!ogImage) {
+        ogImage = document.createElement('meta')
+        ogImage.setAttribute('property', 'og:image')
+        document.head.appendChild(ogImage)
+      }
+      ogImage.setAttribute('content', blog.image)
     }
   }, [blog])
 

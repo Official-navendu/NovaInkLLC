@@ -164,7 +164,7 @@ export function Footer() {
         {/* Copyright & Payment Badges */}
         <div className="pt-6 border-t border-[#2A3855] flex flex-col md:flex-row items-center justify-between gap-4 text-[11px]">
           <p className="text-slate-500 font-medium">
-            © 2025 Nova Ink LLC. All Rights Reserved.
+            © 2026 Nova Ink LLC. All Rights Reserved.
           </p>
           <div className="flex items-center gap-2">
             <span className="px-2 py-1 bg-[#172136] border border-[#2A3855] rounded font-bold text-[9px] text-white">VISA</span>
