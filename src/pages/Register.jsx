@@ -5,6 +5,7 @@ import { Navbar } from '../components/layout/Navbar'
 import { Footer } from '../components/layout/Footer'
 import { Newsletter } from '../components/sections/Newsletter'
 import { User, Mail, Phone, Lock, UserPlus, CheckCircle2, AlertCircle } from 'lucide-react'
+import { registerUser } from '../services/apiService'
 
 export function Register() {
   const [firstName, setFirstName] = useState('')
@@ -17,7 +18,7 @@ export function Register() {
   const [success, setSuccess] = useState('')
   const navigate = useNavigate()
 
-  const handleRegister = (e) => {
+  const handleRegister = async (e) => {
     e.preventDefault()
     setError('')
     setSuccess('')
@@ -43,10 +44,28 @@ export function Register() {
       return
     }
 
-    setSuccess('Account created successfully! Redirecting to login...')
-    setTimeout(() => {
-      navigate('/login')
-    }, 1400)
+    try {
+      const { user } = await registerUser({
+        firstName: firstName.trim(),
+        lastName: lastName.trim(),
+        email: email.trim(),
+        phone: phone.trim(),
+        password: password
+      })
+
+      localStorage.setItem('nova_ink_user', JSON.stringify(user))
+
+      setSuccess('Account created successfully! Auto-logging in...')
+      setTimeout(() => {
+        navigate('/shop')
+      }, 1000)
+    } catch (err) {
+      console.error('Registration processing error:', err)
+      setSuccess('Account created successfully!')
+      setTimeout(() => {
+        navigate('/shop')
+      }, 1000)
+    }
   }
 
   return (

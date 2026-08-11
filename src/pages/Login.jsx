@@ -5,6 +5,7 @@ import { Navbar } from '../components/layout/Navbar'
 import { Footer } from '../components/layout/Footer'
 import { Newsletter } from '../components/sections/Newsletter'
 import { Mail, Lock, LogIn, CheckCircle2, AlertCircle } from 'lucide-react'
+import { loginUser } from '../services/apiService'
 
 export function Login() {
   const [email, setEmail] = useState('')
@@ -14,7 +15,7 @@ export function Login() {
   const [success, setSuccess] = useState('')
   const navigate = useNavigate()
 
-  const handleLogin = (e) => {
+  const handleLogin = async (e) => {
     e.preventDefault()
     setError('')
     setSuccess('')
@@ -30,10 +31,24 @@ export function Login() {
       return
     }
 
-    setSuccess('Signed in successfully! Redirecting...')
-    setTimeout(() => {
-      navigate('/shop')
-    }, 1200)
+    try {
+      const authResult = await loginUser({ email: email.trim(), password })
+
+      if (!authResult.success) {
+        setError(authResult.error || 'Authentication failed. Please try again.')
+        return
+      }
+
+      localStorage.setItem('nova_ink_user', JSON.stringify(authResult.user))
+
+      setSuccess('Signed in successfully! Redirecting...')
+      setTimeout(() => {
+        navigate('/shop')
+      }, 1000)
+    } catch (err) {
+      console.error('Login processing error:', err)
+      setError('An error occurred while logging in. Please try again.')
+    }
   }
 
   return (

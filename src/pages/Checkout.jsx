@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useCart } from '../context/CartContext'
 import { Navbar } from '../components/layout/Navbar'
 import { Footer } from '../components/layout/Footer'
 import { Newsletter } from '../components/sections/Newsletter'
 import { Link, useNavigate } from 'react-router-dom'
 import { ShieldCheck, Truck, CreditCard, ArrowRight, AlertCircle, ShoppingBag } from 'lucide-react'
+import { placeOrder } from '../services/apiService'
 
 export function Checkout() {
   const { cartItems, subtotal, clearCart } = useCart()
@@ -29,11 +30,30 @@ export function Checkout() {
   const [paymentMethod, setPaymentMethod] = useState('cod')
   const [error, setError] = useState('')
 
+  // Pre-fill logged-in user details if available
+  useEffect(() => {
+    try {
+      const storedUser = localStorage.getItem('nova_ink_user')
+      if (storedUser) {
+        const user = JSON.parse(storedUser)
+        setFormData(prev => ({
+          ...prev,
+          firstName: user.firstName || prev.firstName,
+          lastName: user.lastName || prev.lastName,
+          email: user.email || prev.email,
+          phone: user.phone && user.phone !== 'N/A' ? user.phone : prev.phone
+        }))
+      }
+    } catch (e) {
+      console.warn('Logged in user pre-fill check exception:', e)
+    }
+  }, [])
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value })
   }
 
-  const handlePlaceOrder = (e) => {
+  const handlePlaceOrder = async (e) => {
     e.preventDefault()
     setError('')
 
@@ -78,8 +98,11 @@ export function Checkout() {
       const updatedOrders = [newOrder, ...existingOrders]
       localStorage.setItem('nova_ink_orders', JSON.stringify(updatedOrders))
       localStorage.setItem('nova_ink_latest_order', JSON.stringify(newOrder))
+
+      // Route order to Apps Script API (Saves to Orders sheet + Apps script sends emails server-side)
+      await placeOrder(newOrder)
     } catch (err) {
-      console.error('Failed to save order to localStorage:', err)
+      console.error('Failed to process order integrations:', err)
     }
 
     clearCart()
