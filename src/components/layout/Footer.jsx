@@ -44,7 +44,7 @@ export function Footer() {
               <img
                 src="/images/footer-logo.png"
                 alt="Nova Ink LLC"
-                className="w-44 sm:w-52 md:w-56 lg:w-[230px] h-auto max-w-full object-contain"
+                className="w-28 sm:w-32 md:w-36 lg:w-[138px] h-auto max-w-full object-contain"
               />
             </Link>
             <p className="text-[11px] text-slate-400 leading-relaxed mb-5 font-medium">
