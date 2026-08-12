@@ -20,8 +20,7 @@ export function Shop() {
     { label: 'Home Printers', id: 'home-printers' },
     { label: 'Office Printers', id: 'office-printers' },
     { label: 'Ink & Toner', id: 'ink-toner' },
-    { label: 'Printer Accessories', id: 'printer-accessories' },
-    { label: 'Paper & Media', id: 'paper-media' }
+    { label: 'Printer Accessories', id: 'printer-accessories' }
   ]
 
   // Filter and Sort Products

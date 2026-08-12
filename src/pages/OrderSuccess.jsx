@@ -53,7 +53,7 @@ export function OrderSuccess() {
           </h1>
 
           <p className="text-xs sm:text-sm text-slate-600 font-medium max-w-md mx-auto mb-6 leading-relaxed">
-            Your purchase of genuine HP printers and supplies has been successfully placed under Cash on Delivery.
+            Your purchase of genuine HP printers and supplies has been successfully placed under Pay on Delivery.
           </p>
 
           {order ? (
@@ -117,7 +117,7 @@ export function OrderSuccess() {
                   <p className="text-slate-600">Subtotal: <span className="font-bold text-slate-900">${order.subtotal?.toFixed(2)}</span></p>
                   <p className="text-slate-600">Express Shipping: <span className="font-bold text-emerald-600">FREE</span></p>
                   <p className="text-slate-900 text-sm font-black pt-1">
-                    Total Due (COD): <span className="text-[#0096D6]">${order.total?.toFixed(2)}</span>
+                    Total Due (POD): <span className="text-[#0096D6]">${order.total?.toFixed(2)}</span>
                   </p>
                 </div>
               </div>

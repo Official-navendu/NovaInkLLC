@@ -1,5 +1,7 @@
-// Frontend API Service for Nova Ink LLC
-// Real Apps Script API communications only - zero local fallbacks, zero mock data, zero faked success returns.
+// Frontend API Gateway for Nova Ink LLC
+// Connects React frontend directly to Google Apps Script backend.
+// Dispatches requests as text/plain;charset=utf-8 to bypass browser CORS preflight checks.
+// Zero local fallbacks, zero mock data, zero fake success responses.
 
 const GOOGLE_APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxrD6mwhiJlt3qAGqEn7WR0LUn3-u5RLJYzC7k4i2DtdNX54Uzh9KqtguoN2626jZFKNg/exec'
 
@@ -7,6 +9,7 @@ const GOOGLE_APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxrD6mwh
  * Post JSON payload to Google Apps Script backend
  */
 async function postToAppsScript(payload) {
+  console.log("REQUEST PAYLOAD", payload)
   try {
     const response = await fetch(GOOGLE_APPS_SCRIPT_URL, {
       method: 'POST',
@@ -16,8 +19,10 @@ async function postToAppsScript(payload) {
       body: JSON.stringify(payload)
     })
 
+    console.log("RESPONSE STATUS", response ? response.status : 'NO_RESPONSE')
+
     if (!response) {
-      return { success: false, error: 'No response received from server' }
+      return { success: false, error: 'No response received from Google Apps Script' }
     }
 
     const text = await response.text()
@@ -28,6 +33,7 @@ async function postToAppsScript(payload) {
       parsed = { rawText: text }
     }
 
+    console.log("RESPONSE DATA", parsed)
     return { success: true, data: parsed }
   } catch (error) {
     console.error('API POST ERROR:', error)
@@ -36,7 +42,7 @@ async function postToAppsScript(payload) {
 }
 
 /**
- * 1. Register User (signup action)
+ * 1. User Registration (signup action)
  */
 export async function registerUser(userData) {
   const userId = 'USR-' + Math.floor(100000 + Math.random() * 900000)
@@ -53,9 +59,7 @@ export async function registerUser(userData) {
     createdAt: new Date().toISOString()
   }
 
-  console.log("REQUEST", payload)
   const result = await postToAppsScript(payload)
-  console.log("RESPONSE", result)
 
   const sessionUser = {
     userId,
@@ -72,7 +76,7 @@ export async function registerUser(userData) {
 }
 
 /**
- * 2. Login User (login action)
+ * 2. User Login (login action)
  */
 export async function loginUser({ email, password }) {
   const trimmedEmail = (email || '').trim().toLowerCase()
@@ -83,9 +87,7 @@ export async function loginUser({ email, password }) {
     password
   }
 
-  console.log("REQUEST", payload)
   const result = await postToAppsScript(payload)
-  console.log("RESPONSE", result)
 
   const sessionUser = {
     userId: 'USR-' + Math.floor(100000 + Math.random() * 900000),
@@ -132,14 +134,12 @@ export async function placeOrder(orderData) {
     subtotal: subtotalVal,
     shipping: shippingVal,
     total: totalVal,
-    paymentMethod: orderData.paymentMethod || 'Cash on Delivery (COD)',
+    paymentMethod: orderData.paymentMethod || 'Pay on Delivery (POD)',
     status: orderData.status || 'Order Confirmed',
     createdAt: orderData.createdAt || orderData.date || new Date().toISOString()
   }
 
-  console.log("REQUEST", payload)
   const result = await postToAppsScript(payload)
-  console.log("RESPONSE", result)
 
   return { ...result, orderId: orderData.orderId, order: payload }
 }
@@ -155,9 +155,7 @@ export async function getUserOrders(userEmail) {
     email: targetEmail
   }
 
-  console.log("REQUEST", payload)
   const result = await postToAppsScript(payload)
-  console.log("RESPONSE", result)
 
   if (result.success && result.data && Array.isArray(result.data.orders)) {
     return result.data.orders

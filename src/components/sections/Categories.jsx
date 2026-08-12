@@ -20,27 +20,27 @@ export function Categories() {
         </Link>
       </div>
 
-      {/* 5 Cards Grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+      {/* 4 Cards Grid: 1 on Mobile, 2 on Tablet, 4 on Desktop */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
         {categoriesData.map((cat) => (
           <Link
             key={cat.id}
             to={cat.link}
-            className="bg-white rounded-xl border border-slate-200/90 p-3.5 flex flex-col justify-between shadow-xs hover:shadow-md transition-all duration-200 group text-center cursor-pointer"
+            className="bg-white rounded-2xl border border-slate-200/90 p-5 flex flex-col justify-between shadow-xs hover:shadow-xl transition-all duration-300 group text-center cursor-pointer hover:-translate-y-1"
           >
             <div>
-              <div className="w-full h-32 bg-slate-50 rounded-lg p-2 flex items-center justify-center mb-3 group-hover:bg-blue-50/20 transition-colors">
+              <div className="w-full h-36 sm:h-40 bg-slate-50 rounded-xl p-3 flex items-center justify-center mb-4 group-hover:bg-blue-50/30 transition-colors">
                 <img
                   src={cat.image}
                   alt={cat.title}
-                  className="max-h-24 object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300"
+                  className="max-h-28 sm:max-h-32 object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300"
                   loading="lazy"
                 />
               </div>
-              <h3 className="font-extrabold text-slate-900 text-xs tracking-wide uppercase group-hover:text-[#0096D6] transition-colors mb-1">
+              <h3 className="font-extrabold text-slate-900 text-sm tracking-wide uppercase group-hover:text-[#0096D6] transition-colors mb-1.5">
                 {cat.title}
               </h3>
-              <p className="text-[11px] text-slate-500 font-normal leading-snug line-clamp-2">
+              <p className="text-xs text-slate-500 font-medium leading-relaxed line-clamp-2">
                 {cat.description}
               </p>
             </div>

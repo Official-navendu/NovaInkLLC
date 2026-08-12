@@ -6,8 +6,7 @@ const productTabs = [
   { id: 'home-printers', label: 'Home Printers' },
   { id: 'office-printers', label: 'Office Printers' },
   { id: 'ink-toner', label: 'Ink & Toner' },
-  { id: 'printer-accessories', label: 'Printer Accessories' },
-  { id: 'paper-media', label: 'Paper & Media' }
+  { id: 'printer-accessories', label: 'Printer Accessories' }
 ];
 
 const hpImageEnvy = '/images/products/prod_hp_envy.webp';
@@ -321,22 +320,21 @@ const homePrinters = [
 ];
 
 const officePrinters = [
-  { name: 'HP LaserJet Pro M404dn Monochrome Laser', model: 'M404dn', price: 279.99, orig: 329.99, badge: 'Fast 40 PPM', img: hpImageLaserJet, sub: 'High-Speed Business Duplex Monochrome Laser Printer' },
-  { name: 'HP OfficeJet Pro 9015e Wireless All-in-One', model: '9015e', price: 249.99, orig: 289.99, badge: 'Best Seller', img: hpImageLaserJet, sub: 'Professional Color Inkjet Printer with Smart Tasks & Security' },
-  { name: 'HP Color LaserJet Pro M283fdw Wireless MFP', model: 'M283fdw', price: 499.99, orig: 549.99, badge: 'Color Laser', img: hpImageLaserJet, sub: 'Multifunction Wireless Color Laser Printer with Touchscreen' },
-  { name: 'HP LaserJet Tank MFP 2604dw Wireless Printer', model: '2604dw', price: 329.99, orig: 379.99, badge: 'Toner Tank', img: hpImageLaserJet, sub: 'High-Volume Reloadable Toner Laser Printer with 5k Pre-Filled Pages' },
-  { name: 'HP OfficeJet Pro 8025e All-in-One Printer', model: '8025e', price: 199.99, orig: 229.99, badge: 'Office Essential', img: hpImageLaserJet, sub: 'Fast 20 ppm Color Inkjet Printer with Auto 2-Sided Printing' },
-  { name: 'HP LaserJet Pro MFP M428fdw Laser Printer', model: 'M428fdw', price: 549.99, orig: 599.99, badge: 'Enterprise Security', img: hpImageLaserJet, sub: '4-in-1 Multifunction Monochrome Laser with Single-Pass Duplex Scanning' },
-  { name: 'HP Color LaserJet Enterprise M455dn', model: 'M455dn', price: 649.99, orig: 719.99, badge: 'Heavy Duty', img: hpImageLaserJet, sub: 'Enterprise-Grade Security & Dynamic Color LaserJet Workhorse' },
-  { name: 'HP OfficeJet Pro 9025e All-in-One Printer', model: '9025e', price: 349.99, orig: 399.99, badge: 'Dual Trays', img: hpImageLaserJet, sub: 'High-Performance Office Printer with 500-Sheet Paper Capacity' },
-  { name: 'HP LaserJet Pro M501dn High-Speed Laser', model: 'M501dn', price: 479.99, orig: 529.99, badge: '45 PPM Speed', img: hpImageLaserJet, sub: 'Ultra-Fast Monochrome Business Laser Printer for Workgroups' },
-  { name: 'HP Color LaserJet Pro M454dw Wireless Laser', model: 'M454dw', price: 429.99, orig: 479.99, badge: 'Wireless Color', img: hpImageLaserJet, sub: 'Vibrant Business Color Output with Dual-Band Wi-Fi' },
-  { name: 'HP OfficeJet Pro 8035e All-in-One Printer', model: '8035e', price: 219.99, orig: 249.99, badge: 'Smart Tasks', img: hpImageLaserJet, sub: 'Smart Color Printer with Automated Cloud Scanning Shortcuts' },
-  { name: 'HP LaserJet Enterprise M507x Business Laser', model: 'M507x', price: 899.99, orig: 999.99, badge: 'Workgroup King', img: hpImageLaserJet, sub: '4.3-inch Color Touchscreen Printer with Built-in Security & Dual Trays' },
-  { name: 'HP OfficeJet Enterprise Color MFP X585f', model: 'X585f', price: 1299.99, orig: 1499.99, badge: 'Enterprise MFP', img: hpImageLaserJet, sub: 'PageWide Technology Enterprise Color Multifunction Workstation' },
-  { name: 'HP Color LaserJet Pro MFP M182n', model: 'M182n', price: 379.99, orig: 419.99, badge: 'Compact Laser', img: hpImageLaserJet, sub: 'Compact Ethernet Color Laser Printer with Sharp Text & Graphics' },
-  { name: 'HP LaserJet Pro M203dw Wireless Laser Printer', model: 'M203dw', price: 219.99, orig: 249.99, badge: 'Auto Duplex', img: hpImageLaserJet, sub: 'Reliable Wireless Monochrome Printing for Small Offices' },
-  { name: 'HP OfficeJet Pro 9010 All-in-One Printer', model: '9010', price: 239.99, orig: 269.99, badge: 'Proven Quality', img: hpImageLaserJet, sub: 'Self-Healing Wi-Fi & Smart Task Shortcuts for Productivity' }
+  { name: 'HP Smart Tank 7602 All-in-One', model: '7602', price: 369.99, orig: 429.99, badge: 'Smart Tank', img: hpImageEnvy, sub: 'Cartridge-Free Smart Tank All-in-One Printer with Auto Feeder & Touchscreen' },
+  { name: 'HP LaserJet M209dw Printer', model: 'M209dw', price: 199.00, orig: 229.00, badge: 'Duplex Laser', img: hpImageLaserJet, sub: 'High-Speed Wireless Monochrome Laser Printer with Automatic Two-Sided Printing' },
+  { name: 'HP LaserJet MFP M234dw Printer', model: 'M234dw', price: 189.00, orig: 219.00, badge: 'Multifunction', img: hpImageLaserJet, sub: 'Compact Wireless Multifunction Laser Printer with Auto Two-Sided Printing' },
+  { name: 'HP Smart Tank 7301 All-in-One Printer', model: '7301', price: 449.99, orig: 499.99, badge: 'High Capacity', img: hpImageEnvy, sub: 'High-Capacity Wireless Color Tank Printer with Ethernet & Auto 2-Sided Printing' },
+  { name: 'HP LaserJet M209d Printer', model: 'M209d', price: 159.00, orig: 189.00, badge: 'Compact Laser', img: hpImageLaserJet, sub: 'Compact High-Speed Monochrome Laser Printer with Auto Two-Sided Printing' },
+  { name: 'HP LaserJet MFP M234sdw Printer', model: 'M234sdw', price: 279.00, orig: 319.00, badge: 'Auto Feeder', img: hpImageLaserJet, sub: 'Wireless Multifunction Monochrome Laser Printer with 40-Page Auto Feeder' },
+  { name: 'HP LaserJet M140w Wireless Black & White Printer', model: 'M140w', price: 209.00, orig: 239.00, badge: 'Compact MFP', img: hpImageLaserJet, sub: 'Ultra-Compact Wireless Monochrome Multifunction Laser Printer' },
+  { name: 'HP Smart Tank 5103 All-in-One Printer', model: '5103', price: 199.99, orig: 239.99, badge: 'Cartridge-Free', img: hpImageEnvy, sub: 'Smart Tank Color All-in-One Printer with Smart Buttons & Mobile Setup' },
+  { name: 'HP Smart Tank 5101 All-in-One Printer', model: '5101', price: 179.99, orig: 219.99, badge: 'Wireless Tank', img: hpImageEnvy, sub: 'Cartridge-Free High-Volume Color Ink Tank Printer with Wi-Fi & Smart App' },
+  { name: 'HP Smart Tank Plus 651 Wireless All-in-One', model: '651', price: 329.99, orig: 379.99, badge: 'Smart Tank Plus', img: hpImageEnvy, sub: 'Wireless Color Tank All-in-One Printer with 35-Page ADF & Touchscreen' },
+  { name: 'HP LaserJet MFP M235sdw Printer', model: 'M235sdw', price: 239.00, orig: 269.00, badge: 'Pro MFP', img: hpImageLaserJet, sub: 'Wireless Monochrome Multifunction Laser Printer with Auto Two-Sided Printing & Feeder' },
+  { name: 'HP Smart Tank 6001 All-in-One', model: '6001', price: 239.99, orig: 279.99, badge: 'Borderless Print', img: hpImageEnvy, sub: 'High-Volume Color Tank All-in-One Printer with Auto Two-Sided Printing' },
+  { name: 'HP Smart Tank 7001 All-in-One Printer', model: '7001', price: 259.99, orig: 299.99, badge: 'Duplex Tank', img: hpImageEnvy, sub: 'Smart Tank Wireless Color Printer with Auto 2-Sided Printing & Dual-Band Wi-Fi' },
+  { name: 'HP LaserJet M207dw Printer', model: 'M207dw', price: 169.00, orig: 199.00, badge: 'Fast Laser', img: hpImageLaserJet, sub: 'Wireless Monochrome Laser Printer with Automatic Two-Sided Printing' },
+  { name: 'HP LaserJet M110w Wireless Black & White Printer', model: 'M110w', price: 169.00, orig: 199.00, badge: 'Ultra Compact', img: hpImageLaserJet, sub: 'World Smallest Monochrome Laser Printer with Wi-Fi & HP Smart App' }
 ];
 
 const inkToner = [
@@ -377,33 +375,57 @@ const accessories = [
   { name: 'HP Wireless Direct Touch-to-Print BLE Dongle', model: '2MU47A', price: 69.99, orig: 79.99, badge: 'Mobile Print', img: hpImageLaserJet, sub: 'Instant Mobile Printing Bluetooth Dongle for HP LaserJet Pro' }
 ];
 
-const paperMedia = [
-  { name: 'HP Everyday Copy & Multipurpose Paper 500 Sheets', model: 'HPS20', price: 12.99, orig: 15.99, badge: 'ColorLok Tech', img: hpImageEnvy, sub: '92 Brightness 20lb Copy Paper Ream for Jam-Free Daily Printing' },
-  { name: 'HP Advanced Glossy Photo Paper 8.5x11 (50 Sheets)', model: 'Q6638A', price: 24.99, orig: 29.99, badge: 'Lab Quality', img: hpImageEnvy, sub: 'Smudge-Resistant Instant-Dry Premium Glossy Photo Paper' },
-  { name: 'HP Premium Choice LaserJet Paper 24lb (500 Sheets)', model: 'HAP2420', price: 18.99, orig: 22.99, badge: '98 Bright', img: hpImageLaserJet, sub: 'Heavyweight Extra Smooth 98 Brightness Paper for Proposals & Reports' },
-  { name: 'HP Social Media Snapshots Removable Sticky Photo Paper', model: 'W4Z13A', price: 14.99, orig: 17.99, badge: 'Sticky Back', img: hpImageEnvy, sub: '4x5 inch Restickable Glossy Photo Cards for DIY Crafts & Wall Art' },
-  { name: 'HP Brochure & Flyer Glossy Paper 180g (150 Sheets)', model: 'Q6612A', price: 29.99, orig: 34.99, badge: 'Marketing Grade', img: hpImageEnvy, sub: 'Heavyweight 48lb Two-Sided Glossy Paper for Sales Presentations' },
-  { name: 'HP Office 20lb Copy Paper 10 Ream Case (5000 Sheets)', model: '112000', price: 64.99, orig: 74.99, badge: 'Bulk Box', img: hpImageLaserJet, sub: 'High Volume 5,000 Sheet Pallet Box for Busy Office Printers' },
-  { name: 'HP Everyday Photo Paper Matte 4x6 (100 Sheets)', model: 'CR757A', price: 11.99, orig: 14.99, badge: 'Matte Finish', img: hpImageEnvy, sub: 'Quick Drying Matte Photo Cards for Everyday Family Prints' },
-  { name: 'HP Professional Matte Laser Paper 32lb (150 Sheets)', model: 'CG965A', price: 22.99, orig: 26.99, badge: 'Heavy Matte', img: hpImageLaserJet, sub: 'Ultra Smooth Heavyweight Matte Paper for Vibrant Color Laser Prints' },
-  { name: 'HP All-in-One22 Printing Paper 22lb (500 Sheets)', model: 'HPT1122', price: 16.99, orig: 19.99, badge: 'Extra Bright', img: hpImageLaserJet, sub: 'Premium 96 Brightness Multipurpose Paper for Sharp Black & Color' },
-  { name: 'HP Premium Glossy Photo Paper 4x6 (100 Sheets)', model: 'CR759A', price: 15.99, orig: 18.99, badge: 'Instant Dry', img: hpImageEnvy, sub: 'Heavyweight 68lb Archival Quality Glossy Photo Paper' },
-  { name: 'HP Heavyweight Project Paper Matte 8.5x11 (100 Sheets)', model: 'Q6550A', price: 19.99, orig: 23.99, badge: 'Project Grade', img: hpImageEnvy, sub: 'Durable Non-Glare Heavyweight Paper for Signs, Flyers & School Work' },
-  { name: 'HP Translucent Clear Overlay Film (50 Sheets)', model: 'HP-FILM', price: 34.99, orig: 39.99, badge: 'Specialty Film', img: hpImageLaserJet, sub: 'Clear High Transparency Overhead Projection & Craft Film' },
-  { name: 'HP Tri-fold Brochure Paper Glossy 150 Sheets', model: 'Q2525A', price: 31.99, orig: 36.99, badge: 'Pre-Scored', img: hpImageEnvy, sub: 'Pre-Folded Glossy Marketing Paper for Professional Pamphlets' },
-  { name: 'HP Recycled Copy Paper 100% Post-Consumer 500 Sheets', model: 'HPE20R', price: 15.99, orig: 18.99, badge: '100% Eco', img: hpImageLaserJet, sub: 'Environmentally Friendly 100% Recycled 20lb Copy Paper Ream' },
-  { name: 'HP Bright White Inkjet Paper 24lb (500 Sheets)', model: 'HPB1120', price: 17.99, orig: 21.99, badge: 'ColorLok 99', img: hpImageEnvy, sub: '99 Brightness Ultra White Paper for High Contrast Inkjet Documents' },
-  { name: 'HP Iron-On T-Shirt Transfers for Light Fabrics (12 Sheets)', model: 'C6818A', price: 19.99, orig: 24.99, badge: 'Apparel DIY', img: hpImageEnvy, sub: 'Custom Heat Transfer Paper for Personalized T-Shirts, Bags & Aprons' }
-];
-
 let globalId = 1;
 const allProducts = [];
+
+function resolveProductImages(catId, productName, slug) {
+  const publicDir = path.join(__dirname, '../../public');
+  
+  const candidateFolders = [
+    path.join(publicDir, 'images/products/office printer', productName),
+    path.join(publicDir, 'images/products/office printer', slug),
+    path.join(publicDir, 'images/products/office-printers', productName),
+    path.join(publicDir, 'images/products/office-printers', slug),
+    path.join(publicDir, 'images/products', catId, productName),
+    path.join(publicDir, 'images/products', catId, slug)
+  ];
+
+  let foundFolder = null;
+  let webPathPrefix = null;
+
+  for (const folder of candidateFolders) {
+    if (fs.existsSync(folder)) {
+      foundFolder = folder;
+      const relative = path.relative(publicDir, folder).split(path.sep).join('/');
+      webPathPrefix = '/' + relative;
+      break;
+    }
+  }
+
+  if (!foundFolder || !webPathPrefix) return null;
+
+  const files = fs.readdirSync(foundFolder);
+  if (files.length === 0) return null;
+
+  files.sort((a, b) => {
+    const numA = parseInt(a, 10);
+    const numB = parseInt(b, 10);
+    if (!isNaN(numA) && !isNaN(numB)) return numA - numB;
+    return a.localeCompare(b);
+  });
+
+  let mainFile = files.find(f => /^1\.(webp|jpg|jpeg|png)$/i.test(f)) || files[0];
+  const mainImage = webPathPrefix + '/' + mainFile;
+  const galleryFiles = files.filter(f => f !== mainFile && /\.(webp|jpg|jpeg|png)$/i.test(f));
+  const galleryList = galleryFiles.map(f => webPathPrefix + '/' + f);
+
+  return { mainImage, galleryList: galleryList.length > 0 ? galleryList : [mainImage] };
+}
 
 function addCategoryItems(items, catId, catName) {
   items.forEach(item => {
     const slug = item.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
     
-    // Strict Verification: Only update image path if matching local folder & 1.jpg actually exists!
     let mainImage = item.img;
     let galleryList = [
       '/images/hero/hero-1.webp',
@@ -412,20 +434,10 @@ function addCategoryItems(items, catId, catName) {
       '/images/hero/hero-4.webp'
     ];
 
-    if (catId === 'home-printers') {
-      const publicDir = path.join(__dirname, '../../public');
-      const folderPath = path.join(publicDir, 'images/products/home-printers', slug);
-      const img1Path = path.join(folderPath, '1.jpg');
-      
-      if (fs.existsSync(folderPath) && fs.existsSync(img1Path)) {
-        mainImage = `/images/products/home-printers/${slug}/1.jpg`;
-        galleryList = [
-          `/images/products/home-printers/${slug}/2.jpg`,
-          `/images/products/home-printers/${slug}/3.jpg`,
-          `/images/products/home-printers/${slug}/4.jpg`,
-          `/images/products/home-printers/${slug}/5.jpg`
-        ].filter(g => fs.existsSync(path.join(publicDir, g)));
-      }
+    const resolved = resolveProductImages(catId, item.name, slug);
+    if (resolved) {
+      mainImage = resolved.mainImage;
+      galleryList = resolved.galleryList;
     }
 
     const allImages = [mainImage, ...galleryList];
@@ -487,7 +499,6 @@ addCategoryItems(homePrinters, 'home-printers', 'Home Printers');
 addCategoryItems(officePrinters, 'office-printers', 'Office Printers');
 addCategoryItems(inkToner, 'ink-toner', 'Ink & Toner');
 addCategoryItems(accessories, 'printer-accessories', 'Printer Accessories');
-addCategoryItems(paperMedia, 'paper-media', 'Paper & Media');
 
 const fileContent = 'export const productTabs = ' + JSON.stringify(productTabs, null, 2) + ';\n\n' +
   'export const productsData = ' + JSON.stringify(allProducts, null, 2) + ';\n';

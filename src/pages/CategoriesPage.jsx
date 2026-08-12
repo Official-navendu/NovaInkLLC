@@ -40,9 +40,9 @@ export function CategoriesPage() {
           </div>
         </div>
 
-        {/* Existing Main Categories Grid */}
+        {/* Main Categories Grid (4 Categories) */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {categoriesData.map((cat) => (
               <Link
                 key={cat.id}

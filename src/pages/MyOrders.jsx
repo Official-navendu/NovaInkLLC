@@ -120,7 +120,7 @@ export function MyOrders() {
                 <div className="pt-3 border-t border-slate-100 flex flex-wrap items-center justify-between text-xs font-medium text-slate-600 gap-2">
                   <div className="flex items-center gap-1.5">
                     <Truck className="w-4 h-4 text-[#0096D6]" />
-                    <span>Payment: <strong className="text-slate-900">{ord.paymentMethod || 'Cash on Delivery (COD)'}</strong></span>
+                    <span>Payment: <strong className="text-slate-900">{ord.paymentMethod || 'Pay on Delivery (POD)'}</strong></span>
                   </div>
                   <div>
                     <span>Total Amount: <strong className="text-[#0096D6] text-sm font-black">${formatMoney(ord.total)}</strong></span>
@@ -196,7 +196,7 @@ export function MyOrders() {
 
                 <div className="space-y-1 text-right">
                   <h4 className="font-extrabold text-slate-900 uppercase text-[11px] mb-1">Order Totals</h4>
-                  <p className="text-slate-600">Payment: <span className="font-bold text-slate-900">{selectedOrder.paymentMethod || 'Cash on Delivery (COD)'}</span></p>
+                  <p className="text-slate-600">Payment: <span className="font-bold text-slate-900">{selectedOrder.paymentMethod || 'Pay on Delivery (POD)'}</span></p>
                   <p className="text-slate-600">Shipping: <span className="font-bold text-emerald-600">FREE</span></p>
                   <p className="text-slate-900 text-sm font-black pt-1">Grand Total: <span className="text-[#0096D6]">${formatMoney(selectedOrder.total)}</span></p>
                 </div>

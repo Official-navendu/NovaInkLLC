@@ -157,7 +157,7 @@ export function Login() {
                     </div>
                   </div>
 
-                  {/* Remember Me & Forgot Password */}
+                  {/* Remember Me */}
                   <div className="flex items-center justify-between text-xs pt-1">
                     <label className="flex items-center gap-2 cursor-pointer select-none text-slate-600 font-semibold">
                       <input
@@ -168,13 +168,6 @@ export function Login() {
                       />
                       <span>Remember Me</span>
                     </label>
-                    <a
-                      href="#forgot"
-                      onClick={(e) => { e.preventDefault(); alert('Password reset instructions sent to your email! (Demo)') }}
-                      className="text-[#0096D6] font-bold hover:underline"
-                    >
-                      Forgot Password?
-                    </a>
                   </div>
 
                   {/* CTA Submit Button */}

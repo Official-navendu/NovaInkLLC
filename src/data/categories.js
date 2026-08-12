@@ -34,14 +34,5 @@ export const categoriesData = [
     image: '/images/cat_accessories.webp',
     itemCount: '15+ Products',
     link: '/categories/printer-accessories'
-  },
-  {
-    id: 'paper-media',
-    slug: 'paper-media',
-    title: 'PAPER & MEDIA',
-    description: 'Premium photo paper, multipurpose copy reams, and matte media.',
-    image: '/images/cat_paper.webp',
-    itemCount: '15+ Products',
-    link: '/categories/paper-media'
   }
 ]

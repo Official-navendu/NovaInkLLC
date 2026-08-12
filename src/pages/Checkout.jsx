@@ -88,7 +88,7 @@ export function Checkout() {
       shipping: 0,
       tax: 0,
       total: subtotal,
-      paymentMethod: 'Cash on Delivery (COD)',
+      paymentMethod: 'Pay on Delivery (POD)',
       status: 'Order Confirmed',
       billing: { ...formData }
     }
@@ -310,7 +310,7 @@ export function Checkout() {
             </div>
           </div>
 
-          {/* Right Column: Order Summary & COD Payment */}
+          {/* Right Column: Order Summary & POD Payment */}
           <div className="lg:col-span-5 space-y-6">
             <div className="bg-white border border-slate-200/90 rounded-3xl p-6 sm:p-8 shadow-xl shadow-slate-200/50 space-y-6">
               <h2 className="text-lg font-black text-slate-900 uppercase tracking-tight border-b border-slate-100 pb-3">
@@ -353,7 +353,7 @@ export function Checkout() {
                 </div>
               </div>
 
-              {/* Payment Method - Cash on Delivery */}
+              {/* Payment Method - Pay on Delivery */}
               <div className="pt-4 border-t border-slate-100">
                 <label className="block text-xs font-extrabold uppercase text-slate-800 tracking-wider mb-2">
                   Payment Method
@@ -362,8 +362,8 @@ export function Checkout() {
                   <div className="flex items-center gap-3">
                     <input type="radio" checked readOnly className="w-4 h-4 text-[#0096D6]" />
                     <div>
-                      <p className="text-xs font-extrabold text-slate-900 uppercase">Cash on Delivery (COD)</p>
-                      <p className="text-[11px] text-slate-600 font-medium">Pay in cash upon doorstep delivery</p>
+                      <p className="text-xs font-extrabold text-slate-900 uppercase">Pay on Delivery (POD)</p>
+                      <p className="text-[11px] text-slate-600 font-medium">Pay upon doorstep delivery</p>
                     </div>
                   </div>
                   <Truck className="w-5 h-5 text-[#0096D6]" />
@@ -375,7 +375,7 @@ export function Checkout() {
                 type="submit"
                 className="w-full bg-[#0096D6] hover:bg-[#0077B5] text-white font-extrabold text-xs uppercase tracking-wider py-4 rounded-xl shadow-lg shadow-[#0096D6]/25 transition-all cursor-pointer flex items-center justify-center gap-2 active:scale-[0.98]"
               >
-                <span>Place Order (COD)</span>
+                <span>Place Order (POD)</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
 

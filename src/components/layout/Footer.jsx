@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Mail, MapPin, Facebook, Linkedin, ChevronDown, ShieldCheck } from 'lucide-react'
+import { Mail, Phone, MapPin, Facebook, Linkedin, ChevronDown, ShieldCheck } from 'lucide-react'
 import { cn } from '../../utils/cn'
 
 export function Footer() {
@@ -14,8 +14,7 @@ export function Footer() {
     { name: 'Home Printers', href: '/shop' },
     { name: 'Office Printers', href: '/shop' },
     { name: 'Ink & Toner', href: '/shop' },
-    { name: 'Accessories', href: '/shop' },
-    { name: 'Paper & Media', href: '/shop' }
+    { name: 'Accessories', href: '/shop' }
   ]
 
   const companyLinks = [
@@ -151,6 +150,12 @@ export function Footer() {
                 </a>
               </li>
               <li className="flex items-start gap-2.5">
+                <Phone className="w-4 h-4 text-[#0096D6] shrink-0 mt-0.5" />
+                <a href="tel:+12137565298" className="hover:text-[#0096D6] transition-colors whitespace-nowrap">
+                  +1 213-756-5298
+                </a>
+              </li>
+              <li className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#0096D6] shrink-0 mt-0.5" />
                 <span className="leading-relaxed">
                   8787 Shenandoah Park Dr, Apt 826, Shenandoah, TX
@@ -158,19 +163,33 @@ export function Footer() {
               </li>
             </ul>
 
-            {/* Google Safe Browsing Badge Image */}
-            <div className="mt-3.5">
+            {/* Trust Badges: Google Safe Browsing & Trustpilot */}
+            <div className="mt-4 flex flex-row items-center gap-2.5 flex-nowrap sm:flex-wrap lg:flex-nowrap">
               <a
                 href="https://transparencyreport.google.com/safe-browsing/search?url=https:%2F%2Fnovainkllc.com%2F&hl=en"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block transition-transform duration-300 ease-in-out hover:scale-[1.02] transform-gpu"
+                className="inline-flex items-center shrink-0 transition-transform duration-300 ease-in-out hover:scale-[1.02] transform-gpu"
                 title="Verify Google Safe Browsing Security Status"
               >
                 <img
                   src="/images/google-safe-browsing.png"
                   alt="Google Safe Browsing Verified"
-                  className="w-[130px] h-auto object-contain block rounded-[10px]"
+                  className="w-[98px] sm:w-[105px] h-auto object-contain block rounded-[6px] shrink-0"
+                />
+              </a>
+
+              <a
+                href="https://www.trustpilot.com/review/novainkllc.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center shrink-0 transition-transform duration-300 ease-in-out hover:scale-[1.02] transform-gpu"
+                title="Nova Ink LLC Trustpilot Reviews"
+              >
+                <img
+                  src="/images/trustpilot-badge.png"
+                  alt="Nova Ink LLC Trustpilot Reviews"
+                  className="w-[98px] sm:w-[105px] h-auto object-contain block rounded-[6px] shrink-0"
                 />
               </a>
             </div>
