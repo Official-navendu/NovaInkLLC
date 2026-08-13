@@ -18,21 +18,21 @@ export const categoriesData = [
     link: '/categories/office-printers'
   },
   {
-    id: 'ink-toner',
-    slug: 'ink-toner',
-    title: 'INK & TONER',
-    description: 'Genuine HP ink cartridges and high-yield laserjet toner supplies.',
-    image: '/images/cat_ink_toner.webp',
-    itemCount: '15+ Products',
-    link: '/categories/ink-toner'
+    id: 'laser-printers',
+    slug: 'laser-printers',
+    title: 'LASER PRINTERS',
+    description: 'High-speed monochrome laserjet printers engineered for fast business productivity.',
+    image: '/images/products/Laser Printers/HP LaserJet M209dw Printer/1.webp',
+    itemCount: '8 Products',
+    link: '/categories/laser-printers'
   },
   {
-    id: 'printer-accessories',
-    slug: 'printer-accessories',
-    title: 'PRINTER ACCESSORIES',
-    description: 'Cables, paper trays, maintenance kits, and high-speed adapters.',
-    image: '/images/cat_accessories.webp',
-    itemCount: '15+ Products',
-    link: '/categories/printer-accessories'
+    id: 'inkjet-printers',
+    slug: 'inkjet-printers',
+    title: 'INK JET PRINTERS',
+    description: 'Portable & high-performance inkjet printers for home and mobile productivity.',
+    image: '/images/products/Inkjet Printers/HP OfficeJet 200 Mobile Printer/1.webp',
+    itemCount: '1 Product',
+    link: '/categories/inkjet-printers'
   }
 ]

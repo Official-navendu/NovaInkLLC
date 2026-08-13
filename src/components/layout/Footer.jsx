@@ -11,10 +11,10 @@ export function Footer() {
   }
 
   const shopLinks = [
-    { name: 'Home Printers', href: '/shop' },
-    { name: 'Office Printers', href: '/shop' },
-    { name: 'Ink & Toner', href: '/shop' },
-    { name: 'Accessories', href: '/shop' }
+    { name: 'Home Printers', href: '/categories/home-printers' },
+    { name: 'Office Printers', href: '/categories/office-printers' },
+    { name: 'Laser Printers', href: '/categories/laser-printers' },
+    { name: 'Inkjet Printers', href: '/categories/inkjet-printers' }
   ]
 
   const companyLinks = [

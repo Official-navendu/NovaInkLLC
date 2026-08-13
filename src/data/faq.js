@@ -41,8 +41,8 @@ export const faqData = [
   },
   {
     id: 9,
-    question: "Do you sell printer accessories and replacement supplies?",
-    answer: "Yes. In addition to printers, Nova Ink LLC offers a wide range of printing essentials, including ink cartridges, toner cartridges, paper, maintenance kits, cables, and other accessories. Our goal is to provide everything you need to keep your printer running efficiently in one convenient place."
+    question: "What types of printers does Nova Ink LLC specialize in?",
+    answer: "Nova Ink LLC specializes in official HP Home Printers, Office Printers, Laser Printers, and Inkjet Printers. Whether you need compact home all-in-ones, high-volume Smart Tanks, or high-speed LaserJet models, we carry the full lineup to suit your needs."
   },
   {
     id: 10,

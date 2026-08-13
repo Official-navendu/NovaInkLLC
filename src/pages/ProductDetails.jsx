@@ -293,19 +293,23 @@ export function ProductDetails() {
                   </button>
                 </div>
 
-                {/* Trust Highlights */}
-                <div className="grid grid-cols-3 gap-3 pt-4 text-center border-t border-slate-200/80 text-[11px] text-slate-600 font-semibold">
-                  <div className="flex flex-col items-center gap-1">
+                {/* Trust Highlights / CTA Section */}
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 pt-4 text-center border-t border-slate-200/80 text-[11px] text-slate-600 font-semibold">
+                  <div className="flex flex-col items-center gap-1 bg-slate-50/70 p-2 rounded-xl border border-slate-200/60">
                     <Truck className="w-4 h-4 text-[#0096D6]" />
-                    <span>Free Shipping</span>
+                    <span>Fast Shipping</span>
                   </div>
-                  <div className="flex flex-col items-center gap-1">
+                  <div className="flex flex-col items-center gap-1 bg-slate-50/70 p-2 rounded-xl border border-slate-200/60">
+                    <CreditCard className="w-4 h-4 text-[#0096D6]" />
+                    <span>Secure Checkout</span>
+                  </div>
+                  <div className="flex flex-col items-center gap-1 bg-slate-50/70 p-2 rounded-xl border border-slate-200/60">
                     <RotateCcw className="w-4 h-4 text-[#0096D6]" />
-                    <span>30-Day Returns</span>
+                    <span>Expert Support</span>
                   </div>
-                  <div className="flex flex-col items-center gap-1">
+                  <div className="flex flex-col items-center gap-1 bg-slate-50/70 p-2 rounded-xl border border-slate-200/60">
                     <ShieldCheck className="w-4 h-4 text-[#0096D6]" />
-                    <span>Official Warranty</span>
+                    <span>Genuine HP Products</span>
                   </div>
                 </div>
 
@@ -390,6 +394,23 @@ export function ProductDetails() {
                     </div>
                   </div>
 
+                  {/* Ideal For */}
+                  {product.idealFor && product.idealFor.length > 0 && (
+                    <div>
+                      <h3 className="text-sm font-extrabold text-slate-900 uppercase tracking-wide mb-4">
+                        IDEAL FOR
+                      </h3>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        {product.idealFor.map((item, idx) => (
+                          <div key={idx} className="flex items-start gap-2.5 bg-white p-4 rounded-xl border border-slate-200/80 shadow-xs">
+                            <Check className="w-4 h-4 text-[#0096D6] shrink-0 mt-0.5" />
+                            <span className="text-xs text-slate-700 font-medium">{item}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
                   {/* Why Choose This Printer? */}
                   {(product.whyChooseThisPrinter || product.benefits) && (
                     <div>
@@ -422,6 +443,27 @@ export function ProductDetails() {
                       </div>
                     </div>
                   </div>
+
+                  {/* Frequently Asked Questions (FAQs) */}
+                  {product.faqs && product.faqs.length > 0 && (
+                    <div>
+                      <h3 className="text-sm font-extrabold text-slate-900 uppercase tracking-wide mb-4">
+                        FREQUENTLY ASKED QUESTIONS
+                      </h3>
+                      <div className="space-y-3">
+                        {product.faqs.map((faq, idx) => (
+                          <div key={idx} className="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-xs space-y-2">
+                            <h4 className="text-xs sm:text-sm font-extrabold text-slate-900">
+                              {faq.question}
+                            </h4>
+                            <p className="text-xs text-slate-600 leading-relaxed font-medium">
+                              {faq.answer}
+                            </p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </div>
               )}
 

@@ -19,8 +19,8 @@ export function Shop() {
     { label: 'All', id: 'All' },
     { label: 'Home Printers', id: 'home-printers' },
     { label: 'Office Printers', id: 'office-printers' },
-    { label: 'Ink & Toner', id: 'ink-toner' },
-    { label: 'Printer Accessories', id: 'printer-accessories' }
+    { label: 'Inkjet Printers', id: 'inkjet-printers' },
+    { label: 'Laser Printers', id: 'laser-printers' }
   ]
 
   // Filter and Sort Products

@@ -12,12 +12,8 @@ export const productTabs = [
     "label": "Office Printers"
   },
   {
-    "id": "ink-toner",
-    "label": "Ink & Toner"
-  },
-  {
-    "id": "printer-accessories",
-    "label": "Printer Accessories"
+    "id": "laser-printers",
+    "label": "Laser Printers"
   }
 ];
 
@@ -27,7 +23,7 @@ export const productsData = [
     "slug": "hp-smart-tank-7602-all-in-one",
     "name": "HP Smart Tank 7602 All-in-One",
     "modelNumber": "7602",
-    "sku": "HP-HOME_PRINTERS-2",
+    "sku": "7602",
     "brand": "HP",
     "subtitle": "Cartridge-Free Smart Tank All-in-One Printer with Auto Document Feeder & Touchscreen",
     "price": 369.99,
@@ -100,7 +96,7 @@ export const productsData = [
     "slug": "hp-deskjet-4255e-all-in-one-printer",
     "name": "HP DeskJet 4255e All-in-One Printer",
     "modelNumber": "4255e",
-    "sku": "HP-HOME_PRINTERS-3",
+    "sku": "4255e",
     "brand": "HP",
     "subtitle": "Wireless Color All-in-One Inkjet Printer with 35-Page Auto Document Feeder",
     "price": 89.99,
@@ -172,7 +168,7 @@ export const productsData = [
     "slug": "hp-smart-tank-7301-all-in-one-printer",
     "name": "HP Smart Tank 7301 All-in-One Printer",
     "modelNumber": "7301",
-    "sku": "HP-HOME_PRINTERS-4",
+    "sku": "7301",
     "brand": "HP",
     "subtitle": "High-Capacity Wireless Color Tank Printer with Ethernet & Auto 2-Sided Printing",
     "price": 449.99,
@@ -245,7 +241,7 @@ export const productsData = [
     "slug": "hp-envy-photo-7975-all-in-one-printer",
     "name": "HP Envy Photo 7975 All-in-One Printer",
     "modelNumber": "7975",
-    "sku": "HP-HOME_PRINTERS-5",
+    "sku": "7975",
     "brand": "HP",
     "subtitle": "True-to-Life Color Photo Printer with Dedicated Photo Paper Tray",
     "price": 199.99,
@@ -317,7 +313,7 @@ export const productsData = [
     "slug": "hp-envy-6155e-all-in-one-printer",
     "name": "HP Envy 6155e All-in-One Printer",
     "modelNumber": "6155e",
-    "sku": "HP-HOME_PRINTERS-6",
+    "sku": "6155e",
     "brand": "HP",
     "subtitle": "Smart Wireless Color All-in-One Printer for Everyday Home Documents & Homework",
     "price": 109.99,
@@ -389,9 +385,9 @@ export const productsData = [
     "slug": "hp-envy-6555e-all-in-one-printer",
     "name": "HP Envy 6555e All-in-One Printer",
     "modelNumber": "6555e",
-    "sku": "HP-HOME_PRINTERS-7",
+    "sku": "6555e",
     "brand": "HP",
-    "subtitle": "Versatile Wireless Color Printer with Automatic Duplexing & Touch Interface",
+    "subtitle": "Handy Home All-in-One Printer with 35-Sheet ADF, Auto 2-Sided Printing & Dual-Band Wi-Fi",
     "price": 149.99,
     "originalPrice": 179.99,
     "discountBadge": "Auto Feeder",
@@ -415,22 +411,54 @@ export const productsData = [
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Versatile Wireless Color Printer with Automatic Duplexing & Touch Interface Engineered for reliability and high performance.",
-    "longDescription": "HP Envy 6555e All-in-One Printer delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
+    "shortDescription": "The HP Envy 6555e is a handy all-in-one printer for homes that handle everyday paperwork, school assignments, forms, borderless photos, scanning, and copying.",
+    "overview": "The HP Envy 6555e is a handy all-in-one printer for homes that need to print more than just documents. It can handle everyday paperwork, school assignments, forms, photos, and other home printing jobs while also giving you scanning and copying in the same machine.\nIts wireless connection, automatic two-sided printing, and 35-page document feeder make it a convenient choice for families, students, and people working from home.",
+    "longDescription": "The HP Envy 6555e is a handy all-in-one printer for homes that need to print more than just documents. It can handle everyday paperwork, school assignments, forms, photos, and other home printing jobs while also giving you scanning and copying in the same machine.\nIts wireless connection, automatic two-sided printing, and 35-page document feeder make it a convenient choice for families, students, and people working from home.\n\nOne Printer for Everyday Tasks\nFrom printing a few pages for work to making copies of important paperwork, the Envy 6555e is built around everyday use.\nIt can print up to 10 pages per minute in black and 7 pages per minute in color. Automatic two-sided printing means you can print on both sides of the page without manually flipping each sheet.\nIt can also produce borderless prints up to 8.5 × 12 inches, which gives you more room for photos, cards, and other creative projects.\n\nScan and Copy Without Doing Every Page Yourself\nThe 35-sheet automatic document feeder is especially useful when you have several pages to scan or copy.\nSimply load the pages into the feeder and let the printer handle them one after another. For photos, books, or individual sheets, you can use the flatbed scanner instead.\nThe scanner offers optical resolution of up to 1200 dpi, giving you plenty of detail for everyday documents as well as photos.\n\nEasy Wireless Printing\nYou can print from your phone, laptop, or other compatible devices without having to connect a cable every time.\nThe Envy 6555e features dual-band Wi-Fi and works with options such as the HP app, Apple AirPrint, and Mopria. This makes it easy for different people around the house to use the same printer.\nA 2.4-inch color touchscreen on the printer also gives you a straightforward way to access printing, scanning, and copying functions directly from the machine.\n\nMade for Photos Too\nIf you occasionally print photos, the Envy 6555e gives you more flexibility than a basic document printer.\nIt supports borderless photo printing and automatic two-sided photo printing, making it useful for personal cards, photo projects, and family memories. HP's True-to-Screen technology is also designed to help printed colors stay close to what you see on your screen.\n\nFits Easily Into a Home Workspace\nThe Envy 6555e has a compact design that works well in a home office, study, bedroom, or shared workspace.\nIts input tray can hold up to 100 sheets, while the output tray holds up to 25 sheets. With a recommended monthly printing range of around 100–400 pages, it's better suited to normal home printing than heavy-duty office workloads.\n\nSimple Ink Management\nThe printer uses separate black and tri-color ink cartridges and works with HP Instant Ink.\nIf you print regularly, an ink subscription can be an option for having replacement cartridges delivered based on your printing needs. Whether it's worthwhile depends on how often you print and the type of documents you usually produce.\n\nA More Thoughtful Design\nThe Envy 6555e also has EPEAT Gold registration, reflecting design considerations around environmental impact. Used cartridges can be recycled through HP's Planet Partners program.",
     "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
+      "Print, scan, copy, and mobile fax",
+      "Up to 10 ppm black printing",
+      "Up to 7 ppm color printing",
+      "Automatic two-sided printing",
+      "35-sheet automatic document feeder",
+      "Borderless photo printing",
+      "Dual-band Wi-Fi",
+      "2.4-inch color touchscreen",
+      "Mobile printing",
+      "100-sheet input tray",
+      "HP Instant Ink compatible",
+      "Up to 1200 dpi optical scanning"
     ],
+    "whatsIncluded": [
+      "HP Envy 6555e All-in-One Printer",
+      "HP 67 Setup Black Cartridge",
+      "HP 67 Setup Tri-Color Cartridge",
+      "Power Cord & Setup Guide",
+      "Regulatory Flyer & Reference Guide"
+    ],
+    "idealFor": [
+      "Families needing one machine for homework, forms, & photos",
+      "Students requiring wireless printing, scanning, & copying",
+      "Remote workers & home offices with 100–400 page monthly printing",
+      "Personal greeting cards, photo projects, & borderless prints"
+    ],
+    "whyChooseThisPrinter": "Is the HP Envy 6555e Right for You?\nThe HP Envy 6555e is a good fit if you want one machine for the different printing jobs that come up around the house. It handles documents and photos, while scanning and copying are built right in.\nFor families, students, and home-office users who print regularly but don't need a high-volume business printer, it offers a practical mix of features without taking up too much space.",
+    "additionalInfo": "Compatible with Windows 11/10, macOS 12+, iOS, Android, HP App, Apple AirPrint, & Mopria. EPEAT Gold Registered. Backed by 1-Year Official HP Manufacturer Warranty.",
+    "metaTitle": "HP Envy 6555e All-in-One Printer | Nova Ink LLC",
+    "metaDescription": "Buy HP Envy 6555e All-in-One Printer at Nova Ink LLC. Features 35-sheet ADF, auto 2-sided printing, borderless photo printing & 1200 dpi scanning.",
     "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
+      "technology": "HP Thermal Inkjet",
+      "speed": "Up to 10 ppm Black / 7 ppm Color",
+      "functions": "Print, Scan, Copy, Mobile Fax",
+      "adf": "35-Sheet Automatic Document Feeder",
+      "duplex": "Automatic Two-Sided Printing",
+      "connectivity": "Dual-Band Wi-Fi, Bluetooth, USB 2.0",
+      "paperSupport": "Letter, Legal, 4x6 in, 5x7 in, 8.5x11 in, 8.5x12 in Borderless",
+      "resolution": "Up to 1200 dpi Optical Scanning",
+      "display": "2.4-inch Color Touchscreen",
+      "paperHandling": "100-Sheet Input Tray / 25-Sheet Output Tray",
+      "dutyCycle": "Recommended 100 to 400 pages per month",
+      "ecoRating": "EPEAT Gold Registered & HP Planet Partners Recycling",
+      "warranty": "1-Year Official HP Manufacturer Warranty"
     },
     "tags": [
       "HP",
@@ -444,9 +472,9 @@ export const productsData = [
     "slug": "hp-smart-tank-5103-all-in-one-printer",
     "name": "HP Smart Tank 5103 All-in-One Printer",
     "modelNumber": "5103",
-    "sku": "HP-HOME_PRINTERS-8",
+    "sku": "5103",
     "brand": "HP",
-    "subtitle": "High-Volume Wireless Ink Tank Printer with Up to 2 Years of Included HP Ink",
+    "subtitle": "Refillable Ink Tank Color All-in-One Printer with Wireless Mobile Printing & 1200 dpi Scanning",
     "price": 199.99,
     "originalPrice": 229.99,
     "discountBadge": "Cartridge Free",
@@ -470,22 +498,80 @@ export const productsData = [
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
-    "shortDescription": "High-Volume Wireless Ink Tank Printer with Up to 2 Years of Included HP Ink Engineered for reliability and high performance.",
-    "longDescription": "HP Smart Tank 5103 All-in-One Printer delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
+    "shortDescription": "The HP Smart Tank 5103 All-in-One Printer features a high-capacity refillable ink tank system, 12 ppm black / 5 ppm color speed, 100-sheet paper tray, dual-band Wi-Fi, and 1200 dpi scanning.",
+    "overview": "The HP Smart Tank 5103 All-in-One Printer is made for people who print often and want to spend less time worrying about ink. Instead of the usual small cartridges, it uses refillable ink tanks that can handle a much larger amount of printing.\nIt also gives you the basics you need in one machine—printing, scanning, and copying—making it a practical option for families, students, and home offices.",
+    "longDescription": "The HP Smart Tank 5103 All-in-One Printer is made for people who print often and want to spend less time worrying about ink. Instead of the usual small cartridges, it uses refillable ink tanks that can handle a much larger amount of printing.\nIt also gives you the basics you need in one machine—printing, scanning, and copying—making it a practical option for families, students, and home offices.\n\nMade for Regular Printing\nIf your printer gets used almost every day, the Smart Tank 5103 is designed with that kind of routine in mind.\nIt can print up to 12 pages per minute in black and up to 5 pages per minute in color, so everyday paperwork, school assignments, forms, and color documents can be handled without too much waiting.\nThe 100-sheet paper tray also means you can keep a decent stack of paper ready to go instead of constantly loading sheets one at a time.\n\nThe Ink Tank Makes a Difference\nThe main attraction of this printer is its refillable ink system.\nRather than throwing away a cartridge whenever the ink runs low, you simply add more ink to the appropriate tank. The printer uses separate bottles for black, cyan, magenta, and yellow, making it easy to keep an eye on your ink levels.\nFor households or small workspaces that print regularly, this type of setup can be a convenient way to manage printing expenses over time.\n\nPrint Without the Wires\nYou can place the Smart Tank 5103 wherever it makes sense in your workspace without needing to keep it connected to your computer by USB.\nIts wireless connectivity lets you send print jobs from compatible computers and mobile devices. You can also use the HP app, Apple AirPrint, or Mopria to print from your phone or tablet.\nThat comes in handy when a document is sitting on your phone and you need a paper copy right away.\n\nScan and Copy Documents Too\nNeed to make a copy of a form or turn a paper document into a digital file?\nThe built-in flatbed scanner has an optical resolution of up to 1200 dpi, giving you plenty of detail for regular paperwork and images.\nYou can scan documents and photos into common file formats such as PDF and JPG, and the printer can also make multiple copies when needed.\n\nMore Than Just Black-and-White Documents\nAlthough the Smart Tank 5103 is well suited to everyday paperwork, it's not limited to plain text.\nIt can produce borderless color prints up to 8.5 × 11 inches, making it useful for photos, school projects, flyers, invitations, and other color-heavy work.\nIt also works with different types of compatible paper, including photo paper, brochure paper, envelopes, and standard printing paper.\n\nSimple Controls and a Small Footprint\nYou don't need a complicated control panel to operate the printer. The Smart Tank 5103 uses an easy-to-read icon-based LCD display for its basic functions.\nIts compact shape also makes it a good match for desks, study areas, and home offices where space can be limited.\n\nA More Responsible Design\nThe printer is ENERGY STAR certified and EPEAT registered, and its construction includes recycled plastic.\nCombined with the refillable ink system, these design choices make the Smart Tank 5103 an appealing option for people who want to cut down on the waste associated with traditional disposable cartridges.",
     "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
+      "Print, Scan & Copy in one compact machine",
+      "Up to 12 ppm Black / 5 ppm Color print speeds",
+      "Refillable Ink Tank System for high-volume printing",
+      "Separate Black & Color Ink Bottles for easy monitoring",
+      "100-Sheet Paper Input Tray capacity",
+      "Wireless Printing with Wi-Fi Direct",
+      "Mobile Printing via HP App, Apple AirPrint & Mopria",
+      "Up to 1200 dpi Optical Scanning flatbed scanner",
+      "Borderless Color Printing up to 8.5 x 11 inches",
+      "Multi-copy capability up to 99 copies",
+      "Simple icon-based LCD display controls",
+      "ENERGY STAR certified & EPEAT registered design"
     ],
+    "whatsIncluded": [
+      "HP Smart Tank 5103 All-in-One Printer",
+      "HP GT53XL Black Original Ink Bottle (~6,000 pages yield)",
+      "HP GT52 Cyan Original Ink Bottle (~8,000 pages yield)",
+      "HP GT52 Magenta Original Ink Bottle (~8,000 pages yield)",
+      "HP GT52 Yellow Original Ink Bottle (~8,000 pages yield)",
+      "Power Cord & Setup Guide",
+      "Regulatory Flyer & Reference Guide"
+    ],
+    "idealFor": [
+      "Families needing regular everyday document, homework, & photo printing",
+      "Students looking for low-cost color printing, scanning, & copying",
+      "Remote workers & home offices with high print frequency",
+      "Users wanting to eliminate disposable cartridges with refillable tanks"
+    ],
+    "whyChooseThisPrinter": "Is the HP Smart Tank 5103 a Good Choice?\nThe HP Smart Tank 5103 is a sensible pick if printing is a regular part of your home or work routine. Its refillable ink system makes it particularly interesting for people who go through a lot of pages, while the all-in-one design means you don't need separate equipment for scanning and copying.\nFor families, students, remote workers, and home-office users, it offers a straightforward combination of everyday printing, color capability, wireless convenience, and refillable ink—all in one machine.",
+    "faqs": [
+      {
+        "question": "Does the HP Smart Tank 5103 use traditional ink cartridges?",
+        "answer": "No. The HP Smart Tank 5103 uses a refillable ink tank system with individual bottles for black, cyan, magenta, and yellow ink, eliminating traditional disposable cartridges."
+      },
+      {
+        "question": "What print speeds can I expect from the HP Smart Tank 5103?",
+        "answer": "It prints at speeds of up to 12 pages per minute (ppm) in black and up to 5 pages per minute (ppm) in color for everyday documents and paperwork."
+      },
+      {
+        "question": "Can I print wirelessly from my smartphone or tablet?",
+        "answer": "Yes. It features built-in Wi-Fi and Wi-Fi Direct, supporting wireless mobile printing using the HP App, Apple AirPrint, and Mopria."
+      },
+      {
+        "question": "What scanning and copying features are included?",
+        "answer": "The printer features a flatbed scanner with up to 1200 dpi optical resolution, supporting PDF and JPG file formats, and can make up to 99 copies at a time."
+      },
+      {
+        "question": "Does the HP Smart Tank 5103 support borderless photo printing?",
+        "answer": "Yes. It supports borderless color printing up to 8.5 × 11 inches on compatible photo and brochure papers."
+      }
+    ],
+    "additionalInfo": "Compatible with Windows 11/10, macOS 12+, iOS, Android, HP App, Apple AirPrint, & Mopria. Backed by 1-Year Official HP Manufacturer Warranty.",
+    "metaTitle": "HP Smart Tank 5103 All-in-One Printer | Nova Ink LLC",
+    "metaDescription": "Buy HP Smart Tank 5103 All-in-One Printer at Nova Ink LLC. Features refillable ink tanks, 12 ppm black, wireless mobile printing, and 1200 dpi scanning.",
     "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
+      "technology": "HP Thermal Inkjet (Refillable Ink Tank)",
+      "speed": "Up to 12 ppm Black / 5 ppm Color",
       "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
+      "inkSystem": "Refillable Ink Tank System (Separate Black, Cyan, Magenta & Yellow Bottles)",
+      "paperInput": "100-Sheet Paper Input Tray / 30-Sheet Output Tray",
+      "connectivity": "Dual-Band Wi-Fi 802.11b/g/n, Wi-Fi Direct, Hi-Speed USB 2.0",
+      "mobilePrinting": "HP Smart App, Apple AirPrint, Mopria Certified",
+      "scanResolution": "Up to 1200 x 1200 dpi Optical Flatbed Scanner",
+      "copyCapabilities": "Up to 99 Copies, Contrast Adjustment, Fit-to-Page",
+      "borderlessPrinting": "Yes, up to 8.5 x 11 in (Letter size)",
+      "display": "Icon-Based LCD Display Panel",
+      "paperSupport": "Letter, Legal, Envelopes, 4x6 in, 5x7 in, Photo Paper, Brochure Paper",
+      "dutyCycle": "Recommended 400 to 800 pages per month",
+      "ecoRating": "ENERGY STAR Certified & EPEAT Registered",
+      "warranty": "1-Year Official HP Manufacturer Warranty"
     },
     "tags": [
       "HP",
@@ -499,9 +585,9 @@ export const productsData = [
     "slug": "hp-smart-tank-5101-all-in-one-printer",
     "name": "HP Smart Tank 5101 All-in-One Printer",
     "modelNumber": "5101",
-    "sku": "HP-HOME_PRINTERS-9",
+    "sku": "5101",
     "brand": "HP",
-    "subtitle": "Cartridge-Free Wireless All-in-One Color Printer with Self-Healing Wi-Fi",
+    "subtitle": "Refillable Ink Tank Color All-in-One Printer with Wi-Fi Direct & 1200 dpi Flatbed Scanner",
     "price": 179.99,
     "originalPrice": 199.99,
     "discountBadge": "Eco Tank",
@@ -525,22 +611,82 @@ export const productsData = [
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Cartridge-Free Wireless All-in-One Color Printer with Self-Healing Wi-Fi Engineered for reliability and high performance.",
-    "longDescription": "HP Smart Tank 5101 All-in-One Printer delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
+    "shortDescription": "The HP Smart Tank 5101 All-in-One Printer features a built-in refillable ink tank system (135 ml black & 50 ml color bottles included), 12 ppm black / 5 ppm color speeds, 100-sheet input tray, Wi-Fi Direct, and 1200 dpi flatbed scanning.",
+    "overview": "If you print regularly at home, the HP Smart Tank 5101 All-in-One Printer gives you a simple way to handle everyday printing without relying on traditional ink cartridges. Its refillable tank system is designed for people who go through plenty of pages, while the all-in-one design takes care of scanning and copying too.\nIt’s a practical fit for families, students, remote workers, and home offices that need a printer for both routine paperwork and color projects.",
+    "longDescription": "If you print regularly at home, the HP Smart Tank 5101 All-in-One Printer gives you a simple way to handle everyday printing without relying on traditional ink cartridges. Its refillable tank system is designed for people who go through plenty of pages, while the all-in-one design takes care of scanning and copying too.\nIt’s a practical fit for families, students, remote workers, and home offices that need a printer for both routine paperwork and color projects.\n\nA Better Fit for Regular Printing\nThe Smart Tank 5101 is made for more than the occasional page. It can print up to 12 pages per minute in black and 5 pages per minute in color, making it suitable for homework, forms, work documents, recipes, invoices, and other everyday printing.\nThe 100-sheet input tray gives you enough room to keep paper ready for your next few print jobs, while the 30-sheet output tray keeps finished pages from piling up all over your desk.\n\nRefillable Ink That Keeps You Going\nThe biggest difference you'll notice is the way this printer handles ink.\nInstead of using conventional cartridges, the Smart Tank 5101 has built-in refillable tanks. Black, cyan, magenta, and yellow each have their own tank, so you can add the color you need when it's running low.\nThe box includes a 135 ml black ink bottle and 50 ml bottles for each color, giving you a generous amount of ink to get started.\nFor anyone who prints frequently, this can be a much more convenient setup than constantly keeping replacement cartridges around.\n\nPrint Straight From Your Devices\nYour documents don't have to live on one computer to reach the printer.\nWith Wi-Fi and Wi-Fi Direct, you can send print jobs from compatible phones, tablets, and computers. The printer also works with the HP app, Apple AirPrint, and Mopria.\nThere's a USB connection too, so you can choose between wireless printing and a direct connection depending on what works best for you.\n\nScan, Copy, and Keep Things Digital\nHaving an all-in-one printer means you don't need separate equipment for basic scanning and copying.\nThe Smart Tank 5101 features a flatbed scanner with up to 1200 dpi optical resolution. It's useful for digitizing paperwork, making copies of forms, or preserving photos and other important documents.\nYou can save scans in common formats such as PDF, JPG, PNG, TIFF, and HEIF, while the copy function can produce up to 99 copies from one original.\nThe flatbed design works especially well for individual pages, books, photos, and other items that aren't suited to a document feeder.\n\nBring Color Into Your Printing\nThere's more to this printer than black text and office paperwork.\nThe Smart Tank 5101 can create borderless prints up to 8.5 × 11 inches, giving you room to work on photos, invitations, school projects, flyers, and other color documents.\nIt can also work with different compatible media, including regular paper, photo paper, brochure paper, and envelopes.\n\nSimple Controls, Compact Setup\nYou won't find a large touchscreen taking up space on the printer. Instead, the Smart Tank 5101 uses a 1.2-inch icon-based LCD display for its controls.\nIts compact design makes it easy to place on a desk, shelf, or home-office table. At approximately 17.11 × 14.23 × 6.19 inches, it can fit into spaces where a larger office printer would feel out of place.\n\nDesigned With Less Waste in Mind\nThe Smart Tank 5101 is ENERGY STAR certified and EPEAT registered, and its construction includes approximately 45% post-consumer recycled plastic.\nThe refillable ink system also changes the way you go through supplies, replacing the regular cycle of throwing away empty cartridges with bottle-based refills.",
     "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
+      "Print, Scan & Copy in one all-in-one printer",
+      "Up to 12 ppm Black / 5 ppm Color print speeds",
+      "Refillable Ink Tank System for high-volume printing",
+      "Separate Black, Cyan, Magenta & Yellow refillable tanks",
+      "100-Sheet Input Tray / 30-Sheet Output Tray",
+      "Wi-Fi & Wi-Fi Direct wireless printing capability",
+      "USB connectivity option for direct cable printing",
+      "Mobile Printing via HP App, Apple AirPrint & Mopria",
+      "Up to 1200 dpi Optical Scanning flatbed scanner",
+      "Borderless Color Printing up to 8.5 x 11 inches",
+      "Multi-copy support up to 99 copies from one original",
+      "1.2-inch icon-based LCD display panel",
+      "ENERGY STAR certified & EPEAT registered (45% recycled plastic)"
     ],
+    "whatsIncluded": [
+      "HP Smart Tank 5101 All-in-One Printer",
+      "HP GT53 135 ml Original Black Ink Bottle",
+      "HP GT52 50 ml Cyan Original Ink Bottle",
+      "HP GT52 50 ml Magenta Original Ink Bottle",
+      "HP GT52 50 ml Yellow Original Ink Bottle",
+      "Power Cord & Setup Guide",
+      "Regulatory Flyer & Reference Manual"
+    ],
+    "idealFor": [
+      "Families needing regular everyday document, homework, & photo printing",
+      "Students looking for low-cost color printing, scanning, & copying",
+      "Remote workers & home offices with medium-to-high print volume",
+      "Desks & study areas needing a compact 17.11 x 14.23 x 6.19 inch footprint"
+    ],
+    "whyChooseThisPrinter": "Is the HP Smart Tank 5101 Right for You?\nThe HP Smart Tank 5101 is a good choice when printing is a regular part of your day and you want something beyond a basic printer.\nIts refillable ink system works well for higher-frequency printing, while the built-in scanner and copier give you everything you need for everyday paperwork. Add wireless and mobile printing, color capability, and a relatively compact design, and you have a printer that fits naturally into a home, study area, or small office.\nIf you're looking for an all-in-one printer that can handle regular documents, color pages, scanning, and copying without making your workspace feel like a full-sized office, the Smart Tank 5101 is worth considering from Nova Ink LLC.",
+    "faqs": [
+      {
+        "question": "Does the HP Smart Tank 5101 include ink in the box?",
+        "answer": "Yes. It includes a 135 ml black ink bottle and 50 ml bottles for cyan, magenta, and yellow ink to get you started right away."
+      },
+      {
+        "question": "What print speeds does the HP Smart Tank 5101 offer?",
+        "answer": "It prints up to 12 pages per minute (ppm) in black and 5 pages per minute (ppm) in color for everyday documents and paperwork."
+      },
+      {
+        "question": "Can I scan books and photo prints with this printer?",
+        "answer": "Yes. The flatbed scanner with up to 1200 dpi optical resolution is designed for digitizing individual pages, books, photos, and bound materials into PDF, JPG, PNG, TIFF, and HEIF formats."
+      },
+      {
+        "question": "How do wireless and mobile printing work?",
+        "answer": "The printer features Wi-Fi, Wi-Fi Direct, and USB connectivity, allowing you to print from smartphones, tablets, and laptops using the HP App, Apple AirPrint, and Mopria."
+      },
+      {
+        "question": "Is the HP Smart Tank 5101 made with eco-friendly materials?",
+        "answer": "Yes. It is ENERGY STAR certified, EPEAT registered, and made with approximately 45% post-consumer recycled plastic."
+      }
+    ],
+    "additionalInfo": "Compatible with Windows 11/10, macOS 12+, iOS, Android, HP App, Apple AirPrint, & Mopria. Backed by 1-Year Official HP Manufacturer Warranty.",
+    "metaTitle": "HP Smart Tank 5101 All-in-One Printer | Nova Ink LLC",
+    "metaDescription": "Buy HP Smart Tank 5101 All-in-One Printer at Nova Ink LLC. Features refillable ink tanks, 12 ppm black, Wi-Fi Direct, and 1200 dpi flatbed scanning.",
     "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
+      "technology": "HP Thermal Inkjet (Refillable Ink Tank)",
+      "speed": "Up to 12 ppm Black / 5 ppm Color",
       "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
+      "inkSystem": "Refillable Ink Tank System (Separate Black, Cyan, Magenta & Yellow Tanks)",
+      "paperInput": "100-Sheet Input Tray / 30-Sheet Output Tray",
+      "connectivity": "Wi-Fi 802.11b/g/n, Wi-Fi Direct, Hi-Speed USB 2.0",
+      "mobilePrinting": "HP Smart App, Apple AirPrint, Mopria Certified",
+      "scanResolution": "Up to 1200 x 1200 dpi Optical Flatbed Scanner",
+      "copyCapabilities": "Up to 99 Copies, Contrast Adjustment, Fit-to-Page",
+      "borderlessPrinting": "Yes, up to 8.5 x 11 in (Letter size)",
+      "display": "1.2-inch Icon-Based LCD Display Panel",
+      "dimensions": "17.11 x 14.23 x 6.19 inches",
+      "paperSupport": "Letter, Legal, Envelopes, 4x6 in, 5x7 in, Photo Paper, Brochure Paper",
+      "dutyCycle": "Recommended 400 to 800 pages per month",
+      "ecoRating": "ENERGY STAR Certified, EPEAT Registered (45% Post-Consumer Recycled Plastic)",
+      "warranty": "1-Year Official HP Manufacturer Warranty"
     },
     "tags": [
       "HP",
@@ -554,9 +700,9 @@ export const productsData = [
     "slug": "hp-smart-tank-7001-all-in-one-printer",
     "name": "HP Smart Tank 7001 All-in-One Printer",
     "modelNumber": "7001",
-    "sku": "HP-HOME_PRINTERS-10",
+    "sku": "7001",
     "brand": "HP",
-    "subtitle": "Fast Color Ink Tank Printer with Auto 2-Sided Printing & Smart App Controls",
+    "subtitle": "Cartridge-Free Wireless Color All-in-One Printer with 250-Sheet Tray & Auto Two-Sided Printing",
     "price": 259.99,
     "originalPrice": 289.99,
     "discountBadge": "Top Seller",
@@ -580,22 +726,83 @@ export const productsData = [
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Fast Color Ink Tank Printer with Auto 2-Sided Printing & Smart App Controls Engineered for reliability and high performance.",
-    "longDescription": "HP Smart Tank 7001 All-in-One Printer delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
+    "shortDescription": "The HP Smart Tank 7001 All-in-One Printer is built for high-volume home and office printing, featuring refillable ink tanks (up to 6,000 black & 8,000 color pages included), 15 ppm black / 9 ppm color speeds, a 250-sheet input tray, automatic two-sided printing, dual-band Wi-Fi, and 1200 dpi flatbed scanning.",
+    "overview": "If you print often enough that running out of ink is a regular annoyance, the HP Smart Tank 7001 All-in-One Printer is built with that kind of routine in mind. Its refillable ink system gives you a large supply from the start, while the printer itself handles everyday printing, scanning, and copying.\nWith automatic two-sided printing, wireless connectivity, and a generous paper tray, it works well for busy households, students, home offices, and small workspaces where the printer gets used regularly.",
+    "longDescription": "If you print often enough that running out of ink is a regular annoyance, the HP Smart Tank 7001 All-in-One Printer is built with that kind of routine in mind. Its refillable ink system gives you a large supply from the start, while the printer itself handles everyday printing, scanning, and copying.\nWith automatic two-sided printing, wireless connectivity, and a generous paper tray, it works well for busy households, students, home offices, and small workspaces where the printer gets used regularly.\n\nPlenty of Printing Without Constant Refills\nThe Smart Tank 7001 can print up to 15 pages per minute in black and 9 pages per minute in color, giving it enough speed for everything from everyday paperwork to longer print jobs.\nThe printer also has a 250-sheet input tray, which is particularly useful when you regularly print larger batches. Load your paper once and get through your work without stopping every few pages to refill the tray.\nHP recommends a monthly volume of around 400 to 800 pages, making it a good match for regular home and small-office printing.\n\nA Tank System Made for High-Volume Printing\nThe Smart Tank 7001 doesn't use the typical small ink cartridges found in many home printers.\nInstead, it has refillable tanks for black, cyan, magenta, and yellow ink. The included bottles provide enough ink for up to 6,000 black pages and 8,000 color pages, depending on how the printer is used.\nThe refill process is designed to be quick and clean, so topping up the tanks doesn't have to turn into a messy job.\nFor someone who prints frequently, having a large ink supply ready to go can make a noticeable difference to the overall printing experience.\n\nAutomatic Two-Sided Printing\nPrinting on both sides of a page is handled automatically.\nThat's useful for reports, school assignments, presentations, forms, and longer documents where you want to use less paper. You can simply select two-sided printing and let the printer take care of the page handling.\nIt's one of those features that may not seem important at first, but becomes genuinely useful once you start using it regularly.\n\nPrint From Your Phone or Laptop\nYou don't need to keep your computer right beside the printer.\nThe Smart Tank 7001 offers dual-band Wi-Fi and Wi-Fi Direct, allowing you to send print jobs from compatible computers and mobile devices. It also works with the HP app, Apple AirPrint, and Mopria.\nSo if the document is sitting on your phone, the printer can still be part of the workflow without requiring you to transfer the file to another device first.\n\nScan and Copy When You Need Them\nThe Smart Tank 7001 is more than a printer.\nIts built-in scanner lets you turn paper documents and photos into digital files, while the copier takes care of quick duplicate copies when you need them.\nThe scanner can capture documents at up to 1200 dpi, and the copier can produce up to 99 copies from a single original. Copy sizing can also be adjusted between 25% and 400%.\nThat makes the printer useful for everything from scanning paperwork for digital storage to making extra copies of school or work documents.\n\nA Simple Control Panel\nThe Smart Tank 7001 keeps its physical controls fairly straightforward with a two-line LCD display and smart-guided buttons.\nYou don't need a large touchscreen to handle basic printing, scanning, and copying tasks, which also helps keep the printer's design clean and uncluttered.\n\nMade for Everyday Color Printing\nAlthough the 7001 is well suited to documents, it's also capable of producing detailed color prints.\nWith color resolution reaching up to 4800 × 1200 optimized dpi when printing from a computer, it can handle photos, graphics, school projects, charts, invitations, and other colorful documents.\nSo you don't need a separate printer just because some of your projects require color.\n\nA Practical Size for Home and Office Spaces\nDespite its larger paper capacity, the Smart Tank 7001 keeps a fairly manageable footprint.\nIt measures approximately 16.83 × 14.33 × 7.82 inches and weighs around 14 pounds, making it suitable for a dedicated desk, home office, study area, or small business workspace.\n\nBuilt With Sustainability in Mind\nThe printer contains 25% recycled plastic, and the high-capacity refillable ink system means you can rely on ink bottles rather than frequently replacing traditional cartridges.\nFor buyers who print regularly and also want to be more mindful of material waste, that's another useful part of the overall design.",
     "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
+      "Print, Scan & Copy in one all-in-one printer",
+      "Up to 15 ppm Black / 9 ppm Color print speeds",
+      "Refillable Ink Tank System for high-volume printing",
+      "Up to 6,000 Black Pages & 8,000 Color Pages with Included Ink",
+      "Automatic Two-Sided Printing (Auto Duplexing)",
+      "250-Sheet High-Capacity Input Tray",
+      "Dual-Band Wi-Fi & Wi-Fi Direct Wireless Printing",
+      "Mobile Printing via HP App, Apple AirPrint & Mopria",
+      "Up to 1200 x 1200 dpi Black & 4800 x 1200 dpi Color Resolution",
+      "Built-In 1200 dpi Flatbed Scanner & Copier (Up to 99 Copies)",
+      "Simple Two-Line LCD Display with Smart-Guided Buttons",
+      "Constructed with 25% Recycled Plastic"
     ],
+    "whatsIncluded": [
+      "HP Smart Tank 7001 All-in-One Printer",
+      "HP GT53XL Black Original Ink Bottle (~6,000 pages yield)",
+      "HP GT52 Cyan Original Ink Bottle (~8,000 pages yield)",
+      "HP GT52 Magenta Original Ink Bottle (~8,000 pages yield)",
+      "HP GT52 Yellow Original Ink Bottle (~8,000 pages yield)",
+      "Power Cord & Setup Guide",
+      "Regulatory Flyer & Reference Manual"
+    ],
+    "idealFor": [
+      "Busy households & home offices with steady printing routines (400–800 pages/mo)",
+      "Remote workers & small businesses requiring a 250-sheet input tray",
+      "Students & creative projects needing borderless 4800 x 1200 dpi color prints",
+      "Users looking for refillable ink tanks (6,000 black / 8,000 color pages included)"
+    ],
+    "whyChooseThisPrinter": "Is the HP Smart Tank 7001 Right for You?\nThe HP Smart Tank 7001 makes sense if your printer is used regularly and you want a setup that can handle larger print jobs without constantly asking for more paper or ink.\nIts combination of high-capacity refillable ink, fast color and black printing, automatic duplexing, wireless connectivity, scanning, and copying makes it a versatile choice for a busy home or small workspace.\nIf you print hundreds of pages throughout the month and want an all-in-one printer that can keep up without taking up the space of a full office machine, the HP Smart Tank 7001 is a strong option to consider at Nova Ink LLC.",
+    "faqs": [
+      {
+        "question": "How much ink is included with the HP Smart Tank 7001?",
+        "answer": "The box includes Original HP ink bottles for up to 6,000 black pages and 8,000 color pages depending on usage."
+      },
+      {
+        "question": "How large is the paper input tray?",
+        "answer": "It features a high-capacity 250-sheet paper input tray, allowing long print runs without constant reloading."
+      },
+      {
+        "question": "What print speeds does the HP Smart Tank 7001 deliver?",
+        "answer": "It prints up to 15 pages per minute (ppm) in black and 9 pages per minute (ppm) in color."
+      },
+      {
+        "question": "Does it support automatic two-sided printing?",
+        "answer": "Yes, it features automatic duplexing to print on both sides of a page without manual intervention."
+      },
+      {
+        "question": "Can I print wirelessly from smartphones and tablets?",
+        "answer": "Yes, it includes dual-band Wi-Fi and Wi-Fi Direct, supporting mobile printing via the HP App, Apple AirPrint, and Mopria."
+      }
+    ],
+    "additionalInfo": "Compatible with Windows 11/10, macOS 12+, iOS, Android, HP App, Apple AirPrint, & Mopria. Backed by 1-Year Official HP Manufacturer Warranty.",
+    "metaTitle": "HP Smart Tank 7001 All-in-One Printer | Nova Ink LLC",
+    "metaDescription": "Buy HP Smart Tank 7001 All-in-One Printer at Nova Ink LLC. Features refillable ink tanks, 250-sheet tray, auto duplexing, & 15 ppm black / 9 ppm color.",
     "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
+      "technology": "HP Thermal Inkjet (Refillable Ink Tank)",
+      "speed": "Up to 15 ppm Black / 9 ppm Color",
       "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
+      "inkSystem": "Refillable Ink Tank System (Up to 6,000 Black / 8,000 Color Pages Included)",
+      "duplex": "Automatic Two-Sided Printing (Auto Duplex)",
+      "paperInput": "250-Sheet Input Tray / 30-Sheet Output Tray",
+      "connectivity": "Dual-Band Wi-Fi 802.11b/g/n, Wi-Fi Direct, Hi-Speed USB 2.0",
+      "mobilePrinting": "HP Smart App, Apple AirPrint, Mopria Certified",
+      "display": "Two-Line LCD Display with Smart-Guided Buttons",
+      "resolution": "Up to 1200 x 1200 dpi Black / Up to 4800 x 1200 optimized dpi Color",
+      "scanResolution": "Up to 1200 x 1200 dpi Optical Flatbed Scanner",
+      "copyCapabilities": "Up to 99 Copies, 25% to 400% Scaling",
+      "borderlessPrinting": "Yes, up to 8.5 x 11 in (Letter size)",
+      "dimensions": "16.83 x 14.33 x 7.82 inches (14 lbs)",
+      "paperSupport": "Letter, Legal, Envelopes, 4x6 in, 5x7 in, Photo Paper, Brochure Paper",
+      "dutyCycle": "Recommended 400 to 800 pages per month",
+      "ecoRating": "25% Recycled Plastic & HP Planet Partners Recycling",
+      "warranty": "1-Year Official HP Manufacturer Warranty"
     },
     "tags": [
       "HP",
@@ -609,9 +816,9 @@ export const productsData = [
     "slug": "hp-smart-tank-plus-651-wireless-all-in-one",
     "name": "HP Smart Tank Plus 651 Wireless All-in-One",
     "modelNumber": "651",
-    "sku": "HP-HOME_PRINTERS-11",
+    "sku": "651",
     "brand": "HP",
-    "subtitle": "Wireless Cartridge-Free All-in-One with Fax, Touchscreen & Auto Document Feeder",
+    "subtitle": "Cartridge-Free Wireless Color All-in-One Printer with 35-Sheet ADF, Fax & 2.2\" Touchscreen",
     "price": 329.99,
     "originalPrice": 369.99,
     "discountBadge": "Wireless Plus",
@@ -635,22 +842,80 @@ export const productsData = [
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Wireless Cartridge-Free All-in-One with Fax, Touchscreen & Auto Document Feeder Engineered for reliability and high performance.",
-    "longDescription": "HP Smart Tank Plus 651 Wireless All-in-One delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
+    "shortDescription": "The HP Smart Tank Plus 651 Wireless All-in-One features a high-capacity refillable ink tank system (up to 3 years of ink included), 35-sheet ADF, 11 ppm black / 5 ppm color speeds, fax capability, dual-band Wi-Fi, and 2.2-inch touchscreen.",
+    "overview": "If your printer gets used for more than the occasional document, the HP Smart Tank Plus 651 Wireless All-in-One is built to keep up with a busy home or small workspace. It brings printing, scanning, copying, and faxing together in one machine, while its refillable ink system is designed for people who go through pages regularly.\nWith wireless printing, a 35-sheet automatic document feeder, and a dedicated touchscreen, it gives you plenty of flexibility without feeling like a bulky office machine.",
+    "longDescription": "If your printer gets used for more than the occasional document, the HP Smart Tank Plus 651 Wireless All-in-One is built to keep up with a busy home or small workspace. It brings printing, scanning, copying, and faxing together in one machine, while its refillable ink system is designed for people who go through pages regularly.\nWith wireless printing, a 35-sheet automatic document feeder, and a dedicated touchscreen, it gives you plenty of flexibility without feeling like a bulky office machine.\n\nMade for Busy Printing Days\nThe Smart Tank Plus 651 can print up to 11 pages per minute in black and up to 5 pages per minute in color. That makes it a practical choice for documents, schoolwork, invoices, forms, reports, and everyday color printing.\nA 100-sheet input tray gives you room to keep paper loaded, while the 30-sheet output tray collects your finished pages.\nFor households or small workspaces with a steady printing routine, HP recommends a monthly range of around 400 to 800 pages.\n\nRefillable Ink for the Long Run\nThe Smart Tank Plus 651 uses a refillable ink tank system, so you're not dealing with the small cartridges commonly found in traditional inkjet printers.\nThe printer comes with separate black, cyan, magenta, and yellow ink bottles. Once the ink in a tank gets low, you refill that particular color instead of replacing an entire cartridge.\nThe package includes enough original HP ink for up to three years of printing, based on typical usage. That makes the printer particularly appealing if you print frequently and don't want ink replacement to become a constant part of your routine.\n\nHandle Multi-Page Documents More Easily\nOne of the useful additions here is the 35-sheet automatic document feeder.\nHave a stack of forms to copy or several pages that need to be scanned? Load them into the feeder rather than placing each sheet on the scanner glass individually.\nThe flatbed scanner is still available when you're working with photos, books, single pages, or anything that needs to be placed directly on the glass.\n\nPrint From Your Phone, Laptop, or Tablet\nThe Smart Tank Plus 651 gives you several ways to send a document to the printer.\nIts dual-band Wi-Fi lets you print wirelessly from compatible devices, while Wi-Fi Direct gives you another way to connect without relying on a traditional network setup.\nYou can also use the HP app, Apple AirPrint, and Mopria for mobile printing.\nSo if the file is sitting on your phone, you don't necessarily need to move it to your computer before printing.\n\nA Little More Than Just Printing\nSometimes you need to send a fax, make copies, or turn a paper document into a digital file.\nThe Smart Tank Plus 651 handles all of these tasks in one machine. Its scanner offers up to 1200 dpi optical resolution, and you can save scans in common formats including PDF, JPEG, PNG, BMP, and TIFF.\nFor copying, you can create up to 99 copies from a single original, with options to reduce or enlarge the document between 25% and 400%.\n\nEasy Controls at Your Fingertips\nInstead of relying entirely on a computer or phone, the printer has a 2.2-inch monochrome touchscreen on the front.\nIt gives you direct access to common functions and settings, making it convenient when you just need to scan, copy, or start a print job from the printer itself.\n\nPrint Documents and Borderless Photos\nThe Smart Tank Plus 651 isn't limited to standard office paper.\nIt can print borderless pages up to 8.5 × 11 inches, and it works with a range of media including plain paper, photo paper, brochure paper, envelopes, and other compatible inkjet papers.\nThat gives you the flexibility to use it for everyday documents as well as photos, invitations, school projects, and other color-heavy work.\n\nFits Into a Home or Small Office\nDespite having several functions built into one machine, the Smart Tank Plus 651 has a relatively manageable footprint.\nIt measures approximately 17.7 × 14.7 × 7.8 inches and weighs around 13.6 pounds, so it can fit comfortably on a larger desk, workstation, or dedicated printer table.\nIts design makes more sense for a home office, family workspace, or small business than for someone looking for a high-volume commercial printer.",
     "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
+      "Print, Scan, Copy & Fax in one all-in-one machine",
+      "Up to 11 ppm Black / 5 ppm Color print speeds",
+      "Refillable Ink Tank System (Up to 3 Years of Ink Included)",
+      "35-Sheet Automatic Document Feeder (ADF)",
+      "100-Sheet Input Tray / 30-Sheet Output Tray",
+      "Dual-Band Wi-Fi & Wi-Fi Direct wireless printing",
+      "USB connectivity option for direct cable printing",
+      "Mobile Printing via HP App, Apple AirPrint & Mopria",
+      "2.2-Inch Monochrome Touchscreen display control panel",
+      "Up to 1200 dpi Optical Scanning resolution",
+      "Borderless Color Printing up to 8.5 x 11 inches",
+      "Multi-copy capability up to 99 copies (25%–400% scaling)",
+      "Compact footprint (17.7 x 14.7 x 7.8 in, 13.6 lbs)"
     ],
+    "whatsIncluded": [
+      "HP Smart Tank Plus 651 Wireless All-in-One Printer",
+      "HP 32XL Black Original Ink Bottles (Up to 3 Years of Ink)",
+      "HP 31 Cyan, Magenta, & Yellow Original Ink Bottles",
+      "Power Cord & Setup Guide",
+      "Regulatory Flyer & Reference Manual"
+    ],
+    "idealFor": [
+      "Busy households & home offices with steady printing routines (400–800 pages/mo)",
+      "Remote workers needing printing, scanning, multi-page ADF copying, & faxing",
+      "Students & creative projects requiring borderless color photo printing",
+      "Users wanting a dedicated 2.2\" touchscreen & wireless mobile convenience"
+    ],
+    "whyChooseThisPrinter": "Is the HP Smart Tank Plus 651 Right for You?\nThe HP Smart Tank Plus 651 is a strong option if your printer is part of your regular work or home routine rather than something you use once in a while.\nThe refillable ink system makes sense for frequent printing, while the automatic document feeder saves time when you're dealing with multiple pages. Add wireless printing, scanning, copying, faxing, and color printing, and you get a machine that can handle a wide range of everyday tasks.\nFor families, home offices, students, and small businesses, the Smart Tank Plus 651 offers a useful balance of capacity, convenience, and versatility—without requiring a separate machine for every job.",
+    "faqs": [
+      {
+        "question": "Does the HP Smart Tank Plus 651 come with ink included?",
+        "answer": "Yes. It includes enough Original HP black and color ink bottles for up to 3 years of printing based on typical household usage."
+      },
+      {
+        "question": "Does this printer have an Automatic Document Feeder (ADF) and Fax?",
+        "answer": "Yes. It features a 35-sheet automatic document feeder for multi-page scanning and copying, as well as built-in fax functionality."
+      },
+      {
+        "question": "What print speeds does it achieve?",
+        "answer": "It prints up to 11 pages per minute (ppm) in black and up to 5 pages per minute (ppm) in color."
+      },
+      {
+        "question": "How do I control print, scan, and copy functions on the printer?",
+        "answer": "The printer features a front-mounted 2.2-inch monochrome touchscreen for direct access to settings, scanning, copying, and faxing."
+      },
+      {
+        "question": "What are the physical dimensions of the printer?",
+        "answer": "It measures approximately 17.7 × 14.7 × 7.8 inches and weighs 13.6 pounds, making it suitable for desks and dedicated printer tables."
+      }
+    ],
+    "additionalInfo": "Compatible with Windows 11/10, macOS 12+, iOS, Android, HP App, Apple AirPrint, & Mopria. Backed by 1-Year Official HP Manufacturer Warranty.",
+    "metaTitle": "HP Smart Tank Plus 651 Wireless All-in-One | Nova Ink LLC",
+    "metaDescription": "Buy HP Smart Tank Plus 651 Wireless All-in-One at Nova Ink LLC. Refillable ink tanks, 35-sheet ADF, fax, dual-band Wi-Fi, & 2.2\" touchscreen.",
     "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
+      "technology": "HP Thermal Inkjet (Refillable Ink Tank)",
+      "speed": "Up to 11 ppm Black / 5 ppm Color",
+      "functions": "Print, Scan, Copy, Fax",
+      "inkSystem": "Refillable Ink Tank System (Up to 3 Years of Original HP Ink Included)",
+      "adf": "35-Sheet Automatic Document Feeder",
+      "paperInput": "100-Sheet Input Tray / 30-Sheet Output Tray",
+      "connectivity": "Dual-Band Wi-Fi 802.11b/g/n, Wi-Fi Direct, Hi-Speed USB 2.0",
+      "mobilePrinting": "HP Smart App, Apple AirPrint, Mopria Certified",
+      "display": "2.2-inch Monochrome Touchscreen Graphic Display",
+      "scanResolution": "Up to 1200 x 1200 dpi Optical Scanner (PDF, JPEG, PNG, BMP, TIFF)",
+      "copyCapabilities": "Up to 99 Copies, 25% to 400% Scaling, Contrast Adjustment",
+      "borderlessPrinting": "Yes, up to 8.5 x 11 in (Letter size)",
+      "dimensions": "17.7 x 14.7 x 7.8 inches (13.6 lbs)",
+      "paperSupport": "Letter, Legal, Envelopes, 4x6 in, 5x7 in, Photo Paper, Brochure Paper",
+      "dutyCycle": "Recommended 400 to 800 pages per month",
+      "warranty": "1-Year Official HP Manufacturer Warranty"
     },
     "tags": [
       "HP",
@@ -664,9 +929,9 @@ export const productsData = [
     "slug": "hp-envy-photo-7275-all-in-one-printer",
     "name": "HP Envy Photo 7275 All-in-One Printer",
     "modelNumber": "7275",
-    "sku": "HP-HOME_PRINTERS-12",
+    "sku": "7275",
     "brand": "HP",
-    "subtitle": "Crisp Wireless Photo & Document Printer with Borderless Printing",
+    "subtitle": "Versatile Wireless Photo & Document Printer with Dedicated Photo Tray, 35-Sheet ADF & Touchscreen",
     "price": 119.99,
     "originalPrice": 139.99,
     "discountBadge": "Borderless Photo",
@@ -690,22 +955,79 @@ export const productsData = [
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Crisp Wireless Photo & Document Printer with Borderless Printing Engineered for reliability and high performance.",
-    "longDescription": "HP Envy Photo 7275 All-in-One Printer delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
+    "shortDescription": "The HP Envy Photo 7275 All-in-One Printer is built for versatile document and photo printing, featuring a dedicated 15-sheet photo tray, 125-sheet main tray, 35-sheet ADF, auto 2-sided printing, 15 ppm black / 10 ppm color speeds, and 2.7-inch tilting color touchscreen.",
+    "overview": "Some printers are mainly about getting documents onto paper. The HP Envy Photo 7275 All-in-One Printer is a little more versatile. It is designed for households that want to print everyday paperwork while also having a printer that can handle photos, cards, and other colorful projects.\nYou get printing, scanning, copying, and photo printing in one machine, along with wireless connectivity and automatic two-sided printing. It is a good fit for families, students, and home users who want more flexibility from their printer.",
+    "longDescription": "Some printers are mainly about getting documents onto paper. The HP Envy Photo 7275 All-in-One Printer is a little more versatile. It is designed for households that want to print everyday paperwork while also having a printer that can handle photos, cards, and other colorful projects.\nYou get printing, scanning, copying, and photo printing in one machine, along with wireless connectivity and automatic two-sided printing. It is a good fit for families, students, and home users who want more flexibility from their printer.\n\nMade for Photos and Everyday Documents\nThe Envy Photo 7275 can handle the routine jobs you probably expect from a home printer—documents, forms, schoolwork, and general paperwork—but it also puts a stronger emphasis on photo printing.\nIt can print up to 15 pages per minute in black and 10 pages per minute in color, giving you a useful balance when you're switching between text-heavy documents and colorful pages.\nFor photos, the printer can create borderless prints up to 8.5 × 11 inches, so your pictures don't have to be surrounded by a white frame.\n\nKeep Photo Paper and Regular Paper Ready\nOne feature that makes this printer particularly convenient for photo printing is its separate paper setup.\nThe main tray holds up to 125 sheets, while a dedicated 15-sheet photo tray lets you keep photo paper loaded separately. That means you don't have to completely rearrange your paper every time you want to print a few pictures.\nThe printer can also work with different types of paper, including regular sheets, photo paper, brochure paper, envelopes, and other compatible media.\n\nAutomatic Two-Sided Printing\nPrinting on both sides of a page is handled automatically.\nThis can be handy when you're printing longer documents, school assignments, reports, or anything else where you want to use both sides of the paper. You simply select the two-sided option and let the printer take care of the page flipping.\nIt's a small feature, but one you'll appreciate when you're printing a lot of pages.\n\nScan and Copy Without Leaving Your Desk\nThe Envy Photo 7275 also works as a scanner and copier, so you don't need separate equipment for basic document work.\nIts 35-sheet automatic document feeder is useful when you have several pages to scan or copy. For photos, books, or individual items, you can use the flatbed scanner instead.\nThe scanner offers up to 1200 dpi optical resolution, giving you enough detail for both ordinary documents and images.\nYou can also make up to 50 copies from one original and adjust the size from 25% to 400%, giving you more control over how the finished copy looks.\n\nWireless Printing From Your Devices\nYour laptop isn't the only place you can send a print job from.\nThe Envy Photo 7275 features dual-band Wi-Fi and works with mobile printing options such as the HP app, Apple AirPrint, Mopria, and Chrome OS.\nSo if you have a photo on your phone or a document saved on your tablet, you can send it to the printer without first transferring the file to another computer.\nThere's also a USB connection when you'd prefer a direct setup.\n\nEasy Controls on the Printer\nThe printer has a 2.7-inch color touchscreen that gives you direct access to its main functions.\nYou can use the display to move between printing, scanning, copying, and other settings without having to open your computer every time.\nThe screen also tilts, making it easier to see depending on where the printer is positioned.\n\nBuilt for a Home Workspace\nThe Envy Photo 7275 is designed with home use in mind. HP recommends a monthly printing volume of around 300 to 400 pages, making it better suited to everyday household use than demanding high-volume environments.\nIt has a maximum monthly duty cycle of up to 1,000 pages, but its recommended range is a better indication of the kind of workload it is designed to handle comfortably.\n\nA More Thoughtful Use of Materials\nThe printer is made with 60% post-consumer recycled plastic, and it can be recycled through HP's Planet Partners program.\nFor a home printer, it's a nice addition for buyers who want to consider the materials and end-of-life options of the equipment they purchase.",
     "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
+      "Print, Scan, Copy & Dedicated Photo Printing",
+      "Up to 15 ppm Black / 10 ppm Color print speeds",
+      "Automatic Two-Sided Printing (Auto Duplexing)",
+      "Borderless Photo Printing up to 8.5 x 11 inches",
+      "125-Sheet Main Paper Tray + 15-Sheet Dedicated Photo Tray",
+      "35-Sheet Automatic Document Feeder (ADF)",
+      "2.7-Inch Tilting Color Touchscreen display",
+      "Dual-Band Wi-Fi, Wi-Fi Direct & USB connectivity",
+      "Mobile Printing via HP App, Apple AirPrint, Mopria & Chrome OS",
+      "Up to 1200 dpi Optical Scanner & Flatbed",
+      "Up to 50 Copies with 25%–400% Copy Scaling",
+      "Constructed with 60% Post-Consumer Recycled Plastic"
     ],
+    "whatsIncluded": [
+      "HP Envy Photo 7275 All-in-One Printer",
+      "HP 64 Setup Black Ink Cartridge",
+      "HP 64 Setup Tri-Color Ink Cartridge",
+      "Power Cord & Setup Guide",
+      "Regulatory Flyer & Reference Manual"
+    ],
+    "idealFor": [
+      "Households wanting dedicated photo printing & everyday document output",
+      "Photo enthusiasts needing a 15-sheet photo tray & borderless prints",
+      "Students & home offices requiring 35-sheet ADF multi-page scanning & copying",
+      "Users wanting a tilting 2.7\" touchscreen & wireless mobile convenience"
+    ],
+    "whyChooseThisPrinter": "Is the HP Envy Photo 7275 Right for You?\nThe HP Envy Photo 7275 is a good match if you don't want to choose between a printer for documents and one for photos.\nIts dedicated photo tray, borderless printing, automatic duplexing, and wireless features make it flexible enough for everyday household jobs as well as more personal projects. The automatic document feeder also comes in handy when paperwork starts piling up.\nFor families, students, photo enthusiasts, and home-office users, the Envy Photo 7275 offers a convenient all-in-one setup that can handle the everyday stuff while still giving your photos plenty of attention.",
+    "faqs": [
+      {
+        "question": "Does the HP Envy Photo 7275 have a separate photo paper tray?",
+        "answer": "Yes, it features a dedicated 15-sheet photo tray in addition to the 125-sheet main paper tray, so you can keep photo paper loaded without rearranging standard paper."
+      },
+      {
+        "question": "What print speeds does it achieve?",
+        "answer": "It prints up to 15 pages per minute (ppm) in black and 10 pages per minute (ppm) in color."
+      },
+      {
+        "question": "Does this printer have an Automatic Document Feeder (ADF)?",
+        "answer": "Yes, it includes a 35-sheet automatic document feeder for multi-page scanning and copying, as well as a flatbed scanner."
+      },
+      {
+        "question": "How does the touchscreen display work?",
+        "answer": "It features a 2.7-inch color touchscreen that tilts for comfortable viewing and direct access to print, scan, and copy functions."
+      },
+      {
+        "question": "Is the HP Envy Photo 7275 made with recycled materials?",
+        "answer": "Yes, it is constructed with 60% post-consumer recycled plastic and eligible for HP Planet Partners recycling."
+      }
+    ],
+    "additionalInfo": "Compatible with Windows 11/10, macOS 12+, iOS, Android, HP App, Apple AirPrint, Mopria, & Chrome OS. Backed by 1-Year Official HP Manufacturer Warranty.",
+    "metaTitle": "HP Envy Photo 7275 All-in-One Printer | Nova Ink LLC",
+    "metaDescription": "Buy HP Envy Photo 7275 All-in-One Printer at Nova Ink LLC. Dedicated 15-sheet photo tray, 35-sheet ADF, auto duplex, & 2.7\" touchscreen.",
     "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
+      "technology": "HP Thermal Inkjet",
+      "speed": "Up to 15 ppm Black / 10 ppm Color",
+      "functions": "Print, Scan, Copy, Photo Printing",
+      "duplex": "Automatic Two-Sided Printing (Auto Duplex)",
+      "paperInput": "125-Sheet Main Paper Tray + 15-Sheet Dedicated Photo Tray",
+      "adf": "35-Sheet Automatic Document Feeder",
+      "connectivity": "Dual-Band Wi-Fi 802.11b/g/n, Bluetooth LE, Hi-Speed USB 2.0",
+      "mobilePrinting": "HP Smart App, Apple AirPrint, Mopria, Chrome OS",
+      "display": "2.7-inch Tilting Color Touchscreen",
+      "scanResolution": "Up to 1200 x 1200 dpi Optical Scanner",
+      "copyCapabilities": "Up to 50 Copies, 25% to 400% Scaling",
+      "borderlessPrinting": "Yes, up to 8.5 x 11 in (Letter size)",
+      "paperSupport": "Letter, Legal, 4x6 in, 5x7 in, 8.5x11 in, Photo Paper, Brochure Paper, Envelopes",
+      "dutyCycle": "Recommended 300 to 400 pages per month (Max 1,000 pages)",
+      "ecoRating": "60% Post-Consumer Recycled Plastic & HP Planet Partners Recycling",
+      "warranty": "1-Year Official HP Manufacturer Warranty"
     },
     "tags": [
       "HP",
@@ -719,9 +1041,9 @@ export const productsData = [
     "slug": "hp-smart-tank-6001-all-in-one",
     "name": "HP Smart Tank 6001 All-in-One",
     "modelNumber": "6001",
-    "sku": "HP-HOME_PRINTERS-13",
+    "sku": "6001",
     "brand": "HP",
-    "subtitle": "High-Performance Cartridge-Free Printer with Smart-Guided Buttons & Fast Printing",
+    "subtitle": "Cartridge-Free Wireless Color All-in-One Printer with Auto Two-Sided Printing & 150-Sheet Tray",
     "price": 239.99,
     "originalPrice": 269.99,
     "discountBadge": "Smart Tank",
@@ -745,22 +1067,78 @@ export const productsData = [
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
-    "shortDescription": "High-Performance Cartridge-Free Printer with Smart-Guided Buttons & Fast Printing Engineered for reliability and high performance.",
-    "longDescription": "HP Smart Tank 6001 All-in-One delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
+    "shortDescription": "The HP Smart Tank 6001 All-in-One Printer features a high-capacity refillable ink tank system, automatic two-sided printing, 12 ppm black / 7 ppm color speeds, 150-sheet paper tray, and dual-band wireless connectivity.",
+    "overview": "If your printer gets used for homework, work documents, forms, photos, and everything in between, the HP Smart Tank 6001 All-in-One is designed to handle a busy printing routine without making ink replacement a constant chore.\nIt combines printing, scanning, and copying with a refillable ink system, automatic two-sided printing, and wireless connectivity. That makes it a practical option for families, home offices, and small workspaces that need to print regularly.",
+    "longDescription": "If your printer gets used for homework, work documents, forms, photos, and everything in between, the HP Smart Tank 6001 All-in-One is designed to handle a busy printing routine without making ink replacement a constant chore.\nIt combines printing, scanning, and copying with a refillable ink system, automatic two-sided printing, and wireless connectivity. That makes it a practical option for families, home offices, and small workspaces that need to print regularly.\n\nA Printer That Can Keep Up\nThe Smart Tank 6001 can print up to 12 pages per minute in black and 7 pages per minute in color. Whether you're printing a stack of documents or putting together a colorful school project, it gives you a good balance between everyday speed and print quality.\nIts paper tray can hold up to 150 sheets, so you can keep a decent supply loaded and get through longer print jobs without constantly adding paper.\n\nRefillable Ink for Fewer Interruptions\nThe Smart Tank 6001 uses built-in refillable ink tanks instead of conventional cartridges.\nThat means you add ink from bottles when a tank gets low rather than replacing an entire cartridge. The system uses individual black, cyan, magenta, and yellow inks, giving you a straightforward way to keep track of what you have left.\nThe printer comes with a high-capacity supply of ink, making it particularly appealing for people who print frequently and want to go longer between refills.\n\nAutomatic Two-Sided Printing\nPrinting on both sides of a page doesn't have to mean standing beside the printer and flipping sheets yourself.\nThe Smart Tank 6001 includes automatic duplex printing, allowing you to print on both sides of compatible paper automatically. It's useful for reports, school assignments, documents, and longer files—and can also help reduce the amount of paper you use.\n\nPrint From Almost Anywhere at Home\nThe printer includes wireless connectivity, so you don't have to keep your computer physically connected to it.\nYou can send documents and photos from compatible computers and mobile devices, making it easy to print something that's sitting on your phone, laptop, or tablet.\nFor a shared household or home office, this means multiple people can use the same printer without moving devices around just to get a document printed.\n\nScan and Copy Without Another Machine\nThe Smart Tank 6001 isn't limited to printing.\nIts built-in scanner lets you digitize documents, photographs, forms, and other paper items, while the copier is handy when you simply need another physical copy.\nHaving all three functions in one machine saves valuable desk space and means you don't need separate equipment for routine document tasks.\n\nMade for Documents and Color Pages\nThe 6001 works well for standard black text, but it's equally useful when your printing needs include color. Use it for school projects, work presentations, invoices, forms, photos, invitations, recipes, color charts, graphics, and everyday household paperwork.\nIts inkjet printing system is designed to handle both regular documents and color-heavy pages without requiring a separate photo printer.\n\nSimple Wireless Convenience\nThe Smart Tank 6001 works with mobile printing options, including the HP app, so you can send a file to the printer without first transferring it to a desktop computer.\nIts wireless setup also makes it easier to position the printer where you actually have room for it rather than having to keep it directly beside your computer.\n\nDesigned for a Home or Small Workspace\nThe Smart Tank 6001 has a relatively compact footprint for an all-in-one printer, measuring approximately 16.83 × 14.33 × 7.82 inches.\nThat makes it suitable for a home office, study, family workspace, or small business where desk space matters.",
     "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
+      "Print, Scan & Copy in one all-in-one printer",
+      "Up to 12 ppm Black / 7 ppm Color print speeds",
+      "Refillable Ink Tank System for high-volume printing",
+      "Automatic Two-Sided Printing (Auto Duplex)",
+      "150-Sheet Paper Input Tray Capacity",
+      "Wireless & Wi-Fi Direct Printing",
+      "Mobile Printing via HP App, Apple AirPrint & Mopria",
+      "High-Capacity Ink Supply included in box",
+      "Borderless Color Photo Printing",
+      "Built-In Optical Scanner & Copier",
+      "Compact Footprint (16.83 x 14.33 x 7.82 inches)"
     ],
+    "whatsIncluded": [
+      "HP Smart Tank 6001 All-in-One Printer",
+      "HP GT53XL Black Original Ink Bottle",
+      "HP GT52 Cyan Original Ink Bottle",
+      "HP GT52 Magenta Original Ink Bottle",
+      "HP GT52 Yellow Original Ink Bottle",
+      "Power Cord & Setup Guide",
+      "Regulatory Flyer & Reference Manual"
+    ],
+    "idealFor": [
+      "Families needing regular printing for school projects, forms, & color photos",
+      "Home offices & small businesses needing auto two-sided document printing",
+      "Students requiring wireless printing, scanning, & copying from phones & laptops",
+      "Desks & workspaces needing a compact 16.83 x 14.33 x 7.82 inch footprint"
+    ],
+    "whyChooseThisPrinter": "Is the HP Smart Tank 6001 Right for You?\nThe HP Smart Tank 6001 is a strong option if your printer gets regular use and you want to avoid the constant cycle of replacing traditional cartridges.\nIt's especially well suited to families, students, home-office users, and small businesses that print both black-and-white documents and color pages. The refillable ink system is useful for frequent printing, while automatic two-sided printing and wireless connectivity make everyday jobs easier.\nIf you're looking for one printer that can cover your printing, scanning, and copying needs while giving you plenty of ink to work with, the Smart Tank 6001 is a practical choice for your home or workspace.",
+    "faqs": [
+      {
+        "question": "Does the HP Smart Tank 6001 feature automatic two-sided printing?",
+        "answer": "Yes, it includes automatic duplex printing so you can print on both sides of a sheet without manually flipping pages."
+      },
+      {
+        "question": "How much paper can the input tray hold?",
+        "answer": "The paper input tray holds up to 150 sheets, allowing longer print runs without frequent reloading."
+      },
+      {
+        "question": "What print speeds does it achieve?",
+        "answer": "It prints up to 12 pages per minute (ppm) in black and 7 pages per minute (ppm) in color."
+      },
+      {
+        "question": "Can I print wirelessly from my phone or laptop?",
+        "answer": "Yes, it features dual-band Wi-Fi and Wi-Fi Direct, supporting mobile printing via the HP App, Apple AirPrint, and Mopria."
+      },
+      {
+        "question": "What are the physical dimensions of the printer?",
+        "answer": "It measures approximately 16.83 × 14.33 × 7.82 inches, offering a compact footprint for home offices and study areas."
+      }
+    ],
+    "additionalInfo": "Compatible with Windows 11/10, macOS 12+, iOS, Android, HP App, Apple AirPrint, & Mopria. Backed by 1-Year Official HP Manufacturer Warranty.",
+    "metaTitle": "HP Smart Tank 6001 All-in-One Printer | Nova Ink LLC",
+    "metaDescription": "Buy HP Smart Tank 6001 All-in-One Printer at Nova Ink LLC. Features refillable ink tanks, auto 2-sided printing, 150-sheet tray, & wireless printing.",
     "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
+      "technology": "HP Thermal Inkjet (Refillable Ink Tank)",
+      "speed": "Up to 12 ppm Black / 7 ppm Color",
       "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
+      "inkSystem": "Refillable Ink Tank System (Separate Black, Cyan, Magenta & Yellow Bottles)",
+      "duplex": "Automatic Two-Sided Printing (Auto Duplex)",
+      "paperInput": "150-Sheet Input Tray / 30-Sheet Output Tray",
+      "connectivity": "Dual-Band Wi-Fi 802.11b/g/n, Wi-Fi Direct, Hi-Speed USB 2.0",
+      "mobilePrinting": "HP Smart App, Apple AirPrint, Mopria Certified",
+      "scanResolution": "Up to 1200 x 1200 dpi Optical Flatbed Scanner",
+      "borderlessPrinting": "Yes, up to 8.5 x 11 in (Letter size)",
+      "dimensions": "16.83 x 14.33 x 7.82 inches",
+      "paperSupport": "Letter, Legal, Envelopes, 4x6 in, 5x7 in, Photo Paper, Brochure Paper",
+      "dutyCycle": "Recommended 400 to 800 pages per month",
+      "warranty": "1-Year Official HP Manufacturer Warranty"
     },
     "tags": [
       "HP",
@@ -774,7 +1152,7 @@ export const productsData = [
     "slug": "hp-smart-tank-7602-all-in-one",
     "name": "HP Smart Tank 7602 All-in-One",
     "modelNumber": "7602",
-    "sku": "HP-OFFICE_PRINTERS-14",
+    "sku": "7602",
     "brand": "HP",
     "subtitle": "Cartridge-Free Smart Tank All-in-One Printer with Auto Document Feeder & Touchscreen",
     "price": 369.99,
@@ -844,127 +1222,17 @@ export const productsData = [
   },
   {
     "id": 14,
-    "slug": "hp-laserjet-m209dw-printer",
-    "name": "HP LaserJet M209dw Printer",
-    "modelNumber": "M209dw",
-    "sku": "HP-OFFICE_PRINTERS-15",
-    "brand": "HP",
-    "subtitle": "High-Speed Wireless Monochrome Laser Printer with Automatic Two-Sided Printing",
-    "price": 199,
-    "originalPrice": 229,
-    "discountBadge": "Duplex Laser",
-    "rating": 4.7,
-    "reviewCount": 375,
-    "category": "office-printers",
-    "categoryName": "Office Printers",
-    "image": "/images/products/office printer/HP LaserJet M209dw Printer/1.webp",
-    "gallery": [
-      "/images/products/office printer/HP LaserJet M209dw Printer/2.webp",
-      "/images/products/office printer/HP LaserJet M209dw Printer/3.webp",
-      "/images/products/office printer/HP LaserJet M209dw Printer/4.webp",
-      "/images/products/office printer/HP LaserJet M209dw Printer/5.webp"
-    ],
-    "images": [
-      "/images/products/office printer/HP LaserJet M209dw Printer/1.webp",
-      "/images/products/office printer/HP LaserJet M209dw Printer/2.webp",
-      "/images/products/office printer/HP LaserJet M209dw Printer/3.webp",
-      "/images/products/office printer/HP LaserJet M209dw Printer/4.webp",
-      "/images/products/office printer/HP LaserJet M209dw Printer/5.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "High-Speed Wireless Monochrome Laser Printer with Automatic Two-Sided Printing Engineered for reliability and high performance.",
-    "longDescription": "HP LaserJet M209dw Printer delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Office Printers",
-      "M209dw",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 15,
-    "slug": "hp-laserjet-mfp-m234dw-printer",
-    "name": "HP LaserJet MFP M234dw Printer",
-    "modelNumber": "M234dw",
-    "sku": "HP-OFFICE_PRINTERS-16",
-    "brand": "HP",
-    "subtitle": "Compact Wireless Multifunction Laser Printer with Auto Two-Sided Printing",
-    "price": 189,
-    "originalPrice": 219,
-    "discountBadge": "Multifunction",
-    "rating": 4.8,
-    "reviewCount": 392,
-    "category": "office-printers",
-    "categoryName": "Office Printers",
-    "image": "/images/products/office printer/HP LaserJet MFP M234dw Printer/1.webp",
-    "gallery": [
-      "/images/products/office printer/HP LaserJet MFP M234dw Printer/2.webp",
-      "/images/products/office printer/HP LaserJet MFP M234dw Printer/3.webp",
-      "/images/products/office printer/HP LaserJet MFP M234dw Printer/4.webp",
-      "/images/products/office printer/HP LaserJet MFP M234dw Printer/5.webp"
-    ],
-    "images": [
-      "/images/products/office printer/HP LaserJet MFP M234dw Printer/1.webp",
-      "/images/products/office printer/HP LaserJet MFP M234dw Printer/2.webp",
-      "/images/products/office printer/HP LaserJet MFP M234dw Printer/3.webp",
-      "/images/products/office printer/HP LaserJet MFP M234dw Printer/4.webp",
-      "/images/products/office printer/HP LaserJet MFP M234dw Printer/5.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Compact Wireless Multifunction Laser Printer with Auto Two-Sided Printing Engineered for reliability and high performance.",
-    "longDescription": "HP LaserJet MFP M234dw Printer delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Office Printers",
-      "M234dw",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 16,
     "slug": "hp-smart-tank-7301-all-in-one-printer",
     "name": "HP Smart Tank 7301 All-in-One Printer",
     "modelNumber": "7301",
-    "sku": "HP-OFFICE_PRINTERS-17",
+    "sku": "7301",
     "brand": "HP",
     "subtitle": "High-Capacity Wireless Color Tank Printer with Ethernet & Auto 2-Sided Printing",
     "price": 449.99,
     "originalPrice": 499.99,
     "discountBadge": "High Capacity",
-    "rating": 4.9,
-    "reviewCount": 409,
+    "rating": 4.7,
+    "reviewCount": 375,
     "category": "office-printers",
     "categoryName": "Office Printers",
     "image": "/images/products/office printer/HP Smart Tank 7301 All-in-One Printer/1.webp",
@@ -1026,179 +1294,18 @@ export const productsData = [
     ]
   },
   {
-    "id": 17,
-    "slug": "hp-laserjet-m209d-printer",
-    "name": "HP LaserJet M209d Printer",
-    "modelNumber": "M209d",
-    "sku": "HP-OFFICE_PRINTERS-18",
-    "brand": "HP",
-    "subtitle": "Compact High-Speed Monochrome Laser Printer with Auto Two-Sided Printing",
-    "price": 159,
-    "originalPrice": 189,
-    "discountBadge": "Compact Laser",
-    "rating": 4.7,
-    "reviewCount": 426,
-    "category": "office-printers",
-    "categoryName": "Office Printers",
-    "image": "/images/products/office printer/HP LaserJet M209d Printer/1.webp",
-    "gallery": [
-      "/images/products/office printer/HP LaserJet M209d Printer/2.webp",
-      "/images/products/office printer/HP LaserJet M209d Printer/3.webp",
-      "/images/products/office printer/HP LaserJet M209d Printer/4.webp",
-      "/images/products/office printer/HP LaserJet M209d Printer/5.webp"
-    ],
-    "images": [
-      "/images/products/office printer/HP LaserJet M209d Printer/1.webp",
-      "/images/products/office printer/HP LaserJet M209d Printer/2.webp",
-      "/images/products/office printer/HP LaserJet M209d Printer/3.webp",
-      "/images/products/office printer/HP LaserJet M209d Printer/4.webp",
-      "/images/products/office printer/HP LaserJet M209d Printer/5.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Compact High-Speed Monochrome Laser Printer with Auto Two-Sided Printing Engineered for reliability and high performance.",
-    "longDescription": "HP LaserJet M209d Printer delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Office Printers",
-      "M209d",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 18,
-    "slug": "hp-laserjet-mfp-m234sdw-printer",
-    "name": "HP LaserJet MFP M234sdw Printer",
-    "modelNumber": "M234sdw",
-    "sku": "HP-OFFICE_PRINTERS-19",
-    "brand": "HP",
-    "subtitle": "Wireless Multifunction Monochrome Laser Printer with 40-Page Auto Feeder",
-    "price": 279,
-    "originalPrice": 319,
-    "discountBadge": "Auto Feeder",
-    "rating": 4.8,
-    "reviewCount": 443,
-    "category": "office-printers",
-    "categoryName": "Office Printers",
-    "image": "/images/products/office printer/HP LaserJet MFP M234sdw Printer/1.webp",
-    "gallery": [
-      "/images/products/office printer/HP LaserJet MFP M234sdw Printer/2.webp",
-      "/images/products/office printer/HP LaserJet MFP M234sdw Printer/3.webp",
-      "/images/products/office printer/HP LaserJet MFP M234sdw Printer/4.webp",
-      "/images/products/office printer/HP LaserJet MFP M234sdw Printer/5.webp"
-    ],
-    "images": [
-      "/images/products/office printer/HP LaserJet MFP M234sdw Printer/1.webp",
-      "/images/products/office printer/HP LaserJet MFP M234sdw Printer/2.webp",
-      "/images/products/office printer/HP LaserJet MFP M234sdw Printer/3.webp",
-      "/images/products/office printer/HP LaserJet MFP M234sdw Printer/4.webp",
-      "/images/products/office printer/HP LaserJet MFP M234sdw Printer/5.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Wireless Multifunction Monochrome Laser Printer with 40-Page Auto Feeder Engineered for reliability and high performance.",
-    "longDescription": "HP LaserJet MFP M234sdw Printer delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Office Printers",
-      "M234sdw",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 19,
-    "slug": "hp-laserjet-m140w-wireless-black-white-printer",
-    "name": "HP LaserJet M140w Wireless Black & White Printer",
-    "modelNumber": "M140w",
-    "sku": "HP-OFFICE_PRINTERS-20",
-    "brand": "HP",
-    "subtitle": "Ultra-Compact Wireless Monochrome Multifunction Laser Printer",
-    "price": 209,
-    "originalPrice": 239,
-    "discountBadge": "Compact MFP",
-    "rating": 4.9,
-    "reviewCount": 460,
-    "category": "office-printers",
-    "categoryName": "Office Printers",
-    "image": "/images/products/office printer/HP LaserJet M140w Wireless Black & White Printer/1.webp",
-    "gallery": [
-      "/images/products/office printer/HP LaserJet M140w Wireless Black & White Printer/2.webp",
-      "/images/products/office printer/HP LaserJet M140w Wireless Black & White Printer/3.webp"
-    ],
-    "images": [
-      "/images/products/office printer/HP LaserJet M140w Wireless Black & White Printer/1.webp",
-      "/images/products/office printer/HP LaserJet M140w Wireless Black & White Printer/2.webp",
-      "/images/products/office printer/HP LaserJet M140w Wireless Black & White Printer/3.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Ultra-Compact Wireless Monochrome Multifunction Laser Printer Engineered for reliability and high performance.",
-    "longDescription": "HP LaserJet M140w Wireless Black & White Printer delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Office Printers",
-      "M140w",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 20,
+    "id": 15,
     "slug": "hp-smart-tank-5103-all-in-one-printer",
     "name": "HP Smart Tank 5103 All-in-One Printer",
     "modelNumber": "5103",
-    "sku": "HP-OFFICE_PRINTERS-21",
+    "sku": "5103",
     "brand": "HP",
-    "subtitle": "Smart Tank Color All-in-One Printer with Smart Buttons & Mobile Setup",
+    "subtitle": "Refillable Ink Tank Color All-in-One Printer with Wireless Mobile Printing & 1200 dpi Scanning",
     "price": 199.99,
     "originalPrice": 239.99,
     "discountBadge": "Cartridge-Free",
-    "rating": 4.7,
-    "reviewCount": 477,
+    "rating": 4.8,
+    "reviewCount": 392,
     "category": "office-printers",
     "categoryName": "Office Printers",
     "image": "/images/products/office printer/HP Smart Tank 5103 All-in-One Printer/1.webp",
@@ -1217,22 +1324,80 @@ export const productsData = [
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Smart Tank Color All-in-One Printer with Smart Buttons & Mobile Setup Engineered for reliability and high performance.",
-    "longDescription": "HP Smart Tank 5103 All-in-One Printer delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
+    "shortDescription": "The HP Smart Tank 5103 All-in-One Printer features a high-capacity refillable ink tank system, 12 ppm black / 5 ppm color speed, 100-sheet paper tray, dual-band Wi-Fi, and 1200 dpi scanning.",
+    "overview": "The HP Smart Tank 5103 All-in-One Printer is made for people who print often and want to spend less time worrying about ink. Instead of the usual small cartridges, it uses refillable ink tanks that can handle a much larger amount of printing.\nIt also gives you the basics you need in one machine—printing, scanning, and copying—making it a practical option for families, students, and home offices.",
+    "longDescription": "The HP Smart Tank 5103 All-in-One Printer is made for people who print often and want to spend less time worrying about ink. Instead of the usual small cartridges, it uses refillable ink tanks that can handle a much larger amount of printing.\nIt also gives you the basics you need in one machine—printing, scanning, and copying—making it a practical option for families, students, and home offices.\n\nMade for Regular Printing\nIf your printer gets used almost every day, the Smart Tank 5103 is designed with that kind of routine in mind.\nIt can print up to 12 pages per minute in black and up to 5 pages per minute in color, so everyday paperwork, school assignments, forms, and color documents can be handled without too much waiting.\nThe 100-sheet paper tray also means you can keep a decent stack of paper ready to go instead of constantly loading sheets one at a time.\n\nThe Ink Tank Makes a Difference\nThe main attraction of this printer is its refillable ink system.\nRather than throwing away a cartridge whenever the ink runs low, you simply add more ink to the appropriate tank. The printer uses separate bottles for black, cyan, magenta, and yellow, making it easy to keep an eye on your ink levels.\nFor households or small workspaces that print regularly, this type of setup can be a convenient way to manage printing expenses over time.\n\nPrint Without the Wires\nYou can place the Smart Tank 5103 wherever it makes sense in your workspace without needing to keep it connected to your computer by USB.\nIts wireless connectivity lets you send print jobs from compatible computers and mobile devices. You can also use the HP app, Apple AirPrint, or Mopria to print from your phone or tablet.\nThat comes in handy when a document is sitting on your phone and you need a paper copy right away.\n\nScan and Copy Documents Too\nNeed to make a copy of a form or turn a paper document into a digital file?\nThe built-in flatbed scanner has an optical resolution of up to 1200 dpi, giving you plenty of detail for regular paperwork and images.\nYou can scan documents and photos into common file formats such as PDF and JPG, and the printer can also make multiple copies when needed.\n\nMore Than Just Black-and-White Documents\nAlthough the Smart Tank 5103 is well suited to everyday paperwork, it's not limited to plain text.\nIt can produce borderless color prints up to 8.5 × 11 inches, making it useful for photos, school projects, flyers, invitations, and other color-heavy work.\nIt also works with different types of compatible paper, including photo paper, brochure paper, envelopes, and standard printing paper.\n\nSimple Controls and a Small Footprint\nYou don't need a complicated control panel to operate the printer. The Smart Tank 5103 uses an easy-to-read icon-based LCD display for its basic functions.\nIts compact shape also makes it a good match for desks, study areas, and home offices where space can be limited.\n\nA More Responsible Design\nThe printer is ENERGY STAR certified and EPEAT registered, and its construction includes recycled plastic.\nCombined with the refillable ink system, these design choices make the Smart Tank 5103 an appealing option for people who want to cut down on the waste associated with traditional disposable cartridges.",
     "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
+      "Print, Scan & Copy in one compact machine",
+      "Up to 12 ppm Black / 5 ppm Color print speeds",
+      "Refillable Ink Tank System for high-volume printing",
+      "Separate Black & Color Ink Bottles for easy monitoring",
+      "100-Sheet Paper Input Tray capacity",
+      "Wireless Printing with Wi-Fi Direct",
+      "Mobile Printing via HP App, Apple AirPrint & Mopria",
+      "Up to 1200 dpi Optical Scanning flatbed scanner",
+      "Borderless Color Printing up to 8.5 x 11 inches",
+      "Multi-copy capability up to 99 copies",
+      "Simple icon-based LCD display controls",
+      "ENERGY STAR certified & EPEAT registered design"
     ],
+    "whatsIncluded": [
+      "HP Smart Tank 5103 All-in-One Printer",
+      "HP GT53XL Black Original Ink Bottle (~6,000 pages yield)",
+      "HP GT52 Cyan Original Ink Bottle (~8,000 pages yield)",
+      "HP GT52 Magenta Original Ink Bottle (~8,000 pages yield)",
+      "HP GT52 Yellow Original Ink Bottle (~8,000 pages yield)",
+      "Power Cord & Setup Guide",
+      "Regulatory Flyer & Reference Guide"
+    ],
+    "idealFor": [
+      "Families needing regular everyday document, homework, & photo printing",
+      "Students looking for low-cost color printing, scanning, & copying",
+      "Remote workers & home offices with high print frequency",
+      "Users wanting to eliminate disposable cartridges with refillable tanks"
+    ],
+    "whyChooseThisPrinter": "Is the HP Smart Tank 5103 a Good Choice?\nThe HP Smart Tank 5103 is a sensible pick if printing is a regular part of your home or work routine. Its refillable ink system makes it particularly interesting for people who go through a lot of pages, while the all-in-one design means you don't need separate equipment for scanning and copying.\nFor families, students, remote workers, and home-office users, it offers a straightforward combination of everyday printing, color capability, wireless convenience, and refillable ink—all in one machine.",
+    "faqs": [
+      {
+        "question": "Does the HP Smart Tank 5103 use traditional ink cartridges?",
+        "answer": "No. The HP Smart Tank 5103 uses a refillable ink tank system with individual bottles for black, cyan, magenta, and yellow ink, eliminating traditional disposable cartridges."
+      },
+      {
+        "question": "What print speeds can I expect from the HP Smart Tank 5103?",
+        "answer": "It prints at speeds of up to 12 pages per minute (ppm) in black and up to 5 pages per minute (ppm) in color for everyday documents and paperwork."
+      },
+      {
+        "question": "Can I print wirelessly from my smartphone or tablet?",
+        "answer": "Yes. It features built-in Wi-Fi and Wi-Fi Direct, supporting wireless mobile printing using the HP App, Apple AirPrint, and Mopria."
+      },
+      {
+        "question": "What scanning and copying features are included?",
+        "answer": "The printer features a flatbed scanner with up to 1200 dpi optical resolution, supporting PDF and JPG file formats, and can make up to 99 copies at a time."
+      },
+      {
+        "question": "Does the HP Smart Tank 5103 support borderless photo printing?",
+        "answer": "Yes. It supports borderless color printing up to 8.5 × 11 inches on compatible photo and brochure papers."
+      }
+    ],
+    "additionalInfo": "Compatible with Windows 11/10, macOS 12+, iOS, Android, HP App, Apple AirPrint, & Mopria. Backed by 1-Year Official HP Manufacturer Warranty.",
+    "metaTitle": "HP Smart Tank 5103 All-in-One Printer | Nova Ink LLC",
+    "metaDescription": "Buy HP Smart Tank 5103 All-in-One Printer at Nova Ink LLC. Features refillable ink tanks, 12 ppm black, wireless mobile printing, and 1200 dpi scanning.",
     "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
+      "technology": "HP Thermal Inkjet (Refillable Ink Tank)",
+      "speed": "Up to 12 ppm Black / 5 ppm Color",
       "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
+      "inkSystem": "Refillable Ink Tank System (Separate Black, Cyan, Magenta & Yellow Bottles)",
+      "paperInput": "100-Sheet Paper Input Tray / 30-Sheet Output Tray",
+      "connectivity": "Dual-Band Wi-Fi 802.11b/g/n, Wi-Fi Direct, Hi-Speed USB 2.0",
+      "mobilePrinting": "HP Smart App, Apple AirPrint, Mopria Certified",
+      "scanResolution": "Up to 1200 x 1200 dpi Optical Flatbed Scanner",
+      "copyCapabilities": "Up to 99 Copies, Contrast Adjustment, Fit-to-Page",
+      "borderlessPrinting": "Yes, up to 8.5 x 11 in (Letter size)",
+      "display": "Icon-Based LCD Display Panel",
+      "paperSupport": "Letter, Legal, Envelopes, 4x6 in, 5x7 in, Photo Paper, Brochure Paper",
+      "dutyCycle": "Recommended 400 to 800 pages per month",
+      "ecoRating": "ENERGY STAR Certified & EPEAT Registered",
+      "warranty": "1-Year Official HP Manufacturer Warranty"
     },
     "tags": [
       "HP",
@@ -1242,18 +1407,18 @@ export const productsData = [
     ]
   },
   {
-    "id": 21,
+    "id": 16,
     "slug": "hp-smart-tank-5101-all-in-one-printer",
     "name": "HP Smart Tank 5101 All-in-One Printer",
     "modelNumber": "5101",
-    "sku": "HP-OFFICE_PRINTERS-22",
+    "sku": "5101",
     "brand": "HP",
-    "subtitle": "Cartridge-Free High-Volume Color Ink Tank Printer with Wi-Fi & Smart App",
+    "subtitle": "Refillable Ink Tank Color All-in-One Printer with Wi-Fi Direct & 1200 dpi Flatbed Scanner",
     "price": 179.99,
     "originalPrice": 219.99,
     "discountBadge": "Wireless Tank",
-    "rating": 4.8,
-    "reviewCount": 494,
+    "rating": 4.9,
+    "reviewCount": 409,
     "category": "office-printers",
     "categoryName": "Office Printers",
     "image": "/images/products/office printer/HP Smart Tank 5101 All-in-One Printer/1.webp",
@@ -1272,22 +1437,82 @@ export const productsData = [
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Cartridge-Free High-Volume Color Ink Tank Printer with Wi-Fi & Smart App Engineered for reliability and high performance.",
-    "longDescription": "HP Smart Tank 5101 All-in-One Printer delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
+    "shortDescription": "The HP Smart Tank 5101 All-in-One Printer features a built-in refillable ink tank system (135 ml black & 50 ml color bottles included), 12 ppm black / 5 ppm color speeds, 100-sheet input tray, Wi-Fi Direct, and 1200 dpi flatbed scanning.",
+    "overview": "If you print regularly at home, the HP Smart Tank 5101 All-in-One Printer gives you a simple way to handle everyday printing without relying on traditional ink cartridges. Its refillable tank system is designed for people who go through plenty of pages, while the all-in-one design takes care of scanning and copying too.\nIt’s a practical fit for families, students, remote workers, and home offices that need a printer for both routine paperwork and color projects.",
+    "longDescription": "If you print regularly at home, the HP Smart Tank 5101 All-in-One Printer gives you a simple way to handle everyday printing without relying on traditional ink cartridges. Its refillable tank system is designed for people who go through plenty of pages, while the all-in-one design takes care of scanning and copying too.\nIt’s a practical fit for families, students, remote workers, and home offices that need a printer for both routine paperwork and color projects.\n\nA Better Fit for Regular Printing\nThe Smart Tank 5101 is made for more than the occasional page. It can print up to 12 pages per minute in black and 5 pages per minute in color, making it suitable for homework, forms, work documents, recipes, invoices, and other everyday printing.\nThe 100-sheet input tray gives you enough room to keep paper ready for your next few print jobs, while the 30-sheet output tray keeps finished pages from piling up all over your desk.\n\nRefillable Ink That Keeps You Going\nThe biggest difference you'll notice is the way this printer handles ink.\nInstead of using conventional cartridges, the Smart Tank 5101 has built-in refillable tanks. Black, cyan, magenta, and yellow each have their own tank, so you can add the color you need when it's running low.\nThe box includes a 135 ml black ink bottle and 50 ml bottles for each color, giving you a generous amount of ink to get started.\nFor anyone who prints frequently, this can be a much more convenient setup than constantly keeping replacement cartridges around.\n\nPrint Straight From Your Devices\nYour documents don't have to live on one computer to reach the printer.\nWith Wi-Fi and Wi-Fi Direct, you can send print jobs from compatible phones, tablets, and computers. The printer also works with the HP app, Apple AirPrint, and Mopria.\nThere's a USB connection too, so you can choose between wireless printing and a direct connection depending on what works best for you.\n\nScan, Copy, and Keep Things Digital\nHaving an all-in-one printer means you don't need separate equipment for basic scanning and copying.\nThe Smart Tank 5101 features a flatbed scanner with up to 1200 dpi optical resolution. It's useful for digitizing paperwork, making copies of forms, or preserving photos and other important documents.\nYou can save scans in common formats such as PDF, JPG, PNG, TIFF, and HEIF, while the copy function can produce up to 99 copies from one original.\nThe flatbed design works especially well for individual pages, books, photos, and other items that aren't suited to a document feeder.\n\nBring Color Into Your Printing\nThere's more to this printer than black text and office paperwork.\nThe Smart Tank 5101 can create borderless prints up to 8.5 × 11 inches, giving you room to work on photos, invitations, school projects, flyers, and other color documents.\nIt can also work with different compatible media, including regular paper, photo paper, brochure paper, and envelopes.\n\nSimple Controls, Compact Setup\nYou won't find a large touchscreen taking up space on the printer. Instead, the Smart Tank 5101 uses a 1.2-inch icon-based LCD display for its controls.\nIts compact design makes it easy to place on a desk, shelf, or home-office table. At approximately 17.11 × 14.23 × 6.19 inches, it can fit into spaces where a larger office printer would feel out of place.\n\nDesigned With Less Waste in Mind\nThe Smart Tank 5101 is ENERGY STAR certified and EPEAT registered, and its construction includes approximately 45% post-consumer recycled plastic.\nThe refillable ink system also changes the way you go through supplies, replacing the regular cycle of throwing away empty cartridges with bottle-based refills.",
     "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
+      "Print, Scan & Copy in one all-in-one printer",
+      "Up to 12 ppm Black / 5 ppm Color print speeds",
+      "Refillable Ink Tank System for high-volume printing",
+      "Separate Black, Cyan, Magenta & Yellow refillable tanks",
+      "100-Sheet Input Tray / 30-Sheet Output Tray",
+      "Wi-Fi & Wi-Fi Direct wireless printing capability",
+      "USB connectivity option for direct cable printing",
+      "Mobile Printing via HP App, Apple AirPrint & Mopria",
+      "Up to 1200 dpi Optical Scanning flatbed scanner",
+      "Borderless Color Printing up to 8.5 x 11 inches",
+      "Multi-copy support up to 99 copies from one original",
+      "1.2-inch icon-based LCD display panel",
+      "ENERGY STAR certified & EPEAT registered (45% recycled plastic)"
     ],
+    "whatsIncluded": [
+      "HP Smart Tank 5101 All-in-One Printer",
+      "HP GT53 135 ml Original Black Ink Bottle",
+      "HP GT52 50 ml Cyan Original Ink Bottle",
+      "HP GT52 50 ml Magenta Original Ink Bottle",
+      "HP GT52 50 ml Yellow Original Ink Bottle",
+      "Power Cord & Setup Guide",
+      "Regulatory Flyer & Reference Manual"
+    ],
+    "idealFor": [
+      "Families needing regular everyday document, homework, & photo printing",
+      "Students looking for low-cost color printing, scanning, & copying",
+      "Remote workers & home offices with medium-to-high print volume",
+      "Desks & study areas needing a compact 17.11 x 14.23 x 6.19 inch footprint"
+    ],
+    "whyChooseThisPrinter": "Is the HP Smart Tank 5101 Right for You?\nThe HP Smart Tank 5101 is a good choice when printing is a regular part of your day and you want something beyond a basic printer.\nIts refillable ink system works well for higher-frequency printing, while the built-in scanner and copier give you everything you need for everyday paperwork. Add wireless and mobile printing, color capability, and a relatively compact design, and you have a printer that fits naturally into a home, study area, or small office.\nIf you're looking for an all-in-one printer that can handle regular documents, color pages, scanning, and copying without making your workspace feel like a full-sized office, the Smart Tank 5101 is worth considering from Nova Ink LLC.",
+    "faqs": [
+      {
+        "question": "Does the HP Smart Tank 5101 include ink in the box?",
+        "answer": "Yes. It includes a 135 ml black ink bottle and 50 ml bottles for cyan, magenta, and yellow ink to get you started right away."
+      },
+      {
+        "question": "What print speeds does the HP Smart Tank 5101 offer?",
+        "answer": "It prints up to 12 pages per minute (ppm) in black and 5 pages per minute (ppm) in color for everyday documents and paperwork."
+      },
+      {
+        "question": "Can I scan books and photo prints with this printer?",
+        "answer": "Yes. The flatbed scanner with up to 1200 dpi optical resolution is designed for digitizing individual pages, books, photos, and bound materials into PDF, JPG, PNG, TIFF, and HEIF formats."
+      },
+      {
+        "question": "How do wireless and mobile printing work?",
+        "answer": "The printer features Wi-Fi, Wi-Fi Direct, and USB connectivity, allowing you to print from smartphones, tablets, and laptops using the HP App, Apple AirPrint, and Mopria."
+      },
+      {
+        "question": "Is the HP Smart Tank 5101 made with eco-friendly materials?",
+        "answer": "Yes. It is ENERGY STAR certified, EPEAT registered, and made with approximately 45% post-consumer recycled plastic."
+      }
+    ],
+    "additionalInfo": "Compatible with Windows 11/10, macOS 12+, iOS, Android, HP App, Apple AirPrint, & Mopria. Backed by 1-Year Official HP Manufacturer Warranty.",
+    "metaTitle": "HP Smart Tank 5101 All-in-One Printer | Nova Ink LLC",
+    "metaDescription": "Buy HP Smart Tank 5101 All-in-One Printer at Nova Ink LLC. Features refillable ink tanks, 12 ppm black, Wi-Fi Direct, and 1200 dpi flatbed scanning.",
     "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
+      "technology": "HP Thermal Inkjet (Refillable Ink Tank)",
+      "speed": "Up to 12 ppm Black / 5 ppm Color",
       "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
+      "inkSystem": "Refillable Ink Tank System (Separate Black, Cyan, Magenta & Yellow Tanks)",
+      "paperInput": "100-Sheet Input Tray / 30-Sheet Output Tray",
+      "connectivity": "Wi-Fi 802.11b/g/n, Wi-Fi Direct, Hi-Speed USB 2.0",
+      "mobilePrinting": "HP Smart App, Apple AirPrint, Mopria Certified",
+      "scanResolution": "Up to 1200 x 1200 dpi Optical Flatbed Scanner",
+      "copyCapabilities": "Up to 99 Copies, Contrast Adjustment, Fit-to-Page",
+      "borderlessPrinting": "Yes, up to 8.5 x 11 in (Letter size)",
+      "display": "1.2-inch Icon-Based LCD Display Panel",
+      "dimensions": "17.11 x 14.23 x 6.19 inches",
+      "paperSupport": "Letter, Legal, Envelopes, 4x6 in, 5x7 in, Photo Paper, Brochure Paper",
+      "dutyCycle": "Recommended 400 to 800 pages per month",
+      "ecoRating": "ENERGY STAR Certified, EPEAT Registered (45% Post-Consumer Recycled Plastic)",
+      "warranty": "1-Year Official HP Manufacturer Warranty"
     },
     "tags": [
       "HP",
@@ -1297,18 +1522,18 @@ export const productsData = [
     ]
   },
   {
-    "id": 22,
+    "id": 17,
     "slug": "hp-smart-tank-plus-651-wireless-all-in-one",
     "name": "HP Smart Tank Plus 651 Wireless All-in-One",
     "modelNumber": "651",
-    "sku": "HP-OFFICE_PRINTERS-23",
+    "sku": "651",
     "brand": "HP",
-    "subtitle": "Wireless Color Tank All-in-One Printer with 35-Page ADF & Touchscreen",
+    "subtitle": "Cartridge-Free Wireless Color All-in-One Printer with 35-Sheet ADF, Fax & 2.2\" Touchscreen",
     "price": 329.99,
     "originalPrice": 379.99,
     "discountBadge": "Smart Tank Plus",
-    "rating": 4.9,
-    "reviewCount": 511,
+    "rating": 4.7,
+    "reviewCount": 426,
     "category": "office-printers",
     "categoryName": "Office Printers",
     "image": "/images/products/office printer/HP Smart Tank Plus 651 Wireless All-in-One/1.webp",
@@ -1327,22 +1552,80 @@ export const productsData = [
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Wireless Color Tank All-in-One Printer with 35-Page ADF & Touchscreen Engineered for reliability and high performance.",
-    "longDescription": "HP Smart Tank Plus 651 Wireless All-in-One delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
+    "shortDescription": "The HP Smart Tank Plus 651 Wireless All-in-One features a high-capacity refillable ink tank system (up to 3 years of ink included), 35-sheet ADF, 11 ppm black / 5 ppm color speeds, fax capability, dual-band Wi-Fi, and 2.2-inch touchscreen.",
+    "overview": "If your printer gets used for more than the occasional document, the HP Smart Tank Plus 651 Wireless All-in-One is built to keep up with a busy home or small workspace. It brings printing, scanning, copying, and faxing together in one machine, while its refillable ink system is designed for people who go through pages regularly.\nWith wireless printing, a 35-sheet automatic document feeder, and a dedicated touchscreen, it gives you plenty of flexibility without feeling like a bulky office machine.",
+    "longDescription": "If your printer gets used for more than the occasional document, the HP Smart Tank Plus 651 Wireless All-in-One is built to keep up with a busy home or small workspace. It brings printing, scanning, copying, and faxing together in one machine, while its refillable ink system is designed for people who go through pages regularly.\nWith wireless printing, a 35-sheet automatic document feeder, and a dedicated touchscreen, it gives you plenty of flexibility without feeling like a bulky office machine.\n\nMade for Busy Printing Days\nThe Smart Tank Plus 651 can print up to 11 pages per minute in black and up to 5 pages per minute in color. That makes it a practical choice for documents, schoolwork, invoices, forms, reports, and everyday color printing.\nA 100-sheet input tray gives you room to keep paper loaded, while the 30-sheet output tray collects your finished pages.\nFor households or small workspaces with a steady printing routine, HP recommends a monthly range of around 400 to 800 pages.\n\nRefillable Ink for the Long Run\nThe Smart Tank Plus 651 uses a refillable ink tank system, so you're not dealing with the small cartridges commonly found in traditional inkjet printers.\nThe printer comes with separate black, cyan, magenta, and yellow ink bottles. Once the ink in a tank gets low, you refill that particular color instead of replacing an entire cartridge.\nThe package includes enough original HP ink for up to three years of printing, based on typical usage. That makes the printer particularly appealing if you print frequently and don't want ink replacement to become a constant part of your routine.\n\nHandle Multi-Page Documents More Easily\nOne of the useful additions here is the 35-sheet automatic document feeder.\nHave a stack of forms to copy or several pages that need to be scanned? Load them into the feeder rather than placing each sheet on the scanner glass individually.\nThe flatbed scanner is still available when you're working with photos, books, single pages, or anything that needs to be placed directly on the glass.\n\nPrint From Your Phone, Laptop, or Tablet\nThe Smart Tank Plus 651 gives you several ways to send a document to the printer.\nIts dual-band Wi-Fi lets you print wirelessly from compatible devices, while Wi-Fi Direct gives you another way to connect without relying on a traditional network setup.\nYou can also use the HP app, Apple AirPrint, and Mopria for mobile printing.\nSo if the file is sitting on your phone, you don't necessarily need to move it to your computer before printing.\n\nA Little More Than Just Printing\nSometimes you need to send a fax, make copies, or turn a paper document into a digital file.\nThe Smart Tank Plus 651 handles all of these tasks in one machine. Its scanner offers up to 1200 dpi optical resolution, and you can save scans in common formats including PDF, JPEG, PNG, BMP, and TIFF.\nFor copying, you can create up to 99 copies from a single original, with options to reduce or enlarge the document between 25% and 400%.\n\nEasy Controls at Your Fingertips\nInstead of relying entirely on a computer or phone, the printer has a 2.2-inch monochrome touchscreen on the front.\nIt gives you direct access to common functions and settings, making it convenient when you just need to scan, copy, or start a print job from the printer itself.\n\nPrint Documents and Borderless Photos\nThe Smart Tank Plus 651 isn't limited to standard office paper.\nIt can print borderless pages up to 8.5 × 11 inches, and it works with a range of media including plain paper, photo paper, brochure paper, envelopes, and other compatible inkjet papers.\nThat gives you the flexibility to use it for everyday documents as well as photos, invitations, school projects, and other color-heavy work.\n\nFits Into a Home or Small Office\nDespite having several functions built into one machine, the Smart Tank Plus 651 has a relatively manageable footprint.\nIt measures approximately 17.7 × 14.7 × 7.8 inches and weighs around 13.6 pounds, so it can fit comfortably on a larger desk, workstation, or dedicated printer table.\nIts design makes more sense for a home office, family workspace, or small business than for someone looking for a high-volume commercial printer.",
     "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
+      "Print, Scan, Copy & Fax in one all-in-one machine",
+      "Up to 11 ppm Black / 5 ppm Color print speeds",
+      "Refillable Ink Tank System (Up to 3 Years of Ink Included)",
+      "35-Sheet Automatic Document Feeder (ADF)",
+      "100-Sheet Input Tray / 30-Sheet Output Tray",
+      "Dual-Band Wi-Fi & Wi-Fi Direct wireless printing",
+      "USB connectivity option for direct cable printing",
+      "Mobile Printing via HP App, Apple AirPrint & Mopria",
+      "2.2-Inch Monochrome Touchscreen display control panel",
+      "Up to 1200 dpi Optical Scanning resolution",
+      "Borderless Color Printing up to 8.5 x 11 inches",
+      "Multi-copy capability up to 99 copies (25%–400% scaling)",
+      "Compact footprint (17.7 x 14.7 x 7.8 in, 13.6 lbs)"
     ],
+    "whatsIncluded": [
+      "HP Smart Tank Plus 651 Wireless All-in-One Printer",
+      "HP 32XL Black Original Ink Bottles (Up to 3 Years of Ink)",
+      "HP 31 Cyan, Magenta, & Yellow Original Ink Bottles",
+      "Power Cord & Setup Guide",
+      "Regulatory Flyer & Reference Manual"
+    ],
+    "idealFor": [
+      "Busy households & home offices with steady printing routines (400–800 pages/mo)",
+      "Remote workers needing printing, scanning, multi-page ADF copying, & faxing",
+      "Students & creative projects requiring borderless color photo printing",
+      "Users wanting a dedicated 2.2\" touchscreen & wireless mobile convenience"
+    ],
+    "whyChooseThisPrinter": "Is the HP Smart Tank Plus 651 Right for You?\nThe HP Smart Tank Plus 651 is a strong option if your printer is part of your regular work or home routine rather than something you use once in a while.\nThe refillable ink system makes sense for frequent printing, while the automatic document feeder saves time when you're dealing with multiple pages. Add wireless printing, scanning, copying, faxing, and color printing, and you get a machine that can handle a wide range of everyday tasks.\nFor families, home offices, students, and small businesses, the Smart Tank Plus 651 offers a useful balance of capacity, convenience, and versatility—without requiring a separate machine for every job.",
+    "faqs": [
+      {
+        "question": "Does the HP Smart Tank Plus 651 come with ink included?",
+        "answer": "Yes. It includes enough Original HP black and color ink bottles for up to 3 years of printing based on typical household usage."
+      },
+      {
+        "question": "Does this printer have an Automatic Document Feeder (ADF) and Fax?",
+        "answer": "Yes. It features a 35-sheet automatic document feeder for multi-page scanning and copying, as well as built-in fax functionality."
+      },
+      {
+        "question": "What print speeds does it achieve?",
+        "answer": "It prints up to 11 pages per minute (ppm) in black and up to 5 pages per minute (ppm) in color."
+      },
+      {
+        "question": "How do I control print, scan, and copy functions on the printer?",
+        "answer": "The printer features a front-mounted 2.2-inch monochrome touchscreen for direct access to settings, scanning, copying, and faxing."
+      },
+      {
+        "question": "What are the physical dimensions of the printer?",
+        "answer": "It measures approximately 17.7 × 14.7 × 7.8 inches and weighs 13.6 pounds, making it suitable for desks and dedicated printer tables."
+      }
+    ],
+    "additionalInfo": "Compatible with Windows 11/10, macOS 12+, iOS, Android, HP App, Apple AirPrint, & Mopria. Backed by 1-Year Official HP Manufacturer Warranty.",
+    "metaTitle": "HP Smart Tank Plus 651 Wireless All-in-One | Nova Ink LLC",
+    "metaDescription": "Buy HP Smart Tank Plus 651 Wireless All-in-One at Nova Ink LLC. Refillable ink tanks, 35-sheet ADF, fax, dual-band Wi-Fi, & 2.2\" touchscreen.",
     "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
+      "technology": "HP Thermal Inkjet (Refillable Ink Tank)",
+      "speed": "Up to 11 ppm Black / 5 ppm Color",
+      "functions": "Print, Scan, Copy, Fax",
+      "inkSystem": "Refillable Ink Tank System (Up to 3 Years of Original HP Ink Included)",
+      "adf": "35-Sheet Automatic Document Feeder",
+      "paperInput": "100-Sheet Input Tray / 30-Sheet Output Tray",
+      "connectivity": "Dual-Band Wi-Fi 802.11b/g/n, Wi-Fi Direct, Hi-Speed USB 2.0",
+      "mobilePrinting": "HP Smart App, Apple AirPrint, Mopria Certified",
+      "display": "2.2-inch Monochrome Touchscreen Graphic Display",
+      "scanResolution": "Up to 1200 x 1200 dpi Optical Scanner (PDF, JPEG, PNG, BMP, TIFF)",
+      "copyCapabilities": "Up to 99 Copies, 25% to 400% Scaling, Contrast Adjustment",
+      "borderlessPrinting": "Yes, up to 8.5 x 11 in (Letter size)",
+      "dimensions": "17.7 x 14.7 x 7.8 inches (13.6 lbs)",
+      "paperSupport": "Letter, Legal, Envelopes, 4x6 in, 5x7 in, Photo Paper, Brochure Paper",
+      "dutyCycle": "Recommended 400 to 800 pages per month",
+      "warranty": "1-Year Official HP Manufacturer Warranty"
     },
     "tags": [
       "HP",
@@ -1352,73 +1635,18 @@ export const productsData = [
     ]
   },
   {
-    "id": 23,
-    "slug": "hp-laserjet-mfp-m235sdw-printer",
-    "name": "HP LaserJet MFP M235sdw Printer",
-    "modelNumber": "M235sdw",
-    "sku": "HP-OFFICE_PRINTERS-24",
-    "brand": "HP",
-    "subtitle": "Wireless Monochrome Multifunction Laser Printer with Auto Two-Sided Printing & Feeder",
-    "price": 239,
-    "originalPrice": 269,
-    "discountBadge": "Pro MFP",
-    "rating": 4.7,
-    "reviewCount": 128,
-    "category": "office-printers",
-    "categoryName": "Office Printers",
-    "image": "/images/products/office printer/HP LaserJet MFP M235sdw Printer/1.webp",
-    "gallery": [
-      "/images/products/office printer/HP LaserJet MFP M235sdw Printer/2.webp",
-      "/images/products/office printer/HP LaserJet MFP M235sdw Printer/3.webp",
-      "/images/products/office printer/HP LaserJet MFP M235sdw Printer/4.webp",
-      "/images/products/office printer/HP LaserJet MFP M235sdw Printer/5.webp"
-    ],
-    "images": [
-      "/images/products/office printer/HP LaserJet MFP M235sdw Printer/1.webp",
-      "/images/products/office printer/HP LaserJet MFP M235sdw Printer/2.webp",
-      "/images/products/office printer/HP LaserJet MFP M235sdw Printer/3.webp",
-      "/images/products/office printer/HP LaserJet MFP M235sdw Printer/4.webp",
-      "/images/products/office printer/HP LaserJet MFP M235sdw Printer/5.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Wireless Monochrome Multifunction Laser Printer with Auto Two-Sided Printing & Feeder Engineered for reliability and high performance.",
-    "longDescription": "HP LaserJet MFP M235sdw Printer delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Office Printers",
-      "M235sdw",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 24,
+    "id": 18,
     "slug": "hp-smart-tank-6001-all-in-one",
     "name": "HP Smart Tank 6001 All-in-One",
     "modelNumber": "6001",
-    "sku": "HP-OFFICE_PRINTERS-25",
+    "sku": "6001",
     "brand": "HP",
-    "subtitle": "High-Volume Color Tank All-in-One Printer with Auto Two-Sided Printing",
+    "subtitle": "Cartridge-Free Wireless Color All-in-One Printer with Auto Two-Sided Printing & 150-Sheet Tray",
     "price": 239.99,
     "originalPrice": 279.99,
     "discountBadge": "Borderless Print",
     "rating": 4.8,
-    "reviewCount": 145,
+    "reviewCount": 443,
     "category": "office-printers",
     "categoryName": "Office Printers",
     "image": "/images/products/office printer/HP Smart Tank 6001 All-in-One/1.webp",
@@ -1437,22 +1665,78 @@ export const productsData = [
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
-    "shortDescription": "High-Volume Color Tank All-in-One Printer with Auto Two-Sided Printing Engineered for reliability and high performance.",
-    "longDescription": "HP Smart Tank 6001 All-in-One delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
+    "shortDescription": "The HP Smart Tank 6001 All-in-One Printer features a high-capacity refillable ink tank system, automatic two-sided printing, 12 ppm black / 7 ppm color speeds, 150-sheet paper tray, and dual-band wireless connectivity.",
+    "overview": "If your printer gets used for homework, work documents, forms, photos, and everything in between, the HP Smart Tank 6001 All-in-One is designed to handle a busy printing routine without making ink replacement a constant chore.\nIt combines printing, scanning, and copying with a refillable ink system, automatic two-sided printing, and wireless connectivity. That makes it a practical option for families, home offices, and small workspaces that need to print regularly.",
+    "longDescription": "If your printer gets used for homework, work documents, forms, photos, and everything in between, the HP Smart Tank 6001 All-in-One is designed to handle a busy printing routine without making ink replacement a constant chore.\nIt combines printing, scanning, and copying with a refillable ink system, automatic two-sided printing, and wireless connectivity. That makes it a practical option for families, home offices, and small workspaces that need to print regularly.\n\nA Printer That Can Keep Up\nThe Smart Tank 6001 can print up to 12 pages per minute in black and 7 pages per minute in color. Whether you're printing a stack of documents or putting together a colorful school project, it gives you a good balance between everyday speed and print quality.\nIts paper tray can hold up to 150 sheets, so you can keep a decent supply loaded and get through longer print jobs without constantly adding paper.\n\nRefillable Ink for Fewer Interruptions\nThe Smart Tank 6001 uses built-in refillable ink tanks instead of conventional cartridges.\nThat means you add ink from bottles when a tank gets low rather than replacing an entire cartridge. The system uses individual black, cyan, magenta, and yellow inks, giving you a straightforward way to keep track of what you have left.\nThe printer comes with a high-capacity supply of ink, making it particularly appealing for people who print frequently and want to go longer between refills.\n\nAutomatic Two-Sided Printing\nPrinting on both sides of a page doesn't have to mean standing beside the printer and flipping sheets yourself.\nThe Smart Tank 6001 includes automatic duplex printing, allowing you to print on both sides of compatible paper automatically. It's useful for reports, school assignments, documents, and longer files—and can also help reduce the amount of paper you use.\n\nPrint From Almost Anywhere at Home\nThe printer includes wireless connectivity, so you don't have to keep your computer physically connected to it.\nYou can send documents and photos from compatible computers and mobile devices, making it easy to print something that's sitting on your phone, laptop, or tablet.\nFor a shared household or home office, this means multiple people can use the same printer without moving devices around just to get a document printed.\n\nScan and Copy Without Another Machine\nThe Smart Tank 6001 isn't limited to printing.\nIts built-in scanner lets you digitize documents, photographs, forms, and other paper items, while the copier is handy when you simply need another physical copy.\nHaving all three functions in one machine saves valuable desk space and means you don't need separate equipment for routine document tasks.\n\nMade for Documents and Color Pages\nThe 6001 works well for standard black text, but it's equally useful when your printing needs include color. Use it for school projects, work presentations, invoices, forms, photos, invitations, recipes, color charts, graphics, and everyday household paperwork.\nIts inkjet printing system is designed to handle both regular documents and color-heavy pages without requiring a separate photo printer.\n\nSimple Wireless Convenience\nThe Smart Tank 6001 works with mobile printing options, including the HP app, so you can send a file to the printer without first transferring it to a desktop computer.\nIts wireless setup also makes it easier to position the printer where you actually have room for it rather than having to keep it directly beside your computer.\n\nDesigned for a Home or Small Workspace\nThe Smart Tank 6001 has a relatively compact footprint for an all-in-one printer, measuring approximately 16.83 × 14.33 × 7.82 inches.\nThat makes it suitable for a home office, study, family workspace, or small business where desk space matters.",
     "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
+      "Print, Scan & Copy in one all-in-one printer",
+      "Up to 12 ppm Black / 7 ppm Color print speeds",
+      "Refillable Ink Tank System for high-volume printing",
+      "Automatic Two-Sided Printing (Auto Duplex)",
+      "150-Sheet Paper Input Tray Capacity",
+      "Wireless & Wi-Fi Direct Printing",
+      "Mobile Printing via HP App, Apple AirPrint & Mopria",
+      "High-Capacity Ink Supply included in box",
+      "Borderless Color Photo Printing",
+      "Built-In Optical Scanner & Copier",
+      "Compact Footprint (16.83 x 14.33 x 7.82 inches)"
     ],
+    "whatsIncluded": [
+      "HP Smart Tank 6001 All-in-One Printer",
+      "HP GT53XL Black Original Ink Bottle",
+      "HP GT52 Cyan Original Ink Bottle",
+      "HP GT52 Magenta Original Ink Bottle",
+      "HP GT52 Yellow Original Ink Bottle",
+      "Power Cord & Setup Guide",
+      "Regulatory Flyer & Reference Manual"
+    ],
+    "idealFor": [
+      "Families needing regular printing for school projects, forms, & color photos",
+      "Home offices & small businesses needing auto two-sided document printing",
+      "Students requiring wireless printing, scanning, & copying from phones & laptops",
+      "Desks & workspaces needing a compact 16.83 x 14.33 x 7.82 inch footprint"
+    ],
+    "whyChooseThisPrinter": "Is the HP Smart Tank 6001 Right for You?\nThe HP Smart Tank 6001 is a strong option if your printer gets regular use and you want to avoid the constant cycle of replacing traditional cartridges.\nIt's especially well suited to families, students, home-office users, and small businesses that print both black-and-white documents and color pages. The refillable ink system is useful for frequent printing, while automatic two-sided printing and wireless connectivity make everyday jobs easier.\nIf you're looking for one printer that can cover your printing, scanning, and copying needs while giving you plenty of ink to work with, the Smart Tank 6001 is a practical choice for your home or workspace.",
+    "faqs": [
+      {
+        "question": "Does the HP Smart Tank 6001 feature automatic two-sided printing?",
+        "answer": "Yes, it includes automatic duplex printing so you can print on both sides of a sheet without manually flipping pages."
+      },
+      {
+        "question": "How much paper can the input tray hold?",
+        "answer": "The paper input tray holds up to 150 sheets, allowing longer print runs without frequent reloading."
+      },
+      {
+        "question": "What print speeds does it achieve?",
+        "answer": "It prints up to 12 pages per minute (ppm) in black and 7 pages per minute (ppm) in color."
+      },
+      {
+        "question": "Can I print wirelessly from my phone or laptop?",
+        "answer": "Yes, it features dual-band Wi-Fi and Wi-Fi Direct, supporting mobile printing via the HP App, Apple AirPrint, and Mopria."
+      },
+      {
+        "question": "What are the physical dimensions of the printer?",
+        "answer": "It measures approximately 16.83 × 14.33 × 7.82 inches, offering a compact footprint for home offices and study areas."
+      }
+    ],
+    "additionalInfo": "Compatible with Windows 11/10, macOS 12+, iOS, Android, HP App, Apple AirPrint, & Mopria. Backed by 1-Year Official HP Manufacturer Warranty.",
+    "metaTitle": "HP Smart Tank 6001 All-in-One Printer | Nova Ink LLC",
+    "metaDescription": "Buy HP Smart Tank 6001 All-in-One Printer at Nova Ink LLC. Features refillable ink tanks, auto 2-sided printing, 150-sheet tray, & wireless printing.",
     "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
+      "technology": "HP Thermal Inkjet (Refillable Ink Tank)",
+      "speed": "Up to 12 ppm Black / 7 ppm Color",
       "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
+      "inkSystem": "Refillable Ink Tank System (Separate Black, Cyan, Magenta & Yellow Bottles)",
+      "duplex": "Automatic Two-Sided Printing (Auto Duplex)",
+      "paperInput": "150-Sheet Input Tray / 30-Sheet Output Tray",
+      "connectivity": "Dual-Band Wi-Fi 802.11b/g/n, Wi-Fi Direct, Hi-Speed USB 2.0",
+      "mobilePrinting": "HP Smart App, Apple AirPrint, Mopria Certified",
+      "scanResolution": "Up to 1200 x 1200 dpi Optical Flatbed Scanner",
+      "borderlessPrinting": "Yes, up to 8.5 x 11 in (Letter size)",
+      "dimensions": "16.83 x 14.33 x 7.82 inches",
+      "paperSupport": "Letter, Legal, Envelopes, 4x6 in, 5x7 in, Photo Paper, Brochure Paper",
+      "dutyCycle": "Recommended 400 to 800 pages per month",
+      "warranty": "1-Year Official HP Manufacturer Warranty"
     },
     "tags": [
       "HP",
@@ -1462,18 +1746,18 @@ export const productsData = [
     ]
   },
   {
-    "id": 25,
+    "id": 19,
     "slug": "hp-smart-tank-7001-all-in-one-printer",
     "name": "HP Smart Tank 7001 All-in-One Printer",
     "modelNumber": "7001",
-    "sku": "HP-OFFICE_PRINTERS-26",
+    "sku": "7001",
     "brand": "HP",
-    "subtitle": "Smart Tank Wireless Color Printer with Auto 2-Sided Printing & Dual-Band Wi-Fi",
+    "subtitle": "Cartridge-Free Wireless Color All-in-One Printer with 250-Sheet Tray & Auto Two-Sided Printing",
     "price": 259.99,
     "originalPrice": 299.99,
     "discountBadge": "Duplex Tank",
     "rating": 4.9,
-    "reviewCount": 162,
+    "reviewCount": 460,
     "category": "office-printers",
     "categoryName": "Office Printers",
     "image": "/images/products/office printer/HP Smart Tank 7001 All-in-One Printer/1.webp",
@@ -1492,22 +1776,83 @@ export const productsData = [
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Smart Tank Wireless Color Printer with Auto 2-Sided Printing & Dual-Band Wi-Fi Engineered for reliability and high performance.",
-    "longDescription": "HP Smart Tank 7001 All-in-One Printer delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
+    "shortDescription": "The HP Smart Tank 7001 All-in-One Printer is built for high-volume home and office printing, featuring refillable ink tanks (up to 6,000 black & 8,000 color pages included), 15 ppm black / 9 ppm color speeds, a 250-sheet input tray, automatic two-sided printing, dual-band Wi-Fi, and 1200 dpi flatbed scanning.",
+    "overview": "If you print often enough that running out of ink is a regular annoyance, the HP Smart Tank 7001 All-in-One Printer is built with that kind of routine in mind. Its refillable ink system gives you a large supply from the start, while the printer itself handles everyday printing, scanning, and copying.\nWith automatic two-sided printing, wireless connectivity, and a generous paper tray, it works well for busy households, students, home offices, and small workspaces where the printer gets used regularly.",
+    "longDescription": "If you print often enough that running out of ink is a regular annoyance, the HP Smart Tank 7001 All-in-One Printer is built with that kind of routine in mind. Its refillable ink system gives you a large supply from the start, while the printer itself handles everyday printing, scanning, and copying.\nWith automatic two-sided printing, wireless connectivity, and a generous paper tray, it works well for busy households, students, home offices, and small workspaces where the printer gets used regularly.\n\nPlenty of Printing Without Constant Refills\nThe Smart Tank 7001 can print up to 15 pages per minute in black and 9 pages per minute in color, giving it enough speed for everything from everyday paperwork to longer print jobs.\nThe printer also has a 250-sheet input tray, which is particularly useful when you regularly print larger batches. Load your paper once and get through your work without stopping every few pages to refill the tray.\nHP recommends a monthly volume of around 400 to 800 pages, making it a good match for regular home and small-office printing.\n\nA Tank System Made for High-Volume Printing\nThe Smart Tank 7001 doesn't use the typical small ink cartridges found in many home printers.\nInstead, it has refillable tanks for black, cyan, magenta, and yellow ink. The included bottles provide enough ink for up to 6,000 black pages and 8,000 color pages, depending on how the printer is used.\nThe refill process is designed to be quick and clean, so topping up the tanks doesn't have to turn into a messy job.\nFor someone who prints frequently, having a large ink supply ready to go can make a noticeable difference to the overall printing experience.\n\nAutomatic Two-Sided Printing\nPrinting on both sides of a page is handled automatically.\nThat's useful for reports, school assignments, presentations, forms, and longer documents where you want to use less paper. You can simply select two-sided printing and let the printer take care of the page handling.\nIt's one of those features that may not seem important at first, but becomes genuinely useful once you start using it regularly.\n\nPrint From Your Phone or Laptop\nYou don't need to keep your computer right beside the printer.\nThe Smart Tank 7001 offers dual-band Wi-Fi and Wi-Fi Direct, allowing you to send print jobs from compatible computers and mobile devices. It also works with the HP app, Apple AirPrint, and Mopria.\nSo if the document is sitting on your phone, the printer can still be part of the workflow without requiring you to transfer the file to another device first.\n\nScan and Copy When You Need Them\nThe Smart Tank 7001 is more than a printer.\nIts built-in scanner lets you turn paper documents and photos into digital files, while the copier takes care of quick duplicate copies when you need them.\nThe scanner can capture documents at up to 1200 dpi, and the copier can produce up to 99 copies from a single original. Copy sizing can also be adjusted between 25% and 400%.\nThat makes the printer useful for everything from scanning paperwork for digital storage to making extra copies of school or work documents.\n\nA Simple Control Panel\nThe Smart Tank 7001 keeps its physical controls fairly straightforward with a two-line LCD display and smart-guided buttons.\nYou don't need a large touchscreen to handle basic printing, scanning, and copying tasks, which also helps keep the printer's design clean and uncluttered.\n\nMade for Everyday Color Printing\nAlthough the 7001 is well suited to documents, it's also capable of producing detailed color prints.\nWith color resolution reaching up to 4800 × 1200 optimized dpi when printing from a computer, it can handle photos, graphics, school projects, charts, invitations, and other colorful documents.\nSo you don't need a separate printer just because some of your projects require color.\n\nA Practical Size for Home and Office Spaces\nDespite its larger paper capacity, the Smart Tank 7001 keeps a fairly manageable footprint.\nIt measures approximately 16.83 × 14.33 × 7.82 inches and weighs around 14 pounds, making it suitable for a dedicated desk, home office, study area, or small business workspace.\n\nBuilt With Sustainability in Mind\nThe printer contains 25% recycled plastic, and the high-capacity refillable ink system means you can rely on ink bottles rather than frequently replacing traditional cartridges.\nFor buyers who print regularly and also want to be more mindful of material waste, that's another useful part of the overall design.",
     "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
+      "Print, Scan & Copy in one all-in-one printer",
+      "Up to 15 ppm Black / 9 ppm Color print speeds",
+      "Refillable Ink Tank System for high-volume printing",
+      "Up to 6,000 Black Pages & 8,000 Color Pages with Included Ink",
+      "Automatic Two-Sided Printing (Auto Duplexing)",
+      "250-Sheet High-Capacity Input Tray",
+      "Dual-Band Wi-Fi & Wi-Fi Direct Wireless Printing",
+      "Mobile Printing via HP App, Apple AirPrint & Mopria",
+      "Up to 1200 x 1200 dpi Black & 4800 x 1200 dpi Color Resolution",
+      "Built-In 1200 dpi Flatbed Scanner & Copier (Up to 99 Copies)",
+      "Simple Two-Line LCD Display with Smart-Guided Buttons",
+      "Constructed with 25% Recycled Plastic"
     ],
+    "whatsIncluded": [
+      "HP Smart Tank 7001 All-in-One Printer",
+      "HP GT53XL Black Original Ink Bottle (~6,000 pages yield)",
+      "HP GT52 Cyan Original Ink Bottle (~8,000 pages yield)",
+      "HP GT52 Magenta Original Ink Bottle (~8,000 pages yield)",
+      "HP GT52 Yellow Original Ink Bottle (~8,000 pages yield)",
+      "Power Cord & Setup Guide",
+      "Regulatory Flyer & Reference Manual"
+    ],
+    "idealFor": [
+      "Busy households & home offices with steady printing routines (400–800 pages/mo)",
+      "Remote workers & small businesses requiring a 250-sheet input tray",
+      "Students & creative projects needing borderless 4800 x 1200 dpi color prints",
+      "Users looking for refillable ink tanks (6,000 black / 8,000 color pages included)"
+    ],
+    "whyChooseThisPrinter": "Is the HP Smart Tank 7001 Right for You?\nThe HP Smart Tank 7001 makes sense if your printer is used regularly and you want a setup that can handle larger print jobs without constantly asking for more paper or ink.\nIts combination of high-capacity refillable ink, fast color and black printing, automatic duplexing, wireless connectivity, scanning, and copying makes it a versatile choice for a busy home or small workspace.\nIf you print hundreds of pages throughout the month and want an all-in-one printer that can keep up without taking up the space of a full office machine, the HP Smart Tank 7001 is a strong option to consider at Nova Ink LLC.",
+    "faqs": [
+      {
+        "question": "How much ink is included with the HP Smart Tank 7001?",
+        "answer": "The box includes Original HP ink bottles for up to 6,000 black pages and 8,000 color pages depending on usage."
+      },
+      {
+        "question": "How large is the paper input tray?",
+        "answer": "It features a high-capacity 250-sheet paper input tray, allowing long print runs without constant reloading."
+      },
+      {
+        "question": "What print speeds does the HP Smart Tank 7001 deliver?",
+        "answer": "It prints up to 15 pages per minute (ppm) in black and 9 pages per minute (ppm) in color."
+      },
+      {
+        "question": "Does it support automatic two-sided printing?",
+        "answer": "Yes, it features automatic duplexing to print on both sides of a page without manual intervention."
+      },
+      {
+        "question": "Can I print wirelessly from smartphones and tablets?",
+        "answer": "Yes, it includes dual-band Wi-Fi and Wi-Fi Direct, supporting mobile printing via the HP App, Apple AirPrint, and Mopria."
+      }
+    ],
+    "additionalInfo": "Compatible with Windows 11/10, macOS 12+, iOS, Android, HP App, Apple AirPrint, & Mopria. Backed by 1-Year Official HP Manufacturer Warranty.",
+    "metaTitle": "HP Smart Tank 7001 All-in-One Printer | Nova Ink LLC",
+    "metaDescription": "Buy HP Smart Tank 7001 All-in-One Printer at Nova Ink LLC. Features refillable ink tanks, 250-sheet tray, auto duplexing, & 15 ppm black / 9 ppm color.",
     "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
+      "technology": "HP Thermal Inkjet (Refillable Ink Tank)",
+      "speed": "Up to 15 ppm Black / 9 ppm Color",
       "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
+      "inkSystem": "Refillable Ink Tank System (Up to 6,000 Black / 8,000 Color Pages Included)",
+      "duplex": "Automatic Two-Sided Printing (Auto Duplex)",
+      "paperInput": "250-Sheet Input Tray / 30-Sheet Output Tray",
+      "connectivity": "Dual-Band Wi-Fi 802.11b/g/n, Wi-Fi Direct, Hi-Speed USB 2.0",
+      "mobilePrinting": "HP Smart App, Apple AirPrint, Mopria Certified",
+      "display": "Two-Line LCD Display with Smart-Guided Buttons",
+      "resolution": "Up to 1200 x 1200 dpi Black / Up to 4800 x 1200 optimized dpi Color",
+      "scanResolution": "Up to 1200 x 1200 dpi Optical Flatbed Scanner",
+      "copyCapabilities": "Up to 99 Copies, 25% to 400% Scaling",
+      "borderlessPrinting": "Yes, up to 8.5 x 11 in (Letter size)",
+      "dimensions": "16.83 x 14.33 x 7.82 inches (14 lbs)",
+      "paperSupport": "Letter, Legal, Envelopes, 4x6 in, 5x7 in, Photo Paper, Brochure Paper",
+      "dutyCycle": "Recommended 400 to 800 pages per month",
+      "ecoRating": "25% Recycled Plastic & HP Planet Partners Recycling",
+      "warranty": "1-Year Official HP Manufacturer Warranty"
     },
     "tags": [
       "HP",
@@ -1517,1872 +1862,964 @@ export const productsData = [
     ]
   },
   {
-    "id": 26,
-    "slug": "hp-laserjet-m207dw-printer",
-    "name": "HP LaserJet M207dw Printer",
-    "modelNumber": "M207dw",
-    "sku": "HP-OFFICE_PRINTERS-27",
+    "id": 20,
+    "slug": "hp-officejet-200-mobile-printer",
+    "name": "HP OfficeJet 200 Mobile Printer",
+    "modelNumber": "200",
+    "sku": "200",
     "brand": "HP",
-    "subtitle": "Wireless Monochrome Laser Printer with Automatic Two-Sided Printing",
-    "price": 169,
-    "originalPrice": 199,
-    "discountBadge": "Fast Laser",
+    "subtitle": "Portable Wireless Color Mobile Inkjet Printer with Long-Lasting Rechargeable Battery",
+    "price": 419.99,
+    "originalPrice": 459.99,
+    "discountBadge": "Mobile Inkjet",
     "rating": 4.7,
-    "reviewCount": 179,
-    "category": "office-printers",
-    "categoryName": "Office Printers",
-    "image": "/images/products/office printer/HP LaserJet M207dw Printer/1.webp",
+    "reviewCount": 477,
+    "category": "inkjet-printers",
+    "categoryName": "INK JET PRINTERS",
+    "image": "/images/products/Inkjet Printers/HP OfficeJet 200 Mobile Printer/1.webp",
     "gallery": [
-      "/images/products/office printer/HP LaserJet M207dw Printer/2.webp",
-      "/images/products/office printer/HP LaserJet M207dw Printer/3.webp",
-      "/images/products/office printer/HP LaserJet M207dw Printer/4.webp",
-      "/images/products/office printer/HP LaserJet M207dw Printer/5.webp"
+      "/images/products/Inkjet Printers/HP OfficeJet 200 Mobile Printer/2.webp",
+      "/images/products/Inkjet Printers/HP OfficeJet 200 Mobile Printer/3.webp",
+      "/images/products/Inkjet Printers/HP OfficeJet 200 Mobile Printer/4.webp",
+      "/images/products/Inkjet Printers/HP OfficeJet 200 Mobile Printer/5.webp"
     ],
     "images": [
-      "/images/products/office printer/HP LaserJet M207dw Printer/1.webp",
-      "/images/products/office printer/HP LaserJet M207dw Printer/2.webp",
-      "/images/products/office printer/HP LaserJet M207dw Printer/3.webp",
-      "/images/products/office printer/HP LaserJet M207dw Printer/4.webp",
-      "/images/products/office printer/HP LaserJet M207dw Printer/5.webp"
+      "/images/products/Inkjet Printers/HP OfficeJet 200 Mobile Printer/1.webp",
+      "/images/products/Inkjet Printers/HP OfficeJet 200 Mobile Printer/2.webp",
+      "/images/products/Inkjet Printers/HP OfficeJet 200 Mobile Printer/3.webp",
+      "/images/products/Inkjet Printers/HP OfficeJet 200 Mobile Printer/4.webp",
+      "/images/products/Inkjet Printers/HP OfficeJet 200 Mobile Printer/5.webp"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Wireless Monochrome Laser Printer with Automatic Two-Sided Printing Engineered for reliability and high performance.",
-    "longDescription": "HP LaserJet M207dw Printer delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
+    "shortDescription": "The HP OfficeJet 200 Mobile Printer is a compact, portable wireless color inkjet printer built for professionals on the move. Print high-quality documents and photos anywhere with long-lasting rechargeable battery power, a 2.0-inch mono graphic display, Wi-Fi Direct, and HP App mobile printing.",
+    "overview": "Make the world your office with powerful portable printing—no network required. This quick, quiet mobile printer delivers more pages per cartridge and features long-lasting battery life for seamless on-the-go productivity.",
+    "longDescription": "Make the world your office with powerful portable printing—no network required. The HP OfficeJet 200 Mobile Printer brings fast, reliable printing to wherever your business takes you. Plug in to charge at home, in the car, or at your desk, and print wirelessly from your laptop, tablet, or smartphone with ease.\n\nEasy Portable Printing Wherever You Need It\nSimply print from your laptop or mobile device wirelessly, with or without a router. Get setup in minutes with HP Auto Wireless Connect. This compact, durable printer fits into your backpack, briefcase, or car for convenient printing anywhere.\n\nLead the Way with Fast, Easy Mobile Printing\nReduce charging interruptions with a long-lasting battery. Get the highest page yields of any in-class printer, using Original HP cartridges. Set the pace for success wherever you go with fast print speeds of up to 10 ppm black and 7 ppm color on AC power.\n\nHigh-Powered Quality and Reliability\nPower through the workday. Charge from home, in your car or office, and more. Plug in your AC power source to charge within 90 minutes while the printer is off, with HP Fast Charge. Minimize disruptions with premium design and quiet performance.",
     "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
+      "Portable Wireless Color Inkjet Printing",
+      "Long-Lasting Rechargeable Battery Power",
+      "Print Speeds Up to 10 ppm Black / 7 ppm Color (AC Power)",
+      "2.0-Inch High-Resolution Mono Graphic Display",
+      "Wi-Fi Direct & Bluetooth Smart Wireless Setup",
+      "Mobile Printing via HP App, Apple AirPrint, & Mopria",
+      "HP Fast Charge (Recharges to 90% in 90 minutes when powered off)",
+      "50-Sheet Input Paper Tray Capacity",
+      "Compact Footprint Fits in Briefcase or Backpack",
+      "Uses Original HP 62 Standard & HP 62XL High-Yield Cartridges"
     ],
+    "whatsIncluded": [
+      "HP OfficeJet 200 Mobile Printer",
+      "HP 62 Setup Black Ink Cartridge (~200 pages)",
+      "HP 62 Setup Tri-Color Ink Cartridge (~165 pages)",
+      "Rechargeable Lithium-Ion Battery Pack",
+      "Power Cord & AC Adapter",
+      "Setup Poster & Getting Started Guide"
+    ],
+    "idealFor": [
+      "Traveling professionals, sales representatives, & remote field agents needing portable printing",
+      "Vehicle, hotel, & off-site workspace document printing without fixed AC power",
+      "High-quality color invoices, receipts, contracts, & presentations on the go"
+    ],
+    "whyChooseThisPrinter": "Is the HP OfficeJet 200 Mobile Printer Right for You?\nThe HP OfficeJet 200 Mobile Printer is the premier choice for professionals who need reliable, high-quality printing on the road. With versatile charging options, fast print speeds, quiet operation, and long battery life, it delivers office-quality printing anywhere life takes you.",
+    "faqs": [
+      {
+        "question": "Does the HP OfficeJet 200 Mobile Printer come with a battery?",
+        "answer": "Yes, it includes a long-lasting rechargeable lithium-ion battery pack and supports HP Fast Charge (90% charge in 90 minutes when turned off)."
+      },
+      {
+        "question": "Can I print without a Wi-Fi router network?",
+        "answer": "Yes, it features Wi-Fi Direct technology, allowing you to connect your smartphone, tablet, or laptop directly to the printer wirelessly without a router."
+      },
+      {
+        "question": "What print speeds does it achieve?",
+        "answer": "On AC power, it prints up to 10 ppm black and 7 ppm color. On battery power, it prints up to 9 ppm black and 6 ppm color."
+      },
+      {
+        "question": "Which ink cartridges does it use?",
+        "answer": "It uses HP 62 Black & Tri-Color standard cartridges or HP 62XL High-Yield cartridges."
+      },
+      {
+        "question": "How portable is the printer?",
+        "answer": "It weighs only 4.62 pounds with battery and measures 14.3 × 7.32 × 2.7 inches, fitting easily into briefcases, backpacks, or vehicle consoles."
+      }
+    ],
+    "additionalInfo": "Compatible with Windows 11/10, macOS 12+, iOS, Android, HP App, Apple AirPrint, & Mopria. Backed by 1-Year Official HP Manufacturer Warranty.",
+    "metaTitle": "HP OfficeJet 200 Mobile Printer | Nova Ink LLC",
+    "metaDescription": "Buy HP OfficeJet 200 Mobile Printer at Nova Ink LLC. Compact portable wireless color printer with rechargeable battery, Wi-Fi Direct, & HP App setup.",
     "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
+      "technology": "HP Thermal Inkjet",
+      "speed": "AC: Up to 10 ppm Black, 7 ppm Color; Battery: Up to 9 ppm Black, 6 ppm Color",
+      "functions": "Print",
+      "battery": "Included Rechargeable Lithium-Ion Battery (HP Fast Charge 90 min)",
+      "display": "2.0-Inch High-Resolution Mono Graphic Display",
+      "paperInput": "50-Sheet Auto Input Tray",
+      "connectivity": "Wi-Fi 802.11b/g/n, Wi-Fi Direct, USB 2.0, Bluetooth Smart",
+      "mobilePrinting": "HP Smart App, Apple AirPrint, Mopria Certified, Chrome OS",
+      "resolution": "Up to 4800 x 1200 optimized dpi Color",
+      "dimensions": "14.3 x 7.32 x 2.7 inches (4.62 lbs with battery)",
+      "dutyCycle": "Recommended 100 to 300 pages per month (Max 500 pages)",
+      "warranty": "1-Year Official HP Manufacturer Warranty"
     },
     "tags": [
       "HP",
-      "Office Printers",
-      "M207dw",
+      "INK JET PRINTERS",
+      "200",
+      "Official HP"
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "hp-laserjet-m209dw-printer",
+    "name": "HP LaserJet M209dw Printer",
+    "modelNumber": "M209dw",
+    "sku": "M209dw",
+    "brand": "HP",
+    "subtitle": "High-Speed Wireless Monochrome Laser Printer with Automatic Two-Sided Printing & Dual-Band Wi-Fi",
+    "price": 199,
+    "originalPrice": 229,
+    "discountBadge": "Duplex Laser",
+    "rating": 4.8,
+    "reviewCount": 494,
+    "category": "laser-printers",
+    "categoryName": "LASER PRINTERS",
+    "image": "/images/products/Laser Printers/HP LaserJet M209dw Printer/1.webp",
+    "gallery": [
+      "/images/products/Laser Printers/HP LaserJet M209dw Printer/2.webp",
+      "/images/products/Laser Printers/HP LaserJet M209dw Printer/3.webp",
+      "/images/products/Laser Printers/HP LaserJet M209dw Printer/4.webp",
+      "/images/products/Laser Printers/HP LaserJet M209dw Printer/5.webp"
+    ],
+    "images": [
+      "/images/products/Laser Printers/HP LaserJet M209dw Printer/1.webp",
+      "/images/products/Laser Printers/HP LaserJet M209dw Printer/2.webp",
+      "/images/products/Laser Printers/HP LaserJet M209dw Printer/3.webp",
+      "/images/products/Laser Printers/HP LaserJet M209dw Printer/4.webp",
+      "/images/products/Laser Printers/HP LaserJet M209dw Printer/5.webp"
+    ],
+    "inStock": true,
+    "availability": "In Stock & Ready to Ship",
+    "shortDescription": "The HP LaserJet M209dw Printer is a compact monochrome laser printer built for fast, reliable everyday office printing. Featuring automatic two-sided printing, dual-band Wi-Fi, Ethernet, Hi-Speed USB 2.0, mobile printing via HP App / AirPrint / Mopria, smart-guided controls, and sharp black text performance.",
+    "overview": "When your office printer is handling reports, invoices, forms, and other paperwork throughout the day, speed and consistency matter. The HP LaserJet M209dw is a compact black-and-white printer built for everyday office workloads, with fast printing, automatic two-sided output, and wireless connectivity.\nIts small footprint makes it easy to fit into a desk or shared workspace, while its laser printing technology keeps text documents looking crisp and professional.",
+    "longDescription": "When your office printer is handling reports, invoices, forms, and other paperwork throughout the day, speed and consistency matter. The HP LaserJet M209dw is a compact black-and-white printer built for everyday office workloads, with fast printing, automatic two-sided output, and wireless connectivity.\nIts small footprint makes it easy to fit into a desk or shared workspace, while its laser printing technology keeps text documents looking crisp and professional.\n\nKeep Office Documents Moving\nThe M209dw is designed for businesses and home offices where documents need to get printed without unnecessary waiting. Its automatic two-sided printing lets you print on both sides of a sheet without manually flipping pages, which is especially useful for reports, proposals, contracts, and longer documents.\nLaser printing also makes it a natural choice for text-heavy office work where clean, sharp pages are more important than color graphics.\n\nReliable Connections for Shared Workspaces\nYou don't have to keep the printer attached to one computer.\nThe M209dw features dual-band Wi-Fi, allowing you to place it where it's most convenient and send print jobs wirelessly from compatible devices. Its connection can automatically reconnect if the network drops.\nFor offices that prefer a wired setup, Ethernet networking is also available. A built-in USB port gives you another straightforward way to connect the printer directly to a computer.\n\nSmall Printer, Easy to Place\nOffice equipment can take up more room than you'd expect. The M209dw takes the opposite approach.\nIts compact design makes it suitable for small offices, home offices, reception desks, workstations, and shared spaces where every inch of desk space counts.\nThe clean, modern exterior also fits naturally into a professional workspace without looking like oversized office equipment.\n\nGet Started Without the Hassle\nSetting up a new printer shouldn't take up half your morning.\nThe HP app provides guided setup instructions to help you get the printer ready for use. Once it's connected, you can send documents and images from compatible mobile devices and access useful shortcuts for common printing tasks.\nThe printer's smart-guided buttons and indicator lighting keep the controls straightforward, illuminating when they're needed rather than filling the front panel with unnecessary controls.\n\nBuilt for Everyday Office Printing\nThe M209dw focuses on what an office printer needs to do well: produce clear documents, handle multi-page jobs efficiently, and stay easy to access across your workspace.\nIt's particularly well suited to invoices, receipts, business reports, contracts, forms, shipping documents, internal paperwork, meeting materials, school or administrative documents, and everyday black-and-white printing.",
+    "features": [
+      "Black-and-White Laser Printing for crisp, sharp text",
+      "Automatic Two-Sided Printing (Auto Duplexing)",
+      "Up to 30 ppm print speeds (ISO)",
+      "Dual-Band Wi-Fi with Self-Reset Wireless",
+      "Built-In Ethernet Networking & Hi-Speed USB 2.0",
+      "Mobile Printing via HP App, Apple AirPrint & Mopria",
+      "Compact Footprint & Sleek Professional Exterior",
+      "Smart-Guided Contextual LED Lighting Controls",
+      "150-Sheet Input Tray / 100-Sheet Output Bin",
+      "Designed for Small Businesses, Home Offices & Workstations"
+    ],
+    "whatsIncluded": [
+      "HP LaserJet M209dw Printer",
+      "HP Black LaserJet Toner Cartridge (~700 pages yield)",
+      "Dust Cover & Reference Guide",
+      "Power Cord & Setup Poster"
+    ],
+    "idealFor": [
+      "Small businesses & professional offices needing fast monochrome document printing",
+      "Home offices & remote workstations requiring auto two-sided printing",
+      "Multi-device environments needing Wi-Fi, Ethernet, & mobile printing options",
+      "Workspaces requiring a compact desk footprint without bulky equipment"
+    ],
+    "whyChooseThisPrinter": "Is the HP LaserJet M209dw Right for Your Office?\nThe HP LaserJet M209dw is a practical choice when most of your printing involves black-and-white documents and you want a printer that doesn't take over your workspace.\nIts combination of automatic duplex printing, wireless and wired connectivity, compact design, and straightforward controls makes it a good fit for small businesses, home offices, and individual workstations.\nIf your day involves a steady stream of documents and you want a compact laser printer that keeps things simple, the M209dw is worth considering from Nova Ink LLC.",
+    "faqs": [
+      {
+        "question": "Does the HP LaserJet M209dw support automatic two-sided printing?",
+        "answer": "Yes, it features automatic duplexing to print on both sides of a page without manual intervention."
+      },
+      {
+        "question": "What connectivity options are available on the M209dw?",
+        "answer": "It includes dual-band Wi-Fi with self-reset, Fast Ethernet networking, and Hi-Speed USB 2.0."
+      },
+      {
+        "question": "Does it print in color or only black and white?",
+        "answer": "The M209dw is a dedicated monochrome laser printer engineered specifically for crisp black-and-white office documents."
+      },
+      {
+        "question": "Can I print from smartphones and tablets?",
+        "answer": "Yes, it supports wireless mobile printing via the HP App, Apple AirPrint, and Mopria."
+      },
+      {
+        "question": "What are the physical dimensions of the printer?",
+        "answer": "It measures approximately 14.0 × 11.7 × 8.1 inches and weighs 12.3 pounds, offering a compact footprint for any workspace."
+      }
+    ],
+    "additionalInfo": "Compatible with Windows 11/10, macOS 12+, iOS, Android, HP App, Apple AirPrint, & Mopria. Backed by 1-Year Official HP Manufacturer Warranty.",
+    "metaTitle": "HP LaserJet M209dw Printer | Nova Ink LLC",
+    "metaDescription": "Buy HP LaserJet M209dw Monochrome Laser Printer at Nova Ink LLC. Features auto 2-sided printing, dual-band Wi-Fi, Ethernet, USB, & compact design.",
+    "specs": {
+      "technology": "Laser (Monochrome Black & White)",
+      "speed": "Up to 30 ppm Black (ISO)",
+      "functions": "Print",
+      "duplex": "Automatic Two-Sided Printing (Auto Duplex)",
+      "paperInput": "150-Sheet Input Tray / 100-Sheet Output Bin",
+      "connectivity": "Dual-Band Wi-Fi 802.11b/g/n, Fast Ethernet 10/100, Hi-Speed USB 2.0",
+      "mobilePrinting": "HP Smart App, Apple AirPrint, Mopria Certified",
+      "display": "Smart-Guided Contextual LED Lighting Buttons",
+      "resolution": "Up to 600 x 600 dpi Laser Resolution",
+      "dimensions": "14.0 x 11.7 x 8.1 inches (12.3 lbs)",
+      "paperSupport": "Letter, Legal, Envelopes, Postcards, Labels, Heavy Media",
+      "dutyCycle": "Recommended 200 to 2,000 pages per month (Max 20,000 pages)",
+      "warranty": "1-Year Official HP Manufacturer Warranty"
+    },
+    "tags": [
+      "HP",
+      "LASER PRINTERS",
+      "M209dw",
+      "Official HP"
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "hp-laserjet-mfp-m234dw-printer",
+    "name": "HP LaserJet MFP M234dw Printer",
+    "modelNumber": "M234dw",
+    "sku": "M234dw",
+    "brand": "HP",
+    "subtitle": "Compact Wireless Multifunction Monochrome Laser Printer with Automatic Two-Sided Printing & ADF",
+    "price": 189,
+    "originalPrice": 219,
+    "discountBadge": "Multifunction",
+    "rating": 4.9,
+    "reviewCount": 511,
+    "category": "laser-printers",
+    "categoryName": "LASER PRINTERS",
+    "image": "/images/products/Laser Printers/HP LaserJet MFP M234dw Printer/1.webp",
+    "gallery": [
+      "/images/products/Laser Printers/HP LaserJet MFP M234dw Printer/2.webp",
+      "/images/products/Laser Printers/HP LaserJet MFP M234dw Printer/3.webp",
+      "/images/products/Laser Printers/HP LaserJet MFP M234dw Printer/4.webp",
+      "/images/products/Laser Printers/HP LaserJet MFP M234dw Printer/5.webp"
+    ],
+    "images": [
+      "/images/products/Laser Printers/HP LaserJet MFP M234dw Printer/1.webp",
+      "/images/products/Laser Printers/HP LaserJet MFP M234dw Printer/2.webp",
+      "/images/products/Laser Printers/HP LaserJet MFP M234dw Printer/3.webp",
+      "/images/products/Laser Printers/HP LaserJet MFP M234dw Printer/4.webp",
+      "/images/products/Laser Printers/HP LaserJet MFP M234dw Printer/5.webp"
+    ],
+    "inStock": true,
+    "availability": "In Stock & Ready to Ship",
+    "shortDescription": "The HP LaserJet MFP M234dw Printer is a compact monochrome multifunction laser printer combining fast printing, scanning, copying, automatic two-sided printing, automatic document feeder (ADF), dual-band Wi-Fi, and HP App mobile setup.",
+    "overview": "When your office work involves more than just printing, having separate machines for every task can quickly become inconvenient. The HP LaserJet MFP M234dw brings printing, scanning, and copying together in a compact black-and-white laser printer designed for individuals and small workgroups.\nIt combines quick document handling with automatic two-sided printing, wireless connectivity, and mobile features that make everyday office tasks easier to manage.",
+    "longDescription": "When your office work involves more than just printing, having separate machines for every task can quickly become inconvenient. The HP LaserJet MFP M234dw brings printing, scanning, and copying together in a compact black-and-white laser printer designed for individuals and small workgroups.\nIt combines quick document handling with automatic two-sided printing, wireless connectivity, and mobile features that make everyday office tasks easier to manage.\n\nKeep Up With Everyday Office Work\nThe M234dw is built for people who regularly deal with multi-page documents. Its automatic two-sided printing helps you get through longer files without manually turning pages over, making it useful for reports, forms, invoices, proposals, and other office paperwork.\nAs a laser printer, it is particularly well suited to text-heavy documents where clean, consistent output matters.\n\nScan and Copy Without Extra Equipment\nPrinting isn't the only thing this machine handles.\nThe M234dw includes scanning and copying capabilities, giving you one compact device for several everyday office jobs. Its automatic document feeder can handle multiple pages, so you don't have to place every sheet on the scanner individually when working through a stack of paperwork.\nThat can make a noticeable difference when you're scanning forms, copying reports, or digitizing several pages at once.\n\nPrint and Scan From Your Phone\nYour office doesn't have to revolve around a single computer.\nWith the HP app, you can access documents and images from your smartphone and send them to the printer. Compatible cloud storage services can also be accessed through the app, making it easier to work with files that aren't stored locally on your computer.\nFor repetitive jobs, built-in Shortcuts can help reduce the number of steps involved. You can also send scans to destinations such as email or cloud storage directly from the app.\n\nStay Connected Without the Extra Cables\nThe M234dw includes dual-band Wi-Fi, giving you the freedom to place the printer where it makes the most sense in your workspace.\nIts wireless connection is designed to reconnect automatically if the network connection is interrupted, helping keep the printer available when you need it.\nThis makes it a convenient option for a home office or small team where several people may need to print from different devices.\n\nSmall Enough for a Desktop\nOffice printers can quickly become a space problem, especially in smaller work areas.\nThe M234dw uses a compact desktop design, making it easier to fit into a workstation, home office, reception area, or small business environment without giving up a large section of your desk.\nDespite its smaller footprint, it combines several functions in one machine, reducing the need for separate printing, scanning, and copying equipment.\n\nDesigned to Use Energy Wisely\nThe printer includes HP Auto-On/Auto-Off technology, which can automatically power the machine on when it's needed and turn it off when it's not being used.\nIt's also ENERGY STAR qualified and Blue Angel certified, making it a suitable option for offices that want to be more conscious of energy use.\nUsed Original HP toner cartridges can also be recycled through HP's Planet Partners recycling program.",
+    "features": [
+      "Black-and-White Laser Printing (Print, Scan & Copy)",
+      "Automatic Two-Sided Printing (Auto Duplexing)",
+      "Automatic Document Feeder (ADF)",
+      "Up to 30 ppm print speeds (ISO)",
+      "Dual-Band Wi-Fi with Self-Reset Wireless",
+      "Mobile Printing & Cloud Scanning via HP App",
+      "Customizable HP Smart App Shortcuts",
+      "Compact Desktop Space-Saving Footprint",
+      "HP Auto-On / Auto-Off Energy Saver Technology",
+      "ENERGY STAR Qualified & Blue Angel Certified"
+    ],
+    "whatsIncluded": [
+      "HP LaserJet MFP M234dw Printer",
+      "HP Black LaserJet Toner Cartridge (~700 pages yield)",
+      "Reference Guide & Setup Poster",
+      "Power Cord & Dust Cover"
+    ],
+    "idealFor": [
+      "Freelancers, home offices, & small workgroups needing print, scan, & copy capabilities",
+      "Offices requiring automatic two-sided printing & multi-page ADF document scanning",
+      "Shared spaces needing dual-band Wi-Fi, mobile printing, & cloud scan destinations",
+      "Eco-conscious workspaces requiring ENERGY STAR & Blue Angel energy efficiency"
+    ],
+    "whyChooseThisPrinter": "Is the HP LaserJet MFP M234dw Right for You?\nThe HP LaserJet MFP M234dw makes sense when you need more than a basic printer but don't have the space—or the need—for a large office multifunction machine.\nWith printing, scanning, and copying in one compact unit, plus automatic duplex printing and wireless mobile access, it covers many of the tasks that come up during a normal workday.\nFor home offices, freelancers, small businesses, and small workgroups, the M234dw offers a convenient combination of productivity and space-saving design, making it a practical addition to your workspace from Nova Ink LLC.",
+    "faqs": [
+      {
+        "question": "What functions does the HP LaserJet MFP M234dw provide?",
+        "answer": "It combines high-speed monochrome laser printing, flatbed & ADF scanning, and copying into one compact desktop unit."
+      },
+      {
+        "question": "Does it support automatic two-sided printing and document feeding?",
+        "answer": "Yes, it features automatic duplex printing and an Automatic Document Feeder (ADF) for multi-page scanning and copying."
+      },
+      {
+        "question": "What print speeds does it deliver?",
+        "answer": "It delivers speeds of up to 30 pages per minute (ppm) in crisp black text."
+      },
+      {
+        "question": "Can I scan to email or cloud storage from my phone?",
+        "answer": "Yes, using the HP App, you can scan documents directly to cloud destinations, email, or your phone, and automate repetitive tasks with HP Shortcuts."
+      },
+      {
+        "question": "Is the printer energy efficient?",
+        "answer": "Yes, it features HP Auto-On/Auto-Off technology, is ENERGY STAR qualified, and Blue Angel certified."
+      }
+    ],
+    "additionalInfo": "Compatible with Windows 11/10, macOS 12+, iOS, Android, HP App, Apple AirPrint, & Mopria. Backed by 1-Year Official HP Manufacturer Warranty.",
+    "metaTitle": "HP LaserJet MFP M234dw Printer | Nova Ink LLC",
+    "metaDescription": "Buy HP LaserJet MFP M234dw Multifunction Laser Printer at Nova Ink LLC. Features auto 2-sided printing, ADF, dual-band Wi-Fi, scan & copy capabilities.",
+    "specs": {
+      "technology": "Laser (Monochrome Black & White)",
+      "speed": "Up to 30 ppm Black (ISO)",
+      "functions": "Print, Scan, Copy",
+      "duplex": "Automatic Two-Sided Printing (Auto Duplex)",
+      "adf": "Automatic Document Feeder (ADF)",
+      "paperInput": "150-Sheet Input Tray / 100-Sheet Output Bin",
+      "connectivity": "Dual-Band Wi-Fi 802.11b/g/n, Fast Ethernet 10/100, Hi-Speed USB 2.0",
+      "mobilePrinting": "HP Smart App, Apple AirPrint, Mopria Certified",
+      "scanResolution": "Up to 600 x 600 dpi Flatbed & ADF Scanner",
+      "copyCapabilities": "Up to 99 Copies, Contrast Adjustment, Reduce/Enlarge",
+      "dimensions": "14.5 x 11.7 x 9.5 inches (16.8 lbs)",
+      "paperSupport": "Letter, Legal, Envelopes, Postcards, Labels, Heavy Media",
+      "dutyCycle": "Recommended 200 to 2,000 pages per month (Max 20,000 pages)",
+      "ecoRating": "ENERGY STAR Certified, Blue Angel Certified, HP Auto-On/Auto-Off",
+      "warranty": "1-Year Official HP Manufacturer Warranty"
+    },
+    "tags": [
+      "HP",
+      "LASER PRINTERS",
+      "M234dw",
+      "Official HP"
+    ]
+  },
+  {
+    "id": 23,
+    "slug": "hp-laserjet-m209d-printer",
+    "name": "HP LaserJet M209d Printer",
+    "modelNumber": "M209d",
+    "sku": "M209d",
+    "brand": "HP",
+    "subtitle": "Compact Monochrome Laser Printer with Automatic Two-Sided Printing & 150-Sheet Tray",
+    "price": 159,
+    "originalPrice": 189,
+    "discountBadge": "Compact Laser",
+    "rating": 4.7,
+    "reviewCount": 128,
+    "category": "laser-printers",
+    "categoryName": "LASER PRINTERS",
+    "image": "/images/products/Laser Printers/HP LaserJet M209d Printer/1.webp",
+    "gallery": [
+      "/images/products/Laser Printers/HP LaserJet M209d Printer/2.webp",
+      "/images/products/Laser Printers/HP LaserJet M209d Printer/3.webp",
+      "/images/products/Laser Printers/HP LaserJet M209d Printer/4.webp",
+      "/images/products/Laser Printers/HP LaserJet M209d Printer/5.webp"
+    ],
+    "images": [
+      "/images/products/Laser Printers/HP LaserJet M209d Printer/1.webp",
+      "/images/products/Laser Printers/HP LaserJet M209d Printer/2.webp",
+      "/images/products/Laser Printers/HP LaserJet M209d Printer/3.webp",
+      "/images/products/Laser Printers/HP LaserJet M209d Printer/4.webp",
+      "/images/products/Laser Printers/HP LaserJet M209d Printer/5.webp"
+    ],
+    "inStock": true,
+    "availability": "In Stock & Ready to Ship",
+    "shortDescription": "The HP LaserJet M209d Printer is a compact monochrome laser printer engineered for fast, efficient document printing. Featuring automatic two-sided printing, a 150-sheet paper tray, Hi-Speed USB connectivity, HP App guided setup, smart-guided LED buttons, and HP Auto-On/Auto-Off energy savings.",
+    "overview": "For offices that mainly deal with contracts, invoices, reports, forms, and other black-and-white paperwork, the HP LaserJet M209d keeps things focused on what matters: quick, clear, and consistent document printing.\nIts compact laser design fits easily into smaller workspaces, while automatic two-sided printing helps make longer documents more convenient and reduces unnecessary paper use.",
+    "longDescription": "For offices that mainly deal with contracts, invoices, reports, forms, and other black-and-white paperwork, the HP LaserJet M209d keeps things focused on what matters: quick, clear, and consistent document printing.\nIts compact laser design fits easily into smaller workspaces, while automatic two-sided printing helps make longer documents more convenient and reduces unnecessary paper use.\n\nMade for Regular Office Printing\nThe M209d is designed for people who print throughout the workday rather than only occasionally. It handles multi-page documents efficiently and produces sharp black-and-white output that's well suited to professional paperwork.\nWith a 150-sheet paper tray, you can keep a good amount of paper loaded and spend less time stopping to refill it during larger print jobs.\nWhether you're preparing invoices, printing internal documents, or putting together a client presentation, the M209d is built around everyday office productivity.\n\nAutomatic Two-Sided Printing\nPrinting on both sides of a document doesn't require manually flipping each sheet.\nThe M209d includes automatic duplex printing, allowing you to create two-sided documents with less effort. It's particularly useful for reports, proposals, contracts, meeting materials, and other multi-page files.\nIt can also help cut down on paper consumption when two-sided documents make sense for your workflow.\n\nCompact Enough for Smaller Offices\nNot every office has room for a large printer.\nThe M209d has a compact design that makes it easy to place on a desk, workstation, reception counter, or small office table. Its straightforward appearance also blends naturally into a professional workspace without taking over the room.\nIt's a useful choice when you want the capabilities of a laser printer without dedicating a large area to it.\n\nSimple Setup and Everyday Controls\nGetting the printer ready for work is designed to be straightforward. The HP app provides guided setup, while the built-in USB port lets you connect the printer directly to a computer.\nThe front panel uses smart-guided buttons that light up when they're needed, keeping the controls simple rather than filling the printer with unnecessary buttons and displays.\n\nSecurity for Your Office Documents\nThe M209d includes built-in security features designed to help maintain privacy and give you greater control over the printer.\nThat's useful in an office environment where printed documents may contain invoices, business records, customer information, or other files that shouldn't be unnecessarily exposed.\n\nDesigned to Use Energy More Efficiently\nThe printer features HP Auto-On/Auto-Off technology, which can automatically turn the machine on when needed and switch it off when it's not in use.\nIt also meets ENERGY STAR and Blue Angel environmental requirements. Used Original HP toner cartridges can be recycled through the HP Planet Partners program.",
+    "features": [
+      "Black-and-White Laser Printing for crisp, sharp text",
+      "Automatic Two-Sided Printing (Auto Duplexing)",
+      "Up to 30 ppm print speeds (ISO)",
+      "150-Sheet Paper Input Tray Capacity",
+      "Hi-Speed USB 2.0 Direct Cable Connectivity",
+      "HP App Compatibility & Guided Setup",
+      "Built-In Office Security Features",
+      "Smart-Guided Contextual LED Control Buttons",
+      "Compact Space-Saving Desktop Design",
+      "HP Auto-On / Auto-Off Energy Saver Technology",
+      "ENERGY STAR Qualified & Blue Angel Certified"
+    ],
+    "whatsIncluded": [
+      "HP LaserJet M209d Printer",
+      "HP Black LaserJet Toner Cartridge (~700 pages yield)",
+      "Dust Cover & Reference Guide",
+      "Power Cord & Setup Poster"
+    ],
+    "idealFor": [
+      "Small offices & individual workstations requiring fast monochrome document printing",
+      "Professionals needing automatic two-sided printing (auto duplexing) for contracts & reports",
+      "Desktop spaces requiring a compact footprint with direct USB cable connection",
+      "Eco-conscious businesses looking for ENERGY STAR & Blue Angel certified energy savings"
+    ],
+    "whyChooseThisPrinter": "Is the HP LaserJet M209d Right for Your Office?\nThe HP LaserJet M209d is a practical choice for businesses and professionals who mainly print black-and-white documents and want a compact machine that can keep up with regular office work.\nIts 150-sheet capacity, automatic duplex printing, compact footprint, and straightforward controls make it especially useful for small offices, individual workstations, and home-based businesses.\nIf most of your printing involves professional documents rather than photos or color graphics, the M209d keeps things simple and focuses on getting those pages printed efficiently.",
+    "faqs": [
+      {
+        "question": "Does the HP LaserJet M209d support automatic two-sided printing?",
+        "answer": "Yes, it features automatic duplexing to print on both sides of a page without manual intervention."
+      },
+      {
+        "question": "How does the HP LaserJet M209d connect to my computer?",
+        "answer": "It connects directly to your computer using a built-in Hi-Speed USB 2.0 connection."
+      },
+      {
+        "question": "How large is the paper input tray?",
+        "answer": "It holds up to 150 sheets of paper, allowing you to get through multi-page document jobs without frequent refills."
+      },
+      {
+        "question": "Does it print in color or only black and white?",
+        "answer": "The M209d is a dedicated monochrome laser printer engineered specifically for crisp black-and-white office documents."
+      },
+      {
+        "question": "Is the printer energy efficient?",
+        "answer": "Yes, it features HP Auto-On/Auto-Off technology, is ENERGY STAR qualified, and Blue Angel certified."
+      }
+    ],
+    "additionalInfo": "Compatible with Windows 11/10, macOS 12+, iOS, Android, HP App, & Hi-Speed USB 2.0. Backed by 1-Year Official HP Manufacturer Warranty.",
+    "metaTitle": "HP LaserJet M209d Printer | Nova Ink LLC",
+    "metaDescription": "Buy HP LaserJet M209d Monochrome Laser Printer at Nova Ink LLC. Features auto 2-sided printing, 150-sheet tray, USB connectivity, & compact design.",
+    "specs": {
+      "technology": "Laser (Monochrome Black & White)",
+      "speed": "Up to 30 ppm Black (ISO)",
+      "functions": "Print",
+      "duplex": "Automatic Two-Sided Printing (Auto Duplex)",
+      "paperInput": "150-Sheet Input Tray / 100-Sheet Output Bin",
+      "connectivity": "Hi-Speed USB 2.0",
+      "display": "Smart-Guided Contextual LED Lighting Buttons",
+      "resolution": "Up to 600 x 600 dpi Laser Resolution",
+      "dimensions": "14.0 x 11.7 x 8.1 inches (12.3 lbs)",
+      "paperSupport": "Letter, Legal, Envelopes, Postcards, Labels, Heavy Media",
+      "dutyCycle": "Recommended 200 to 2,000 pages per month (Max 20,000 pages)",
+      "ecoRating": "ENERGY STAR Certified, Blue Angel Certified, HP Auto-On/Auto-Off",
+      "warranty": "1-Year Official HP Manufacturer Warranty"
+    },
+    "tags": [
+      "HP",
+      "LASER PRINTERS",
+      "M209d",
+      "Official HP"
+    ]
+  },
+  {
+    "id": 24,
+    "slug": "hp-laserjet-mfp-m234sdw-printer",
+    "name": "HP LaserJet MFP M234sdw Printer",
+    "modelNumber": "M234sdw",
+    "sku": "M234sdw",
+    "brand": "HP",
+    "subtitle": "Compact Wireless Multifunction Monochrome Laser Printer with 40-Page ADF & Auto Two-Sided Printing",
+    "price": 279,
+    "originalPrice": 319,
+    "discountBadge": "Auto Feeder",
+    "rating": 4.8,
+    "reviewCount": 145,
+    "category": "laser-printers",
+    "categoryName": "LASER PRINTERS",
+    "image": "/images/products/Laser Printers/HP LaserJet MFP M234sdw Printer/1.webp",
+    "gallery": [
+      "/images/products/Laser Printers/HP LaserJet MFP M234sdw Printer/2.webp",
+      "/images/products/Laser Printers/HP LaserJet MFP M234sdw Printer/3.webp",
+      "/images/products/Laser Printers/HP LaserJet MFP M234sdw Printer/4.webp",
+      "/images/products/Laser Printers/HP LaserJet MFP M234sdw Printer/5.webp"
+    ],
+    "images": [
+      "/images/products/Laser Printers/HP LaserJet MFP M234sdw Printer/1.webp",
+      "/images/products/Laser Printers/HP LaserJet MFP M234sdw Printer/2.webp",
+      "/images/products/Laser Printers/HP LaserJet MFP M234sdw Printer/3.webp",
+      "/images/products/Laser Printers/HP LaserJet MFP M234sdw Printer/4.webp",
+      "/images/products/Laser Printers/HP LaserJet MFP M234sdw Printer/5.webp"
+    ],
+    "inStock": true,
+    "availability": "In Stock & Ready to Ship",
+    "shortDescription": "The HP LaserJet MFP M234sdw Printer is a compact monochrome multifunction laser printer combining fast printing, scanning, copying, automatic two-sided printing, a 40-page automatic document feeder (ADF), dual-band Wi-Fi with self-reset, and HP App mobile cloud management.",
+    "overview": "When printing is only one part of the job, having separate machines for scanning and copying can make a small office feel unnecessarily crowded. The HP LaserJet MFP M234sdw brings those everyday tasks together in a compact black-and-white multifunction printer.\nWith automatic two-sided printing, wireless connectivity, and a 40-page automatic document feeder, it is built for individuals and small teams that handle a steady flow of paperwork.",
+    "longDescription": "When printing is only one part of the job, having separate machines for scanning and copying can make a small office feel unnecessarily crowded. The HP LaserJet MFP M234sdw brings those everyday tasks together in a compact black-and-white multifunction printer.\nWith automatic two-sided printing, wireless connectivity, and a 40-page automatic document feeder, it is built for individuals and small teams that handle a steady flow of paperwork.\n\nKeep Multi-Page Work Moving\nThe M234sdw is made for regular document printing, from invoices and reports to forms, proposals, and internal office paperwork.\nIts automatic two-sided printing lets you produce double-sided documents without manually turning each page. Along with saving time, it can help reduce the amount of paper used for longer files.\nThe laser printing system is also well suited to offices where sharp, consistent black-and-white text is a priority.\n\nScan and Copy a Stack of Pages\nOne of the biggest advantages of the M234sdw is having several essential functions in one machine.\nThe built-in 40-page automatic document feeder makes handling multi-page scanning and copying much easier. Instead of placing every sheet on the scanner glass yourself, you can load a stack and let the printer work through it.\nIt's useful for digitizing paperwork, making copies of forms, preparing records, and handling other routine administrative jobs.\n\nWork From Your Phone\nYour computer doesn't have to be the center of every printing task.\nThe HP app lets you print and scan from compatible mobile devices, including files stored in supported cloud services. This can be particularly convenient when a document is already sitting on your phone and needs to be printed quickly.\nFor repetitive tasks, shortcuts can reduce the number of steps involved. You can also send scanned files to destinations such as email or cloud storage directly from the app.\n\nReliable Wireless Connectivity\nThe M234sdw features dual-band Wi-Fi and is designed to reconnect automatically if the wireless connection is interrupted.\nThat gives you more freedom when deciding where to place the printer. You can keep it in a shared office area rather than having it permanently attached to one person's computer.\nFor small teams sharing one printer, wireless access can make everyday document handling much more convenient.\n\nStraightforward Controls\nThe printer keeps its physical interface simple with smart-guided buttons that appear when they're needed.\nInstead of working through a complicated control panel, you can handle common tasks with a more focused interface. The HP app also provides guided setup, helping you get the printer ready without turning installation into a lengthy project.\nBuilt-in security features add another layer of protection for documents and information being handled through the printer.\n\nCompact Design for Smaller Workspaces\nA multifunction printer doesn't have to dominate your desk.\nThe M234sdw uses a compact desktop design that works well in home offices, small businesses, individual workstations, and shared office areas.\nBy combining printing, scanning, and copying in one unit, it also eliminates the need to find separate space for multiple pieces of equipment.\n\nDesigned With Energy Use in Mind\nThe M234sdw includes HP Auto-On/Auto-Off technology, which manages the printer's power state based on when it's being used.\nIt also meets recognized environmental standards, including ENERGY STAR and Blue Angel certifications. Used Original HP toner cartridges can be recycled through HP's recycling programs.",
+    "features": [
+      "Black-and-White Laser Printing (Print, Scan & Copy)",
+      "Automatic Two-Sided Printing (Auto Duplexing)",
+      "40-Page Automatic Document Feeder (ADF)",
+      "Up to 30 ppm print speeds (ISO)",
+      "Dual-Band Wi-Fi with Automatic Reconnection",
+      "Mobile Printing & Cloud Scanning via HP App",
+      "Customizable HP Smart App Shortcuts",
+      "Smart-Guided LED Contextual Control Buttons",
+      "Built-In Document & Device Security Features",
+      "Compact Space-Saving Desktop Design",
+      "HP Auto-On / Auto-Off Energy Saver Technology",
+      "ENERGY STAR Certified & Blue Angel Certified"
+    ],
+    "whatsIncluded": [
+      "HP LaserJet MFP M234sdw Printer",
+      "HP Black LaserJet Toner Cartridge (~700 pages yield)",
+      "Reference Guide & Setup Poster",
+      "Power Cord & Dust Cover"
+    ],
+    "idealFor": [
+      "Freelancers, home offices, & small workgroups needing multi-page scanning & copying",
+      "Offices requiring automatic two-sided printing & a 40-page ADF",
+      "Multi-user spaces needing dual-band Wi-Fi with automatic reconnection",
+      "Workspaces looking for an eco-friendly ENERGY STAR & Blue Angel certified MFP"
+    ],
+    "whyChooseThisPrinter": "Is the HP LaserJet MFP M234sdw Right for You?\nThe HP LaserJet MFP M234sdw is a practical choice for people who need more than a basic office printer but don't want a large multifunction machine taking up valuable space.\nIts combination of printing, scanning, copying, automatic duplexing, a 40-page document feeder, and wireless access makes it well suited to the day-to-day demands of a small office.\nFor freelancers, home-office users, small businesses, and compact workgroups, the M234sdw gives you the essential document functions in one easy-to-place machine—making it a practical addition to your workspace from Nova Ink LLC.",
+    "faqs": [
+      {
+        "question": "What is the main difference between the M234dw and M234sdw?",
+        "answer": "The M234sdw includes a built-in 40-page Automatic Document Feeder (ADF) for quick multi-page scanning and copying, along with automatic Wi-Fi reconnection."
+      },
+      {
+        "question": "Does the HP LaserJet MFP M234sdw print in color?",
+        "answer": "No, it is a dedicated monochrome laser multifunction printer designed for crisp black-and-white text documents."
+      },
+      {
+        "question": "What print speeds does it achieve?",
+        "answer": "It prints at speeds of up to 30 pages per minute (ppm) in black."
+      },
+      {
+        "question": "Can I scan documents directly to my mobile device or email?",
+        "answer": "Yes, using the HP App, you can scan multi-page documents via the 40-page ADF directly to email, cloud storage, or your smartphone."
+      },
+      {
+        "question": "Is the printer energy efficient?",
+        "answer": "Yes, it features HP Auto-On/Auto-Off technology, is ENERGY STAR certified, and Blue Angel certified."
+      }
+    ],
+    "additionalInfo": "Compatible with Windows 11/10, macOS 12+, iOS, Android, HP App, Apple AirPrint, & Mopria. Backed by 1-Year Official HP Manufacturer Warranty.",
+    "metaTitle": "HP LaserJet MFP M234sdw Printer | Nova Ink LLC",
+    "metaDescription": "Buy HP LaserJet MFP M234sdw Multifunction Laser Printer at Nova Ink LLC. Features 40-page ADF, auto 2-sided printing, dual-band Wi-Fi, & mobile setup.",
+    "specs": {
+      "technology": "Laser (Monochrome Black & White)",
+      "speed": "Up to 30 ppm Black (ISO)",
+      "functions": "Print, Scan, Copy",
+      "duplex": "Automatic Two-Sided Printing (Auto Duplex)",
+      "adf": "40-Page Automatic Document Feeder (ADF)",
+      "paperInput": "150-Sheet Input Tray / 100-Sheet Output Bin",
+      "connectivity": "Dual-Band Wi-Fi 802.11b/g/n with Auto-Reconnection, Fast Ethernet 10/100, Hi-Speed USB 2.0",
+      "mobilePrinting": "HP Smart App, Apple AirPrint, Mopria Certified",
+      "display": "Smart-Guided Contextual LED Control Buttons",
+      "scanResolution": "Up to 600 x 600 dpi Flatbed & ADF Scanner",
+      "copyCapabilities": "Up to 99 Copies, Contrast Adjustment, Reduce/Enlarge",
+      "dimensions": "14.5 x 11.7 x 9.5 inches (16.8 lbs)",
+      "paperSupport": "Letter, Legal, Envelopes, Postcards, Labels, Heavy Media",
+      "dutyCycle": "Recommended 200 to 2,000 pages per month (Max 20,000 pages)",
+      "ecoRating": "ENERGY STAR Certified, Blue Angel Certified, HP Auto-On/Auto-Off",
+      "warranty": "1-Year Official HP Manufacturer Warranty"
+    },
+    "tags": [
+      "HP",
+      "LASER PRINTERS",
+      "M234sdw",
+      "Official HP"
+    ]
+  },
+  {
+    "id": 25,
+    "slug": "hp-laserjet-m140w-wireless-black-white-printer",
+    "name": "HP LaserJet M140w Wireless Black & White Printer",
+    "modelNumber": "M140w",
+    "sku": "M140w",
+    "brand": "HP",
+    "subtitle": "Ultra-Compact Wireless Monochrome Multifunction Laser Printer with HP App & ID Copy",
+    "price": 209,
+    "originalPrice": 239,
+    "discountBadge": "Compact MFP",
+    "rating": 4.9,
+    "reviewCount": 162,
+    "category": "laser-printers",
+    "categoryName": "LASER PRINTERS",
+    "image": "/images/products/Laser Printers/HP LaserJet M140w Wireless Black & White Printer/1.webp",
+    "gallery": [
+      "/images/products/Laser Printers/HP LaserJet M140w Wireless Black & White Printer/2.webp",
+      "/images/products/Laser Printers/HP LaserJet M140w Wireless Black & White Printer/3.webp"
+    ],
+    "images": [
+      "/images/products/Laser Printers/HP LaserJet M140w Wireless Black & White Printer/1.webp",
+      "/images/products/Laser Printers/HP LaserJet M140w Wireless Black & White Printer/2.webp",
+      "/images/products/Laser Printers/HP LaserJet M140w Wireless Black & White Printer/3.webp"
+    ],
+    "inStock": true,
+    "availability": "In Stock & Ready to Ship",
+    "shortDescription": "The HP LaserJet M140w Wireless Black & White Printer is an ultra-compact monochrome multifunction laser printer combining fast 21 ppm printing, scanning, copying, wireless self-resetting connectivity, HP App mobile printing/scanning, and ID copy functionality.",
+    "overview": "When desk space is limited but you still need to print, scan, and copy regularly, a large office machine isn't always the answer. The HP LaserJet M140w Wireless Black & White Printer keeps things compact while bringing essential document functions together in one machine.\nWith laser-quality output, wireless printing, and mobile features through the HP app, it's a practical choice for home offices, freelancers, students, and small workspaces.",
+    "longDescription": "When desk space is limited but you still need to print, scan, and copy regularly, a large office machine isn't always the answer. The HP LaserJet M140w Wireless Black & White Printer keeps things compact while bringing essential document functions together in one machine.\nWith laser-quality output, wireless printing, and mobile features through the HP app, it's a practical choice for home offices, freelancers, students, and small workspaces.\n\nCompact Size, Serious Everyday Performance\nThe M140w is designed to fit comfortably into smaller work areas while still handling the demands of regular document printing.\nIt can print at speeds of up to 21 pages per minute, making it useful when you need to get through invoices, forms, reports, receipts, or other black-and-white paperwork without waiting around for every page.\nAnd because printing, scanning, and copying are all built into the same machine, you don't need separate equipment taking up valuable desk space.\n\nMore Than Just a Printer\nNeed to make a quick copy? Want to turn a paper document into a digital file?\nThe M140w handles both.\nIts scanning and copying functions make it useful for everyday paperwork, while a handy ID copy feature lets you place both sides of an ID onto a single side of paper.\nFor a small office or home workspace, having these functions together can save both room and time.\n\nPrint Directly From Your Phone\nYour computer doesn't have to be involved every time you want to print something.\nThe HP app lets you access documents from your smartphone and send them directly to the printer. You can also use your phone's camera to capture a document and send it to the printer as a copy.\nFor files stored in supported cloud services, the app makes it easier to access and print them without first downloading everything to a computer.\nThe app also includes Shortcuts, which can reduce the number of steps involved in repetitive tasks, including sending scans to email or cloud storage.\n\nWireless Printing Without the Clutter\nThe M140w includes wireless connectivity, giving you more freedom when deciding where to place it.\nIts wireless connection can automatically reset when needed, helping the printer reconnect and stay available without requiring you to constantly deal with the connection manually.\nThat makes it especially convenient when several devices need to access the printer in a home or small office.\n\nEasy to Fit Into Your Workspace\nNot every workstation has room for a full-size multifunction printer.\nThe M140w is designed around a compact footprint, making it easy to place on a desk, shelf, side table, or small office workstation.\nIts black-and-white laser setup is particularly suited to people whose everyday printing is mostly text-based rather than photo-focused.\n\nSmarter Use of Power\nThe M140w includes HP Auto-On/Auto-Off technology, which automatically manages the printer's power based on when it's needed.\nIt also meets ENERGY STAR requirements, making it a sensible choice for users who want to keep energy consumption in mind while choosing office equipment.",
+    "features": [
+      "Black-and-White Laser Printing (Print, Scan & Copy)",
+      "Up to 21 ppm print speeds (ISO)",
+      "Ultra-Compact Space-Saving Multifunction Footprint",
+      "Wireless Connectivity with Self-Resetting Wi-Fi",
+      "Mobile Printing & Camera Document Scan via HP App",
+      "Convenient ID Copy Function (Both sides on one page)",
+      "Cloud Storage Access & HP Smart App Shortcuts",
+      "HP Auto-On / Auto-Off Energy Saver Technology",
+      "ENERGY STAR Qualified Certification"
+    ],
+    "whatsIncluded": [
+      "HP LaserJet M140w Wireless Black & White Printer",
+      "HP Black LaserJet Toner Cartridge (~300 pages yield)",
+      "Reference Guide & Setup Poster",
+      "Power Cord & Dust Cover"
+    ],
+    "idealFor": [
+      "Home offices, freelancers, & students needing an ultra-compact 3-in-1 laser MFP",
+      "Desks & shelves with limited space requiring a minimal footprint",
+      "Mobile-first workflows printing directly from smartphones & tablets",
+      "Fast monochrome document printing (invoices, forms, receipts, reports)"
+    ],
+    "whyChooseThisPrinter": "Is the HP LaserJet M140w Right for You?\nThe HP LaserJet M140w is a good fit when you need the basic functions of an office printer without giving up a large portion of your workspace.\nIts 21 ppm print speed, compact multifunction design, wireless access, and mobile printing features make it especially useful for individuals and small teams handling everyday black-and-white documents.\nFor freelancers, students, home-office users, and small businesses, the M140w offers a simple way to print, scan, and copy from one compact machine—without making your workspace feel crowded.",
+    "faqs": [
+      {
+        "question": "What functions are supported on the HP LaserJet M140w?",
+        "answer": "It combines monochrome laser printing (up to 21 ppm), flatbed scanning, and copying (including specialized ID Copying) in one ultra-compact footprint."
+      },
+      {
+        "question": "How compact is the HP LaserJet M140w?",
+        "answer": "It measures approximately 14.2 × 10.4 × 7.8 inches and weighs 11.9 pounds, making it one of the smallest laser MFPs in its class."
+      },
+      {
+        "question": "Can I scan documents using my phone camera?",
+        "answer": "Yes, using the HP App, you can capture documents with your smartphone camera and send them to print or save to cloud destinations."
+      },
+      {
+        "question": "What is the ID Copy function?",
+        "answer": "The ID Copy feature allows you to copy both sides of an identification card or small document onto a single side of paper."
+      },
+      {
+        "question": "Is the printer energy efficient?",
+        "answer": "Yes, it includes HP Auto-On/Auto-Off technology and is ENERGY STAR qualified."
+      }
+    ],
+    "additionalInfo": "Compatible with Windows 11/10, macOS 12+, iOS, Android, HP App, Apple AirPrint, & Mopria. Backed by 1-Year Official HP Manufacturer Warranty.",
+    "metaTitle": "HP LaserJet M140w Wireless Printer | Nova Ink LLC",
+    "metaDescription": "Buy HP LaserJet M140w Wireless Black & White Printer at Nova Ink LLC. Features ultra-compact MFP design, 21 ppm print speed, scan, copy, & HP App.",
+    "specs": {
+      "technology": "Laser (Monochrome Black & White)",
+      "speed": "Up to 21 ppm Black (ISO)",
+      "functions": "Print, Scan, Copy",
+      "paperInput": "150-Sheet Input Tray / 100-Sheet Output Bin",
+      "connectivity": "Wireless 802.11b/g/n with Auto-Reset, Hi-Speed USB 2.0",
+      "mobilePrinting": "HP Smart App, Apple AirPrint, Mopria Certified",
+      "scanResolution": "Up to 600 x 600 dpi Flatbed Scanner",
+      "copyCapabilities": "Up to 99 Copies, ID Copy Function, Reduce/Enlarge",
+      "dimensions": "14.2 x 10.4 x 7.8 inches (11.9 lbs)",
+      "paperSupport": "Letter, Legal, Envelopes, Postcards, Labels, Plain Paper",
+      "dutyCycle": "Recommended 100 to 1,000 pages per month (Max 8,000 pages)",
+      "ecoRating": "ENERGY STAR Qualified & HP Auto-On/Auto-Off",
+      "warranty": "1-Year Official HP Manufacturer Warranty"
+    },
+    "tags": [
+      "HP",
+      "LASER PRINTERS",
+      "M140w",
+      "Official HP"
+    ]
+  },
+  {
+    "id": 26,
+    "slug": "hp-laserjet-mfp-m235sdw-printer",
+    "name": "HP LaserJet MFP M235sdw Printer",
+    "modelNumber": "M235sdw",
+    "sku": "M235sdw",
+    "brand": "HP",
+    "subtitle": "Compact Wireless Multifunction Monochrome Laser Printer with 40-Page ADF & Auto Wireless Reconnection",
+    "price": 239,
+    "originalPrice": 269,
+    "discountBadge": "Pro MFP",
+    "rating": 4.7,
+    "reviewCount": 179,
+    "category": "laser-printers",
+    "categoryName": "LASER PRINTERS",
+    "image": "/images/products/Laser Printers/HP LaserJet MFP M235sdw Printer/1.webp",
+    "gallery": [
+      "/images/products/Laser Printers/HP LaserJet MFP M235sdw Printer/2.webp",
+      "/images/products/Laser Printers/HP LaserJet MFP M235sdw Printer/3.webp",
+      "/images/products/Laser Printers/HP LaserJet MFP M235sdw Printer/4.webp",
+      "/images/products/Laser Printers/HP LaserJet MFP M235sdw Printer/5.webp"
+    ],
+    "images": [
+      "/images/products/Laser Printers/HP LaserJet MFP M235sdw Printer/1.webp",
+      "/images/products/Laser Printers/HP LaserJet MFP M235sdw Printer/2.webp",
+      "/images/products/Laser Printers/HP LaserJet MFP M235sdw Printer/3.webp",
+      "/images/products/Laser Printers/HP LaserJet MFP M235sdw Printer/4.webp",
+      "/images/products/Laser Printers/HP LaserJet MFP M235sdw Printer/5.webp"
+    ],
+    "inStock": true,
+    "availability": "In Stock & Ready to Ship",
+    "shortDescription": "The HP LaserJet MFP M235sdw Printer is a high-performance monochrome multifunction laser printer combining fast 30 ppm printing, scanning, copying, automatic two-sided printing, a 40-page automatic document feeder (ADF), dual-band Wi-Fi with auto-reconnection, and HP App mobile cloud features.",
+    "overview": "For a small office, having one machine that can take care of printing, scanning, and copying can make everyday work much easier. The HP LaserJet MFP M235sdw brings these essential functions together in a compact black-and-white laser printer, giving individuals and small teams a convenient way to handle their regular paperwork.\nWith automatic two-sided printing, a 40-page automatic document feeder, wireless connectivity, and mobile printing, it's designed to fit naturally into a busy home or small-office environment.",
+    "longDescription": "For a small office, having one machine that can take care of printing, scanning, and copying can make everyday work much easier. The HP LaserJet MFP M235sdw brings these essential functions together in a compact black-and-white laser printer, giving individuals and small teams a convenient way to handle their regular paperwork.\nWith automatic two-sided printing, a 40-page automatic document feeder, wireless connectivity, and mobile printing, it's designed to fit naturally into a busy home or small-office environment.\n\nKeep Documents Moving\nThe M235sdw is built for regular black-and-white document work. Its automatic two-sided printing makes longer documents easier to manage and saves you from manually turning pages.\nIt's a practical setup for printing reports, invoices, forms, proposals, contracts, meeting documents, and other paperwork where clean and consistent text matters.\n\nScan or Copy Multiple Pages at Once\nThe built-in 40-page automatic document feeder is especially useful when you're working with a stack of paperwork.\nInstead of placing each sheet on the scanner glass individually, you can load several pages and let the machine handle the sequence. This comes in handy when copying forms, scanning records, or creating digital versions of multi-page documents.\nHaving printing, scanning, and copying in one machine also means less equipment competing for space around your desk.\n\nTake Your Printing With You\nThe HP app lets you print and scan directly from your compatible smartphone.\nYou can access documents and images stored on your phone, as well as files from supported cloud services, and send them straight to the printer. The app also includes Shortcuts for repetitive jobs, helping you complete common tasks with fewer steps.\nNeed to send a scanned document somewhere? You can send scans to destinations such as email or cloud storage directly from the app.\n\nWireless Access for Your Workspace\nThe M235sdw uses dual-band Wi-Fi to give you a convenient wireless connection.\nIf the connection gets interrupted, the printer can automatically reconnect, helping keep it available without requiring you to repeatedly reconnect it yourself.\nThis is useful in shared workspaces where multiple computers or mobile devices may need to access the same printer.\n\nSimple Setup and Controls\nGetting the M235sdw ready for work is designed to be straightforward. The HP app provides guided setup instructions, while the printer itself uses smart-guided buttons that illuminate when they're relevant.\nThe interface stays clean and uncomplicated, so you're not dealing with a panel full of controls you rarely use.\nBuilt-in security features also help keep important information more private while the printer is being used in your workspace.\n\nDesigned for Smaller Workspaces\nYou don't need a large office to make use of a multifunction laser printer.\nThe M235sdw has a compact desktop design, making it a good match for home offices, small businesses, individual workstations, and shared desks.\nInstead of finding room for separate machines for printing, scanning, and copying, you can keep all three functions together in one unit.\n\nMore Thoughtful Energy Use\nThe M235sdw features HP Auto-On/Auto-Off technology, which manages the printer's power depending on when it's being used.\nIt also meets recognized environmental standards, including ENERGY STAR and Blue Angel certifications. Used Original HP toner cartridges can be recycled through HP's Planet Partners program.",
+    "features": [
+      "Black-and-White Laser Printing (Print, Scan & Copy)",
+      "Automatic Two-Sided Printing (Auto Duplexing)",
+      "40-Page Automatic Document Feeder (ADF)",
+      "Up to 30 ppm ISO print speeds",
+      "Dual-Band Wi-Fi with Automatic Wireless Reconnection",
+      "Mobile Printing & Cloud Scanning via HP App",
+      "Customizable HP Smart App Shortcuts",
+      "Smart-Guided LED Contextual Controls",
+      "Built-In Document & Device Security Features",
+      "Compact Space-Saving Desktop Design",
+      "HP Auto-On / Auto-Off Energy Saver Technology",
+      "ENERGY STAR Certified & Blue Angel Certified"
+    ],
+    "whatsIncluded": [
+      "HP LaserJet MFP M235sdw Printer",
+      "HP Black LaserJet Toner Cartridge (~700 pages yield)",
+      "Reference Guide & Setup Poster",
+      "Power Cord & Dust Cover"
+    ],
+    "idealFor": [
+      "Professionals, freelancers, & small teams needing monochrome print, scan, & copy",
+      "Offices requiring automatic two-sided printing & a 40-page ADF for multi-page jobs",
+      "Shared spaces needing dual-band Wi-Fi with self-reconnecting wireless",
+      "Workspaces seeking ENERGY STAR & Blue Angel certified energy efficiency"
+    ],
+    "whyChooseThisPrinter": "Is the HP LaserJet MFP M235sdw Right for You?\nThe HP LaserJet MFP M235sdw is a practical option for professionals and small teams that need a multifunction printer without bringing a large office machine into the room.\nIts combination of two-sided printing, a 40-page automatic document feeder, wireless access, mobile features, scanning, and copying makes it well suited to everyday office paperwork.\nFor home offices, freelancers, small businesses, and individual workgroups, the M235sdw keeps essential document tasks together in one compact machine, giving you a straightforward addition to your workspace from Nova Ink LLC.",
+    "faqs": [
+      {
+        "question": "What functions does the HP LaserJet MFP M235sdw offer?",
+        "answer": "It brings monochrome laser printing (up to 30 ppm), 40-page ADF scanning, flatbed scanning, and copying together in one compact desktop machine."
+      },
+      {
+        "question": "How does the 40-page Automatic Document Feeder (ADF) work?",
+        "answer": "The ADF lets you load up to 40 pages of multi-sheet documents or forms to scan or copy automatically without manual sheet placement."
+      },
+      {
+        "question": "Does it support automatic wireless reconnection?",
+        "answer": "Yes, its dual-band Wi-Fi automatically reconnects if the wireless signal is interrupted, ensuring seamless shared access."
+      },
+      {
+        "question": "Can I scan and print from my phone using the HP App?",
+        "answer": "Yes, the HP App supports mobile printing, cloud storage access, camera scanning, and direct scan-to-email/cloud destinations."
+      },
+      {
+        "question": "Is the printer energy efficient?",
+        "answer": "Yes, it features HP Auto-On/Auto-Off technology, ENERGY STAR certification, and Blue Angel certification."
+      }
+    ],
+    "additionalInfo": "Compatible with Windows 11/10, macOS 12+, iOS, Android, HP App, Apple AirPrint, & Mopria. Backed by 1-Year Official HP Manufacturer Warranty.",
+    "metaTitle": "HP LaserJet MFP M235sdw Printer | Nova Ink LLC",
+    "metaDescription": "Buy HP LaserJet MFP M235sdw Multifunction Laser Printer at Nova Ink LLC. Features 40-page ADF, auto 2-sided printing, dual-band Wi-Fi, & HP App.",
+    "specs": {
+      "technology": "Laser (Monochrome Black & White)",
+      "speed": "Up to 30 ppm Black (ISO)",
+      "functions": "Print, Scan, Copy",
+      "duplex": "Automatic Two-Sided Printing (Auto Duplex)",
+      "adf": "40-Page Automatic Document Feeder (ADF)",
+      "paperInput": "150-Sheet Input Tray / 100-Sheet Output Bin",
+      "connectivity": "Dual-Band Wi-Fi 802.11b/g/n with Auto-Reconnection, Fast Ethernet 10/100, Hi-Speed USB 2.0",
+      "mobilePrinting": "HP Smart App, Apple AirPrint, Mopria Certified",
+      "display": "Smart-Guided Contextual LED Control Buttons",
+      "scanResolution": "Up to 600 x 600 dpi Flatbed & ADF Scanner",
+      "copyCapabilities": "Up to 99 Copies, Contrast Adjustment, Reduce/Enlarge",
+      "dimensions": "14.5 x 11.7 x 9.5 inches (16.8 lbs)",
+      "paperSupport": "Letter, Legal, Envelopes, Postcards, Labels, Heavy Media",
+      "dutyCycle": "Recommended 200 to 2,000 pages per month (Max 20,000 pages)",
+      "ecoRating": "ENERGY STAR Certified, Blue Angel Certified, HP Auto-On/Auto-Off",
+      "warranty": "1-Year Official HP Manufacturer Warranty"
+    },
+    "tags": [
+      "HP",
+      "LASER PRINTERS",
+      "M235sdw",
       "Official HP"
     ]
   },
   {
     "id": 27,
-    "slug": "hp-laserjet-m110w-wireless-black-white-printer",
-    "name": "HP LaserJet M110w Wireless Black & White Printer",
-    "modelNumber": "M110w",
-    "sku": "HP-OFFICE_PRINTERS-28",
+    "slug": "hp-laserjet-m207dw-printer",
+    "name": "HP LaserJet M207dw Printer",
+    "modelNumber": "M207dw",
+    "sku": "M207dw",
     "brand": "HP",
-    "subtitle": "World Smallest Monochrome Laser Printer with Wi-Fi & HP Smart App",
+    "subtitle": "High-Speed Wireless Monochrome Laser Printer with Automatic Two-Sided Printing & Dual-Band Wi-Fi",
     "price": 169,
     "originalPrice": 199,
-    "discountBadge": "Ultra Compact",
+    "discountBadge": "Fast Laser",
     "rating": 4.8,
     "reviewCount": 196,
-    "category": "office-printers",
-    "categoryName": "Office Printers",
-    "image": "/images/products/office printer/HP LaserJet M110w Wireless Black & White Printer/1.webp",
+    "category": "laser-printers",
+    "categoryName": "LASER PRINTERS",
+    "image": "/images/products/Laser Printers/HP LaserJet M207dw Printer/1.webp",
     "gallery": [
-      "/images/products/office printer/HP LaserJet M110w Wireless Black & White Printer/2.webp",
-      "/images/products/office printer/HP LaserJet M110w Wireless Black & White Printer/3.webp",
-      "/images/products/office printer/HP LaserJet M110w Wireless Black & White Printer/4.webp",
-      "/images/products/office printer/HP LaserJet M110w Wireless Black & White Printer/5.webp"
+      "/images/products/Laser Printers/HP LaserJet M207dw Printer/2.webp",
+      "/images/products/Laser Printers/HP LaserJet M207dw Printer/3.webp",
+      "/images/products/Laser Printers/HP LaserJet M207dw Printer/4.webp",
+      "/images/products/Laser Printers/HP LaserJet M207dw Printer/5.webp"
     ],
     "images": [
-      "/images/products/office printer/HP LaserJet M110w Wireless Black & White Printer/1.webp",
-      "/images/products/office printer/HP LaserJet M110w Wireless Black & White Printer/2.webp",
-      "/images/products/office printer/HP LaserJet M110w Wireless Black & White Printer/3.webp",
-      "/images/products/office printer/HP LaserJet M110w Wireless Black & White Printer/4.webp",
-      "/images/products/office printer/HP LaserJet M110w Wireless Black & White Printer/5.webp"
+      "/images/products/Laser Printers/HP LaserJet M207dw Printer/1.webp",
+      "/images/products/Laser Printers/HP LaserJet M207dw Printer/2.webp",
+      "/images/products/Laser Printers/HP LaserJet M207dw Printer/3.webp",
+      "/images/products/Laser Printers/HP LaserJet M207dw Printer/4.webp",
+      "/images/products/Laser Printers/HP LaserJet M207dw Printer/5.webp"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
-    "shortDescription": "World Smallest Monochrome Laser Printer with Wi-Fi & HP Smart App Engineered for reliability and high performance.",
-    "longDescription": "HP LaserJet M110w Wireless Black & White Printer delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
+    "shortDescription": "The HP LaserJet M207dw Printer is a compact monochrome laser printer engineered for fast, reliable document printing. Featuring automatic two-sided printing, dual-band Wi-Fi with automatic self-reconnection, Fast Ethernet networking, Hi-Speed USB 2.0, smart-guided LED buttons, and HP App mobile setup.",
+    "overview": "When most of your office printing involves documents rather than photos or color graphics, a dependable black-and-white laser printer can make everyday work much simpler. The HP LaserJet M207dw is designed for professionals who want quick document printing in a compact machine that doesn't take over the workspace.\nWith automatic two-sided printing, wireless connectivity, and mobile printing through the HP app, it fits well into small offices, home offices, and individual workstations.",
+    "longDescription": "When most of your office printing involves documents rather than photos or color graphics, a dependable black-and-white laser printer can make everyday work much simpler. The HP LaserJet M207dw is designed for professionals who want quick document printing in a compact machine that doesn't take over the workspace.\nWith automatic two-sided printing, wireless connectivity, and mobile printing through the HP app, it fits well into small offices, home offices, and individual workstations.\n\nBuilt for Everyday Office Documents\nThe M207dw is made for regular black-and-white printing, whether you're preparing invoices, reports, forms, contracts, or internal paperwork.\nIts automatic two-sided printing lets you create double-sided documents without manually turning pages, which is especially useful for longer files. The laser printing system also delivers consistent text output, making it a natural fit for professional documents.\n\nWireless Printing Across Your Workspace\nYou don't have to keep the printer connected to one computer.\nThe M207dw features dual-band Wi-Fi with automatic reconnection, helping keep the printer available when the wireless connection is interrupted. It also includes Ethernet networking, giving offices the option of using a wired network connection.\nWith both wireless and wired connectivity available, it's easy to share the printer across a small team or connect it directly to a workstation.\n\nCompact Design for Smaller Offices\nA busy workspace doesn't necessarily have room for a large printer.\nThe M207dw uses a compact LaserJet design that can fit comfortably on a desk, workstation, or small office table. Its clean appearance also keeps the setup looking professional without adding unnecessary bulk.\nIt's a good choice when you want the benefits of laser printing while keeping your workspace organized.\n\nPrint From Your Phone\nThe HP app makes mobile printing more convenient by allowing you to access and print compatible documents and images from your smartphone.\nIt also provides shortcuts for frequently repeated tasks, helping you get common jobs done with fewer steps.\nWhen you prefer a direct connection, the printer includes a built-in USB port for connecting it to your computer.\n\nSimple Controls and Setup\nGetting the M207dw ready for use is designed to be straightforward, with setup guidance available through the HP app.\nThe printer also uses smart-guided buttons and indicator lighting that appear when needed, keeping the control panel simple and uncluttered.\nThat means you can handle everyday printing tasks without navigating a complicated interface.\n\nDesigned With Energy Use in Mind\nThe M207dw includes HP Auto-On/Auto-Off technology, which manages the printer's power based on when it's being used.\nIt also meets ENERGY STAR and Blue Angel environmental requirements. When your toner cartridge reaches the end of its life, it can be recycled through HP's Planet Partners program.",
     "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
+      "Black-and-White Laser Printing for crisp, sharp text",
+      "Automatic Two-Sided Printing (Auto Duplexing)",
+      "Up to 30 ppm ISO print speeds",
+      "Dual-Band Wi-Fi with Automatic Reconnection",
+      "Fast Ethernet Networking & Hi-Speed USB 2.0",
+      "Mobile Printing & Cloud Shortcuts via HP App",
+      "Smart-Guided Contextual LED Control Buttons",
+      "Compact Space-Saving LaserJet Desktop Design",
+      "HP Auto-On / Auto-Off Energy Saver Technology",
+      "ENERGY STAR Qualified & Blue Angel Certified"
     ],
+    "whatsIncluded": [
+      "HP LaserJet M207dw Printer",
+      "HP Black LaserJet Toner Cartridge (~700 pages yield)",
+      "Reference Guide & Setup Poster",
+      "Power Cord & Dust Cover"
+    ],
+    "idealFor": [
+      "Small offices & individual workstations requiring fast monochrome document printing",
+      "Professionals needing automatic two-sided printing (auto duplexing) for contracts & reports",
+      "Shared office networks requiring Wi-Fi with auto-reconnection or Ethernet",
+      "Eco-conscious businesses looking for ENERGY STAR & Blue Angel certified energy savings"
+    ],
+    "whyChooseThisPrinter": "Is the HP LaserJet M207dw Right for Your Office?\nThe HP LaserJet M207dw is a good fit for businesses and professionals who primarily print black-and-white documents and want a printer that stays out of the way while getting the job done.\nIts automatic duplex printing, wireless and Ethernet connectivity, mobile access, and compact design make it particularly useful for small businesses, home offices, and individual workstations.\nIf your daily printing is mostly professional paperwork and you want a compact laser printer that keeps the process straightforward, the M207dw is a practical choice from Nova Ink LLC.",
+    "faqs": [
+      {
+        "question": "Does the HP LaserJet M207dw support automatic two-sided printing?",
+        "answer": "Yes, it features automatic duplexing to print on both sides of a page without manual intervention."
+      },
+      {
+        "question": "What connectivity options are available on the M207dw?",
+        "answer": "It features dual-band Wi-Fi with automatic reconnection, Fast Ethernet networking, and Hi-Speed USB 2.0."
+      },
+      {
+        "question": "Does it print in color or only black and white?",
+        "answer": "The M207dw is a dedicated monochrome laser printer engineered specifically for crisp black-and-white office documents."
+      },
+      {
+        "question": "Can I print from smartphones and tablets?",
+        "answer": "Yes, it supports wireless mobile printing via the HP App, Apple AirPrint, and Mopria."
+      },
+      {
+        "question": "Is the printer energy efficient?",
+        "answer": "Yes, it features HP Auto-On/Auto-Off technology, is ENERGY STAR qualified, and Blue Angel certified."
+      }
+    ],
+    "additionalInfo": "Compatible with Windows 11/10, macOS 12+, iOS, Android, HP App, Apple AirPrint, & Mopria. Backed by 1-Year Official HP Manufacturer Warranty.",
+    "metaTitle": "HP LaserJet M207dw Printer | Nova Ink LLC",
+    "metaDescription": "Buy HP LaserJet M207dw Monochrome Laser Printer at Nova Ink LLC. Features auto 2-sided printing, dual-band Wi-Fi with auto-reset, Ethernet, & USB.",
     "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
+      "technology": "Laser (Monochrome Black & White)",
+      "speed": "Up to 30 ppm Black (ISO)",
+      "functions": "Print",
+      "duplex": "Automatic Two-Sided Printing (Auto Duplex)",
+      "paperInput": "150-Sheet Input Tray / 100-Sheet Output Bin",
+      "connectivity": "Dual-Band Wi-Fi 802.11b/g/n with Auto-Reconnection, Fast Ethernet 10/100, Hi-Speed USB 2.0",
+      "mobilePrinting": "HP Smart App, Apple AirPrint, Mopria Certified",
+      "display": "Smart-Guided Contextual LED Lighting Buttons",
+      "resolution": "Up to 600 x 600 dpi Laser Resolution",
+      "dimensions": "14.0 x 11.7 x 8.1 inches (12.3 lbs)",
+      "paperSupport": "Letter, Legal, Envelopes, Postcards, Labels, Heavy Media",
+      "dutyCycle": "Recommended 200 to 2,000 pages per month (Max 20,000 pages)",
+      "ecoRating": "ENERGY STAR Certified, Blue Angel Certified, HP Auto-On/Auto-Off",
+      "warranty": "1-Year Official HP Manufacturer Warranty"
     },
     "tags": [
       "HP",
-      "Office Printers",
-      "M110w",
+      "LASER PRINTERS",
+      "M207dw",
       "Official HP"
     ]
   },
   {
     "id": 28,
-    "slug": "hp-67xl-high-yield-original-black-ink-cartridge",
-    "name": "HP 67XL High Yield Original Black Ink Cartridge",
-    "modelNumber": "3YM57AN",
-    "sku": "HP-INK_TONER-29",
+    "slug": "hp-laserjet-m110w-wireless-black-white-printer",
+    "name": "HP LaserJet M110w Wireless Black & White Printer",
+    "modelNumber": "M110w",
+    "sku": "M110w",
     "brand": "HP",
-    "subtitle": "High Yield Original Ink Cartridge for ENVY & DeskJet",
-    "price": 31.99,
-    "originalPrice": 35.99,
-    "discountBadge": "Genuine HP",
+    "subtitle": "Ultra-Compact Wireless Monochrome Laser Printer with 21 ppm Speed & HP App Mobile Printing",
+    "price": 169,
+    "originalPrice": 199,
+    "discountBadge": "Ultra Compact",
     "rating": 4.9,
     "reviewCount": 213,
-    "category": "ink-toner",
-    "categoryName": "Ink & Toner",
-    "image": "/images/products/prod_hp_envy.webp",
+    "category": "laser-printers",
+    "categoryName": "LASER PRINTERS",
+    "image": "/images/products/Laser Printers/HP LaserJet M110w Wireless Black & White Printer/1.webp",
     "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
+      "/images/products/Laser Printers/HP LaserJet M110w Wireless Black & White Printer/2.webp",
+      "/images/products/Laser Printers/HP LaserJet M110w Wireless Black & White Printer/3.webp",
+      "/images/products/Laser Printers/HP LaserJet M110w Wireless Black & White Printer/4.webp",
+      "/images/products/Laser Printers/HP LaserJet M110w Wireless Black & White Printer/5.webp"
     ],
     "images": [
-      "/images/products/prod_hp_envy.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
+      "/images/products/Laser Printers/HP LaserJet M110w Wireless Black & White Printer/1.webp",
+      "/images/products/Laser Printers/HP LaserJet M110w Wireless Black & White Printer/2.webp",
+      "/images/products/Laser Printers/HP LaserJet M110w Wireless Black & White Printer/3.webp",
+      "/images/products/Laser Printers/HP LaserJet M110w Wireless Black & White Printer/4.webp",
+      "/images/products/Laser Printers/HP LaserJet M110w Wireless Black & White Printer/5.webp"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
-    "shortDescription": "High Yield Original Ink Cartridge for ENVY & DeskJet Engineered for reliability and high performance.",
-    "longDescription": "HP 67XL High Yield Original Black Ink Cartridge delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
+    "shortDescription": "The HP LaserJet M110w Wireless Black & White Printer is an ultra-compact monochrome laser printer engineered for fast 21 ppm document printing. Featuring wireless self-resetting connectivity, HP App mobile printing, cloud storage access, smartphone camera document capture, and HP Auto-On/Auto-Off energy savings.",
+    "overview": "When you work from home and don't have a lot of room to spare, a printer should make your workspace easier—not take it over. The HP LaserJet M110w Wireless Black & White Printer is a compact laser printer built for professionals who mainly print documents and want a simple setup that fits comfortably into a smaller workspace.\nWith wireless printing, mobile access, and speeds of up to 21 pages per minute, it delivers the essentials without adding unnecessary bulk.",
+    "longDescription": "When you work from home and don't have a lot of room to spare, a printer should make your workspace easier—not take it over. The HP LaserJet M110w Wireless Black & White Printer is a compact laser printer built for professionals who mainly print documents and want a simple setup that fits comfortably into a smaller workspace.\nWith wireless printing, mobile access, and speeds of up to 21 pages per minute, it delivers the essentials without adding unnecessary bulk.\n\nCompact Printer, Professional Results\nThe M110w is designed to fit into spaces where a traditional office printer might feel too large.\nDespite its small footprint, it can print black-and-white documents at speeds of up to 21 pages per minute, making it suitable for everyday paperwork such as invoices, reports, forms, business records, and other text-heavy documents.\nIts laser printing technology produces clean, professional-looking pages, making it a practical choice when most of your printing is focused on business documents.\n\nPrint Wirelessly From Your Devices\nYou don't need to keep your laptop connected to the printer with a cable.\nThe M110w provides wireless printing, allowing you to send documents from compatible devices around your workspace. Its self-reset functionality also helps the wireless connection get back up and running when needed.\nThis makes it easier to keep the printer tucked away on a shelf, side table, or another convenient spot rather than directly beside your computer.\n\nTake Printing With You\nThe HP app adds another convenient way to work with your printer.\nYou can access documents on your smartphone and send them directly to the printer. The app can also connect you with supported cloud storage, making it easier to work with files that aren't sitting on your computer.\nNeed to make a quick copy of something? You can use your phone's camera to capture the document and send it to the printer.\nFor repetitive tasks, Shortcuts can reduce the number of steps involved, including sending scans to email or cloud storage.\n\nDesigned for a Smaller Workspace\nThe M110w is particularly suited to home offices, apartments, personal workstations, and small business setups where desk space matters.\nIts simple black-and-white laser design keeps the printer focused on everyday document work, while its compact size makes it easier to fit into an already busy workspace.\nThe straightforward controls also make it easy to get through routine printing without dealing with an overly complicated interface.\n\nSave Energy When You're Not Printing\nThe M110w includes HP Auto-On/Auto-Off technology, which automatically manages the printer's power based on when you need it.\nIt also meets ENERGY STAR requirements, making it a practical option for users who want to keep energy consumption in mind when choosing office equipment.\nUsing HP FSC-certified paper can also help make your everyday printing routine a little more environmentally conscious.",
     "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
+      "Black-and-White Laser Printing for sharp, clear text",
+      "Up to 21 ppm print speeds (ISO)",
+      "Ultra-Compact Space-Saving Footprint (Smallest Laser Printer in Class)",
+      "Wireless Printing with Self-Resetting Wi-Fi",
+      "Mobile Printing & Cloud Storage Access via HP App",
+      "Smartphone Camera Document Capture & Copy",
+      "Customizable HP Smart App Shortcuts",
+      "Straightforward Contextual Control Buttons",
+      "HP Auto-On / Auto-Off Energy Saver Technology",
+      "ENERGY STAR Qualified Certification"
     ],
+    "whatsIncluded": [
+      "HP LaserJet M110w Wireless Black & White Printer",
+      "HP Black LaserJet Toner Cartridge (~300 pages yield)",
+      "Reference Guide & Setup Poster",
+      "Power Cord & Dust Cover"
+    ],
+    "idealFor": [
+      "Remote professionals, freelancers, & home-office users needing a space-saving printer",
+      "Apartments, personal desks, & shelves where minimal footprint is required",
+      "Fast monochrome document printing (invoices, forms, reports, business records)",
+      "Mobile workflows printing directly from smartphones, tablets, & cloud services"
+    ],
+    "whyChooseThisPrinter": "Is the HP LaserJet M110w Right for You?\nThe HP LaserJet M110w is a great fit if you mainly print black-and-white documents and want a printer that takes up very little space.\nIt's especially useful for remote professionals, freelancers, home-office users, and small businesses that need quick document printing without the size or complexity of a larger office machine.\nIf you're looking for a compact laser printer that gives you professional-looking documents, wireless convenience, and easy mobile access, the M110w is a practical choice from Nova Ink LLC.",
+    "faqs": [
+      {
+        "question": "What functions does the HP LaserJet M110w support?",
+        "answer": "The HP LaserJet M110w is a dedicated single-function monochrome laser printer designed for fast 21 ppm document printing."
+      },
+      {
+        "question": "How small is the HP LaserJet M110w?",
+        "answer": "It measures approximately 13.6 × 7.5 × 6.3 inches and weighs only 8.4 pounds, making it HP's smallest laser printer in its class."
+      },
+      {
+        "question": "How does self-reset wireless connectivity work?",
+        "answer": "The printer's wireless Wi-Fi automatically detects and resets its connection if interrupted, keeping it continuously available on your network."
+      },
+      {
+        "question": "Can I scan or copy documents with the HP LaserJet M110w?",
+        "answer": "While it is a single-function printer, you can use the HP App on your smartphone to capture documents with your phone camera and send them directly to print."
+      },
+      {
+        "question": "Is the printer energy efficient?",
+        "answer": "Yes, it includes HP Auto-On/Auto-Off technology and is ENERGY STAR qualified."
+      }
+    ],
+    "additionalInfo": "Compatible with Windows 11/10, macOS 12+, iOS, Android, HP App, Apple AirPrint, & Mopria. Backed by 1-Year Official HP Manufacturer Warranty.",
+    "metaTitle": "HP LaserJet M110w Wireless Printer | Nova Ink LLC",
+    "metaDescription": "Buy HP LaserJet M110w Wireless Black & White Printer at Nova Ink LLC. Features ultra-compact design, 21 ppm print speed, Wi-Fi self-reset, & HP App.",
     "specs": {
-      "technology": "HP Thermal Inkjet",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
+      "technology": "Laser (Monochrome Black & White)",
+      "speed": "Up to 21 ppm Black (ISO)",
+      "functions": "Print",
+      "paperInput": "150-Sheet Input Tray / 100-Sheet Output Bin",
+      "connectivity": "Wireless 802.11b/g/n with Auto-Reset, Hi-Speed USB 2.0",
+      "mobilePrinting": "HP Smart App, Apple AirPrint, Mopria Certified",
+      "resolution": "Up to 600 x 600 dpi Laser Resolution",
+      "dimensions": "13.6 x 7.5 x 6.3 inches (8.4 lbs)",
+      "paperSupport": "Letter, Legal, Envelopes, Postcards, Labels, Plain Paper",
+      "dutyCycle": "Recommended 100 to 1,000 pages per month (Max 8,000 pages)",
+      "ecoRating": "ENERGY STAR Qualified & HP Auto-On/Auto-Off",
+      "warranty": "1-Year Official HP Manufacturer Warranty"
     },
     "tags": [
       "HP",
-      "Ink & Toner",
-      "3YM57AN",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 29,
-    "slug": "hp-910xl-cyan-magenta-yellow-3-pack-ink-set",
-    "name": "HP 910XL Cyan/Magenta/Yellow 3-Pack Ink Set",
-    "modelNumber": "3YP34AN",
-    "sku": "HP-INK_TONER-30",
-    "brand": "HP",
-    "subtitle": "High Yield Color Original Ink Cartridges for OfficeJet Pro",
-    "price": 64.99,
-    "originalPrice": 74.99,
-    "discountBadge": "Bundle Savings",
-    "rating": 4.7,
-    "reviewCount": 230,
-    "category": "ink-toner",
-    "categoryName": "Ink & Toner",
-    "image": "/images/products/prod_hp_envy.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_envy.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "High Yield Color Original Ink Cartridges for OfficeJet Pro Engineered for reliability and high performance.",
-    "longDescription": "HP 910XL Cyan/Magenta/Yellow 3-Pack Ink Set delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "HP Thermal Inkjet",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Ink & Toner",
-      "3YP34AN",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 30,
-    "slug": "hp-58a-black-original-laserjet-toner-cartridge",
-    "name": "HP 58A Black Original LaserJet Toner Cartridge",
-    "modelNumber": "CF258A",
-    "sku": "HP-INK_TONER-31",
-    "brand": "HP",
-    "subtitle": "Standard Yield Black LaserJet Toner for Pro M404 & M428",
-    "price": 134.99,
-    "originalPrice": 149.99,
-    "discountBadge": "Original Toner",
-    "rating": 4.8,
-    "reviewCount": 247,
-    "category": "ink-toner",
-    "categoryName": "Ink & Toner",
-    "image": "/images/products/prod_hp_laserjet.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_laserjet.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Standard Yield Black LaserJet Toner for Pro M404 & M428 Engineered for reliability and high performance.",
-    "longDescription": "HP 58A Black Original LaserJet Toner Cartridge delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "HP Thermal Inkjet",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Ink & Toner",
-      "CF258A",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 31,
-    "slug": "hp-206a-black-original-laserjet-toner-cartridge",
-    "name": "HP 206A Black Original LaserJet Toner Cartridge",
-    "modelNumber": "W2110A",
-    "sku": "HP-INK_TONER-32",
-    "brand": "HP",
-    "subtitle": "Original Laser Toner Cartridge for Color LaserJet M283/M255",
-    "price": 69.99,
-    "originalPrice": 79.99,
-    "discountBadge": "JetIntelligence",
-    "rating": 4.9,
-    "reviewCount": 264,
-    "category": "ink-toner",
-    "categoryName": "Ink & Toner",
-    "image": "/images/products/prod_hp_laserjet.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_laserjet.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Original Laser Toner Cartridge for Color LaserJet M283/M255 Engineered for reliability and high performance.",
-    "longDescription": "HP 206A Black Original LaserJet Toner Cartridge delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "HP Thermal Inkjet",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Ink & Toner",
-      "W2110A",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 32,
-    "slug": "hp-952xl-high-yield-black-original-ink-cartridge",
-    "name": "HP 952XL High Yield Black Original Ink Cartridge",
-    "modelNumber": "F6U19AN",
-    "sku": "HP-INK_TONER-33",
-    "brand": "HP",
-    "subtitle": "Yields up to 2,000 pages for OfficeJet Pro 8710 & 8720",
-    "price": 48.99,
-    "originalPrice": 54.99,
-    "discountBadge": "High Yield",
-    "rating": 4.7,
-    "reviewCount": 281,
-    "category": "ink-toner",
-    "categoryName": "Ink & Toner",
-    "image": "/images/products/prod_hp_envy.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_envy.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Yields up to 2,000 pages for OfficeJet Pro 8710 & 8720 Engineered for reliability and high performance.",
-    "longDescription": "HP 952XL High Yield Black Original Ink Cartridge delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "HP Thermal Inkjet",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Ink & Toner",
-      "F6U19AN",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 33,
-    "slug": "hp-64xl-high-yield-black-original-ink-cartridge",
-    "name": "HP 64XL High Yield Black Original Ink Cartridge",
-    "modelNumber": "N9J92AN",
-    "sku": "HP-INK_TONER-34",
-    "brand": "HP",
-    "subtitle": "High Capacity Archival Black Ink for ENVY Photo Series",
-    "price": 42.99,
-    "originalPrice": 47.99,
-    "discountBadge": "Photo Quality",
-    "rating": 4.8,
-    "reviewCount": 298,
-    "category": "ink-toner",
-    "categoryName": "Ink & Toner",
-    "image": "/images/products/prod_hp_envy.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_envy.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "High Capacity Archival Black Ink for ENVY Photo Series Engineered for reliability and high performance.",
-    "longDescription": "HP 64XL High Yield Black Original Ink Cartridge delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "HP Thermal Inkjet",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Ink & Toner",
-      "N9J92AN",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 34,
-    "slug": "hp-414a-black-original-laserjet-toner-cartridge",
-    "name": "HP 414A Black Original LaserJet Toner Cartridge",
-    "modelNumber": "W2020A",
-    "sku": "HP-INK_TONER-35",
-    "brand": "HP",
-    "subtitle": "Standard Yield LaserJet Toner for Color LaserJet M454 & M479",
-    "price": 119.99,
-    "originalPrice": 129.99,
-    "discountBadge": "Color Laser",
-    "rating": 4.9,
-    "reviewCount": 315,
-    "category": "ink-toner",
-    "categoryName": "Ink & Toner",
-    "image": "/images/products/prod_hp_laserjet.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_laserjet.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Standard Yield LaserJet Toner for Color LaserJet M454 & M479 Engineered for reliability and high performance.",
-    "longDescription": "HP 414A Black Original LaserJet Toner Cartridge delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "HP Thermal Inkjet",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Ink & Toner",
-      "W2020A",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 35,
-    "slug": "hp-63xl-high-yield-black-original-ink-cartridge",
-    "name": "HP 63XL High Yield Black Original Ink Cartridge",
-    "modelNumber": "F6U64AN",
-    "sku": "HP-INK_TONER-36",
-    "brand": "HP",
-    "subtitle": "Reliable Everyday Ink for DeskJet 1112, 2130, 3630 Series",
-    "price": 39.99,
-    "originalPrice": 44.99,
-    "discountBadge": "Top Seller",
-    "rating": 4.7,
-    "reviewCount": 332,
-    "category": "ink-toner",
-    "categoryName": "Ink & Toner",
-    "image": "/images/products/prod_hp_envy.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_envy.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Reliable Everyday Ink for DeskJet 1112, 2130, 3630 Series Engineered for reliability and high performance.",
-    "longDescription": "HP 63XL High Yield Black Original Ink Cartridge delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "HP Thermal Inkjet",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Ink & Toner",
-      "F6U64AN",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 36,
-    "slug": "hp-902xl-high-yield-black-original-ink-cartridge",
-    "name": "HP 902XL High Yield Black Original Ink Cartridge",
-    "modelNumber": "T6M14AN",
-    "sku": "HP-INK_TONER-37",
-    "brand": "HP",
-    "subtitle": "High Capacity Original Black Ink for OfficeJet 6950, 6960, 6970",
-    "price": 44.99,
-    "originalPrice": 49.99,
-    "discountBadge": "High Yield",
-    "rating": 4.8,
-    "reviewCount": 349,
-    "category": "ink-toner",
-    "categoryName": "Ink & Toner",
-    "image": "/images/products/prod_hp_envy.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_envy.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "High Capacity Original Black Ink for OfficeJet 6950, 6960, 6970 Engineered for reliability and high performance.",
-    "longDescription": "HP 902XL High Yield Black Original Ink Cartridge delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "HP Thermal Inkjet",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Ink & Toner",
-      "T6M14AN",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 37,
-    "slug": "hp-148a-black-original-laserjet-toner-cartridge",
-    "name": "HP 148A Black Original LaserJet Toner Cartridge",
-    "modelNumber": "W1480A",
-    "sku": "HP-INK_TONER-38",
-    "brand": "HP",
-    "subtitle": "Original LaserJet Toner Cartridge for Pro 4001 & 4101 Series",
-    "price": 124.99,
-    "originalPrice": 139.99,
-    "discountBadge": "New Gen Toner",
-    "rating": 4.9,
-    "reviewCount": 366,
-    "category": "ink-toner",
-    "categoryName": "Ink & Toner",
-    "image": "/images/products/prod_hp_laserjet.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_laserjet.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Original LaserJet Toner Cartridge for Pro 4001 & 4101 Series Engineered for reliability and high performance.",
-    "longDescription": "HP 148A Black Original LaserJet Toner Cartridge delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "HP Thermal Inkjet",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Ink & Toner",
-      "W1480A",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 38,
-    "slug": "hp-62xl-high-yield-black-original-ink-cartridge",
-    "name": "HP 62XL High Yield Black Original Ink Cartridge",
-    "modelNumber": "C2P05AN",
-    "sku": "HP-INK_TONER-39",
-    "brand": "HP",
-    "subtitle": "Laser-Quality Black Text for ENVY 5640, 5660, 7640 Series",
-    "price": 41.99,
-    "originalPrice": 46.99,
-    "discountBadge": "High Capacity",
-    "rating": 4.7,
-    "reviewCount": 383,
-    "category": "ink-toner",
-    "categoryName": "Ink & Toner",
-    "image": "/images/products/prod_hp_envy.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_envy.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Laser-Quality Black Text for ENVY 5640, 5660, 7640 Series Engineered for reliability and high performance.",
-    "longDescription": "HP 62XL High Yield Black Original Ink Cartridge delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "HP Thermal Inkjet",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Ink & Toner",
-      "C2P05AN",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 39,
-    "slug": "hp-202a-black-original-laserjet-toner-cartridge",
-    "name": "HP 202A Black Original LaserJet Toner Cartridge",
-    "modelNumber": "CF500A",
-    "sku": "HP-INK_TONER-40",
-    "brand": "HP",
-    "subtitle": "Standard Yield Black Toner for Color LaserJet Pro M254 & M281",
-    "price": 65.99,
-    "originalPrice": 72.99,
-    "discountBadge": "Precision Toner",
-    "rating": 4.8,
-    "reviewCount": 400,
-    "category": "ink-toner",
-    "categoryName": "Ink & Toner",
-    "image": "/images/products/prod_hp_laserjet.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_laserjet.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Standard Yield Black Toner for Color LaserJet Pro M254 & M281 Engineered for reliability and high performance.",
-    "longDescription": "HP 202A Black Original LaserJet Toner Cartridge delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "HP Thermal Inkjet",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Ink & Toner",
-      "CF500A",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 40,
-    "slug": "hp-962xl-high-yield-black-original-ink-cartridge",
-    "name": "HP 962XL High Yield Black Original Ink Cartridge",
-    "modelNumber": "3JA03AN",
-    "sku": "HP-INK_TONER-41",
-    "brand": "HP",
-    "subtitle": "High Output Black Cartridge for OfficeJet Pro 9010 & 9020 Series",
-    "price": 49.99,
-    "originalPrice": 55.99,
-    "discountBadge": "Office Pro",
-    "rating": 4.9,
-    "reviewCount": 417,
-    "category": "ink-toner",
-    "categoryName": "Ink & Toner",
-    "image": "/images/products/prod_hp_envy.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_envy.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "High Output Black Cartridge for OfficeJet Pro 9010 & 9020 Series Engineered for reliability and high performance.",
-    "longDescription": "HP 962XL High Yield Black Original Ink Cartridge delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "HP Thermal Inkjet",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Ink & Toner",
-      "3JA03AN",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 41,
-    "slug": "hp-87a-black-original-laserjet-toner-cartridge",
-    "name": "HP 87A Black Original LaserJet Toner Cartridge",
-    "modelNumber": "CF287A",
-    "sku": "HP-INK_TONER-42",
-    "brand": "HP",
-    "subtitle": "High Volume Black LaserJet Toner for Enterprise M506 & M527",
-    "price": 219.99,
-    "originalPrice": 239.99,
-    "discountBadge": "Enterprise Grade",
-    "rating": 4.7,
-    "reviewCount": 434,
-    "category": "ink-toner",
-    "categoryName": "Ink & Toner",
-    "image": "/images/products/prod_hp_laserjet.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_laserjet.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "High Volume Black LaserJet Toner for Enterprise M506 & M527 Engineered for reliability and high performance.",
-    "longDescription": "HP 87A Black Original LaserJet Toner Cartridge delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "HP Thermal Inkjet",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Ink & Toner",
-      "CF287A",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 42,
-    "slug": "hp-gt53-black-original-refill-ink-bottle-90ml",
-    "name": "HP GT53 Black Original Refill Ink Bottle 90ml",
-    "modelNumber": "1VV22AA",
-    "sku": "HP-INK_TONER-43",
-    "brand": "HP",
-    "subtitle": "High Capacity 6,000 Page Black Ink Refill Bottle for Smart Tank",
-    "price": 15.99,
-    "originalPrice": 18.99,
-    "discountBadge": "Tank Refill",
-    "rating": 4.8,
-    "reviewCount": 451,
-    "category": "ink-toner",
-    "categoryName": "Ink & Toner",
-    "image": "/images/products/prod_hp_envy.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_envy.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "High Capacity 6,000 Page Black Ink Refill Bottle for Smart Tank Engineered for reliability and high performance.",
-    "longDescription": "HP GT53 Black Original Refill Ink Bottle 90ml delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "HP Thermal Inkjet",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Ink & Toner",
-      "1VV22AA",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 43,
-    "slug": "hp-61xl-high-yield-black-original-ink-cartridge",
-    "name": "HP 61XL High Yield Black Original Ink Cartridge",
-    "modelNumber": "CH563WN",
-    "sku": "HP-INK_TONER-44",
-    "brand": "HP",
-    "subtitle": "Original High Yield Black Ink for DeskJet 1000, 2050, 3050 Series",
-    "price": 37.99,
-    "originalPrice": 42.99,
-    "discountBadge": "Legacy Best",
-    "rating": 4.9,
-    "reviewCount": 468,
-    "category": "ink-toner",
-    "categoryName": "Ink & Toner",
-    "image": "/images/products/prod_hp_envy.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_envy.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Original High Yield Black Ink for DeskJet 1000, 2050, 3050 Series Engineered for reliability and high performance.",
-    "longDescription": "HP 61XL High Yield Black Original Ink Cartridge delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "HP Thermal Inkjet",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Print, Scan, Copy",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Ink & Toner",
-      "CH563WN",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 44,
-    "slug": "hp-laserjet-550-sheet-feeder-tray",
-    "name": "HP LaserJet 550-Sheet Feeder Tray",
-    "modelNumber": "D9P29A",
-    "sku": "HP-PRINTER_ACCESSORIES-45",
-    "brand": "HP",
-    "subtitle": "Optional 550-Sheet Heavy Duty Paper Input Tray for LaserJet Pro M404/M428",
-    "price": 199.99,
-    "originalPrice": 229.99,
-    "discountBadge": "Expand Capacity",
-    "rating": 4.7,
-    "reviewCount": 485,
-    "category": "printer-accessories",
-    "categoryName": "Printer Accessories",
-    "image": "/images/products/prod_hp_laserjet.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_laserjet.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Optional 550-Sheet Heavy Duty Paper Input Tray for LaserJet Pro M404/M428 Engineered for reliability and high performance.",
-    "longDescription": "HP LaserJet 550-Sheet Feeder Tray delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Hardware Accessory / Media",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Printer Accessories",
-      "D9P29A",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 45,
-    "slug": "hp-high-speed-usb-2-0-a-to-b-printer-cable-6ft",
-    "name": "HP High-Speed USB 2.0 A-to-B Printer Cable 6ft",
-    "modelNumber": "USB-6FT",
-    "sku": "HP-PRINTER_ACCESSORIES-46",
-    "brand": "HP",
-    "subtitle": "Heavy Duty Shielded Gold-Plated USB Printer Cable for Fast Data Sync",
-    "price": 14.99,
-    "originalPrice": 19.99,
-    "discountBadge": "Gold Plated",
-    "rating": 4.8,
-    "reviewCount": 502,
-    "category": "printer-accessories",
-    "categoryName": "Printer Accessories",
-    "image": "/images/products/prod_hp_laserjet.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_laserjet.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Heavy Duty Shielded Gold-Plated USB Printer Cable for Fast Data Sync Engineered for reliability and high performance.",
-    "longDescription": "HP High-Speed USB 2.0 A-to-B Printer Cable 6ft delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Hardware Accessory / Media",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Printer Accessories",
-      "USB-6FT",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 46,
-    "slug": "hp-jetdirect-2900nw-print-server-adapter",
-    "name": "HP Jetdirect 2900nw Print Server Adapter",
-    "modelNumber": "J8031A",
-    "sku": "HP-PRINTER_ACCESSORIES-47",
-    "brand": "HP",
-    "subtitle": "High-Performance Wireless & Dual-Band Ethernet Network Print Server",
-    "price": 249.99,
-    "originalPrice": 279.99,
-    "discountBadge": "Wireless Server",
-    "rating": 4.9,
-    "reviewCount": 519,
-    "category": "printer-accessories",
-    "categoryName": "Printer Accessories",
-    "image": "/images/products/prod_hp_laserjet.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_laserjet.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "High-Performance Wireless & Dual-Band Ethernet Network Print Server Engineered for reliability and high performance.",
-    "longDescription": "HP Jetdirect 2900nw Print Server Adapter delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Hardware Accessory / Media",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Printer Accessories",
-      "J8031A",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 47,
-    "slug": "hp-laserjet-110v-maintenance-fuser-kit",
-    "name": "HP LaserJet 110V Maintenance & Fuser Kit",
-    "modelNumber": "RM2-2577",
-    "sku": "HP-PRINTER_ACCESSORIES-48",
-    "brand": "HP",
-    "subtitle": "Official Replacement Fuser & Roller Maintenance Kit for M501/M506",
-    "price": 179.99,
-    "originalPrice": 199.99,
-    "discountBadge": "OEM Maintenance",
-    "rating": 4.7,
-    "reviewCount": 136,
-    "category": "printer-accessories",
-    "categoryName": "Printer Accessories",
-    "image": "/images/products/prod_hp_laserjet.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_laserjet.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Official Replacement Fuser & Roller Maintenance Kit for M501/M506 Engineered for reliability and high performance.",
-    "longDescription": "HP LaserJet 110V Maintenance & Fuser Kit delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Hardware Accessory / Media",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Printer Accessories",
-      "RM2-2577",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 48,
-    "slug": "hp-automatic-duplexer-unit-accessory",
-    "name": "HP Automatic Duplexer Unit Accessory",
-    "modelNumber": "C6464A",
-    "sku": "HP-PRINTER_ACCESSORIES-49",
-    "brand": "HP",
-    "subtitle": "Plug & Play Automatic Double-Sided Printing Add-On Module",
-    "price": 89.99,
-    "originalPrice": 109.99,
-    "discountBadge": "Auto 2-Sided",
-    "rating": 4.8,
-    "reviewCount": 153,
-    "category": "printer-accessories",
-    "categoryName": "Printer Accessories",
-    "image": "/images/products/prod_hp_laserjet.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_laserjet.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Plug & Play Automatic Double-Sided Printing Add-On Module Engineered for reliability and high performance.",
-    "longDescription": "HP Automatic Duplexer Unit Accessory delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Hardware Accessory / Media",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Printer Accessories",
-      "C6464A",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 49,
-    "slug": "hp-laserjet-500-sheet-feeder-and-cabinet",
-    "name": "HP LaserJet 500-Sheet Feeder and Cabinet",
-    "modelNumber": "F2A72A",
-    "sku": "HP-PRINTER_ACCESSORIES-50",
-    "brand": "HP",
-    "subtitle": "Floor Standing Heavy Duty Storage Cabinet with 500-Sheet Paper Tray",
-    "price": 399.99,
-    "originalPrice": 449.99,
-    "discountBadge": "Floor Stand",
-    "rating": 4.9,
-    "reviewCount": 170,
-    "category": "printer-accessories",
-    "categoryName": "Printer Accessories",
-    "image": "/images/products/prod_hp_laserjet.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_laserjet.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Floor Standing Heavy Duty Storage Cabinet with 500-Sheet Paper Tray Engineered for reliability and high performance.",
-    "longDescription": "HP LaserJet 500-Sheet Feeder and Cabinet delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Hardware Accessory / Media",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Printer Accessories",
-      "F2A72A",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 50,
-    "slug": "hp-envelope-feeder-accessory-tray",
-    "name": "HP Envelope Feeder Accessory Tray",
-    "modelNumber": "CB524A",
-    "sku": "HP-PRINTER_ACCESSORIES-51",
-    "brand": "HP",
-    "subtitle": "Precision Automatic Envelope Feeder Tray Holds up to 75 Envelopes",
-    "price": 149.99,
-    "originalPrice": 169.99,
-    "discountBadge": "Mail Solution",
-    "rating": 4.7,
-    "reviewCount": 187,
-    "category": "printer-accessories",
-    "categoryName": "Printer Accessories",
-    "image": "/images/products/prod_hp_laserjet.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_laserjet.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Precision Automatic Envelope Feeder Tray Holds up to 75 Envelopes Engineered for reliability and high performance.",
-    "longDescription": "HP Envelope Feeder Accessory Tray delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Hardware Accessory / Media",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Printer Accessories",
-      "CB524A",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 51,
-    "slug": "hp-wireless-direct-ble-nfc-accessory",
-    "name": "HP Wireless Direct BLE/NFC Accessory",
-    "modelNumber": "3JN69A",
-    "sku": "HP-PRINTER_ACCESSORIES-52",
-    "brand": "HP",
-    "subtitle": "NFC Touch-to-Print & Bluetooth Low Energy Mobile Accessory for LaserJet",
-    "price": 79.99,
-    "originalPrice": 89.99,
-    "discountBadge": "Touch-to-Print",
-    "rating": 4.8,
-    "reviewCount": 204,
-    "category": "printer-accessories",
-    "categoryName": "Printer Accessories",
-    "image": "/images/products/prod_hp_laserjet.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_laserjet.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "NFC Touch-to-Print & Bluetooth Low Energy Mobile Accessory for LaserJet Engineered for reliability and high performance.",
-    "longDescription": "HP Wireless Direct BLE/NFC Accessory delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Hardware Accessory / Media",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Printer Accessories",
-      "3JN69A",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 52,
-    "slug": "hp-laserjet-220v-maintenance-fuser-kit",
-    "name": "HP LaserJet 220V Maintenance Fuser Kit",
-    "modelNumber": "RM2-5476",
-    "sku": "HP-PRINTER_ACCESSORIES-53",
-    "brand": "HP",
-    "subtitle": "220V High Temperature Replacement Fuser Maintenance Assembly",
-    "price": 189.99,
-    "originalPrice": 209.99,
-    "discountBadge": "Heavy Duty",
-    "rating": 4.9,
-    "reviewCount": 221,
-    "category": "printer-accessories",
-    "categoryName": "Printer Accessories",
-    "image": "/images/products/prod_hp_laserjet.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_laserjet.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "220V High Temperature Replacement Fuser Maintenance Assembly Engineered for reliability and high performance.",
-    "longDescription": "HP LaserJet 220V Maintenance Fuser Kit delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Hardware Accessory / Media",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Printer Accessories",
-      "RM2-5476",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 53,
-    "slug": "hp-usb-parallel-centronics-printer-adapter",
-    "name": "HP USB Parallel Centronics Printer Adapter",
-    "modelNumber": "HPU-PAR",
-    "sku": "HP-PRINTER_ACCESSORIES-54",
-    "brand": "HP",
-    "subtitle": "Bi-Directional USB to 36-Pin Parallel Printer Converter Cable",
-    "price": 29.99,
-    "originalPrice": 34.99,
-    "discountBadge": "Legacy Adapter",
-    "rating": 4.7,
-    "reviewCount": 238,
-    "category": "printer-accessories",
-    "categoryName": "Printer Accessories",
-    "image": "/images/products/prod_hp_laserjet.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_laserjet.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Bi-Directional USB to 36-Pin Parallel Printer Converter Cable Engineered for reliability and high performance.",
-    "longDescription": "HP USB Parallel Centronics Printer Adapter delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Hardware Accessory / Media",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Printer Accessories",
-      "HPU-PAR",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 54,
-    "slug": "hp-laserjet-roller-replacement-kit",
-    "name": "HP LaserJet Roller Replacement Kit",
-    "modelNumber": "W1B50A",
-    "sku": "HP-PRINTER_ACCESSORIES-55",
-    "brand": "HP",
-    "subtitle": "OEM Pickup, Feed, and Separation Roller Replacement Pack",
-    "price": 49.99,
-    "originalPrice": 59.99,
-    "discountBadge": "Pickup Rollers",
-    "rating": 4.8,
-    "reviewCount": 255,
-    "category": "printer-accessories",
-    "categoryName": "Printer Accessories",
-    "image": "/images/products/prod_hp_laserjet.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_laserjet.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "OEM Pickup, Feed, and Separation Roller Replacement Pack Engineered for reliability and high performance.",
-    "longDescription": "HP LaserJet Roller Replacement Kit delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Hardware Accessory / Media",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Printer Accessories",
-      "W1B50A",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 55,
-    "slug": "hp-smart-card-reader-access-accessory",
-    "name": "HP Smart Card Reader Access Accessory",
-    "modelNumber": "CC543A",
-    "sku": "HP-PRINTER_ACCESSORIES-56",
-    "brand": "HP",
-    "subtitle": "Authentication Smart Card Reader for Enterprise Secure Printing",
-    "price": 129.99,
-    "originalPrice": 149.99,
-    "discountBadge": "Secure Access",
-    "rating": 4.9,
-    "reviewCount": 272,
-    "category": "printer-accessories",
-    "categoryName": "Printer Accessories",
-    "image": "/images/products/prod_hp_laserjet.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_laserjet.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Authentication Smart Card Reader for Enterprise Secure Printing Engineered for reliability and high performance.",
-    "longDescription": "HP Smart Card Reader Access Accessory delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Hardware Accessory / Media",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Printer Accessories",
-      "CC543A",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 56,
-    "slug": "hp-wireless-dual-band-wi-fi-5-module",
-    "name": "HP Wireless Dual-Band Wi-Fi 5 Module",
-    "modelNumber": "4QL32A",
-    "sku": "HP-PRINTER_ACCESSORIES-57",
-    "brand": "HP",
-    "subtitle": "Add Wireless 802.11ac Connectivity to Enterprise LaserJet Printers",
-    "price": 119.99,
-    "originalPrice": 139.99,
-    "discountBadge": "Wi-Fi 5 Fast",
-    "rating": 4.7,
-    "reviewCount": 289,
-    "category": "printer-accessories",
-    "categoryName": "Printer Accessories",
-    "image": "/images/products/prod_hp_laserjet.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_laserjet.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Add Wireless 802.11ac Connectivity to Enterprise LaserJet Printers Engineered for reliability and high performance.",
-    "longDescription": "HP Wireless Dual-Band Wi-Fi 5 Module delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Hardware Accessory / Media",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Printer Accessories",
-      "4QL32A",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 57,
-    "slug": "hp-laserjet-1gb-ddr3-90-pin-sdram-dimm",
-    "name": "HP LaserJet 1GB DDR3 90-Pin SDRAM DIMM",
-    "modelNumber": "E5K48A",
-    "sku": "HP-PRINTER_ACCESSORIES-58",
-    "brand": "HP",
-    "subtitle": "High Speed Memory Expansion for Complex Graphics & PDF Spooling",
-    "price": 99.99,
-    "originalPrice": 119.99,
-    "discountBadge": "Memory Upgrade",
-    "rating": 4.8,
-    "reviewCount": 306,
-    "category": "printer-accessories",
-    "categoryName": "Printer Accessories",
-    "image": "/images/products/prod_hp_laserjet.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_laserjet.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "High Speed Memory Expansion for Complex Graphics & PDF Spooling Engineered for reliability and high performance.",
-    "longDescription": "HP LaserJet 1GB DDR3 90-Pin SDRAM DIMM delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Hardware Accessory / Media",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Printer Accessories",
-      "E5K48A",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 58,
-    "slug": "hp-cabinet-stand-wheel-base-assembly",
-    "name": "HP Cabinet Stand Wheel Base Assembly",
-    "modelNumber": "Y4878A",
-    "sku": "HP-PRINTER_ACCESSORIES-59",
-    "brand": "HP",
-    "subtitle": "Heavy Duty Lockable Caster Wheel Base Stand for Office Printers",
-    "price": 219.99,
-    "originalPrice": 249.99,
-    "discountBadge": "Mobile Stand",
-    "rating": 4.9,
-    "reviewCount": 323,
-    "category": "printer-accessories",
-    "categoryName": "Printer Accessories",
-    "image": "/images/products/prod_hp_laserjet.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_laserjet.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Heavy Duty Lockable Caster Wheel Base Stand for Office Printers Engineered for reliability and high performance.",
-    "longDescription": "HP Cabinet Stand Wheel Base Assembly delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Hardware Accessory / Media",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Printer Accessories",
-      "Y4878A",
-      "Official HP"
-    ]
-  },
-  {
-    "id": 59,
-    "slug": "hp-wireless-direct-touch-to-print-ble-dongle",
-    "name": "HP Wireless Direct Touch-to-Print BLE Dongle",
-    "modelNumber": "2MU47A",
-    "sku": "HP-PRINTER_ACCESSORIES-60",
-    "brand": "HP",
-    "subtitle": "Instant Mobile Printing Bluetooth Dongle for HP LaserJet Pro",
-    "price": 69.99,
-    "originalPrice": 79.99,
-    "discountBadge": "Mobile Print",
-    "rating": 4.7,
-    "reviewCount": 340,
-    "category": "printer-accessories",
-    "categoryName": "Printer Accessories",
-    "image": "/images/products/prod_hp_laserjet.webp",
-    "gallery": [
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "images": [
-      "/images/products/prod_hp_laserjet.webp",
-      "/images/hero/hero-1.webp",
-      "/images/hero/hero-2.webp",
-      "/images/hero/hero-3.webp",
-      "/images/hero/hero-4.webp"
-    ],
-    "inStock": true,
-    "availability": "In Stock & Ready to Ship",
-    "shortDescription": "Instant Mobile Printing Bluetooth Dongle for HP LaserJet Pro Engineered for reliability and high performance.",
-    "longDescription": "HP Wireless Direct Touch-to-Print BLE Dongle delivers reliable, high-quality performance for homes and offices. Features easy smartphone wireless setup, sharp text output, and official HP warranty coverage.",
-    "features": [
-      "Automatic wireless setup with self-healing connection",
-      "Official HP precision engineering for long-lasting quality",
-      "Energy Star certified power efficient operation",
-      "Includes 2-Year official manufacturer warranty coverage",
-      "Compatible with HP Smart App for remote scanning & printing"
-    ],
-    "specs": {
-      "technology": "Precision Hardware",
-      "speed": "Up to 15 ppm black, 10 ppm color",
-      "connectivity": "Wi-Fi 802.11b/g/n, Bluetooth 5.0, Hi-Speed USB 2.0",
-      "functions": "Hardware Accessory / Media",
-      "paperSupport": "Letter, Legal, Executive, Envelopes, 4x6 in",
-      "warranty": "2-Year Official Manufacturer Warranty"
-    },
-    "tags": [
-      "HP",
-      "Printer Accessories",
-      "2MU47A",
+      "LASER PRINTERS",
+      "M110w",
       "Official HP"
     ]
   }
