@@ -2123,50 +2123,78 @@ const allProducts = [];
 
 function resolveProductImages(catId, productName, slug) {
   const publicDir = path.join(__dirname, '../../public');
-  
-  const candidateFolders = [
-    path.join(publicDir, 'images/products/Laser Printers', productName),
-    path.join(publicDir, 'images/products/Laser Printers', slug),
-    path.join(publicDir, 'images/products/Inkjet Printers', productName),
-    path.join(publicDir, 'images/products/Inkjet Printers', slug),
-    path.join(publicDir, 'images/products/office printer', productName),
-    path.join(publicDir, 'images/products/office printer', slug),
-    path.join(publicDir, 'images/products/office-printers', productName),
-    path.join(publicDir, 'images/products/office-printers', slug),
-    path.join(publicDir, 'images/products', catId, productName),
-    path.join(publicDir, 'images/products', catId, slug)
-  ];
+  const basePrinterDir = path.join(publicDir, 'images/Printer');
 
+  const categoryFoldersMap = {
+    'home-printers': ['HOME PRINTERS', 'Home Printers'],
+    'office-printers': ['OFFICE PRINTERS', 'Office Printers'],
+    'inkjet-printers': ['INK JET PRINTERS', 'Inkjet Printers', 'INKJET PRINTERS'],
+    'laser-printers': ['LASER PRINTERS', 'Laser Printers']
+  };
+
+  const targetCategoryFolders = categoryFoldersMap[catId] || [catId];
   let foundFolder = null;
-  let webPathPrefix = null;
 
-  for (const folder of candidateFolders) {
-    if (fs.existsSync(folder)) {
-      foundFolder = folder;
-      const relative = path.relative(publicDir, folder).split(path.sep).join('/');
-      webPathPrefix = '/' + relative;
+  // 1. Try matching category folder + product name / slug
+  for (const catFolder of targetCategoryFolders) {
+    const candidateName = path.join(basePrinterDir, catFolder, productName);
+    if (fs.existsSync(candidateName)) {
+      foundFolder = candidateName;
+      break;
+    }
+    const candidateSlug = path.join(basePrinterDir, catFolder, slug);
+    if (fs.existsSync(candidateSlug)) {
+      foundFolder = candidateSlug;
       break;
     }
   }
 
-  if (!foundFolder || !webPathPrefix) return null;
+  // 2. Fallback: Search any category folder under public/images/Printer/
+  if (!foundFolder && fs.existsSync(basePrinterDir)) {
+    const allCatDirs = fs.readdirSync(basePrinterDir).filter(f => {
+      return fs.statSync(path.join(basePrinterDir, f)).isDirectory() && f !== 'home page';
+    });
 
-  const files = fs.readdirSync(foundFolder);
-  if (files.length === 0) return null;
+    for (const catDir of allCatDirs) {
+      const candidateName = path.join(basePrinterDir, catDir, productName);
+      if (fs.existsSync(candidateName)) {
+        foundFolder = candidateName;
+        break;
+      }
+      const candidateSlug = path.join(basePrinterDir, catDir, slug);
+      if (fs.existsSync(candidateSlug)) {
+        foundFolder = candidateSlug;
+        break;
+      }
+    }
+  }
 
-  files.sort((a, b) => {
-    const numA = parseInt(a, 10);
-    const numB = parseInt(b, 10);
-    if (!isNaN(numA) && !isNaN(numB)) return numA - numB;
-    return a.localeCompare(b);
-  });
+  if (!foundFolder) return null;
 
-  let mainFile = files.find(f => /^1\.(webp|jpg|jpeg|png)$/i.test(f)) || files[0];
-  const mainImage = webPathPrefix + '/' + mainFile;
-  const galleryFiles = files.filter(f => f !== mainFile && /\.(webp|jpg|jpeg|png)$/i.test(f));
-  const galleryList = galleryFiles.map(f => webPathPrefix + '/' + f);
+  const webPathPrefix = '/' + path.relative(publicDir, foundFolder).split(path.sep).join('/');
+  const files = fs.readdirSync(foundFolder).filter(f => !f.startsWith('.'));
 
-  return { mainImage, galleryList: galleryList.length > 0 ? galleryList : [mainImage] };
+  // Find 1.*, 2.*, 3.*
+  let file1 = files.find(f => /^1\.(png|jpg|jpeg|webp)$/i.test(f));
+  let file2 = files.find(f => /^2\.(png|jpg|jpeg|webp)$/i.test(f));
+  let file3 = files.find(f => /^3\.(png|jpg|jpeg|webp)$/i.test(f));
+
+  if (!file1) {
+    const altFile = files.find(f => /\.(png|jpg|jpeg|webp)$/i.test(f) && !f.startsWith('2.') && !f.startsWith('3.'));
+    if (altFile) file1 = altFile;
+  }
+
+  if (!file1) return null;
+
+  const mainImage = webPathPrefix + '/' + file1;
+  const galleryList = [];
+  if (file2) galleryList.push(webPathPrefix + '/' + file2);
+  if (file3) galleryList.push(webPathPrefix + '/' + file3);
+
+  return {
+    mainImage,
+    galleryList: galleryList.length > 0 ? galleryList : [mainImage]
+  };
 }
 
 function addCategoryItems(items, catId, catName) {

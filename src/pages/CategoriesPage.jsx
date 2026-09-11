@@ -46,7 +46,7 @@ export function CategoriesPage() {
             {categoriesData.map((cat) => (
               <Link
                 key={cat.id}
-                to={`/category/${cat.id}`}
+                to={cat.link || `/categories/${cat.slug || cat.id}`}
                 className="bg-white rounded-2xl border border-slate-200/80 overflow-hidden shadow-xs hover:shadow-xl transition-all duration-300 group hover:-translate-y-1.5 flex flex-col justify-between"
               >
                 <div className="p-6">

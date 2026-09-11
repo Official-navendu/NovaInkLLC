@@ -33,19 +33,15 @@ export const productsData = [
     "reviewCount": 154,
     "category": "home-printers",
     "categoryName": "Home Printers",
-    "image": "/images/products/office printer/HP Smart Tank 7602 All-in-One/1.webp",
+    "image": "/images/Printer/HOME PRINTERS/HP Smart Tank 7602 All-in-One/1.png",
     "gallery": [
-      "/images/products/office printer/HP Smart Tank 7602 All-in-One/2.webp",
-      "/images/products/office printer/HP Smart Tank 7602 All-in-One/3.webp",
-      "/images/products/office printer/HP Smart Tank 7602 All-in-One/4.webp",
-      "/images/products/office printer/HP Smart Tank 7602 All-in-One/5.webp"
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 7602 All-in-One/2.png",
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 7602 All-in-One/3.png"
     ],
     "images": [
-      "/images/products/office printer/HP Smart Tank 7602 All-in-One/1.webp",
-      "/images/products/office printer/HP Smart Tank 7602 All-in-One/2.webp",
-      "/images/products/office printer/HP Smart Tank 7602 All-in-One/3.webp",
-      "/images/products/office printer/HP Smart Tank 7602 All-in-One/4.webp",
-      "/images/products/office printer/HP Smart Tank 7602 All-in-One/5.webp"
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 7602 All-in-One/1.png",
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 7602 All-in-One/2.png",
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 7602 All-in-One/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -106,19 +102,15 @@ export const productsData = [
     "reviewCount": 171,
     "category": "home-printers",
     "categoryName": "Home Printers",
-    "image": "/images/products/home-printers/HP DeskJet 4255e All-in-One Printer/1.jpg",
+    "image": "/images/Printer/HOME PRINTERS/HP DeskJet 4255e All-in-One Printer/1.png",
     "gallery": [
-      "/images/products/home-printers/HP DeskJet 4255e All-in-One Printer/2.jpg",
-      "/images/products/home-printers/HP DeskJet 4255e All-in-One Printer/3.jpg",
-      "/images/products/home-printers/HP DeskJet 4255e All-in-One Printer/4.jpg",
-      "/images/products/home-printers/HP DeskJet 4255e All-in-One Printer/5.jpg"
+      "/images/Printer/HOME PRINTERS/HP DeskJet 4255e All-in-One Printer/2.png",
+      "/images/Printer/HOME PRINTERS/HP DeskJet 4255e All-in-One Printer/3.png"
     ],
     "images": [
-      "/images/products/home-printers/HP DeskJet 4255e All-in-One Printer/1.jpg",
-      "/images/products/home-printers/HP DeskJet 4255e All-in-One Printer/2.jpg",
-      "/images/products/home-printers/HP DeskJet 4255e All-in-One Printer/3.jpg",
-      "/images/products/home-printers/HP DeskJet 4255e All-in-One Printer/4.jpg",
-      "/images/products/home-printers/HP DeskJet 4255e All-in-One Printer/5.jpg"
+      "/images/Printer/HOME PRINTERS/HP DeskJet 4255e All-in-One Printer/1.png",
+      "/images/Printer/HOME PRINTERS/HP DeskJet 4255e All-in-One Printer/2.png",
+      "/images/Printer/HOME PRINTERS/HP DeskJet 4255e All-in-One Printer/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -178,19 +170,15 @@ export const productsData = [
     "reviewCount": 188,
     "category": "home-printers",
     "categoryName": "Home Printers",
-    "image": "/images/products/office printer/HP Smart Tank 7301 All-in-One Printer/1.webp",
+    "image": "/images/Printer/HOME PRINTERS/HP Smart Tank 7301 All-in-One Printer/1.png",
     "gallery": [
-      "/images/products/office printer/HP Smart Tank 7301 All-in-One Printer/2.webp",
-      "/images/products/office printer/HP Smart Tank 7301 All-in-One Printer/3.webp",
-      "/images/products/office printer/HP Smart Tank 7301 All-in-One Printer/4.webp",
-      "/images/products/office printer/HP Smart Tank 7301 All-in-One Printer/5.webp"
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 7301 All-in-One Printer/2.png",
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 7301 All-in-One Printer/3.png"
     ],
     "images": [
-      "/images/products/office printer/HP Smart Tank 7301 All-in-One Printer/1.webp",
-      "/images/products/office printer/HP Smart Tank 7301 All-in-One Printer/2.webp",
-      "/images/products/office printer/HP Smart Tank 7301 All-in-One Printer/3.webp",
-      "/images/products/office printer/HP Smart Tank 7301 All-in-One Printer/4.webp",
-      "/images/products/office printer/HP Smart Tank 7301 All-in-One Printer/5.webp"
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 7301 All-in-One Printer/1.png",
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 7301 All-in-One Printer/2.png",
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 7301 All-in-One Printer/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -251,19 +239,15 @@ export const productsData = [
     "reviewCount": 205,
     "category": "home-printers",
     "categoryName": "Home Printers",
-    "image": "/images/products/home-printers/HP Envy Photo 7975 All-in-One Printer/1.jpg",
+    "image": "/images/Printer/HOME PRINTERS/HP Envy Photo 7975 All-in-One Printer/1.png",
     "gallery": [
-      "/images/products/home-printers/HP Envy Photo 7975 All-in-One Printer/2.jpg",
-      "/images/products/home-printers/HP Envy Photo 7975 All-in-One Printer/3.jpg",
-      "/images/products/home-printers/HP Envy Photo 7975 All-in-One Printer/4.jpg",
-      "/images/products/home-printers/HP Envy Photo 7975 All-in-One Printer/5.jpg"
+      "/images/Printer/HOME PRINTERS/HP Envy Photo 7975 All-in-One Printer/2.png",
+      "/images/Printer/HOME PRINTERS/HP Envy Photo 7975 All-in-One Printer/3.png"
     ],
     "images": [
-      "/images/products/home-printers/HP Envy Photo 7975 All-in-One Printer/1.jpg",
-      "/images/products/home-printers/HP Envy Photo 7975 All-in-One Printer/2.jpg",
-      "/images/products/home-printers/HP Envy Photo 7975 All-in-One Printer/3.jpg",
-      "/images/products/home-printers/HP Envy Photo 7975 All-in-One Printer/4.jpg",
-      "/images/products/home-printers/HP Envy Photo 7975 All-in-One Printer/5.jpg"
+      "/images/Printer/HOME PRINTERS/HP Envy Photo 7975 All-in-One Printer/1.png",
+      "/images/Printer/HOME PRINTERS/HP Envy Photo 7975 All-in-One Printer/2.png",
+      "/images/Printer/HOME PRINTERS/HP Envy Photo 7975 All-in-One Printer/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -323,19 +307,15 @@ export const productsData = [
     "reviewCount": 222,
     "category": "home-printers",
     "categoryName": "Home Printers",
-    "image": "/images/products/home-printers/HP Envy 6155e All-in-One Printer/1.jpg",
+    "image": "/images/Printer/HOME PRINTERS/HP Envy 6155e All-in-One Printer/1.png",
     "gallery": [
-      "/images/products/home-printers/HP Envy 6155e All-in-One Printer/2.jpg",
-      "/images/products/home-printers/HP Envy 6155e All-in-One Printer/3.jpg",
-      "/images/products/home-printers/HP Envy 6155e All-in-One Printer/4.jpg",
-      "/images/products/home-printers/HP Envy 6155e All-in-One Printer/5.jpg"
+      "/images/Printer/HOME PRINTERS/HP Envy 6155e All-in-One Printer/2.png",
+      "/images/Printer/HOME PRINTERS/HP Envy 6155e All-in-One Printer/3.png"
     ],
     "images": [
-      "/images/products/home-printers/HP Envy 6155e All-in-One Printer/1.jpg",
-      "/images/products/home-printers/HP Envy 6155e All-in-One Printer/2.jpg",
-      "/images/products/home-printers/HP Envy 6155e All-in-One Printer/3.jpg",
-      "/images/products/home-printers/HP Envy 6155e All-in-One Printer/4.jpg",
-      "/images/products/home-printers/HP Envy 6155e All-in-One Printer/5.jpg"
+      "/images/Printer/HOME PRINTERS/HP Envy 6155e All-in-One Printer/1.png",
+      "/images/Printer/HOME PRINTERS/HP Envy 6155e All-in-One Printer/2.png",
+      "/images/Printer/HOME PRINTERS/HP Envy 6155e All-in-One Printer/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -395,19 +375,15 @@ export const productsData = [
     "reviewCount": 239,
     "category": "home-printers",
     "categoryName": "Home Printers",
-    "image": "/images/products/home-printers/HP Envy 6555e All-in-One Printer/1.jpg",
+    "image": "/images/Printer/HOME PRINTERS/HP Envy 6555e All-in-One Printer/1.png",
     "gallery": [
-      "/images/products/home-printers/HP Envy 6555e All-in-One Printer/2.jpg",
-      "/images/products/home-printers/HP Envy 6555e All-in-One Printer/3.jpg",
-      "/images/products/home-printers/HP Envy 6555e All-in-One Printer/4.jpg",
-      "/images/products/home-printers/HP Envy 6555e All-in-One Printer/5.jpg"
+      "/images/Printer/HOME PRINTERS/HP Envy 6555e All-in-One Printer/2.png",
+      "/images/Printer/HOME PRINTERS/HP Envy 6555e All-in-One Printer/3.png"
     ],
     "images": [
-      "/images/products/home-printers/HP Envy 6555e All-in-One Printer/1.jpg",
-      "/images/products/home-printers/HP Envy 6555e All-in-One Printer/2.jpg",
-      "/images/products/home-printers/HP Envy 6555e All-in-One Printer/3.jpg",
-      "/images/products/home-printers/HP Envy 6555e All-in-One Printer/4.jpg",
-      "/images/products/home-printers/HP Envy 6555e All-in-One Printer/5.jpg"
+      "/images/Printer/HOME PRINTERS/HP Envy 6555e All-in-One Printer/1.png",
+      "/images/Printer/HOME PRINTERS/HP Envy 6555e All-in-One Printer/2.png",
+      "/images/Printer/HOME PRINTERS/HP Envy 6555e All-in-One Printer/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -482,19 +458,15 @@ export const productsData = [
     "reviewCount": 256,
     "category": "home-printers",
     "categoryName": "Home Printers",
-    "image": "/images/products/office printer/HP Smart Tank 5103 All-in-One Printer/1.webp",
+    "image": "/images/Printer/HOME PRINTERS/HP Smart Tank 5103 All-in-One Printer/1.png",
     "gallery": [
-      "/images/products/office printer/HP Smart Tank 5103 All-in-One Printer/2.webp",
-      "/images/products/office printer/HP Smart Tank 5103 All-in-One Printer/3.webp",
-      "/images/products/office printer/HP Smart Tank 5103 All-in-One Printer/4.webp",
-      "/images/products/office printer/HP Smart Tank 5103 All-in-One Printer/5.webp"
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 5103 All-in-One Printer/2.png",
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 5103 All-in-One Printer/3.png"
     ],
     "images": [
-      "/images/products/office printer/HP Smart Tank 5103 All-in-One Printer/1.webp",
-      "/images/products/office printer/HP Smart Tank 5103 All-in-One Printer/2.webp",
-      "/images/products/office printer/HP Smart Tank 5103 All-in-One Printer/3.webp",
-      "/images/products/office printer/HP Smart Tank 5103 All-in-One Printer/4.webp",
-      "/images/products/office printer/HP Smart Tank 5103 All-in-One Printer/5.webp"
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 5103 All-in-One Printer/1.png",
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 5103 All-in-One Printer/2.png",
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 5103 All-in-One Printer/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -595,19 +567,15 @@ export const productsData = [
     "reviewCount": 273,
     "category": "home-printers",
     "categoryName": "Home Printers",
-    "image": "/images/products/office printer/HP Smart Tank 5101 All-in-One Printer/1.webp",
+    "image": "/images/Printer/HOME PRINTERS/HP Smart Tank 5101 All-in-One Printer/1.png",
     "gallery": [
-      "/images/products/office printer/HP Smart Tank 5101 All-in-One Printer/2.webp",
-      "/images/products/office printer/HP Smart Tank 5101 All-in-One Printer/3.webp",
-      "/images/products/office printer/HP Smart Tank 5101 All-in-One Printer/4.webp",
-      "/images/products/office printer/HP Smart Tank 5101 All-in-One Printer/5.webp"
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 5101 All-in-One Printer/2.png",
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 5101 All-in-One Printer/3.png"
     ],
     "images": [
-      "/images/products/office printer/HP Smart Tank 5101 All-in-One Printer/1.webp",
-      "/images/products/office printer/HP Smart Tank 5101 All-in-One Printer/2.webp",
-      "/images/products/office printer/HP Smart Tank 5101 All-in-One Printer/3.webp",
-      "/images/products/office printer/HP Smart Tank 5101 All-in-One Printer/4.webp",
-      "/images/products/office printer/HP Smart Tank 5101 All-in-One Printer/5.webp"
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 5101 All-in-One Printer/1.png",
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 5101 All-in-One Printer/2.png",
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 5101 All-in-One Printer/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -710,19 +678,15 @@ export const productsData = [
     "reviewCount": 290,
     "category": "home-printers",
     "categoryName": "Home Printers",
-    "image": "/images/products/office printer/HP Smart Tank 7001 All-in-One Printer/1.webp",
+    "image": "/images/Printer/HOME PRINTERS/HP Smart Tank 7001 All-in-One Printer/1.png",
     "gallery": [
-      "/images/products/office printer/HP Smart Tank 7001 All-in-One Printer/2.webp",
-      "/images/products/office printer/HP Smart Tank 7001 All-in-One Printer/3.webp",
-      "/images/products/office printer/HP Smart Tank 7001 All-in-One Printer/4.webp",
-      "/images/products/office printer/HP Smart Tank 7001 All-in-One Printer/5.webp"
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 7001 All-in-One Printer/2.png",
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 7001 All-in-One Printer/3.png"
     ],
     "images": [
-      "/images/products/office printer/HP Smart Tank 7001 All-in-One Printer/1.webp",
-      "/images/products/office printer/HP Smart Tank 7001 All-in-One Printer/2.webp",
-      "/images/products/office printer/HP Smart Tank 7001 All-in-One Printer/3.webp",
-      "/images/products/office printer/HP Smart Tank 7001 All-in-One Printer/4.webp",
-      "/images/products/office printer/HP Smart Tank 7001 All-in-One Printer/5.webp"
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 7001 All-in-One Printer/1.png",
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 7001 All-in-One Printer/2.png",
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 7001 All-in-One Printer/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -826,19 +790,15 @@ export const productsData = [
     "reviewCount": 307,
     "category": "home-printers",
     "categoryName": "Home Printers",
-    "image": "/images/products/office printer/HP Smart Tank Plus 651 Wireless All-in-One/1.webp",
+    "image": "/images/Printer/HOME PRINTERS/HP Smart Tank Plus 651 Wireless All-in-One/1.png",
     "gallery": [
-      "/images/products/office printer/HP Smart Tank Plus 651 Wireless All-in-One/2.webp",
-      "/images/products/office printer/HP Smart Tank Plus 651 Wireless All-in-One/3.webp",
-      "/images/products/office printer/HP Smart Tank Plus 651 Wireless All-in-One/4.webp",
-      "/images/products/office printer/HP Smart Tank Plus 651 Wireless All-in-One/5.webp"
+      "/images/Printer/HOME PRINTERS/HP Smart Tank Plus 651 Wireless All-in-One/2.png",
+      "/images/Printer/HOME PRINTERS/HP Smart Tank Plus 651 Wireless All-in-One/3.png"
     ],
     "images": [
-      "/images/products/office printer/HP Smart Tank Plus 651 Wireless All-in-One/1.webp",
-      "/images/products/office printer/HP Smart Tank Plus 651 Wireless All-in-One/2.webp",
-      "/images/products/office printer/HP Smart Tank Plus 651 Wireless All-in-One/3.webp",
-      "/images/products/office printer/HP Smart Tank Plus 651 Wireless All-in-One/4.webp",
-      "/images/products/office printer/HP Smart Tank Plus 651 Wireless All-in-One/5.webp"
+      "/images/Printer/HOME PRINTERS/HP Smart Tank Plus 651 Wireless All-in-One/1.png",
+      "/images/Printer/HOME PRINTERS/HP Smart Tank Plus 651 Wireless All-in-One/2.png",
+      "/images/Printer/HOME PRINTERS/HP Smart Tank Plus 651 Wireless All-in-One/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -939,19 +899,15 @@ export const productsData = [
     "reviewCount": 324,
     "category": "home-printers",
     "categoryName": "Home Printers",
-    "image": "/images/products/home-printers/HP Envy Photo 7275 All-in-One Printer/1.jpg",
+    "image": "/images/Printer/HOME PRINTERS/HP Envy Photo 7275 All-in-One Printer/1.png",
     "gallery": [
-      "/images/products/home-printers/HP Envy Photo 7275 All-in-One Printer/2.jpg",
-      "/images/products/home-printers/HP Envy Photo 7275 All-in-One Printer/3.jpg",
-      "/images/products/home-printers/HP Envy Photo 7275 All-in-One Printer/4.jpg",
-      "/images/products/home-printers/HP Envy Photo 7275 All-in-One Printer/5.jpg"
+      "/images/Printer/HOME PRINTERS/HP Envy Photo 7275 All-in-One Printer/2.png",
+      "/images/Printer/HOME PRINTERS/HP Envy Photo 7275 All-in-One Printer/3.png"
     ],
     "images": [
-      "/images/products/home-printers/HP Envy Photo 7275 All-in-One Printer/1.jpg",
-      "/images/products/home-printers/HP Envy Photo 7275 All-in-One Printer/2.jpg",
-      "/images/products/home-printers/HP Envy Photo 7275 All-in-One Printer/3.jpg",
-      "/images/products/home-printers/HP Envy Photo 7275 All-in-One Printer/4.jpg",
-      "/images/products/home-printers/HP Envy Photo 7275 All-in-One Printer/5.jpg"
+      "/images/Printer/HOME PRINTERS/HP Envy Photo 7275 All-in-One Printer/1.png",
+      "/images/Printer/HOME PRINTERS/HP Envy Photo 7275 All-in-One Printer/2.png",
+      "/images/Printer/HOME PRINTERS/HP Envy Photo 7275 All-in-One Printer/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -1051,19 +1007,15 @@ export const productsData = [
     "reviewCount": 341,
     "category": "home-printers",
     "categoryName": "Home Printers",
-    "image": "/images/products/office printer/HP Smart Tank 6001 All-in-One/1.webp",
+    "image": "/images/Printer/HOME PRINTERS/HP Smart Tank 6001 All-in-One/1.png",
     "gallery": [
-      "/images/products/office printer/HP Smart Tank 6001 All-in-One/2.webp",
-      "/images/products/office printer/HP Smart Tank 6001 All-in-One/3.webp",
-      "/images/products/office printer/HP Smart Tank 6001 All-in-One/4.webp",
-      "/images/products/office printer/HP Smart Tank 6001 All-in-One/5.webp"
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 6001 All-in-One/2.png",
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 6001 All-in-One/3.png"
     ],
     "images": [
-      "/images/products/office printer/HP Smart Tank 6001 All-in-One/1.webp",
-      "/images/products/office printer/HP Smart Tank 6001 All-in-One/2.webp",
-      "/images/products/office printer/HP Smart Tank 6001 All-in-One/3.webp",
-      "/images/products/office printer/HP Smart Tank 6001 All-in-One/4.webp",
-      "/images/products/office printer/HP Smart Tank 6001 All-in-One/5.webp"
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 6001 All-in-One/1.png",
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 6001 All-in-One/2.png",
+      "/images/Printer/HOME PRINTERS/HP Smart Tank 6001 All-in-One/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -1162,19 +1114,15 @@ export const productsData = [
     "reviewCount": 358,
     "category": "office-printers",
     "categoryName": "Office Printers",
-    "image": "/images/products/office printer/HP Smart Tank 7602 All-in-One/1.webp",
+    "image": "/images/Printer/OFFICE PRINTERS/HP Smart Tank 7602 All-in-One/1.png",
     "gallery": [
-      "/images/products/office printer/HP Smart Tank 7602 All-in-One/2.webp",
-      "/images/products/office printer/HP Smart Tank 7602 All-in-One/3.webp",
-      "/images/products/office printer/HP Smart Tank 7602 All-in-One/4.webp",
-      "/images/products/office printer/HP Smart Tank 7602 All-in-One/5.webp"
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 7602 All-in-One/2.png",
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 7602 All-in-One/3.png"
     ],
     "images": [
-      "/images/products/office printer/HP Smart Tank 7602 All-in-One/1.webp",
-      "/images/products/office printer/HP Smart Tank 7602 All-in-One/2.webp",
-      "/images/products/office printer/HP Smart Tank 7602 All-in-One/3.webp",
-      "/images/products/office printer/HP Smart Tank 7602 All-in-One/4.webp",
-      "/images/products/office printer/HP Smart Tank 7602 All-in-One/5.webp"
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 7602 All-in-One/1.png",
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 7602 All-in-One/2.png",
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 7602 All-in-One/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -1235,19 +1183,15 @@ export const productsData = [
     "reviewCount": 375,
     "category": "office-printers",
     "categoryName": "Office Printers",
-    "image": "/images/products/office printer/HP Smart Tank 7301 All-in-One Printer/1.webp",
+    "image": "/images/Printer/OFFICE PRINTERS/HP Smart Tank 7301 All-in-One Printer/1.png",
     "gallery": [
-      "/images/products/office printer/HP Smart Tank 7301 All-in-One Printer/2.webp",
-      "/images/products/office printer/HP Smart Tank 7301 All-in-One Printer/3.webp",
-      "/images/products/office printer/HP Smart Tank 7301 All-in-One Printer/4.webp",
-      "/images/products/office printer/HP Smart Tank 7301 All-in-One Printer/5.webp"
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 7301 All-in-One Printer/2.png",
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 7301 All-in-One Printer/3.png"
     ],
     "images": [
-      "/images/products/office printer/HP Smart Tank 7301 All-in-One Printer/1.webp",
-      "/images/products/office printer/HP Smart Tank 7301 All-in-One Printer/2.webp",
-      "/images/products/office printer/HP Smart Tank 7301 All-in-One Printer/3.webp",
-      "/images/products/office printer/HP Smart Tank 7301 All-in-One Printer/4.webp",
-      "/images/products/office printer/HP Smart Tank 7301 All-in-One Printer/5.webp"
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 7301 All-in-One Printer/1.png",
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 7301 All-in-One Printer/2.png",
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 7301 All-in-One Printer/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -1308,19 +1252,15 @@ export const productsData = [
     "reviewCount": 392,
     "category": "office-printers",
     "categoryName": "Office Printers",
-    "image": "/images/products/office printer/HP Smart Tank 5103 All-in-One Printer/1.webp",
+    "image": "/images/Printer/OFFICE PRINTERS/HP Smart Tank 5103 All-in-One Printer/1.png",
     "gallery": [
-      "/images/products/office printer/HP Smart Tank 5103 All-in-One Printer/2.webp",
-      "/images/products/office printer/HP Smart Tank 5103 All-in-One Printer/3.webp",
-      "/images/products/office printer/HP Smart Tank 5103 All-in-One Printer/4.webp",
-      "/images/products/office printer/HP Smart Tank 5103 All-in-One Printer/5.webp"
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 5103 All-in-One Printer/2.png",
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 5103 All-in-One Printer/3.png"
     ],
     "images": [
-      "/images/products/office printer/HP Smart Tank 5103 All-in-One Printer/1.webp",
-      "/images/products/office printer/HP Smart Tank 5103 All-in-One Printer/2.webp",
-      "/images/products/office printer/HP Smart Tank 5103 All-in-One Printer/3.webp",
-      "/images/products/office printer/HP Smart Tank 5103 All-in-One Printer/4.webp",
-      "/images/products/office printer/HP Smart Tank 5103 All-in-One Printer/5.webp"
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 5103 All-in-One Printer/1.png",
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 5103 All-in-One Printer/2.png",
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 5103 All-in-One Printer/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -1421,19 +1361,15 @@ export const productsData = [
     "reviewCount": 409,
     "category": "office-printers",
     "categoryName": "Office Printers",
-    "image": "/images/products/office printer/HP Smart Tank 5101 All-in-One Printer/1.webp",
+    "image": "/images/Printer/OFFICE PRINTERS/HP Smart Tank 5101 All-in-One Printer/1.png",
     "gallery": [
-      "/images/products/office printer/HP Smart Tank 5101 All-in-One Printer/2.webp",
-      "/images/products/office printer/HP Smart Tank 5101 All-in-One Printer/3.webp",
-      "/images/products/office printer/HP Smart Tank 5101 All-in-One Printer/4.webp",
-      "/images/products/office printer/HP Smart Tank 5101 All-in-One Printer/5.webp"
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 5101 All-in-One Printer/2.png",
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 5101 All-in-One Printer/3.png"
     ],
     "images": [
-      "/images/products/office printer/HP Smart Tank 5101 All-in-One Printer/1.webp",
-      "/images/products/office printer/HP Smart Tank 5101 All-in-One Printer/2.webp",
-      "/images/products/office printer/HP Smart Tank 5101 All-in-One Printer/3.webp",
-      "/images/products/office printer/HP Smart Tank 5101 All-in-One Printer/4.webp",
-      "/images/products/office printer/HP Smart Tank 5101 All-in-One Printer/5.webp"
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 5101 All-in-One Printer/1.png",
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 5101 All-in-One Printer/2.png",
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 5101 All-in-One Printer/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -1536,19 +1472,15 @@ export const productsData = [
     "reviewCount": 426,
     "category": "office-printers",
     "categoryName": "Office Printers",
-    "image": "/images/products/office printer/HP Smart Tank Plus 651 Wireless All-in-One/1.webp",
+    "image": "/images/Printer/OFFICE PRINTERS/HP Smart Tank Plus 651 Wireless All-in-One/1.png",
     "gallery": [
-      "/images/products/office printer/HP Smart Tank Plus 651 Wireless All-in-One/2.webp",
-      "/images/products/office printer/HP Smart Tank Plus 651 Wireless All-in-One/3.webp",
-      "/images/products/office printer/HP Smart Tank Plus 651 Wireless All-in-One/4.webp",
-      "/images/products/office printer/HP Smart Tank Plus 651 Wireless All-in-One/5.webp"
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank Plus 651 Wireless All-in-One/2.png",
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank Plus 651 Wireless All-in-One/3.png"
     ],
     "images": [
-      "/images/products/office printer/HP Smart Tank Plus 651 Wireless All-in-One/1.webp",
-      "/images/products/office printer/HP Smart Tank Plus 651 Wireless All-in-One/2.webp",
-      "/images/products/office printer/HP Smart Tank Plus 651 Wireless All-in-One/3.webp",
-      "/images/products/office printer/HP Smart Tank Plus 651 Wireless All-in-One/4.webp",
-      "/images/products/office printer/HP Smart Tank Plus 651 Wireless All-in-One/5.webp"
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank Plus 651 Wireless All-in-One/1.png",
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank Plus 651 Wireless All-in-One/2.png",
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank Plus 651 Wireless All-in-One/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -1649,19 +1581,15 @@ export const productsData = [
     "reviewCount": 443,
     "category": "office-printers",
     "categoryName": "Office Printers",
-    "image": "/images/products/office printer/HP Smart Tank 6001 All-in-One/1.webp",
+    "image": "/images/Printer/OFFICE PRINTERS/HP Smart Tank 6001 All-in-One/1.png",
     "gallery": [
-      "/images/products/office printer/HP Smart Tank 6001 All-in-One/2.webp",
-      "/images/products/office printer/HP Smart Tank 6001 All-in-One/3.webp",
-      "/images/products/office printer/HP Smart Tank 6001 All-in-One/4.webp",
-      "/images/products/office printer/HP Smart Tank 6001 All-in-One/5.webp"
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 6001 All-in-One/2.png",
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 6001 All-in-One/3.png"
     ],
     "images": [
-      "/images/products/office printer/HP Smart Tank 6001 All-in-One/1.webp",
-      "/images/products/office printer/HP Smart Tank 6001 All-in-One/2.webp",
-      "/images/products/office printer/HP Smart Tank 6001 All-in-One/3.webp",
-      "/images/products/office printer/HP Smart Tank 6001 All-in-One/4.webp",
-      "/images/products/office printer/HP Smart Tank 6001 All-in-One/5.webp"
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 6001 All-in-One/1.png",
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 6001 All-in-One/2.png",
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 6001 All-in-One/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -1760,19 +1688,15 @@ export const productsData = [
     "reviewCount": 460,
     "category": "office-printers",
     "categoryName": "Office Printers",
-    "image": "/images/products/office printer/HP Smart Tank 7001 All-in-One Printer/1.webp",
+    "image": "/images/Printer/OFFICE PRINTERS/HP Smart Tank 7001 All-in-One Printer/1.png",
     "gallery": [
-      "/images/products/office printer/HP Smart Tank 7001 All-in-One Printer/2.webp",
-      "/images/products/office printer/HP Smart Tank 7001 All-in-One Printer/3.webp",
-      "/images/products/office printer/HP Smart Tank 7001 All-in-One Printer/4.webp",
-      "/images/products/office printer/HP Smart Tank 7001 All-in-One Printer/5.webp"
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 7001 All-in-One Printer/2.png",
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 7001 All-in-One Printer/3.png"
     ],
     "images": [
-      "/images/products/office printer/HP Smart Tank 7001 All-in-One Printer/1.webp",
-      "/images/products/office printer/HP Smart Tank 7001 All-in-One Printer/2.webp",
-      "/images/products/office printer/HP Smart Tank 7001 All-in-One Printer/3.webp",
-      "/images/products/office printer/HP Smart Tank 7001 All-in-One Printer/4.webp",
-      "/images/products/office printer/HP Smart Tank 7001 All-in-One Printer/5.webp"
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 7001 All-in-One Printer/1.png",
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 7001 All-in-One Printer/2.png",
+      "/images/Printer/OFFICE PRINTERS/HP Smart Tank 7001 All-in-One Printer/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -1876,19 +1800,15 @@ export const productsData = [
     "reviewCount": 477,
     "category": "inkjet-printers",
     "categoryName": "INK JET PRINTERS",
-    "image": "/images/products/Inkjet Printers/HP OfficeJet 200 Mobile Printer/1.webp",
+    "image": "/images/Printer/INK JET PRINTERS/HP OfficeJet 200 Mobile Printer/1.png",
     "gallery": [
-      "/images/products/Inkjet Printers/HP OfficeJet 200 Mobile Printer/2.webp",
-      "/images/products/Inkjet Printers/HP OfficeJet 200 Mobile Printer/3.webp",
-      "/images/products/Inkjet Printers/HP OfficeJet 200 Mobile Printer/4.webp",
-      "/images/products/Inkjet Printers/HP OfficeJet 200 Mobile Printer/5.webp"
+      "/images/Printer/INK JET PRINTERS/HP OfficeJet 200 Mobile Printer/2.png",
+      "/images/Printer/INK JET PRINTERS/HP OfficeJet 200 Mobile Printer/3.png"
     ],
     "images": [
-      "/images/products/Inkjet Printers/HP OfficeJet 200 Mobile Printer/1.webp",
-      "/images/products/Inkjet Printers/HP OfficeJet 200 Mobile Printer/2.webp",
-      "/images/products/Inkjet Printers/HP OfficeJet 200 Mobile Printer/3.webp",
-      "/images/products/Inkjet Printers/HP OfficeJet 200 Mobile Printer/4.webp",
-      "/images/products/Inkjet Printers/HP OfficeJet 200 Mobile Printer/5.webp"
+      "/images/Printer/INK JET PRINTERS/HP OfficeJet 200 Mobile Printer/1.png",
+      "/images/Printer/INK JET PRINTERS/HP OfficeJet 200 Mobile Printer/2.png",
+      "/images/Printer/INK JET PRINTERS/HP OfficeJet 200 Mobile Printer/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -1982,19 +1902,15 @@ export const productsData = [
     "reviewCount": 494,
     "category": "laser-printers",
     "categoryName": "LASER PRINTERS",
-    "image": "/images/products/Laser Printers/HP LaserJet M209dw Printer/1.webp",
+    "image": "/images/Printer/LASER PRINTERS/HP LaserJet M209dw Printer/1.png",
     "gallery": [
-      "/images/products/Laser Printers/HP LaserJet M209dw Printer/2.webp",
-      "/images/products/Laser Printers/HP LaserJet M209dw Printer/3.webp",
-      "/images/products/Laser Printers/HP LaserJet M209dw Printer/4.webp",
-      "/images/products/Laser Printers/HP LaserJet M209dw Printer/5.webp"
+      "/images/Printer/LASER PRINTERS/HP LaserJet M209dw Printer/2.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet M209dw Printer/3.png"
     ],
     "images": [
-      "/images/products/Laser Printers/HP LaserJet M209dw Printer/1.webp",
-      "/images/products/Laser Printers/HP LaserJet M209dw Printer/2.webp",
-      "/images/products/Laser Printers/HP LaserJet M209dw Printer/3.webp",
-      "/images/products/Laser Printers/HP LaserJet M209dw Printer/4.webp",
-      "/images/products/Laser Printers/HP LaserJet M209dw Printer/5.webp"
+      "/images/Printer/LASER PRINTERS/HP LaserJet M209dw Printer/1.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet M209dw Printer/2.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet M209dw Printer/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -2088,19 +2004,15 @@ export const productsData = [
     "reviewCount": 511,
     "category": "laser-printers",
     "categoryName": "LASER PRINTERS",
-    "image": "/images/products/Laser Printers/HP LaserJet MFP M234dw Printer/1.webp",
+    "image": "/images/Printer/LASER PRINTERS/HP LaserJet MFP M234dw Printer/1.png",
     "gallery": [
-      "/images/products/Laser Printers/HP LaserJet MFP M234dw Printer/2.webp",
-      "/images/products/Laser Printers/HP LaserJet MFP M234dw Printer/3.webp",
-      "/images/products/Laser Printers/HP LaserJet MFP M234dw Printer/4.webp",
-      "/images/products/Laser Printers/HP LaserJet MFP M234dw Printer/5.webp"
+      "/images/Printer/LASER PRINTERS/HP LaserJet MFP M234dw Printer/2.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet MFP M234dw Printer/3.png"
     ],
     "images": [
-      "/images/products/Laser Printers/HP LaserJet MFP M234dw Printer/1.webp",
-      "/images/products/Laser Printers/HP LaserJet MFP M234dw Printer/2.webp",
-      "/images/products/Laser Printers/HP LaserJet MFP M234dw Printer/3.webp",
-      "/images/products/Laser Printers/HP LaserJet MFP M234dw Printer/4.webp",
-      "/images/products/Laser Printers/HP LaserJet MFP M234dw Printer/5.webp"
+      "/images/Printer/LASER PRINTERS/HP LaserJet MFP M234dw Printer/1.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet MFP M234dw Printer/2.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet MFP M234dw Printer/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -2196,19 +2108,15 @@ export const productsData = [
     "reviewCount": 128,
     "category": "laser-printers",
     "categoryName": "LASER PRINTERS",
-    "image": "/images/products/Laser Printers/HP LaserJet M209d Printer/1.webp",
+    "image": "/images/Printer/LASER PRINTERS/HP LaserJet M209d Printer/1.png",
     "gallery": [
-      "/images/products/Laser Printers/HP LaserJet M209d Printer/2.webp",
-      "/images/products/Laser Printers/HP LaserJet M209d Printer/3.webp",
-      "/images/products/Laser Printers/HP LaserJet M209d Printer/4.webp",
-      "/images/products/Laser Printers/HP LaserJet M209d Printer/5.webp"
+      "/images/Printer/LASER PRINTERS/HP LaserJet M209d Printer/2.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet M209d Printer/3.png"
     ],
     "images": [
-      "/images/products/Laser Printers/HP LaserJet M209d Printer/1.webp",
-      "/images/products/Laser Printers/HP LaserJet M209d Printer/2.webp",
-      "/images/products/Laser Printers/HP LaserJet M209d Printer/3.webp",
-      "/images/products/Laser Printers/HP LaserJet M209d Printer/4.webp",
-      "/images/products/Laser Printers/HP LaserJet M209d Printer/5.webp"
+      "/images/Printer/LASER PRINTERS/HP LaserJet M209d Printer/1.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet M209d Printer/2.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet M209d Printer/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -2303,19 +2211,15 @@ export const productsData = [
     "reviewCount": 145,
     "category": "laser-printers",
     "categoryName": "LASER PRINTERS",
-    "image": "/images/products/Laser Printers/HP LaserJet MFP M234sdw Printer/1.webp",
+    "image": "/images/Printer/LASER PRINTERS/HP LaserJet MFP M234sdw Printer/1.png",
     "gallery": [
-      "/images/products/Laser Printers/HP LaserJet MFP M234sdw Printer/2.webp",
-      "/images/products/Laser Printers/HP LaserJet MFP M234sdw Printer/3.webp",
-      "/images/products/Laser Printers/HP LaserJet MFP M234sdw Printer/4.webp",
-      "/images/products/Laser Printers/HP LaserJet MFP M234sdw Printer/5.webp"
+      "/images/Printer/LASER PRINTERS/HP LaserJet MFP M234sdw Printer/2.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet MFP M234sdw Printer/3.png"
     ],
     "images": [
-      "/images/products/Laser Printers/HP LaserJet MFP M234sdw Printer/1.webp",
-      "/images/products/Laser Printers/HP LaserJet MFP M234sdw Printer/2.webp",
-      "/images/products/Laser Printers/HP LaserJet MFP M234sdw Printer/3.webp",
-      "/images/products/Laser Printers/HP LaserJet MFP M234sdw Printer/4.webp",
-      "/images/products/Laser Printers/HP LaserJet MFP M234sdw Printer/5.webp"
+      "/images/Printer/LASER PRINTERS/HP LaserJet MFP M234sdw Printer/1.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet MFP M234sdw Printer/2.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet MFP M234sdw Printer/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -2414,15 +2318,15 @@ export const productsData = [
     "reviewCount": 162,
     "category": "laser-printers",
     "categoryName": "LASER PRINTERS",
-    "image": "/images/products/Laser Printers/HP LaserJet M140w Wireless Black & White Printer/1.webp",
+    "image": "/images/Printer/LASER PRINTERS/HP LaserJet M140w Wireless Black & White Printer/1.png",
     "gallery": [
-      "/images/products/Laser Printers/HP LaserJet M140w Wireless Black & White Printer/2.webp",
-      "/images/products/Laser Printers/HP LaserJet M140w Wireless Black & White Printer/3.webp"
+      "/images/Printer/LASER PRINTERS/HP LaserJet M140w Wireless Black & White Printer/2.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet M140w Wireless Black & White Printer/3.png"
     ],
     "images": [
-      "/images/products/Laser Printers/HP LaserJet M140w Wireless Black & White Printer/1.webp",
-      "/images/products/Laser Printers/HP LaserJet M140w Wireless Black & White Printer/2.webp",
-      "/images/products/Laser Printers/HP LaserJet M140w Wireless Black & White Printer/3.webp"
+      "/images/Printer/LASER PRINTERS/HP LaserJet M140w Wireless Black & White Printer/1.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet M140w Wireless Black & White Printer/2.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet M140w Wireless Black & White Printer/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -2515,19 +2419,15 @@ export const productsData = [
     "reviewCount": 179,
     "category": "laser-printers",
     "categoryName": "LASER PRINTERS",
-    "image": "/images/products/Laser Printers/HP LaserJet MFP M235sdw Printer/1.webp",
+    "image": "/images/Printer/LASER PRINTERS/HP LaserJet MFP M235sdw Printer/1.png",
     "gallery": [
-      "/images/products/Laser Printers/HP LaserJet MFP M235sdw Printer/2.webp",
-      "/images/products/Laser Printers/HP LaserJet MFP M235sdw Printer/3.webp",
-      "/images/products/Laser Printers/HP LaserJet MFP M235sdw Printer/4.webp",
-      "/images/products/Laser Printers/HP LaserJet MFP M235sdw Printer/5.webp"
+      "/images/Printer/LASER PRINTERS/HP LaserJet MFP M235sdw Printer/2.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet MFP M235sdw Printer/3.png"
     ],
     "images": [
-      "/images/products/Laser Printers/HP LaserJet MFP M235sdw Printer/1.webp",
-      "/images/products/Laser Printers/HP LaserJet MFP M235sdw Printer/2.webp",
-      "/images/products/Laser Printers/HP LaserJet MFP M235sdw Printer/3.webp",
-      "/images/products/Laser Printers/HP LaserJet MFP M235sdw Printer/4.webp",
-      "/images/products/Laser Printers/HP LaserJet MFP M235sdw Printer/5.webp"
+      "/images/Printer/LASER PRINTERS/HP LaserJet MFP M235sdw Printer/1.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet MFP M235sdw Printer/2.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet MFP M235sdw Printer/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -2626,19 +2526,15 @@ export const productsData = [
     "reviewCount": 196,
     "category": "laser-printers",
     "categoryName": "LASER PRINTERS",
-    "image": "/images/products/Laser Printers/HP LaserJet M207dw Printer/1.webp",
+    "image": "/images/Printer/LASER PRINTERS/HP LaserJet M207dw Printer/1.png",
     "gallery": [
-      "/images/products/Laser Printers/HP LaserJet M207dw Printer/2.webp",
-      "/images/products/Laser Printers/HP LaserJet M207dw Printer/3.webp",
-      "/images/products/Laser Printers/HP LaserJet M207dw Printer/4.webp",
-      "/images/products/Laser Printers/HP LaserJet M207dw Printer/5.webp"
+      "/images/Printer/LASER PRINTERS/HP LaserJet M207dw Printer/2.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet M207dw Printer/3.png"
     ],
     "images": [
-      "/images/products/Laser Printers/HP LaserJet M207dw Printer/1.webp",
-      "/images/products/Laser Printers/HP LaserJet M207dw Printer/2.webp",
-      "/images/products/Laser Printers/HP LaserJet M207dw Printer/3.webp",
-      "/images/products/Laser Printers/HP LaserJet M207dw Printer/4.webp",
-      "/images/products/Laser Printers/HP LaserJet M207dw Printer/5.webp"
+      "/images/Printer/LASER PRINTERS/HP LaserJet M207dw Printer/1.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet M207dw Printer/2.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet M207dw Printer/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
@@ -2733,19 +2629,15 @@ export const productsData = [
     "reviewCount": 213,
     "category": "laser-printers",
     "categoryName": "LASER PRINTERS",
-    "image": "/images/products/Laser Printers/HP LaserJet M110w Wireless Black & White Printer/1.webp",
+    "image": "/images/Printer/LASER PRINTERS/HP LaserJet M110w Wireless Black & White Printer/1.png",
     "gallery": [
-      "/images/products/Laser Printers/HP LaserJet M110w Wireless Black & White Printer/2.webp",
-      "/images/products/Laser Printers/HP LaserJet M110w Wireless Black & White Printer/3.webp",
-      "/images/products/Laser Printers/HP LaserJet M110w Wireless Black & White Printer/4.webp",
-      "/images/products/Laser Printers/HP LaserJet M110w Wireless Black & White Printer/5.webp"
+      "/images/Printer/LASER PRINTERS/HP LaserJet M110w Wireless Black & White Printer/2.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet M110w Wireless Black & White Printer/3.png"
     ],
     "images": [
-      "/images/products/Laser Printers/HP LaserJet M110w Wireless Black & White Printer/1.webp",
-      "/images/products/Laser Printers/HP LaserJet M110w Wireless Black & White Printer/2.webp",
-      "/images/products/Laser Printers/HP LaserJet M110w Wireless Black & White Printer/3.webp",
-      "/images/products/Laser Printers/HP LaserJet M110w Wireless Black & White Printer/4.webp",
-      "/images/products/Laser Printers/HP LaserJet M110w Wireless Black & White Printer/5.webp"
+      "/images/Printer/LASER PRINTERS/HP LaserJet M110w Wireless Black & White Printer/1.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet M110w Wireless Black & White Printer/2.png",
+      "/images/Printer/LASER PRINTERS/HP LaserJet M110w Wireless Black & White Printer/3.png"
     ],
     "inStock": true,
     "availability": "In Stock & Ready to Ship",
