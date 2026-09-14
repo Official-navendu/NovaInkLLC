@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 
 export function Hero() {
@@ -9,39 +9,11 @@ export function Hero() {
     'Dedicated Customer Support'
   ]
 
-  const heroImages = [
-    { id: 1, src: '/images/hero/hero-1.webp', alt: 'HP Smart Printing Solutions', title: 'Smart All-in-One' },
-    { id: 2, src: '/images/hero/hero-2.webp', alt: 'HP Office LaserJet Pro Printer', title: 'Office LaserJet Pro' },
-    { id: 3, src: '/images/hero/hero-3.webp', alt: 'HP ENVY Wireless Color Printer', title: 'ENVY Wireless Color' },
-    { id: 4, src: '/images/hero/hero-4.webp', alt: 'HP Smart Tank Photo Printer', title: 'Smart Tank Photo' }
-  ]
-
-  const [activeIndex, setActiveIndex] = useState(0)
-  const [isFading, setIsFading] = useState(false)
-
-  // Auto-switch image every 3.5 seconds
-  useEffect(() => {
-    const timer = setInterval(() => {
-      triggerImageChange((activeIndex + 1) % heroImages.length)
-    }, 3500)
-
-    return () => clearInterval(timer)
-  }, [activeIndex])
-
-  const triggerImageChange = (newIndex) => {
-    if (newIndex === activeIndex) return
-    setIsFading(true)
-    setTimeout(() => {
-      setActiveIndex(newIndex)
-      setIsFading(false)
-    }, 200)
-  }
-
   return (
     <section className="relative pt-24 lg:pt-32 pb-14 lg:pb-18 text-slate-900 overflow-hidden min-h-[580px] flex flex-col justify-center border-b border-slate-100 font-['Manrope',sans-serif]">
       
-      {/* Preload first hero image for zero layout shift */}
-      <link rel="preload" as="image" href="/images/hero/hero-1.webp" />
+      {/* Preload hero image for zero layout shift */}
+      <link rel="preload" as="image" href="/images/hero/hero-right.png" />
 
       {/* Layer 1: Background Image with Parallax Scroll Effect */}
       <div
@@ -108,65 +80,15 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Right Side Content - Clean Natural Floating Image Gallery */}
+          {/* Right Side Content - Provided Image in Right-Side Layout Area */}
           <div className="lg:col-span-6 flex justify-center lg:justify-end mt-6 lg:mt-0">
-            <div className="w-full max-w-xl flex flex-col lg:flex-row items-center gap-4 sm:gap-6">
-              
-              {/* Main Featured Image (Floating directly on Hero background) */}
-              <div className="relative flex-1 w-full flex flex-col items-center justify-center">
-                <img
-                  src={heroImages[activeIndex].src}
-                  alt={heroImages[activeIndex].alt}
-                  width="500"
-                  height="400"
-                  className={`w-full h-72 sm:h-88 lg:h-[360px] object-contain drop-shadow-[0_20px_35px_rgba(0,150,214,0.14)] transition-all duration-300 ${
-                    isFading ? 'opacity-20 scale-[0.98]' : 'opacity-100 scale-100'
-                  }`}
-                  loading="eager"
-                />
-
-                {/* Slide Indicators (Mobile/Tablet helper) */}
-                <div className="flex items-center gap-1.5 mt-3 lg:hidden">
-                  {heroImages.map((img, idx) => (
-                    <button
-                      key={img.id}
-                      onClick={() => triggerImageChange(idx)}
-                      aria-label={`Go to slide ${idx + 1}`}
-                      className={`h-1.5 rounded-full transition-all duration-300 cursor-pointer ${
-                        activeIndex === idx ? 'w-6 bg-[#0096D6]' : 'w-1.5 bg-slate-300'
-                      }`}
-                    />
-                  ))}
-                </div>
-              </div>
-
-              {/* 4 Floating Thumbnails (Vertical on Desktop, Horizontal on Mobile/Tablet) */}
-              <div className="flex flex-row lg:flex-col gap-2.5 sm:gap-3 w-full lg:w-auto justify-center lg:justify-start shrink-0 overflow-x-auto pb-1 lg:pb-0 scrollbar-none">
-                {heroImages.map((img, idx) => {
-                  const isActive = activeIndex === idx
-                  return (
-                    <button
-                      key={img.id}
-                      onClick={() => triggerImageChange(idx)}
-                      className={`appearance-none bg-white relative w-16 h-16 sm:w-20 sm:h-20 lg:w-[84px] lg:h-[84px] rounded-[16px] overflow-hidden p-2 transition-all duration-300 cursor-pointer flex items-center justify-center shrink-0 border focus:outline-none focus-visible:ring-2 focus-visible:ring-[#0096D6] ${
-                        isActive
-                          ? 'border-2 border-[#0096D6] shadow-[0_12px_30px_rgba(0,150,214,0.15)]'
-                          : 'border-slate-200 hover:-translate-y-0.75 hover:shadow-[0_10px_25px_rgba(0,0,0,0.08)] hover:border-[#0096D6]'
-                      }`}
-                      title={img.title}
-                      aria-label={`Select ${img.title}`}
-                    >
-                      <img
-                        src={img.src}
-                        alt={img.alt}
-                        className="w-full h-full object-contain mix-blend-multiply"
-                        loading="lazy"
-                      />
-                    </button>
-                  )
-                })}
-              </div>
-
+            <div className="w-full max-w-xl flex items-center justify-center">
+              <img
+                src="/images/hero/hero-right.png"
+                alt="HP Printer & Printing Supplies"
+                className="w-full h-auto max-h-[420px] object-contain drop-shadow-[0_20px_35px_rgba(0,150,214,0.14)]"
+                loading="eager"
+              />
             </div>
           </div>
 
