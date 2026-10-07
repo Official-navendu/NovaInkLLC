@@ -16,7 +16,7 @@ export function Products() {
   const displayedProducts = filteredProducts.slice(0, 15)
 
   return (
-    <section id="shop" className="py-8 lg:py-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="shop" className="py-8 lg:py-10 max-w-[1536px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16">
       {/* Header */}
       <div className="flex items-center justify-between gap-4 mb-4">
         <div>

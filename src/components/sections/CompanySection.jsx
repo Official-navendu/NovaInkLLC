@@ -28,7 +28,7 @@ export function CompanySection() {
   ]
 
   return (
-    <section className="py-8 lg:py-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-8 lg:py-10 max-w-[1536px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16">
       <div className="bg-white border border-slate-200/80 rounded-3xl p-8 sm:p-12 lg:p-14 text-slate-900 shadow-xl relative overflow-hidden">
         {/* Soft Background Radial Accent */}
         <div className="absolute -top-24 -right-24 w-96 h-96 bg-[#0096D6]/5 rounded-full blur-3xl pointer-events-none" />

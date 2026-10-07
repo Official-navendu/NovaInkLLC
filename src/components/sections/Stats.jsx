@@ -3,7 +3,7 @@ import { statsData } from '../../data/stats'
 
 export function Stats() {
   return (
-    <section className="py-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-8 max-w-[1536px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16">
       <div
         className="relative rounded-3xl p-8 sm:p-12 lg:p-14 text-white shadow-2xl overflow-hidden bg-cover bg-center bg-no-repeat sm:bg-fixed bg-scroll"
         style={{

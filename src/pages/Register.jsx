@@ -72,7 +72,7 @@ export function Register() {
     <div className="min-h-screen bg-[#F8FAFC] font-['Manrope',sans-serif] flex flex-col justify-between selection:bg-[#0096D6] selection:text-white overflow-x-hidden">
       <Navbar />
 
-      <main className="pt-28 pb-16 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto w-full flex-1 flex flex-col justify-center">
+      <main className="pt-28 pb-16 px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16 max-w-5xl lg:max-w-6xl xl:max-w-[1340px] mx-auto w-full flex-1 flex flex-col justify-center">
         
         {/* Smooth Horizontal Slide Transition (Zero Rotate / Zero Flip / Zero Flicker) */}
         <motion.div

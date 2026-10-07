@@ -29,7 +29,7 @@ export function Blog() {
           {/* Overlay Gradient to maintain exact brand theme & 100% text legibility */}
           <div className="absolute inset-0 bg-gradient-to-r from-[#0B132B]/95 via-[#172136]/90 to-[#0B132B]/90 backdrop-blur-xs pointer-events-none" />
 
-          <div className="max-w-7xl mx-auto relative z-10">
+          <div className="max-w-[1536px] 2xl:max-w-[1600px] mx-auto relative z-10">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
               
               {/* Left Side: Hero Text Content */}
@@ -51,7 +51,7 @@ export function Blog() {
         </div>
 
         {/* Main Content Area */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1536px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16">
           
           {/* Blog Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

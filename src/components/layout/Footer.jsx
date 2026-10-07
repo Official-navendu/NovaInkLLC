@@ -34,7 +34,7 @@ export function Footer() {
 
   return (
     <footer className="bg-[#080D1A] text-slate-400 pt-16 sm:pt-20 pb-6 border-t border-[#2A3855] relative z-10">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1536px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16">
         {/* Highlighted Top Disclaimer Box */}
         <div className="mb-10 p-4 sm:p-5 rounded-2xl bg-[#121B2E] border border-[#0096D6]/35 shadow-md">
           <div className="flex items-start gap-3">

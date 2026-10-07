@@ -5,7 +5,7 @@ import { ChevronRight } from 'lucide-react'
 
 export function Categories() {
   return (
-    <section id="categories" className="py-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="categories" className="py-10 max-w-[1536px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16">
       {/* Header */}
       <div className="flex items-center justify-between gap-4 mb-6">
         <h2 className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-slate-900 tracking-tight uppercase">

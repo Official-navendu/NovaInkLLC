@@ -9,7 +9,7 @@ import 'swiper/css/navigation'
 
 export function Testimonials() {
   return (
-    <section className="py-8 lg:py-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-transparent">
+    <section className="py-8 lg:py-10 max-w-[1536px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16 bg-transparent">
       {/* Header */}
       <div className="text-center max-w-2xl mx-auto mb-8">
         <span className="text-xs font-extrabold text-[#0096D6] uppercase tracking-widest bg-blue-50 border border-blue-100 px-3.5 py-1.5 rounded-full inline-block mb-3">

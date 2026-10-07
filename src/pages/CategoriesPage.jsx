@@ -27,7 +27,7 @@ export function CategoriesPage() {
           {/* Overlay Gradient to maintain exact brand theme & 100% text legibility */}
           <div className="absolute inset-0 bg-gradient-to-r from-[#0B132B]/90 via-[#172136]/85 to-[#0B132B]/90 backdrop-blur-xs pointer-events-none" />
 
-          <div className="max-w-7xl mx-auto relative z-10">
+          <div className="max-w-[1536px] 2xl:max-w-[1600px] mx-auto relative z-10">
             <span className="text-xs font-extrabold uppercase tracking-widest text-[#0096D6] bg-[#0096D6]/10 border border-[#0096D6]/20 px-3.5 py-1.5 rounded-full inline-block mb-3">
               SHOP BY CATEGORY
             </span>
@@ -41,7 +41,7 @@ export function CategoriesPage() {
         </div>
 
         {/* Main Categories Grid (4 Categories) */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <div className="max-w-[1536px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16 mb-16">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {categoriesData.map((cat) => (
               <Link
@@ -76,7 +76,7 @@ export function CategoriesPage() {
         </div>
 
         {/* Informational Section 1: Need Help Choosing? (Cleaned: Outer Container Card Removed) */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <div className="max-w-[1536px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16 mb-16">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
             
             {/* Left Column: Text & CTA */}
@@ -118,7 +118,7 @@ export function CategoriesPage() {
         </div>
 
         {/* Informational Section 2: Everything You Need for Everyday Printing (Cleaned: Outer Container Card Removed) */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+        <div className="max-w-[1536px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16 mb-16">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
             
             {/* Left Column: Image */}

@@ -26,7 +26,7 @@ export function FeatureStrip() {
   ]
 
   return (
-    <section className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-4 mb-8">
+    <section className="relative z-20 max-w-[1536px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16 -mt-4 mb-8">
       <div className="bg-[#0096D6] rounded-2xl shadow-xl shadow-[#0096D6]/20 border border-[#0077B5] p-5 md:p-6 text-white">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 divide-y sm:divide-y-0 sm:divide-x divide-white/20">
           {features.map((item, idx) => {

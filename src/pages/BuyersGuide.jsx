@@ -67,7 +67,7 @@ export function BuyersGuide() {
         </div>
 
         {/* 2nd Section: Educational Guides & Comparisons */}
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+        <div className="max-w-[1536px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16 space-y-12">
           
           {/* Guide 1: How to Choose the Right Printer */}
           <div className="bg-white rounded-3xl p-8 sm:p-10 border border-slate-200/80 shadow-xs space-y-6">

@@ -4,7 +4,7 @@ import { brandsData } from '../../data/brands'
 export function BrandLogos() {
   return (
     <section className="py-10 bg-slate-50 border-y border-slate-200/60">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1536px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16">
         <p className="text-center text-xs font-extrabold uppercase tracking-widest text-slate-500 mb-8">
           TOP BRANDS. TRUSTED QUALITY.
         </p>

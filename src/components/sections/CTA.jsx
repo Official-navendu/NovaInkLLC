@@ -5,7 +5,7 @@ import { MessageSquare, ArrowRight } from 'lucide-react'
 
 export function CTA() {
   return (
-    <section className="py-8 lg:py-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-8 lg:py-10 max-w-[1536px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16">
       <div className="bg-gradient-to-br from-white via-slate-50/40 to-blue-50/20 border border-slate-200/90 rounded-3xl p-8 sm:p-12 lg:p-14 text-slate-900 overflow-hidden shadow-md shadow-slate-200/50 relative">
         
         {/* Soft Background Accent */}

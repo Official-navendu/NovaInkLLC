@@ -136,7 +136,7 @@ export function Checkout() {
     <div className="min-h-screen bg-[#F8FAFC] font-['Manrope',sans-serif] flex flex-col justify-between">
       <Navbar />
 
-      <main className="pt-28 pb-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex-1">
+      <main className="pt-28 pb-16 max-w-[1536px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16 w-full flex-1">
         
         {/* Page Header */}
         <div className="mb-8">

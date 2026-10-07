@@ -39,7 +39,7 @@ export function SearchResults() {
           </div>
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+        <div className="max-w-[1536px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16 mb-12">
           <div className="mb-6 flex items-center justify-between">
             <Link to="/shop" className="inline-flex items-center gap-1.5 text-xs font-bold text-[#0096D6] hover:underline">
               <ArrowLeft className="w-4 h-4" /> Back to Shop Catalog

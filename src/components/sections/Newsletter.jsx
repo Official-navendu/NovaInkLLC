@@ -15,7 +15,7 @@ export function Newsletter() {
   }
 
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 -mb-[24px] sm:-mb-[30px] relative z-20">
+    <section className="max-w-[1536px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16 mt-8 -mb-[24px] sm:-mb-[30px] relative z-20">
       <div className="bg-white rounded-2xl shadow-md shadow-slate-200/40 border border-slate-100 py-7 md:py-9 px-6 md:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 divide-y sm:divide-y-0 sm:divide-x divide-slate-100 items-center">
           

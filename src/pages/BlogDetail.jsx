@@ -89,7 +89,7 @@ export function BlogDetail() {
       <Navbar />
 
       <main className="pt-28 pb-16 flex-1">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16">
           
           {/* Back to Blog Navigation */}
           <Link

@@ -40,7 +40,7 @@ export function PrivacyPolicy() {
         </div>
 
         {/* Policy Content Body */}
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl lg:max-w-5xl xl:max-w-6xl mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16">
           <div className="space-y-8 text-xs sm:text-sm text-slate-700 leading-relaxed font-medium">
             
             <p className="text-sm sm:text-base text-slate-800 font-semibold leading-relaxed">

@@ -17,7 +17,7 @@ export function Hero() {
       <link rel="preload" as="image" href="/images/TRY.jpg" media="(min-width: 640px)" />
       <link rel="preload" as="image" href="/images/hero/hero-mobile.png" media="(max-width: 639px)" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+      <div className="max-w-[1536px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16 relative z-10 w-full">
         {/* Left Side Content Container */}
         <div className="max-w-xl lg:max-w-2xl text-left space-y-6">
           <div>

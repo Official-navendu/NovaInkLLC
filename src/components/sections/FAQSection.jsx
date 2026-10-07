@@ -5,7 +5,7 @@ import { SupportCard } from '../ui/SupportCard'
 
 export function FAQSection() {
   return (
-    <section id="support" className="py-8 lg:py-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="support" className="py-8 lg:py-10 max-w-[1536px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
 
         {/* Left Column FAQ List */}

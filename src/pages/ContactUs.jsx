@@ -52,7 +52,7 @@ export function ContactUs() {
           {/* Overlay Gradient to maintain exact brand theme & 100% text legibility */}
           <div className="absolute inset-0 bg-gradient-to-r from-[#0B132B]/90 via-[#172136]/85 to-[#0B132B]/90 backdrop-blur-xs pointer-events-none" />
 
-          <div className="max-w-7xl mx-auto relative z-10">
+          <div className="max-w-[1536px] 2xl:max-w-[1600px] mx-auto relative z-10">
             <span className="text-xs font-extrabold uppercase tracking-widest text-[#0096D6] bg-[#0096D6]/10 border border-[#0096D6]/20 px-3.5 py-1.5 rounded-full inline-block mb-3">
               GET IN TOUCH
             </span>
@@ -65,7 +65,7 @@ export function ContactUs() {
           </div>
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1536px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
             
             {/* Contact Details Left */}
@@ -198,7 +198,7 @@ export function ContactUs() {
         </div>
 
         {/* What Can We Help You With Section (Cleaned: Outer Container Card Removed) */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
+        <div className="max-w-[1536px] 2xl:max-w-[1600px] mx-auto px-4 sm:px-6 md:px-8 xl:px-12 2xl:px-16 mt-16">
           <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-12">
             <span className="text-xs font-extrabold text-[#0096D6] uppercase tracking-widest bg-blue-50 border border-blue-100 px-3.5 py-1.5 rounded-full inline-block mb-3">
               CUSTOMER ASSISTANCE
