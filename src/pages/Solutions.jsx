@@ -91,14 +91,16 @@ export function Solutions() {
       <Navbar />
 
       <main className="flex-grow pt-[76px] sm:pt-[82px] md:pt-[88px] lg:pt-[92px] pb-16">
-        {/* Top Banner Image (Flush with Header and Hero Section, Square Corners) */}
-        <div className="w-full m-0 p-0">
-          <img
-            src="/images/solutions.png"
-            alt="Printing Solutions - Nova Ink LLC"
-            className="w-full h-auto block rounded-none select-none object-cover"
-            style={{ imageRendering: '-webkit-optimize-contrast' }}
-          />
+        {/* Top Banner Image (Flush with Header, Full Image Visible, Zero Cropping, Widescreen Container Capping) */}
+        <div className="w-full bg-[#EFF6FC] m-0 p-0">
+          <div className="max-w-[1280px] lg:max-w-[1400px] xl:max-w-[1536px] mx-auto">
+            <img
+              src="/images/solutions.png"
+              alt="Printing Solutions - Nova Ink LLC"
+              className="w-full h-auto block rounded-none select-none object-contain"
+              style={{ imageRendering: '-webkit-optimize-contrast' }}
+            />
+          </div>
         </div>
         
         {/* SECTION 1 — HERO SECTION */}

@@ -11,7 +11,7 @@ export function Hero() {
 
   return (
     <section
-      className="relative pt-20 sm:pt-24 lg:pt-32 pb-10 sm:pb-16 lg:pb-24 text-slate-900 overflow-hidden min-h-0 sm:min-h-[520px] lg:min-h-[560px] flex items-center bg-none sm:bg-[url('/images/TRY.jpg')] sm:bg-contain sm:bg-right sm:bg-no-repeat bg-[#EFF6FC] border-b border-slate-100 font-['Manrope',sans-serif]"
+      className="relative pt-[76px] sm:pt-[82px] md:pt-[88px] lg:pt-[92px] pb-10 sm:pb-16 lg:pb-24 text-slate-900 overflow-hidden min-h-0 sm:min-h-[520px] lg:min-h-[560px] flex items-center bg-none sm:bg-[url('/images/TRY.jpg')] sm:bg-contain sm:bg-right sm:bg-no-repeat bg-[#EFF6FC] border-b border-slate-100 font-['Manrope',sans-serif]"
     >
       {/* Preload hero images for zero layout shift */}
       <link rel="preload" as="image" href="/images/TRY.jpg" media="(min-width: 640px)" />
@@ -73,7 +73,7 @@ export function Hero() {
               <img
                 src="/images/hp-business-partner.png"
                 alt="Official HP Business Partner"
-                className="h-11 sm:h-12 w-auto object-contain drop-shadow-sm rounded-lg"
+                className="h-13 sm:h-14 md:h-[58px] lg:h-[62px] w-auto object-contain drop-shadow-sm rounded-lg"
               />
             </a>
           </div>
