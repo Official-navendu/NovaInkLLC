@@ -61,6 +61,15 @@ export function Shop() {
       <Navbar />
 
       <main className="flex-grow pt-24 pb-16">
+        {/* Top Banner Image (Non-clickable, clean layout without container background) */}
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-6 sm:mb-8">
+          <img
+            src="/images/shop-top-banner.jpg"
+            alt="Printing with Purpose - HP"
+            className="w-full h-auto block rounded-2xl shadow-xs object-contain select-none"
+          />
+        </div>
+
         {/* Unified Subpage Hero Banner */}
         <div
           className="relative bg-cover bg-center sm:bg-fixed border-b border-[#2A3855] text-white py-14 px-4 sm:px-6 lg:px-8 mb-10 shadow-lg text-center overflow-hidden"
