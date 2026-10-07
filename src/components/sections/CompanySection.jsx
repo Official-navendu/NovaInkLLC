@@ -38,7 +38,7 @@ export function CompanySection() {
           {/* Left Side Info */}
           <div className="lg:col-span-5 space-y-5">
             <span className="text-xs font-extrabold text-[#0096D6] uppercase tracking-widest bg-blue-50 border border-blue-100 px-3.5 py-1.5 rounded-full inline-block">
-              CUSTOMER-FIRST APPROACH
+              Official HP Partner
             </span>
 
             <h2 className="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight uppercase leading-tight">

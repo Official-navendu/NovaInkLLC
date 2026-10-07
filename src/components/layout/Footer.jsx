@@ -35,6 +35,21 @@ export function Footer() {
   return (
     <footer className="bg-[#080D1A] text-slate-400 pt-16 sm:pt-20 pb-6 border-t border-[#2A3855] relative z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Highlighted Top Disclaimer Box */}
+        <div className="mb-10 p-4 sm:p-5 rounded-2xl bg-[#121B2E] border border-[#0096D6]/35 shadow-md">
+          <div className="flex items-start gap-3">
+            <ShieldCheck className="w-5 h-5 text-[#0096D6] shrink-0 mt-0.5" />
+            <div className="text-[11px] sm:text-xs text-slate-300 leading-relaxed font-medium">
+              <span className="font-extrabold text-[#0096D6] uppercase tracking-wider block mb-1">
+                IMPORTANT DISCLAIMER &amp; NOTICE
+              </span>
+              <p>
+                Novaink LLC is an independent onsite repair company and HP Partner. We are not HP Inc. or any other printer manufacturer, and this is not an official HP website. All work is performed in person at your home or office. Images of HP products are shown for identification and informational purposes only; HP and all related product names, logos, and images are trademarks and property of HP Inc.
+              </p>
+            </div>
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-10">
           
           {/* Logo & Intro */}
@@ -43,7 +58,7 @@ export function Footer() {
               <img
                 src="/images/footer-logo.png"
                 alt="Nova Ink LLC"
-                className="w-28 sm:w-32 md:w-36 lg:w-[138px] h-auto max-w-full object-contain"
+                className="w-24 sm:w-28 md:w-32 lg:w-[118px] h-auto max-w-full object-contain"
               />
             </Link>
             <p className="text-[11px] text-slate-400 leading-relaxed mb-5 font-medium">

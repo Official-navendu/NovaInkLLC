@@ -57,6 +57,23 @@ export function Products() {
           <ProductCard key={product.id} product={product} />
         ))}
       </div>
+
+      {/* Official HP Partner Lineup Banner */}
+      <div className="mt-8 sm:mt-10 overflow-hidden rounded-2xl sm:rounded-3xl border border-slate-200/80 shadow-lg bg-white">
+        <a
+          href="https://locator.hp.com/us/en/?ml___task=search_zip&ml___id=577399&ml___ml_skip_interstitial=1&ml___url_share_action=1&ml___lang=en-US%20(1)&ml___redirect_commercial_destination_Itemid=1"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block group"
+          title="Official HP Partner"
+        >
+          <img
+            src="/images/hp-partner-banner.png"
+            alt="Official HP Partner Lineup"
+            className="w-full h-auto object-cover group-hover:scale-[1.01] transition-transform duration-300"
+          />
+        </a>
+      </div>
     </section>
   )
 }

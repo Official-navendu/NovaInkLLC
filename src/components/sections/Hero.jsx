@@ -63,6 +63,19 @@ export function Hero() {
                 EXPLORE SOLUTIONS
               </button>
             </Link>
+            <a
+              href="https://locator.hp.com/us/en/?ml___task=search_zip&ml___id=577399&ml___ml_skip_interstitial=1&ml___url_share_action=1&ml___lang=en-US%20(1)&ml___redirect_commercial_destination_Itemid=1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center hover:opacity-90 hover:-translate-y-0.5 transition-all duration-200 cursor-pointer shrink-0"
+              title="Official HP Business Partner"
+            >
+              <img
+                src="/images/hp-business-partner.png"
+                alt="Official HP Business Partner"
+                className="h-11 sm:h-12 w-auto object-contain drop-shadow-sm rounded-lg"
+              />
+            </a>
           </div>
         </div>
 
