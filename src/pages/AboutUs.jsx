@@ -66,7 +66,17 @@ export function AboutUs() {
     <div className="min-h-screen bg-[#F8FAFC] text-slate-800 flex flex-col font-['Manrope',sans-serif] selection:bg-[#0096D6] selection:text-white">
       <Navbar />
 
-      <main className="flex-grow pt-24 pb-16">
+      <main className="flex-grow pt-[76px] sm:pt-[82px] md:pt-[88px] lg:pt-[92px] pb-16">
+        {/* Top Banner Image (Flush with Header and Hero Section, Square Corners) */}
+        <div className="w-full m-0 p-0">
+          <img
+            src="/images/about.png"
+            alt="About Nova Ink LLC"
+            className="w-full h-auto block rounded-none select-none object-cover"
+            style={{ imageRendering: '-webkit-optimize-contrast' }}
+          />
+        </div>
+
         {/* Unified Subpage Hero Banner - Clean 2-Column Layout */}
         <div
           className="relative bg-cover bg-center sm:bg-fixed border-b border-[#2A3855] text-white py-14 sm:py-20 px-4 sm:px-6 lg:px-8 mb-16 shadow-lg overflow-hidden"

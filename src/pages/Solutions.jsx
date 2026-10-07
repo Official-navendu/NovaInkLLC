@@ -90,7 +90,16 @@ export function Solutions() {
     <div className="min-h-screen bg-[#F8FAFC] text-slate-800 flex flex-col font-['Manrope',sans-serif] selection:bg-[#0096D6] selection:text-white">
       <Navbar />
 
-      <main className="flex-grow pt-24">
+      <main className="flex-grow pt-[76px] sm:pt-[82px] md:pt-[88px] lg:pt-[92px] pb-16">
+        {/* Top Banner Image (Flush with Header and Hero Section, Square Corners) */}
+        <div className="w-full m-0 p-0">
+          <img
+            src="/images/solutions.png"
+            alt="Printing Solutions - Nova Ink LLC"
+            className="w-full h-auto block rounded-none select-none object-cover"
+            style={{ imageRendering: '-webkit-optimize-contrast' }}
+          />
+        </div>
         
         {/* SECTION 1 — HERO SECTION */}
         <div
