@@ -5,32 +5,36 @@
  */
 export function loadSquareSdk() {
   return new Promise((resolve, reject) => {
-    // 1. Return immediately if Square SDK is already initialized on window
+    const envSetting = (import.meta.env.VITE_SQUARE_ENVIRONMENT || 'sandbox').toLowerCase().trim()
+    const isProduction = envSetting === 'production'
+    const sdkUrl = isProduction 
+      ? 'https://web.squarecdn.com/v1/square.js'
+      : 'https://sandbox.web.squarecdn.com/v1/square.js'
+
+    // 1. Check if a script tag is already attached to DOM
+    const existingScript = document.querySelector('script[src*="squarecdn.com"]')
+    if (existingScript) {
+      // If existing script matches requested environment and window.Square is ready, resolve immediately
+      if (existingScript.src === sdkUrl && window.Square) {
+        resolve(window.Square)
+        return
+      }
+      // If script src differs from target environment, remove old script tag
+      if (existingScript.src !== sdkUrl) {
+        existingScript.remove()
+        if (typeof window !== 'undefined') {
+          delete window.Square
+        }
+      }
+    }
+
+    // 2. Return immediately if Square SDK is already initialized on window for target env
     if (window.Square) {
       resolve(window.Square)
       return
     }
 
-    // 2. Determine SDK URL based on explicit environment setting
-    const isProduction = import.meta.env.VITE_SQUARE_ENVIRONMENT === 'production'
-    const sdkUrl = isProduction 
-      ? 'https://web.squarecdn.com/v1/square.js'
-      : 'https://sandbox.web.squarecdn.com/v1/square.js'
-
-    // 3. Check if script tag is already attached to DOM
-    const existingScript = document.querySelector('script[src*="squarecdn.com"]')
-    if (existingScript) {
-      existingScript.addEventListener('load', () => {
-        if (window.Square) resolve(window.Square)
-        else reject(new Error('Square SDK script loaded but window.Square object is missing.'))
-      })
-      existingScript.addEventListener('error', () => {
-        reject(new Error('Failed to load Square Web Payments SDK script.'))
-      })
-      return
-    }
-
-    // 4. Attach Square Web Payments SDK script to head
+    // 3. Attach target Square Web Payments SDK script to head
     const script = document.createElement('script')
     script.src = sdkUrl
     script.async = true

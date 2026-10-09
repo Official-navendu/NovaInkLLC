@@ -34,6 +34,12 @@ export function Checkout() {
   const [isProcessing, setIsProcessing] = useState(false)
   const [error, setError] = useState('')
 
+  // Environment mode resolution
+  const envSetting = (import.meta.env.VITE_SQUARE_ENVIRONMENT || 'sandbox').toLowerCase().trim()
+  const isProduction = envSetting === 'production'
+  const appIdConfig = import.meta.env.VITE_SQUARE_APPLICATION_ID || (isProduction ? 'sq0idp-eXx7_HdCNUimLi3umnzwtQ' : 'sandbox-sq0idb-Sz57pqhWKUJrmMYAGaJ6Pw')
+  const isProdConfigured = isProduction && !appIdConfig.startsWith('sandbox-') && appIdConfig.startsWith('sq0idp-')
+
   // Pre-fill logged-in user details if available
   useEffect(() => {
     try {
@@ -64,11 +70,18 @@ export function Checkout() {
       const initSquareCard = async () => {
         try {
           const Square = await loadSquareSdk()
-          const appId = import.meta.env.VITE_SQUARE_APPLICATION_ID || 'sandbox-sq0idb-Sz57pqhWKUJrmMYAGaJ6Pw'
-          const locationId = import.meta.env.VITE_SQUARE_LOCATION_ID || 'LB0H7NFWT3JJF'
+          const envSetting = (import.meta.env.VITE_SQUARE_ENVIRONMENT || 'sandbox').toLowerCase().trim()
+          const isProduction = envSetting === 'production'
+
+          const appId = import.meta.env.VITE_SQUARE_APPLICATION_ID || (isProduction ? 'sq0idp-eXx7_HdCNUimLi3umnzwtQ' : 'sandbox-sq0idb-Sz57pqhWKUJrmMYAGaJ6Pw')
+          const locationId = import.meta.env.VITE_SQUARE_LOCATION_ID || (isProduction ? 'LHTVK7004CTSG' : 'LB0H7NFWT3JJF')
 
           if (!appId || !locationId) {
             throw new Error('Square Application ID or Location ID is missing.')
+          }
+
+          if (isProduction && appId.startsWith('sandbox-')) {
+            throw new Error('Sandbox Application ID cannot be used in Production mode.')
           }
 
           const payments = Square.payments(appId, locationId)
@@ -582,7 +595,7 @@ export function Checkout() {
                         <p className="text-xs font-extrabold text-slate-900 uppercase flex items-center gap-1.5">
                           <span>Credit / Debit Card</span>
                           <span className="text-[10px] bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded font-bold uppercase flex items-center gap-1">
-                            <Lock className="w-2.5 h-2.5" /> Square Sandbox
+                            <Lock className="w-2.5 h-2.5" /> {isProdConfigured ? 'Square' : (isProduction ? 'Square Config Error' : 'Square Sandbox')}
                           </span>
                         </p>
                         <p className="text-[11px] text-slate-600 font-medium">Visa, Mastercard, Amex, Discover</p>

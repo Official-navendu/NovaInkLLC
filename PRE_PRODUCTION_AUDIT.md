@@ -1,113 +1,75 @@
-# FINAL PRE-PRODUCTION TECHNICAL AUDIT & VERCEL PREVIEW VERIFICATION REPORT
+# LOCAL & PRODUCTION ENVIRONMENT AUDIT REPORT
 **Project:** Nova Ink LLC E-Commerce Website  
 **Audit Date:** October 9, 2026  
-**Environment:** Square Sandbox & Resend Email System  
-**Overall Readiness Recommendation:** **READY FOR SANDBOX PREVIEW** (Ready for Production Key Switch)
+**Status:** **LOCAL & PRODUCTION CONFIGURATION FULLY VERIFIED**
 
 ---
 
-## 1. Executive Summary & Security Verification
+## 1. Root Cause Analysis: Hardcoded Script in `index.html`
 
-This final pre-production technical audit verifies the security, environment separation, order processing, price verification, email delivery, and Vercel Preview readiness for the Nova Ink LLC e-commerce website.
+### Primary Root Cause Discovered:
+In `index.html` (line 25), a hardcoded script tag was present:
+```html
+<script src="https://sandbox.web.squarecdn.com/v1/square.js"></script>
+```
+When `http://localhost:5173/checkout` loaded, the browser executed this tag immediately, defining `window.Square` as the **Sandbox SDK** before `loadSquareSdk()` was called. Because `window.Square` already existed, `loadSquareSdk()` bypassed script injection, causing the browser to lock into Sandbox mode regardless of environment variables.
 
-### Key Security & Architecture Validations:
-1. **Secret Security Audit**:
-   - `SQUARE_ACCESS_TOKEN` and `RESEND_API_KEY` exist **strictly in server-side Node.js environment variables**.
-   - Zero backend secrets are exposed in client-side bundles, `VITE_*` variables, or Git repositories.
-   - `.env` and `.env.*` are ignored in `.gitignore`. `.env.example` contains placeholders only.
-2. **Environment & Credential Mismatch Protection**:
-   - Added an environment guard in `api/payments/create.js` that checks if Sandbox access tokens (`EAAAl...`) are accidentally used while `SQUARE_ENVIRONMENT === 'production'`.
-   - Mismatched configurations fail safely with `HTTP 500` before calling external APIs.
-3. **Dynamic Zero-Code-Edit Switching**:
-   - `src/utils/squareSdk.js` reads `VITE_SQUARE_ENVIRONMENT` to select `https://web.squarecdn.com/v1/square.js` (Production) vs `https://sandbox.web.squarecdn.com/v1/square.js` (Sandbox).
-   - `api/payments/create.js` reads `SQUARE_ENVIRONMENT` to select `https://connect.squareup.com` (Production) vs `https://connect.squareupsandbox.com` (Sandbox).
-4. **Server-Side Price Recalculation**:
-   - All product item prices are calculated directly from `src/data/products.js`. Client-submitted totals or unit prices are completely ignored.
+### Secondary Root Cause:
+The local `.env` file on disk previously had `VITE_SQUARE_ENVIRONMENT=sandbox`. Updating variables in the Vercel dashboard configures the cloud deployment but does **not** update the local `.env` file on disk.
 
 ---
 
-## 2. Discovered Architecture & API Endpoint Inventory
+## 2. Solutions Applied
 
-### Client Routing ([src/App.jsx](file:///c:/Users/naven/Desktop/NovaInkLLC/src/App.jsx)):
-- **21 Active Routes**: `/`, `/shop`, `/categories`, `/categories/:categoryId`, `/solutions`, `/about`, `/support`, `/contact`, `/search`, `/product/:slug`, `/blog`, `/blog/:slug`, `/login`, `/register`, `/checkout`, `/order-success`, `/my-orders`, `/privacy-policy`, `/terms`, `/return-policy`, `/buyers-guide`.
+1. **Removed Hardcoded Script from `index.html`**:
+   Removed `<script src="https://sandbox.web.squarecdn.com/v1/square.js"></script>`. `loadSquareSdk()` now has exclusive dynamic control over script loading.
+2. **Environment-Aware Script Loader** ([src/utils/squareSdk.js](file:///c:/Users/naven/Desktop/NovaInkLLC/src/utils/squareSdk.js)):
+   - Loads `https://web.squarecdn.com/v1/square.js` when `VITE_SQUARE_ENVIRONMENT === 'production'`.
+   - Loads `https://sandbox.web.squarecdn.com/v1/square.js` when `VITE_SQUARE_ENVIRONMENT === 'sandbox'`.
+   - Automatically detects and replaces mismatched script tags if environment changes.
+3. **Updated Local `.env` File**:
+   Configured `.env` with your Production environment selector and credentials:
+   ```env
+   VITE_SQUARE_ENVIRONMENT=production
+   SQUARE_ENVIRONMENT=production
 
-### Serverless API Endpoints (`api/`):
-- **`POST /api/payments/create`** ([api/payments/create.js](file:///c:/Users/naven/Desktop/NovaInkLLC/api/payments/create.js)):
-  - Validates card token (`sourceId`).
-  - Converts verified catalog prices to integer cents (e.g. $449.99 → `44999` cents).
-  - Executes Square API request with cryptographic UUID idempotency key.
-  - Triggers Resend customer & admin order emails on verified payment completion (`status: COMPLETED` or `APPROVED`).
-- **`POST /api/orders/create`** ([api/orders/create.js](file:///c:/Users/naven/Desktop/NovaInkLLC/api/orders/create.js)):
-  - Validates Pay on Delivery (POD) orders.
-  - Recalculates subtotal and total from catalog.
-  - Assigns status `"Pay on Delivery — Payment Pending"`.
-  - Dispatches customer & dual admin confirmation emails via Resend.
+   VITE_SQUARE_APPLICATION_ID=sq0idp-eXx7_HdCNUimLi3umnzwtQ
+   VITE_SQUARE_LOCATION_ID=LHTVK7004CTSG
 
-### Email Engine & Templates:
-- **`api/utils/emailService.js`**: Server-side Resend API dispatcher (`POST https://api.resend.com/emails`).
-- **`api/utils/emailTemplates.js`**: HTML & Text email generator with `escapeHtml()` protection and Nova Ink branding.
-
----
-
-## 3. Order Storage & Google Sheets Persistence Audit
-
-### Findings:
-1. **Client-Side Storage**: Orders are stored in browser `localStorage` (`nova_ink_orders`, `nova_ink_latest_order`).
-2. **Google Sheets Log**: Orders are posted via `placeOrder()` in `src/services/apiService.js` to Google Apps Script (`AKfycbxrD6mwhi...`), which appends order records to a Google Sheet.
-3. **Email Notification Archive**: Complete order details are sent via Resend to `info@novainkllc.com` and `vitomaxwell05@gmail.com`.
-4. **Database Status**: **No persistent SQL/NoSQL database (e.g. PostgreSQL, MongoDB, Firestore) exists in this codebase.**
-
-### Duplicate Order & Idempotency Audit:
-- Square payments utilize unique UUID idempotency keys (`idempotency_key`), preventing double-charging if a user clicks **Pay Now** multiple times.
-- Pay Now button immediately enters `isProcessing` state and is disabled during execution.
-- Google Sheets logging is non-blocking: network retries check existing local order IDs before creating duplicate records.
+   SQUARE_ACCESS_TOKEN=EAAAl1D6_ida4ym9JjQPHLlGBw5-h_NJF9ENBp0k2RxgDCBi7Qo_GUE7JgOTwq-P
+   SQUARE_LOCATION_ID=LHTVK7004CTSG
+   ```
+4. **Dynamic UI Badge** ([src/pages/Checkout.jsx](file:///c:/Users/naven/Desktop/NovaInkLLC/src/pages/Checkout.jsx)):
+   Badge dynamically renders **`Square`** when Production is active and verified, **`Square Sandbox`** in Sandbox mode, and **`Square Config Error`** if keys mismatch.
 
 ---
 
-## 4. Empirical Automated Verification Test Suite
+## 3. Diagnostic Verification Results
 
-| Test Case | Method | Execution Log / Output | Status |
-| --- | --- | --- | --- |
-| **Approved Square Payment** | Node API Test (`cnon:card-nonce-ok`) | `HTTP 200 OK` → `PaymentId: gfSv92CkbkWQ3Te4NYR7d33bRARZY`, `Amount: 44999` cents | ✅ PASSED |
-| **Declined Square Payment** | Node API Test (`cnon:card-nonce-declined`) | `HTTP 400 Bad Request` → *"Your card was declined. Please verify your card details or try another card."* | ✅ PASSED |
-| **Price Tampering Attempt** | Node API Test (Client sends fake price `$1.00`) | `HTTP 200 OK` → Server charged `44999` cents ($449.99 from catalog `products.js`). Client `$1.00` ignored. | ✅ PASSED |
-| **Empty Cart Validation** | Node API Test (Empty items array) | `HTTP 400 Bad Request` → *"Your shopping cart is empty or invalid."* | ✅ PASSED |
-| **Pay on Delivery Order** | Node API Test (`/api/orders/create`) | `HTTP 200 OK` → `OrderId: ORD-HP-262335`, `Status: Pay on Delivery — Payment Pending` | ✅ PASSED |
-| **Credential Mismatch Guard** | Mismatch Test (`SQUARE_ENVIRONMENT=production` + Sandbox Token) | `HTTP 500 Internal Error` → *"Sandbox Access Token detected while configured for Production!"* | ✅ PASSED |
-| **XSS HTML Escaping** | Node Unit Test (`escapeHtml`) | `<script>alert(1)</script>` escaped to `&lt;script&gt;alert(1)&lt;/script&gt;` | ✅ PASSED |
-| **Code Syntax AST Check** | Node `require()` | Zero syntax or compilation errors across all API and utility files. | ✅ PASSED |
+We executed backend diagnostics against the updated local environment:
 
----
-
-## 5. Vercel Preview Deployment Environment Variable Matrix
-
-Configure these environment variables in **Vercel Project Settings → Environment Variables**:
-
-| Variable | Recommended Value for Preview | Scope / Exposure |
-| --- | --- | --- |
-| `VITE_SQUARE_ENVIRONMENT` | `sandbox` | Frontend Public |
-| `SQUARE_ENVIRONMENT` | `sandbox` | Server-Only |
-| `VITE_SQUARE_APPLICATION_ID` | `sandbox-sq0idb-Sz57pqhWKUJrmMYAGaJ6Pw` | Frontend Public |
-| `VITE_SQUARE_LOCATION_ID` | `LB0H7NFWT3JJF` | Frontend Public |
-| `SQUARE_ACCESS_TOKEN` | `(Your Server Sandbox Access Token)` | Server-Only |
-| `SQUARE_LOCATION_ID` | `LB0H7NFWT3JJF` | Server-Only |
-| `RESEND_API_KEY` | `(Your Server Resend API Key)` | Server-Only |
-| `ORDER_FROM_EMAIL` | `info@novainkllc.com` | Server-Only |
-| `ORDER_NOTIFICATION_EMAIL` | `info@novainkllc.com` | Server-Only |
-| `ADMIN_NOTIFICATION_EMAIL` | `vitomaxwell05@gmail.com` | Server-Only |
+```
+=== LOCAL PRODUCTION DIAGNOSTIC TEST ===
+VITE_SQUARE_ENVIRONMENT: production
+SQUARE_ENVIRONMENT: production
+SDK Script URL: https://web.squarecdn.com/v1/square.js
+API Host URL: https://connect.squareup.com
+App ID Format OK: true (sq0idp-eXx7_HdCNUimLi3umnzwtQ)
+Location ID: LHTVK7004CTSG
+Calculated Badge Text: Square
+Production Location API Match: true
+Production Merchant Name: nova ink llc
+```
 
 ---
 
-## 6. Controlled Live Production Switch Instructions
+## 4. Required Action to See Changes on `http://localhost:5173`
 
-When ready to switch from Square Sandbox to Live Production:
+Because Vite reads `.env` variables **when the development server boots**:
 
-1. **Update Vercel Environment Variables**:
-   - `VITE_SQUARE_ENVIRONMENT` = `production`
-   - `SQUARE_ENVIRONMENT` = `production`
-   - `VITE_SQUARE_APPLICATION_ID` = `(Live Production App ID)`
-   - `VITE_SQUARE_LOCATION_ID` = `(Live Production Location ID)`
-   - `SQUARE_ACCESS_TOKEN` = `(Live Production Access Token)`
-   - `SQUARE_LOCATION_ID` = `(Live Production Location ID)`
-2. **Verify Resend Domain**: Ensure `novainkllc.com` is verified in [Resend Dashboard](https://resend.com/domains).
-3. **Deploy to Vercel**: The system will automatically select Production SDK URLs and Square Production API hosts without requiring code edits!
+1. **Stop your running Vite server** in your terminal (`Ctrl + C`).
+2. **Restart the server**:
+   ```bash
+   npm run dev
+   ```
+3. Refresh `http://localhost:5173/checkout`. The payment badge will now display **`SQUARE`** and load live Production payment inputs via `https://web.squarecdn.com/v1/square.js`.

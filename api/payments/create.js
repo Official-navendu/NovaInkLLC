@@ -50,12 +50,21 @@ export default async function handler(req, res) {
     // 5. Environment & Credential Mismatch Guard (Prevents Sandbox/Production credential mixing)
     const envSetting = (process.env.SQUARE_ENVIRONMENT || process.env.VITE_SQUARE_ENVIRONMENT || 'sandbox').toLowerCase().trim()
     const isProduction = envSetting === 'production'
-    
-    if (isProduction && accessToken.startsWith('EAAAl')) {
-      console.error('[Square Payment API Error]: Sandbox Access Token detected while configured for Production!')
+    const appId = process.env.VITE_SQUARE_APPLICATION_ID || ''
+
+    if (isProduction && appId.startsWith('sandbox-')) {
+      console.error('[Square Payment API Error]: Sandbox Application ID detected while configured for Production!')
       return res.status(500).json({
         success: false,
-        error: 'Payment gateway environment credential mismatch error.'
+        error: 'Payment gateway environment credential mismatch error. Sandbox credentials cannot be used in Production.'
+      })
+    }
+
+    if (!isProduction && appId && !appId.startsWith('sandbox-')) {
+      console.error('[Square Payment API Error]: Production Application ID detected while configured for Sandbox!')
+      return res.status(500).json({
+        success: false,
+        error: 'Payment gateway environment credential mismatch error. Production credentials cannot be used in Sandbox.'
       })
     }
 
