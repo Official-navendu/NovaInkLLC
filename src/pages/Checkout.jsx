@@ -4,8 +4,9 @@ import { Navbar } from '../components/layout/Navbar'
 import { Footer } from '../components/layout/Footer'
 import { Newsletter } from '../components/sections/Newsletter'
 import { Link, useNavigate } from 'react-router-dom'
-import { ShieldCheck, Truck, CreditCard, ArrowRight, AlertCircle, ShoppingBag } from 'lucide-react'
+import { ShieldCheck, Truck, CreditCard, ArrowRight, AlertCircle, ShoppingBag, Lock } from 'lucide-react'
 import { placeOrder } from '../services/apiService'
+import { loadSquareSdk } from '../utils/squareSdk'
 
 export function Checkout() {
   const { cartItems, subtotal, clearCart } = useCart()
@@ -27,7 +28,10 @@ export function Checkout() {
     notes: ''
   })
 
-  const [paymentMethod, setPaymentMethod] = useState('cod')
+  const [paymentMethod, setPaymentMethod] = useState('square')
+  const [cardInstance, setCardInstance] = useState(null)
+  const [isCardLoading, setIsCardLoading] = useState(false)
+  const [isProcessing, setIsProcessing] = useState(false)
   const [error, setError] = useState('')
 
   // Pre-fill logged-in user details if available
@@ -49,12 +53,72 @@ export function Checkout() {
     }
   }, [])
 
+  // Initialize Square Web Payments SDK card element when paymentMethod === 'square'
+  useEffect(() => {
+    let isMounted = true
+    let card = null
+
+    if (paymentMethod === 'square') {
+      setIsCardLoading(true)
+
+      const initSquareCard = async () => {
+        try {
+          const Square = await loadSquareSdk()
+          const appId = import.meta.env.VITE_SQUARE_APPLICATION_ID || 'sandbox-sq0idb-Sz57pqhWKUJrmMYAGaJ6Pw'
+          const locationId = import.meta.env.VITE_SQUARE_LOCATION_ID || 'LB0H7NFWT3JJF'
+
+          if (!appId || !locationId) {
+            throw new Error('Square Application ID or Location ID is missing.')
+          }
+
+          const payments = Square.payments(appId, locationId)
+          card = await payments.card()
+
+          if (isMounted) {
+            // Ensure card container is present before attaching
+            const container = document.getElementById('card-container')
+            if (container) {
+              await card.attach('#card-container')
+              setCardInstance(card)
+            }
+            setIsCardLoading(false)
+          } else {
+            await card.destroy()
+          }
+        } catch (err) {
+          console.error('Square Web Payments SDK initialization error:', err)
+          if (isMounted) {
+            setError(err.message || 'Failed to load Square credit card payment form. You can select Pay on Delivery or refresh.')
+            setIsCardLoading(false)
+          }
+        }
+      }
+
+      const timer = setTimeout(() => {
+        initSquareCard()
+      }, 100)
+
+      return () => {
+        isMounted = false
+        clearTimeout(timer)
+        if (card) {
+          card.destroy().catch(e => console.warn('Error destroying Square card instance:', e))
+        }
+        setCardInstance(null)
+      }
+    } else {
+      setCardInstance(null)
+      setIsCardLoading(false)
+    }
+  }, [paymentMethod])
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value })
   }
 
   const handlePlaceOrder = async (e) => {
     e.preventDefault()
+    if (isProcessing) return
     setError('')
 
     const { firstName, lastName, email, phone, state, city, zip, address } = formData
@@ -77,36 +141,175 @@ export function Checkout() {
       return
     }
 
-    // Generate Order ID & Save
-    const orderId = 'ORD-HP-' + Math.floor(100000 + Math.random() * 900000)
-    const newOrder = {
-      orderId,
-      createdAt: new Date().toISOString(),
-      date: new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' }),
-      items: [...cartItems],
-      subtotal,
-      shipping: 0,
-      tax: 0,
-      total: subtotal,
-      paymentMethod: 'Pay on Delivery (POD)',
-      status: 'Order Confirmed',
-      billing: { ...formData }
+    setIsProcessing(true)
+
+    // Square Card Payment Flow
+    if (paymentMethod === 'square') {
+      if (!cardInstance) {
+        setError('Square payment card form is not ready yet. Please wait or refresh the page.')
+        setIsProcessing(false)
+        return
+      }
+
+      try {
+        // 1. Tokenize card input
+        const tokenResult = await cardInstance.tokenize()
+        if (tokenResult.status !== 'OK') {
+          const errorMsg = tokenResult.errors && tokenResult.errors.length > 0
+            ? tokenResult.errors.map(err => err.message).join(' ')
+            : 'Payment could not be completed. Please check your card details and try again.'
+          setError(errorMsg)
+          setIsProcessing(false)
+          return
+        }
+
+        const nonce = tokenResult.token
+
+        // 2. Send token to Vercel Serverless Function endpoint
+        const response = await fetch('/api/payments/create', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            sourceId: nonce,
+            items: cartItems.map(item => ({ productId: item.id, quantity: item.quantity })),
+            customer: {
+              firstName: formData.firstName,
+              lastName: formData.lastName,
+              email: formData.email,
+              phone: formData.phone,
+            },
+            billingAddress: {
+              street: formData.address,
+              city: formData.city,
+              state: formData.state,
+              zip: formData.zip,
+            }
+          }),
+        })
+
+        const paymentData = await response.json()
+
+        if (!response.ok || !paymentData.success) {
+          const errorMsg = paymentData.error || 'Payment could not be completed. Please check your card details and try again.'
+          setError(errorMsg)
+          setIsProcessing(false)
+          return
+        }
+
+        // 3. Payment Succeeded -> Record Order
+        const orderId = paymentData.orderId || ('ORD-HP-' + Math.floor(100000 + Math.random() * 900000))
+        const newOrder = {
+          orderId,
+          createdAt: new Date().toISOString(),
+          date: new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' }),
+          items: [...cartItems],
+          subtotal,
+          shipping: 0,
+          tax: 0,
+          total: paymentData.amount ? (paymentData.amount / 100) : subtotal,
+          paymentMethod: 'Credit / Debit Card (Square)',
+          paymentStatus: 'paid',
+          squarePaymentId: paymentData.paymentId,
+          squareStatus: paymentData.status || 'COMPLETED',
+          status: 'Order Confirmed',
+          billing: { ...formData }
+        }
+
+        try {
+          const existingOrders = JSON.parse(localStorage.getItem('nova_ink_orders') || '[]')
+          const updatedOrders = [newOrder, ...existingOrders]
+          localStorage.setItem('nova_ink_orders', JSON.stringify(updatedOrders))
+          localStorage.setItem('nova_ink_latest_order', JSON.stringify(newOrder))
+
+          await placeOrder(newOrder)
+        } catch (err) {
+          console.error('Failed to process order integrations:', err)
+        }
+
+        clearCart()
+        navigate(`/order-success?orderId=${orderId}`)
+
+      } catch (err) {
+        console.error('Payment processing exception:', err)
+        setError(err.message || 'An unexpected error occurred during payment processing. Please try again.')
+        setIsProcessing(false)
+        return
+      }
+    } else {
+      // Pay on Delivery (POD) Flow
+      try {
+        const response = await fetch('/api/orders/create', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            paymentMethod: 'cod',
+            items: cartItems.map(item => ({ productId: item.id, quantity: item.quantity })),
+            customer: {
+              firstName: formData.firstName,
+              lastName: formData.lastName,
+              email: formData.email,
+              phone: formData.phone,
+            },
+            billingAddress: {
+              street: formData.address,
+              city: formData.city,
+              state: formData.state,
+              zip: formData.zip,
+            },
+            notes: formData.notes || ''
+          }),
+        })
+
+        const orderResult = await response.json()
+
+        if (!response.ok || !orderResult.success) {
+          const errorMsg = orderResult.error || 'Failed to place order. Please try again.'
+          setError(errorMsg)
+          setIsProcessing(false)
+          return
+        }
+
+        const orderId = orderResult.orderId
+        const newOrder = orderResult.order || {
+          orderId,
+          createdAt: new Date().toISOString(),
+          date: new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' }),
+          items: [...cartItems],
+          subtotal,
+          shipping: 0,
+          tax: 0,
+          total: orderResult.total || subtotal,
+          paymentMethod: 'Pay on Delivery (POD)',
+          paymentStatus: 'Pay on Delivery — Payment Pending',
+          status: 'Order Confirmed',
+          billing: { ...formData }
+        }
+
+        try {
+          const existingOrders = JSON.parse(localStorage.getItem('nova_ink_orders') || '[]')
+          const updatedOrders = [newOrder, ...existingOrders]
+          localStorage.setItem('nova_ink_orders', JSON.stringify(updatedOrders))
+          localStorage.setItem('nova_ink_latest_order', JSON.stringify(newOrder))
+
+          await placeOrder(newOrder)
+        } catch (err) {
+          console.error('Failed to process order integrations:', err)
+        }
+
+        clearCart()
+        navigate(`/order-success?orderId=${orderId}`)
+
+      } catch (err) {
+        console.error('POD order processing exception:', err)
+        setError(err.message || 'An unexpected error occurred while placing your order. Please try again.')
+        setIsProcessing(false)
+        return
+      }
     }
-
-    try {
-      const existingOrders = JSON.parse(localStorage.getItem('nova_ink_orders') || '[]')
-      const updatedOrders = [newOrder, ...existingOrders]
-      localStorage.setItem('nova_ink_orders', JSON.stringify(updatedOrders))
-      localStorage.setItem('nova_ink_latest_order', JSON.stringify(newOrder))
-
-      // Route order to Apps Script API (Saves to Orders sheet + Apps script sends emails server-side)
-      await placeOrder(newOrder)
-    } catch (err) {
-      console.error('Failed to process order integrations:', err)
-    }
-
-    clearCart()
-    navigate(`/order-success?orderId=${orderId}`)
   }
 
   if (cartItems.length === 0) {
@@ -310,7 +513,7 @@ export function Checkout() {
             </div>
           </div>
 
-          {/* Right Column: Order Summary & POD Payment */}
+          {/* Right Column: Order Summary & Payment Selection */}
           <div className="lg:col-span-5 space-y-6">
             <div className="bg-white border border-slate-200/90 rounded-3xl p-6 sm:p-8 shadow-xl shadow-slate-200/50 space-y-6">
               <h2 className="text-lg font-black text-slate-900 uppercase tracking-tight border-b border-slate-100 pb-3">
@@ -353,30 +556,103 @@ export function Checkout() {
                 </div>
               </div>
 
-              {/* Payment Method - Pay on Delivery */}
-              <div className="pt-4 border-t border-slate-100">
-                <label className="block text-xs font-extrabold uppercase text-slate-800 tracking-wider mb-2">
+              {/* Payment Method Selector */}
+              <div className="pt-4 border-t border-slate-100 space-y-3">
+                <label className="block text-xs font-extrabold uppercase text-slate-800 tracking-wider">
                   Payment Method
                 </label>
-                <div className="p-4 rounded-2xl bg-blue-50/80 border-2 border-[#0096D6] flex items-center justify-between">
-                  <div className="flex items-center gap-3">
-                    <input type="radio" checked readOnly className="w-4 h-4 text-[#0096D6]" />
-                    <div>
-                      <p className="text-xs font-extrabold text-slate-900 uppercase">Pay on Delivery (POD)</p>
-                      <p className="text-[11px] text-slate-600 font-medium">Pay upon doorstep delivery</p>
+
+                {/* Option 1: Credit / Debit Card (Square) */}
+                <div
+                  onClick={() => setPaymentMethod('square')}
+                  className={`p-4 rounded-2xl border-2 transition-all cursor-pointer ${
+                    paymentMethod === 'square' ? 'bg-blue-50/80 border-[#0096D6]' : 'bg-slate-50 border-slate-200 hover:border-slate-300'
+                  }`}
+                >
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-3">
+                      <input
+                        type="radio"
+                        name="paymentMethod"
+                        checked={paymentMethod === 'square'}
+                        onChange={() => setPaymentMethod('square')}
+                        className="w-4 h-4 text-[#0096D6]"
+                      />
+                      <div>
+                        <p className="text-xs font-extrabold text-slate-900 uppercase flex items-center gap-1.5">
+                          <span>Credit / Debit Card</span>
+                          <span className="text-[10px] bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded font-bold uppercase flex items-center gap-1">
+                            <Lock className="w-2.5 h-2.5" /> Square Sandbox
+                          </span>
+                        </p>
+                        <p className="text-[11px] text-slate-600 font-medium">Visa, Mastercard, Amex, Discover</p>
+                      </div>
                     </div>
+                    <CreditCard className="w-5 h-5 text-[#0096D6]" />
                   </div>
-                  <Truck className="w-5 h-5 text-[#0096D6]" />
+
+                  {/* Square Card Container */}
+                  {paymentMethod === 'square' && (
+                    <div className="mt-4 pt-3 border-t border-blue-200/60" onClick={(e) => e.stopPropagation()}>
+                      {isCardLoading && (
+                        <div className="flex items-center justify-center py-4 text-xs font-bold text-slate-500 gap-2">
+                          <div className="w-4 h-4 border-2 border-[#0096D6] border-t-transparent rounded-full animate-spin"></div>
+                          <span>Loading Secure Square Card Form...</span>
+                        </div>
+                      )}
+                      <div id="card-container" className="min-h-[90px] bg-white p-3 rounded-xl border border-slate-200 shadow-inner"></div>
+                    </div>
+                  )}
+                </div>
+
+                {/* Option 2: Pay on Delivery (POD) */}
+                <div
+                  onClick={() => setPaymentMethod('cod')}
+                  className={`p-4 rounded-2xl border-2 transition-all cursor-pointer ${
+                    paymentMethod === 'cod' ? 'bg-blue-50/80 border-[#0096D6]' : 'bg-slate-50 border-slate-200 hover:border-slate-300'
+                  }`}
+                >
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-3">
+                      <input
+                        type="radio"
+                        name="paymentMethod"
+                        checked={paymentMethod === 'cod'}
+                        onChange={() => setPaymentMethod('cod')}
+                        className="w-4 h-4 text-[#0096D6]"
+                      />
+                      <div>
+                        <p className="text-xs font-extrabold text-slate-900 uppercase">Pay on Delivery (POD)</p>
+                        <p className="text-[11px] text-slate-600 font-medium">Pay cash or card upon doorstep delivery</p>
+                      </div>
+                    </div>
+                    <Truck className="w-5 h-5 text-[#0096D6]" />
+                  </div>
                 </div>
               </div>
 
               {/* Submit Order Button */}
               <button
                 type="submit"
-                className="w-full bg-[#0096D6] hover:bg-[#0077B5] text-white font-extrabold text-xs uppercase tracking-wider py-4 rounded-xl shadow-lg shadow-[#0096D6]/25 transition-all cursor-pointer flex items-center justify-center gap-2 active:scale-[0.98]"
+                disabled={isProcessing || (paymentMethod === 'square' && isCardLoading)}
+                className="w-full bg-[#0096D6] hover:bg-[#0077B5] disabled:bg-slate-400 disabled:cursor-not-allowed text-white font-extrabold text-xs uppercase tracking-wider py-4 rounded-xl shadow-lg shadow-[#0096D6]/25 transition-all cursor-pointer flex items-center justify-center gap-2 active:scale-[0.98]"
               >
-                <span>Place Order (POD)</span>
-                <ArrowRight className="w-4 h-4" />
+                {isProcessing ? (
+                  <>
+                    <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                    <span>Processing Payment...</span>
+                  </>
+                ) : paymentMethod === 'square' ? (
+                  <>
+                    <span>Pay Now (${subtotal.toFixed(2)})</span>
+                    <ArrowRight className="w-4 h-4" />
+                  </>
+                ) : (
+                  <>
+                    <span>Place Order (POD)</span>
+                    <ArrowRight className="w-4 h-4" />
+                  </>
+                )}
               </button>
 
               <div className="flex items-center justify-center gap-2 text-[11px] text-slate-500 font-semibold pt-1">
@@ -396,3 +672,4 @@ export function Checkout() {
     </div>
   )
 }
+

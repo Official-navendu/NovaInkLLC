@@ -53,7 +53,9 @@ export function OrderSuccess() {
           </h1>
 
           <p className="text-xs sm:text-sm text-slate-600 font-medium max-w-md mx-auto mb-6 leading-relaxed">
-            Your purchase of genuine HP printers and supplies has been successfully placed under Pay on Delivery.
+            {order?.paymentMethod === 'Credit / Debit Card (Square)'
+              ? 'Your purchase of genuine HP printers and supplies has been successfully processed and paid via Square.'
+              : 'Your purchase of genuine HP printers and supplies has been successfully placed under Pay on Delivery.'}
           </p>
 
           {order ? (
