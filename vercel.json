@@ -1,4 +1,15 @@
 {
+  "headers": [
+    {
+      "source": "/easy-step-by-step-setup-guide",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
+  ],
   "rewrites": [
     {
       "source": "/api/(.*)",
