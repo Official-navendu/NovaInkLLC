@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { Footer } from '../components/layout/Footer'
 import { 
   Printer, 
@@ -370,24 +371,23 @@ export function EasyStepByStepSetupGuide() {
 
                 {/* Action Buttons */}
                 <div className="mt-8 flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5 sm:gap-4 w-full sm:w-auto">
-                  <button
-                    type="button"
-                    onClick={handleOpenLiveChat}
-                    aria-label="Start Printer Setup - Open Live Chat"
+                  <Link
+                    to="/find-printer"
+                    aria-label="Start Printer Setup - Go to Find Printer page"
                     className="bg-[#0096D6] hover:bg-[#0077B5] text-white font-extrabold text-xs sm:text-sm uppercase tracking-wider px-7 py-3.5 rounded-xl shadow-lg shadow-[#0096D6]/20 inline-flex items-center justify-center gap-2.5 cursor-pointer transition-all focus:outline-none"
                   >
                     <Printer className="w-4 h-4 sm:w-5 sm:h-5 text-white" strokeWidth={2} />
                     <span>Start Printer Setup</span>
-                  </button>
+                  </Link>
 
-                  <a
-                    href="tel:+18332355889"
-                    aria-label="Explore Troubleshooting - Call +1 (833) 235-5889"
+                  <Link
+                    to="/find-printer"
+                    aria-label="Explore Troubleshooting - Go to Find Printer page"
                     className="bg-white hover:bg-slate-50 text-slate-800 font-extrabold text-xs sm:text-sm uppercase tracking-wider px-7 py-3.5 rounded-xl border border-slate-300 shadow-xs inline-flex items-center justify-center gap-2.5 cursor-pointer transition-all focus:outline-none"
                   >
                     <Wrench className="w-4 h-4 sm:w-5 sm:h-5 text-slate-800" strokeWidth={2} />
                     <span>Explore Troubleshooting</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
 

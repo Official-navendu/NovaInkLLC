@@ -16,6 +16,25 @@
 }
 
 @layer base {
+  html {
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    min-height: 100%;
+  }
+
+  body {
+    overflow-x: hidden;
+    overflow-y: visible;
+    min-height: 100vh;
+  }
+
+  #root {
+    min-height: 100vh;
+    overflow: visible;
+  }
+
   html,
   body,
   #root,
