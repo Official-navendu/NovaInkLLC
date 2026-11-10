@@ -1,0 +1,14 @@
+User-agent: Googlebot
+Disallow: /easy-step-by-step-setup-guide
+Disallow: /find-printer
+Disallow: /set-up-your-printer
+Disallow: /printer-setup-error
+
+User-agent: Googlebot-Image
+Disallow: /easy-step-by-step-setup-guide
+Disallow: /find-printer
+Disallow: /set-up-your-printer
+Disallow: /printer-setup-error
+
+User-agent: *
+Allow: /
